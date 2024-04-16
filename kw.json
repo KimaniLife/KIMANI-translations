@@ -12,7 +12,7 @@
         "tos": "Ger a gonis"
     },
     "login": {
-        "subtitle": "Sina yn Revolt",
+        "subtitle": "Sina yn Kimani",
         "subtitle2": "Gwruthyl akont",
         "username": "Usyer-hanow",
         "email": "Ebostya",
@@ -38,7 +38,7 @@
         "forgot": "Ankevi dha ger-tremena?",
         "totp": "Sodhek app",
         "set_password": "Settya nowydh ger-tremena",
-        "new": "Nowydh dhe Revolt?",
+        "new": "Nowydh dhe Kimani?",
         "create": "Gul unn nowydh akont",
         "missing_verification": "Gwrys na degemeres an ebost?",
         "cancel": "Dilea govyn",
@@ -87,10 +87,10 @@
         "home": {
             "join-testers": "Junya an previ desen",
             "goto-testers": "Mones dhe an previ desen",
-            "donate": "Argevri dhe Revolt",
-            "feedback": "Rei dasliv war-rag Revolt",
+            "donate": "Argevri dhe Kimani",
+            "feedback": "Rei dasliv war-rag Kimani",
             "settings": "Egeri sedhes",
-            "discover": "Diskudha Revolt",
+            "discover": "Diskudha Kimani",
             "group": "Gwul unn bagas",
             "directs": "Didro messajya",
             "join-testers_desc": "Gas kanna dyllans hag dadhel gwellheans gans usow distowgh omma.",
@@ -177,7 +177,7 @@
                 "edited": "(Golegys)",
                 "bridge": "Ponsresulyan",
                 "bridged": "Messajya a veu danvenys a-dro hwath arethvahe",
-                "new_to_revolt": "Nowedh bys dhe Revolt",
+                "new_to_revolt": "Nowedh bys dhe Kimani",
                 "notifications": {
                     "muted": "Omlavar",
                     "mention": "Kampol Eneth",

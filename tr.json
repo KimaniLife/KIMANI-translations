@@ -177,7 +177,7 @@
                     "single_reacted": "1 kişi tepki verdi",
                     "people_reacted": "{{people}} tepki verdi"
                 },
-                "new_to_revolt": "Revolt'ta yeni",
+                "new_to_revolt": "Kimani'ta yeni",
                 "new_to_server": "Bu sunucuda yeni"
             },
             "groups": {
@@ -344,7 +344,7 @@
                     "describe": "Lütfen sorunu belirtin.",
                     "send": "Geri bildirim Gönder",
                     "suggest": "Özellik tavsiyesi gönder",
-                    "suggest_desc": "GitHub tartışmalarında yeni Revolt özellikleri önerin.",
+                    "suggest_desc": "GitHub tartışmalarında yeni Kimani özellikleri önerin.",
                     "issue": "Yeni bir konu oluştur",
                     "issue_desc": "Sorunları daha kolay öncelik vermemize yardımcı olmak için GitHub'da bir konu oluşturabilirsiniz.",
                     "bug_desc": "Şu anda aktif olan hata raporlarını buradan görüntüleyin.",
@@ -353,7 +353,7 @@
                 "logOut": "Çıkış Yap",
                 "profile": {
                     "title": "Profil",
-                    "info": "Bilgi Edinme",
+                    "info": "Hakkında",
                     "fetching": "Profiliniz getiriliyor…",
                     "placeholder": "Kendiniz hakkında bir şeyler yazın…",
                     "custom_background": "Özel Arka Plan",
@@ -406,7 +406,7 @@
                     "output_device": "Hoparlör / Kulaklık",
                     "button_retry": "tekrar dene",
                     "device_label_NA": "Yok",
-                    "tip_retry": "Revolt'un mikrofonunuza erişimine izin vermedin.Lütfen {{retryBtn}}.",
+                    "tip_retry": "Kimani'un mikrofonunuza erişimine izin vermedin.Lütfen {{retryBtn}}.",
                     "tip_grant_permission": "Ses ayarlarına izin vermeniz gerekiyor.",
                     "button_grant": "İzin ver"
                 },
@@ -445,7 +445,7 @@
                         "navigation": "Navigasyon",
                         "messaging": "Mesajlaşma"
                     },
-                    "remove_keybind": "Tuş atamasını sil",
+                    "remove_keybind": "Kısayol tuşunu sil",
                     "action": {
                         "navigate_server_up": {
                             "title": "Önceki sunucuya git",
@@ -468,12 +468,10 @@
                             "description": "Sonraki kanala git."
                         },
                         "input_submit": {
-                            "title": "İçeriği Gönder",
-                            "description": "Genellikle geçerli girişi göndermek için kullanılan gelişmiş bir tuş ataması.\nBu, bir mesaj göndermeyi, bir mesajda düzenleme göndermeyi, bir arama göndermeyi vb. içerebilir."
+                            "title": "İçeriği Gönder"
                         },
                         "input_cancel": {
-                            "title": "İçeriği İptal Et",
-                            "description": "Genellikle geçerli girişi iptal etmek için kullanılan gelişmiş bir tuş ataması.\nBu, bir mesaj düzenlemesinin iptal edilmesini, sıraya alınmış bir görselin kaldırılmasını veya benzer senaryoları içerebilir."
+                            "title": "İçeriği İptal Et"
                         },
                         "input_force_submit": {
                             "title": "İçeriği Göndermeye Zorla"
@@ -484,33 +482,14 @@
                         },
                         "navigate_previous_context": {
                             "title": "Önceki bağlama git"
-                        },
-                        "auto_complete_up": {
-                            "title": "Önceki Otomatik Tamamlama Seçimi",
-                            "description": "Otomatik tamamlama seçimini bir öncekine taşıyın."
-                        },
-                        "auto_complete_down": {
-                            "title": "Sonraki Otomatik Tamamlama Seçimi",
-                            "description": "Otomatik tamamlama seçimini bir sonrakine taşıyın."
-                        },
-                        "auto_complete_select": {
-                            "title": "Otomatik Tamamlama Seçimini Onayla",
-                            "description": "Geçerli otomatik tamamlama seçimini onayla."
-                        },
-                        "messaging_scroll_to_bottom": {
-                            "title": "Mesajların aşağısına kaydır"
-                        },
-                        "developer_toggle_all_experiments": {
-                            "title": "Deneysel güvenli moda geçiş yap",
-                            "description": "Bu ,bütün deneysel özellikleri aynı anda etkinleştirecek / devre dışı bırakacaktır."
                         }
                     },
-                    "title": "Tuş atamaları",
-                    "description": "Tuş atamalarını görüntüle ve ayarla",
-                    "search": "Tuş atamalarını ara…",
-                    "add_keybind": "Yeni tuş ataması ekle",
-                    "edit_keybind": "Tuş atamasını düzenle",
-                    "reset_keybind": "Tuş atamasını şuna sıfırla : {{keybind}}"
+                    "title": "Kısayol Tuşları",
+                    "description": "Kısayol tuşlarını görüntüle ve ayarla",
+                    "search": "Kısayol tuşlarını ara…",
+                    "add_keybind": "Yeni kısayol tuşu ekle",
+                    "edit_keybind": "Kısayol tuşunu düzenle",
+                    "reset_keybind": "Kısayol tuşunu şuna sıfırla : {{keybind}}"
                 }
             },
             "channel_pages": {
@@ -711,7 +690,7 @@
                 },
                 "changelogs": {
                     "title": "Değişim Kayıtları",
-                    "description": "Revolt güncellemeleri hakkında bilgi edinin.",
+                    "description": "Kimani güncellemeleri hakkında bilgi edinin.",
                     "older": "Eski güncellemelere bakın"
                 },
                 "confirm": "İşlemi onayla",
@@ -744,13 +723,9 @@
                         "Impersonation": "Bu kullanıcı başka birini taklit ediyor",
                         "BanEvasion": "Bu kullanıcı bir yasaktan kaçıyor"
                     },
-                    "thank_you": "Revolt'u güvende tutmaya yardım ettiğiniz için teşekkür ederiz. Raporunuzu en kısa zamanda inceleyeceğiz.",
+                    "thank_you": "Kimani'u güvende tutmaya yardım ettiğiniz için teşekkür ederiz. Raporunuzu en kısa zamanda inceleyeceğiz.",
                     "reported": "Raporlandı",
                     "block_user": "Bu kullanıcıyı engellemek ister misiniz?"
-                },
-                "edit_keybind": {
-                    "placeholder": "Kayıt için tuşa basın",
-                    "title": "{{action}} için tuş atamasını düzenle"
                 }
             },
             "popovers": {
@@ -770,7 +745,7 @@
                     },
                     "sub": {
                         "connections": "Bağlantılar",
-                        "information": "Bilgi Edinme",
+                        "information": "Hakkında",
                         "badges": "Rozetler"
                     },
                     "empty": "Burası biraz boş…",
@@ -795,7 +770,7 @@
             "copy": "Kopyalamak için tıkla",
             "invite": {
                 "invited_by": "{{user}} tarafından davet edildi",
-                "login": "Revolt'a Giriş Yap",
+                "login": "Kimani'a Giriş Yap",
                 "accept": "Daveti Kabul Et",
                 "user_count": "{{member_count}} kullanıcı",
                 "invalid": "Geçersiz davet!",
@@ -810,8 +785,8 @@
             "required": "Gerekli izinler"
         },
         "home": {
-            "donate": "Revolt'a bağış yap",
-            "feedback": "Revolt'ta geri bildirimde bulun",
+            "donate": "Kimani'a bağış yap",
+            "feedback": "Kimani'ta geri bildirimde bulun",
             "settings": "Ayarları aç",
             "social": "Sunucuları & Botları Bul",
             "join-testers": "Test edenler sunucusuna katıl",
@@ -821,7 +796,7 @@
             "join-testers_desc": "Sorunları bildirebilir ve gelişmeleri bizimle doğrudan buradan paylaşabilirsin.",
             "goto-testers_desc": "Sorunları bildirebilir ve gelişmeleri bizimle doğrudan buradan paylaşabilirsin.",
             "donate_desc": "Bağış yaparak projeyi destekleyin - teşekkürler!",
-            "discover": "Revolt'u Keşfedin",
+            "discover": "Kimani'u Keşfedin",
             "discover_desc": "Hobi ya da ilgi alanlarınıza göre bir topluluk bulun.",
             "group": "Bir grup oluştur",
             "group_desc": "Tüm arkadaşlarını, havalı botları davet edin ve büyük bir parti verin.",
@@ -859,7 +834,7 @@
         "reset": "Şifreni sıfırla",
         "set_password": "Yeni şifre belirleyin",
         "remembered": "Giriş sayfasına geri dönün",
-        "new": "Revolt'a yeni misiniz?",
+        "new": "Kimani'a yeni misiniz?",
         "create": "Yeni bir hesap oluştur",
         "resend": "Tekrar doğrulama gönder",
         "cancel": "İsteği iptal et",
@@ -880,7 +855,7 @@
         "email_delay": "Size bir doğrulama epostası gönderdik. Lütfen gelmesi için 10 dakikaya kadar bekleyin.",
         "welcome2": "Merhaba!",
         "subtitle2": "Bir hesap oluştur",
-        "subtitle": "Revolt'ta Oturum Aç",
+        "subtitle": "Kimani'ta Oturum Aç",
         "welcome": "Hoş geldin!",
         "unofficial_instance": "Üçüncü-parti örneği.",
         "totp": "Kimlik Doğrulama Uygulaması",
@@ -1098,41 +1073,5 @@
     },
     "actions": {
         "submit": "Gönder"
-    },
-    "keys": {
-        "Escape": {
-            "short": "Esc"
-        },
-        "Control": {
-            "short": "Ctrl"
-        },
-        "Insert": {
-            "short": "Ins"
-        },
-        "Delete": {
-            "short": "Del"
-        },
-        "Backspace": {
-            "short": "Geri al"
-        },
-        "PageUp": {
-            "full": "Page Up",
-            "short": "PgUp"
-        },
-        "PageDown": {
-            "full": "Page Down",
-            "short": "PgDown"
-        },
-        "PrintScreen": {
-            "full": "Print Screen",
-            "short": "PrtSc"
-        },
-        "ScrollLock": {
-            "full": "Scroll Lock",
-            "short": "ScrLK"
-        },
-        "CapsLock": {
-            "full": "Caps Lock"
-        }
     }
 }

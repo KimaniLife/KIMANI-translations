@@ -268,7 +268,7 @@
             "invite": {
                 "user_count": "{{member_count}} utilizadores",
                 "accept": "Aceitar convite",
-                "login": "Entrar no Revolt",
+                "login": "Entrar no Kimani",
                 "invited_by": "Convidado por {{user}}",
                 "invalid": "Convite inválido!",
                 "invalid_desc": "O convite pode não existir ou não tens permissão para entrar."
@@ -332,7 +332,7 @@
                     "save": "Guardar",
                     "kick": "Expulsar",
                     "ban": "Banir",
-                    "ok": "OK",
+                    "ok": "Ok",
                     "done": "Feito",
                     "reset": "Repor",
                     "confirm": "Confirmar",
@@ -409,7 +409,7 @@
                 "changelogs": {
                     "title": "Registo de alterações",
                     "older": "Visualizar atualizações anteriores",
-                    "description": "Lê sobre as atualizações do Revolt."
+                    "description": "Lê sobre as atualizações do Kimani."
                 },
                 "report": {
                     "message": "Denunciar mensagem",
@@ -432,12 +432,8 @@
                         "Underage": "Este utilizador não tem idade suficiente para ter uma conta"
                     },
                     "reported": "Denunciado",
-                    "thank_you": "Obrigado por nos ajudares a manter o Revolt seguro. Iremos rever a tua denúncia logo que possível.",
+                    "thank_you": "Obrigado por nos ajudares a manter o Kimani seguro. Iremos rever a tua denúncia logo que possível.",
                     "block_user": "Queres bloquear este utilizador?"
-                },
-                "edit_keybind": {
-                    "placeholder": "Pressione as teclas para gravar",
-                    "title": "Editar atalho de teclado para {{action}}"
                 }
             },
             "status": {
@@ -635,9 +631,7 @@
                         "delete": "Marcar conta para eliminação",
                         "disable": "Desativar conta",
                         "description": "Desativa ou elimina a tua conta a qualquer momento. Isto terminará a tua sessão e eliminará por completo a tua conta, incluindo o teu histórico de conversa e amigos.",
-                        "title": "Gestão de conta",
-                        "delete_description": "Sua conta e todos os seus dados (incluindo suas mensagens e lista de amigos) ficarão na fila para exclusão.  Um e-mail de confirmação será enviado - você pode cancelar dentro de 7 dias entrando em contato com o suporte.",
-                        "disable_description": "Você não poderá acessar sua conta a menos que entre em contato com o suporte – entretanto, seus dados não serão excluídos."
+                        "title": "Gestão de conta"
                     },
                     "2fa": {
                         "remove_auth": "Remover autenticador",
@@ -661,7 +655,7 @@
                     "bug": "Rastreador de bugs",
                     "issue_desc": "Para nos ajudares a identificar problemas mais facilmente, podes abrir um problema no GitHub.",
                     "issue": "Abre um novo problema",
-                    "suggest_desc": "Sugere novas funcionalidades para o Revolt nas discussões do GitHub.",
+                    "suggest_desc": "Sugere novas funcionalidades para o Kimani nas discussões do GitHub.",
                     "suggest": "Enviar sugestão de funcionalidade",
                     "title": "Feedback",
                     "description": "Submeter feedback"
@@ -687,89 +681,6 @@
                     "wip": "Aviso: Esta funcionalidade ainda está em desenvolvimento.",
                     "delete_plugin": "Eliminar",
                     "no_plugins": "De momento, não está nenhuma extensão instalada."
-                },
-                "accessibility": {
-                    "reduced_motion": "Movimento Reduzido",
-                    "title": "Acessibilidade",
-                    "descriptions": {
-                        "reduced_motion": "Se estiver ativado, as animações e efeitos de movimento não serão reproduzidos ou serão menos intensos."
-                    }
-                },
-                "keybinds": {
-                    "title": "Atalhos de teclado",
-                    "description": "Visualizar e definir atalhos de teclado",
-                    "search": "Pesquisar atalhos de teclado…",
-                    "remove_keybind": "Remover atalho de teclado",
-                    "reset_keybind": "Redefinir o atalho de teclado para {{keybind}}",
-                    "category": {
-                        "navigation": "Navegação",
-                        "messaging": "Mensagens",
-                        "advanced": "Avançado"
-                    },
-                    "action": {
-                        "navigate_channel_up": {
-                            "description": "Navegue para o canal anterior.",
-                            "title": "Navegue para o canal anterior"
-                        },
-                        "navigate_channel_down": {
-                            "title": "Navegue para o próximo canal",
-                            "description": "Navegue até o próximo canal."
-                        },
-                        "navigate_server_up": {
-                            "title": "Navegue para o servidor anterior",
-                            "description": "Navegue para o servidor anterior."
-                        },
-                        "navigate_server_down": {
-                            "title": "Navegue até o próximo servidor",
-                            "description": "Navegue até o próximo servidor."
-                        },
-                        "messaging_edit_previous_message": {
-                            "title": "Editar mensagem anterior",
-                            "description": "Edite a mensagem enviada anteriormente na visualização de mensagens atualmente carregada."
-                        },
-                        "auto_complete_up": {
-                            "title": "Seleção anterior de preenchimento automático",
-                            "description": "Mova a seleção de preenchimento automático para a anterior."
-                        },
-                        "auto_complete_down": {
-                            "title": "Próxima seleção de preenchimento automático",
-                            "description": "Mova a seleção de preenchimento automático para a próxima."
-                        },
-                        "auto_complete_select": {
-                            "title": "Confirmar seleção de preenchimento automático",
-                            "description": "Confirme a seleção de preenchimento automático atual."
-                        },
-                        "input_submit": {
-                            "title": "Enviar entrada",
-                            "description": "Um atalho de teclado avançado que normalmente é usado para enviar a entrada atual.\n Isso pode incluir o envio de uma mensagem, o envio de uma edição de uma mensagem, o envio de uma pesquisa, etc."
-                        },
-                        "input_cancel": {
-                            "title": "Cancelar entrada",
-                            "description": "Um atalho de teclado avançado que normalmente é usado para cancelar a entrada atual.\n Isso pode incluir o cancelamento de uma edição de mensagem, a remoção de uma imagem na fila ou cenários semelhantes."
-                        },
-                        "input_force_submit": {
-                            "title": "Forçar envio de entrada",
-                            "description": "Um atalho de teclado avançado que normalmente é usado para enviar à força a entrada atual, ignorando algumas verificações ou outros atalhos de teclado.\n Isso pode incluir o envio de uma mensagem em vez de confirmar a seleção de preenchimento automático."
-                        },
-                        "messaging_scroll_to_bottom": {
-                            "title": "Role até o final das mensagens",
-                            "description": "Rola até a parte inferior da visualização de mensagens."
-                        },
-                        "messaging_mark_channel_read": {
-                            "title": "Marcar canal como lido",
-                            "description": "Marca o canal atual como lido."
-                        },
-                        "navigate_previous_context": {
-                            "title": "Navegue para o contexto anterior",
-                            "description": "Um atalho de teclado avançado que normalmente é usado para fechar a página de configuração, um modal ou um pop-up e retornar ao contexto anterior."
-                        },
-                        "developer_toggle_all_experiments": {
-                            "title": "Alternar modo de segurança do experimento",
-                            "description": "Isso ativará/desativará todos os experimentos de uma vez."
-                        }
-                    },
-                    "add_keybind": "Adicionar novo atalho de teclado",
-                    "edit_keybind": "Editar atalho de teclado"
                 }
             },
             "actions": {
@@ -969,7 +880,7 @@
                     "others_reacted": "{{userlist}} e {{count}} outras reagiram",
                     "people_reacted": "{{people}} reagiram"
                 },
-                "new_to_revolt": "Novo(a) no Revolt",
+                "new_to_revolt": "Novo(a) no Kimani",
                 "new_to_server": "Novo(a) neste servidor"
             },
             "categories": {
@@ -1000,18 +911,18 @@
         "home": {
             "join-testers": "Entrar no servidor dos testadores",
             "settings-tooltip": "Podes ainda carregar com o botão direito do rato no ícone de utilizador no canto superior esquerdo, ou carregar com o esquerdo se estiveres na página inicial.",
-            "feedback": "Deixar comentários sobre o Revolt",
+            "feedback": "Deixar comentários sobre o Kimani",
             "settings": "Abrir as definições",
             "social": "Encontrar servidores & robôs",
             "goto-testers": "Ir para o servidor de testadores",
-            "donate": "Doar ao Revolt",
+            "donate": "Doar ao Kimani",
             "directs": "Mensagens Diretas",
             "join-testers_desc": "Aqui podes reportar problemas e discutir melhorias diretamente connosco.",
             "feedback_desc": "Diz-nos como podemos melhorar a nossa aplicação, deixando um comentário.",
             "group_desc": "Convida todos os teus amigos, alguns robôs fixes e monta uma grande festa.",
             "goto-testers_desc": "Aqui podes reportar problemas e discutir melhorias diretamente connosco.",
             "donate_desc": "Apoia o projeto doando - obrigado!",
-            "discover": "Descobrir o Revolt",
+            "discover": "Descobrir o Kimani",
             "discover_desc": "Encontra uma comunidade baseada nos teus hobbies ou interesses.",
             "group": "Criar um grupo"
         }
@@ -1034,7 +945,7 @@
         "missing_verification": "Não recebeste um e-mail?",
         "create": "Criar uma nova conta",
         "existing": "Já tens uma conta?",
-        "new": "Novo(a) no Revolt?",
+        "new": "Novo(a) no Kimani?",
         "remembered": "Voltar para o início de sessão",
         "set_password": "Definir nova palavra-passe",
         "reset": "Redefinir palavra-passe",
@@ -1057,7 +968,7 @@
         "welcome2": "Olá!",
         "subtitle2": "Criar uma conta",
         "welcome": "Bem-vindo(a)!",
-        "subtitle": "Entrar no Revolt",
+        "subtitle": "Entrar no Kimani",
         "unofficial_instance": "Instância de terceiros.",
         "totp": "Autenticador",
         "recovery": "Código de recuperação",
@@ -1081,41 +992,5 @@
     },
     "actions": {
         "submit": "Submeter"
-    },
-    "keys": {
-        "Insert": {
-            "short": "Ins"
-        },
-        "Delete": {
-            "short": "Del"
-        },
-        "Backspace": {
-            "short": "Retrocesso"
-        },
-        "PageUp": {
-            "full": "Subir Página",
-            "short": "SbPà"
-        },
-        "PageDown": {
-            "full": "Página para baixo",
-            "short": "PàAbaixo"
-        },
-        "PrintScreen": {
-            "full": "Captura de tela",
-            "short": "CapTela"
-        },
-        "ScrollLock": {
-            "short": "BloRM",
-            "full": "Bloqueio de rolagem"
-        },
-        "CapsLock": {
-            "full": "Bloqueio de letras maiúsculas"
-        },
-        "Escape": {
-            "short": "Esc"
-        },
-        "Control": {
-            "short": "Ctrl"
-        }
     }
 }

@@ -76,7 +76,7 @@
                     "bug": "バグトラッカー",
                     "issue_desc": "問題をより簡単に選別するために、GitHubでIssueを作成することができます。",
                     "issue": "新規Issueの作成",
-                    "suggest_desc": "Revoltの新しい機能をGitHubのディスカッションで提案してみましょう。",
+                    "suggest_desc": "Kimaniの新しい機能をGitHubのディスカッションで提案してみましょう。",
                     "suggest": "機能を提案する",
                     "title": "フィードバック",
                     "description": "フィードバックを送信する"
@@ -234,8 +234,7 @@
                         "delete": "アカウントの削除",
                         "disable": "アカウントの無効化",
                         "description": "いつでもアカウントを無効化、または削除することができます。この操作を行うとログアウトされ、チャット履歴やフレンドと共に、アカウントは完全に削除されます。",
-                        "title": "アカウント管理",
-                        "delete_description": "あなたのアカウントとすべてのデータ（メッセージと友達リストを含む）は削除のためにキューに入れられます。確認メールが送信されますので、7日以内にサポートまでご連絡ください。"
+                        "title": "アカウント管理"
                     },
                     "2fa": {
                         "remove_auth": "二要素認証を無効化",
@@ -274,36 +273,6 @@
                     "wip": "注意：この機能は現在開発中です。",
                     "delete_plugin": "削除",
                     "no_plugins": "プラグインはインストールされていません。"
-                },
-                "accessibility": {
-                    "title": "アクセシビリティ",
-                    "descriptions": {
-                        "reduced_motion": "これが有効な場合、アニメーションやモーションエフェクトは再生されないか、強度が弱くなります。"
-                    },
-                    "reduced_motion": "縮小モーション"
-                },
-                "keybinds": {
-                    "title": "キーバインド",
-                    "search": "キーバインドを検索中…",
-                    "remove_keybind": "キーバインドを外す",
-                    "reset_keybind": "キーバインドを{{keybind}}にリセットする",
-                    "category": {
-                        "advanced": "アドバンス",
-                        "navigation": "ナビゲーション",
-                        "messaging": "メッセージ"
-                    },
-                    "description": "キーバインドの表示と設定",
-                    "add_keybind": "新しいキーバインドを追加する",
-                    "edit_keybind": "キーバインドを編集する",
-                    "action": {
-                        "navigate_channel_up": {
-                            "title": "前のチャンネルに移動する",
-                            "description": "前のチャンネルに移動する。"
-                        },
-                        "navigate_channel_down": {
-                            "title": "次のチャンネルに移動する"
-                        }
-                    }
                 }
             },
             "actions": {
@@ -443,7 +412,7 @@
                 "user_timed_out": "ユーザーは{{time}}間タイムアウトされています。",
                 "bridged": "別のプラットフォームでメッセージが送信された",
                 "team": "公式コミュニティー",
-                "new_to_revolt": "Revoltの初心者",
+                "new_to_revolt": "Kimaniの初心者",
                 "new_to_server": "このサーバーの新機能",
                 "reactions": {
                     "others_reacted": "{{userlist}}と{{count}} 人が反応しました",
@@ -588,7 +557,7 @@
                 },
                 "changelogs": {
                     "title": "変更履歴",
-                    "description": "Revolt への更新について読む。",
+                    "description": "Kimani への更新について読む。",
                     "older": "過去のアップデートを見る"
                 },
                 "report": {
@@ -663,7 +632,7 @@
             },
             "invite": {
                 "invited_by": "{{user}}による招待",
-                "login": "Revoltへのログイン",
+                "login": "Kimaniへのログイン",
                 "accept": "招待を受け取る",
                 "user_count": "ユーザー {{member_count}} 名",
                 "invalid_desc": "招待がないか、参加権限がありません。",
@@ -739,10 +708,10 @@
             "settings": "設定を開く",
             "social": "サーバーとボットを検索する",
             "goto-testers": "テスターサーバーに移動する",
-            "donate": "Revoltに寄付をする",
+            "donate": "Kimaniに寄付をする",
             "join-testers": "テスターサーバーに参加する",
             "settings-tooltip": "左上のユーザーアイコンを右クリックするか、すでにホームにいる場合は左クリックしてください。",
-            "feedback": "Revoltに関するフィードバック",
+            "feedback": "Kimaniに関するフィードバック",
             "directs": "ダイレクトメッセージ",
             "donate_desc": "寄付でプロジェクトを支援する - ありがとうございます!",
             "group": "グループを作成",
@@ -750,7 +719,7 @@
             "join-testers_desc": "こちらで直接、問題の報告や改善点の相談ができます。",
             "goto-testers_desc": "こちらで直接、問題の報告や改善点の相談ができます。",
             "feedback_desc": "私たちのアプリをどのように改善するか、フィードバックをお寄せください。",
-            "discover": "Revoltを発見する",
+            "discover": "Kimaniを発見する",
             "discover_desc": "自分の趣味や関心に基づいたコミュニティを見つける。"
         }
     },
@@ -772,7 +741,7 @@
         "missing_verification": "メールが届きませんでしたか？",
         "create": "新しいアカウントを作成する",
         "existing": "既にアカウントをお持ちですか？",
-        "new": "Revoltを利用するのは初めてですか？",
+        "new": "Kimaniを利用するのは初めてですか？",
         "remembered": "ログイン画面に戻る",
         "set_password": "新しいパスワードを設定する",
         "reset": "パスワードをリセットする",
@@ -792,7 +761,7 @@
         "username": "ユーザー名",
         "register": "登録",
         "title": "ログイン",
-        "subtitle": "Revoltにサインイン",
+        "subtitle": "Kimaniにサインイン",
         "welcome": "ようこそ！",
         "subtitle2": "アカウントを作成",
         "welcome2": "こんにちは！",

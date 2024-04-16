@@ -80,19 +80,12 @@
         ]
     },
     "cs": {
-        "maintainer": [
-            "Fjuro"
-        ],
+        "maintainer": [],
         "users": [
             {
                 "id": "01FXJGC0S2YQHQVADT74568DQN",
                 "github": "Cikarin3",
                 "weblate": "TheCanine"
-            },
-            {
-                "id": "01FN8ZSVH7HRMKFJTV4J9DJ342",
-                "github": "Fjuro",
-                "weblate": "Fjuro"
             }
         ]
     },

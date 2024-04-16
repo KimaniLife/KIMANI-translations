@@ -1,58 +1,58 @@
 {
     "general": {
         "about": "O nás",
-        "tos": "Smluvní podmínky",
+        "tos": "Podmínky",
         "privacy": "Zásady ochrany osobních údajů",
         "image_by": "Ilustrace od",
         "loading": "Načítání…",
         "unavailable": "Nedostupné",
-        "on": "Zap",
-        "off": "Vyp",
+        "on": "Zapnuto",
+        "off": "Vypnuto",
         "disabled": "Zakázáno",
         "learn_more": "Více informací"
     },
     "login": {
-        "title": "Přihlásit se",
+        "title": "Přihlášení",
         "email": "E-mail",
         "password": "Heslo",
         "enter": {
-            "email": "Zadejte svůj e-mail.",
-            "password": "Zadejte své heslo.",
+            "email": "Zadejte prosím svůj e-mail.",
+            "password": "Vložte svoje heslo.",
             "username": "Zadejte své uživatelské jméno.",
-            "current_password": "Zadejte své současné heslo.",
-            "invite": "Zadejte váš pozvánkový kód.",
+            "current_password": "Vložte své současné heslo.",
+            "invite": "Zadejte Váš přístupový kód.",
             "new_password": "Zadejte nové heslo."
         },
-        "forgot": "Zapomněli jste heslo?",
-        "new": "Jste tu noví?",
-        "create": "Vytvořit nový účet",
-        "reset": "Obnovit heslo",
+        "forgot": "Zapomenuté heslo?",
+        "new": "Nově u Kimani?",
+        "create": "Vytvoření nového účtu",
+        "reset": "Obnovení hesla",
         "remembered": "Zpět na přihlášení",
         "cancel": "Zrušit požadavek",
-        "register": "Zaregistrovat se",
+        "register": "Registrovat",
         "username": "Uživatelské jméno",
         "open_mail_provider": "Otevřít {{provider}}",
-        "set_password": "Nastavit nové heslo",
+        "set_password": "Nastavení nového hesla",
         "error": {
             "create": "Registrace selhala!",
             "login": "Přihlášení selhalo!",
-            "resend": "Opětovné odeslání selhalo!",
+            "resend": "přeposlání se nezdařilo!",
             "reset": "Resetování se nezdařilo!",
             "verify": "Nepodařilo se ověřit!"
         },
         "successful_registration": "Úspěšně zaregistrováno!",
-        "current_password": "Současné heslo",
+        "current_password": "Současné Heslo",
         "existing": "Už máte účet?",
-        "check_mail": "Zkontrolujte svůj e-mail!",
-        "invite": "Kód pozvánky",
+        "check_mail": "Zkontrolujte si poštu!",
+        "invite": "Přístupový kód",
         "missing_verification": "Neobdrželi jste email?",
         "check_spam": "Pokud jej nemůžete najít, zkontrolujte prosím složku s nevyžádanou poštou",
         "email_delay": "Poslali jsme vám ověřovací e-mail. Jeho doručení může trvat až 10 minut.",
-        "resend": "Znovu poslat ověření",
+        "resend": "Opětovné odeslání ověření",
         "subtitle2": "Vytvořit účet",
         "welcome2": "Dobrý den!",
         "welcome": "Vítejte!",
-        "subtitle": "Přihlaste se do Revoltu",
+        "subtitle": "Přihlaste se do Kimaniu",
         "unofficial_instance": "Instance třetí strany.",
         "totp": "Ověřovací aplikace",
         "recovery": "Obnovovací kód",
@@ -73,62 +73,62 @@
                 "attached_file": "Příloha {{filename}}",
                 "typing": {
                     "single": "{{user}} píše…",
-                    "multiple": "{{userlist}} a {{user}} píší…",
+                    "multiple": "{{userlist}} a {{user}} píšou…",
                     "several": "Několik lidí píše…"
                 },
                 "message_where": "Zpráva v {{channel_name}}",
                 "message_who": "Zpráva uživateli @{{person}}",
                 "edited": "(upraveno)",
                 "start": {
-                    "group": "Toto je začátek vaší konverzace.",
+                    "group": "Toto je začátek vaše konverzace.",
                     "saved": "Toto je začátek vašich poznámek."
                 },
                 "system": {
-                    "channel_renamed": "Uživatel {{user}} přejmenoval kanál na {{name}}",
-                    "removed_by": "Uživatel {{user}} byl odebrán uživatelem {{other_user}}",
-                    "added_by": "Uživatel {{user}} byl přidán uživatelem {{other_user}}",
+                    "channel_renamed": "{{user}} přejmenovali kanál na {{name}}",
+                    "removed_by": "{{user}} byli odstraněny uživatelem {{other_user}}",
+                    "added_by": "{{user}} byl přidán uživatelem {{other_user}}",
                     "user_joined": "{{user}} se připojil/a",
-                    "user_left": "{{user}} se odpojil",
-                    "user_kicked": "Uživatel {{user}} byl vyhozen",
-                    "channel_description_changed": "Uživatel {{user}} změnil popis kanálu",
-                    "channel_icon_changed": "Uživatel {{user}} změnil ikonu kanálu",
+                    "user_left": "{{user}} odešli",
+                    "user_kicked": "{{user}} byl vyhozen",
+                    "channel_description_changed": "{{user}} změnil popis kanálu",
+                    "channel_icon_changed": "{{user}} změnil ikonu kanálu",
                     "user_banned": "Uživatel {{user}} byl zabanován",
-                    "channel_ownership_changed": "Uživatel {{from}} předal vlastnictví skupiny uživateli {{to}}",
+                    "channel_ownership_changed": "{{from}} předal/a vlastnictví skupiny {{to}}",
                     "registered_at": "Zaregistrován {{time}}"
                 },
                 "misc": {
-                    "viewing_old": "Prohlížíte si starší zprávy",
+                    "viewing_old": "Díváte se na staré zprávy",
                     "no_sending": "Nemáte oprávnění k odesílání zpráv do tohoto kanálu.",
                     "spoiler_attachment": "Spoiler",
                     "blocked_messages": "{{count}} blokovaných zpráv",
                     "blocked_user": "Blokovaný uživatel",
                     "failed_load": "Zprávu nelze načíst.",
-                    "sent_file": "Odeslána příloha",
-                    "sent_multiple_files": "Odesláno několik příloh",
+                    "sent_file": "Odeslal přílohu",
+                    "sent_multiple_files": "Odesláno více příloh",
                     "jump_present": "Přejít do současnosti",
                     "jump_beginning": "Přejít na začátek",
-                    "new_messages": "Nové zprávy od doby {{time_ago}}",
+                    "new_messages": "Nové zprávy od {{time_ago}}",
                     "load_file": "Nahrát soubor",
-                    "timed_out": "Byli jste pozastaveni na {{time}}.",
+                    "timed_out": "Byli jste ztlumeni na {{time}}.",
                     "not_loaded": "Zpráva nenačtena, klikněte pro přechod na ni"
                 },
                 "message_saved": "Uložit do poznámek",
                 "voice": {
                     "connected": "Hlas připojen",
-                    "leave": "Odpojit",
+                    "leave": "Odejít",
                     "mute": "Ztlumit",
-                    "unmute": "Zrušit ztlumení"
+                    "unmute": "Odztlumit"
                 },
                 "notifications": {
-                    "default": "Použít výchozí",
+                    "default": "Použít základní",
                     "mention": "Pouze zmínky",
                     "all": "Všechny zprávy",
-                    "none": "Nic",
+                    "none": "Žádný",
                     "muted": "Ztlumeno"
                 },
                 "nsfw": {
                     "channel": {
-                        "confirm": "Vstoupit do kanálu",
+                        "confirm": "Zadejte kanál",
                         "marked": "Tento kanál je označen jako NSFW."
                     },
                     "confirm": "Potvrzuji, že je mi nejméně 18 let."
@@ -139,7 +139,7 @@
                         "latest": "Nové",
                         "oldest": "Staré"
                     },
-                    "title": "Hledat"
+                    "title": "Vyhledávání"
                 },
                 "errors": {
                     "title": "Jejda, tady nic není!",
@@ -148,10 +148,10 @@
                 },
                 "reply": {
                     "replying": "Odpovídá na",
-                    "toggle": "Přepnout označení autora"
+                    "toggle": "Přepnout označování autora"
                 },
                 "bridge": "most",
-                "user_timed_out": "Uživatel je pozastaven na {{time}}.",
+                "user_timed_out": "Uživatel je ztlumen na {{time}}.",
                 "bridged": "Zpráva byla odeslána z jiné platformy",
                 "team": "Oficiální komunikace",
                 "reactions": {
@@ -160,7 +160,7 @@
                     "unknown_reacted": "{{count}} lidí zareagovalo",
                     "single_reacted": "1 osoba zareagovala"
                 },
-                "new_to_revolt": "Nový v Revoltu",
+                "new_to_revolt": "Nový v Kimaniu",
                 "new_to_server": "Nový na tomto serveru"
             },
             "categories": {
@@ -186,7 +186,7 @@
                 "channel_type": "Typ kanálu",
                 "owner": "Vlastník serveru",
                 "voice_channel": "Hlasový kanál",
-                "category_name": "Název kategorie"
+                "category_name": "Název Kategorie"
             }
         },
         "navigation": {
@@ -202,10 +202,10 @@
             "offline": "Offline",
             "invisible": "Neviditelný",
             "busy": "Nerušit",
-            "idle": "Nečinný",
+            "idle": "Neaktivní",
             "online": "Online",
-            "reconnect": "Znovu se připojit",
-            "focus": "Soustředěný"
+            "reconnect": "Znovu připojit",
+            "focus": "Zaměření"
         },
         "special": {
             "friends": {
@@ -217,33 +217,33 @@
                     "single": "Od {{user}}",
                     "several": "Od {{userlist}} a {{count}} dalších…"
                 },
-                "pending": "Čekající žádosti",
-                "nobody": "Zatím tu nikdo není!",
-                "sent": "Odchozí"
+                "pending": "Čekající",
+                "nobody": "Nikdo tu ještě není!",
+                "sent": "Odchozi"
             },
             "modals": {
                 "clipboard": {
-                    "https": "Momentálně se nenacházíte v kontextu HTTPS.",
-                    "copy": "Manuální kopírování:",
+                    "https": "Nejste zrovna v kontextu HTTPS.",
+                    "copy": "Manuální Zkopírování:",
                     "unavailable": "Schránka je nedostupná!"
                 },
                 "signed_out": "Byli jste odhlášeni!",
                 "actions": {
                     "ok": "OK",
                     "close": "Zavřít",
-                    "reload": "Znovu načíst aplikaci",
+                    "reload": "Přenačíst aplikaci",
                     "preview": "Náhled",
                     "continue": "Pokračovat",
                     "cancel": "Zrušit",
                     "update": "Aktualizovat",
                     "send_email": "Poslat e-mailem",
                     "save": "Uložit",
-                    "leave": "Opustit",
-                    "block": "Zablokovat",
+                    "leave": "Odejít",
+                    "block": "Block",
                     "edit": "Upravit",
                     "delete": "Odstranit",
                     "ban": "Ban",
-                    "kick": "Vyhodit",
+                    "kick": "Kick .",
                     "hide": "Skrýt",
                     "back": "Přejít zpět",
                     "remove": "Odebrat",
@@ -257,11 +257,11 @@
                 },
                 "onboarding": {
                     "welcome": "Vítejte v",
-                    "pick": "Vyberte si uživatelské jméno, podle kterého vás ostatní uživatelé najdou. Můžete jej kdykoli změnit v nastavení."
+                    "pick": "Vyberte si uživatelské jméno, podle kterého vás ostatní uživatelé najdou. Toto může být kdykoli změněno v uživatelských nastaveních."
                 },
                 "error": "Vyskytla se chyba!",
                 "account": {
-                    "failed": "Změna se nezdařila!",
+                    "failed": "Změna se nezdařila !",
                     "change": {
                         "username": "Změňte své uživatelské jméno",
                         "email": "Změňte svůj e-mail",
@@ -271,20 +271,20 @@
                 "prompt": {
                     "confirm_leave": "Odejít z {{name}}?",
                     "confirm_delete": "Odstranit {{name}}?",
-                    "create_invite_created": "Kód vaší pozvánky:",
+                    "create_invite_created": "Kód Vaší pozvánky:",
                     "confirm_delete_message_long": "Opravdu toto chcete odstranit?",
                     "confirm_delete_long": "Jakmile bude smazaný, už není cesty zpět.",
                     "create_invite_generate": "Generování pozvánky…",
                     "confirm_leave_long": "Nebudete se moci znovu připojit, pokud znovu nedostanete pozvánku.",
-                    "confirm_close_dm": "Ukončit konverzaci s uživatelem {{name}}?",
+                    "confirm_close_dm": "Ukončit konverzaci s {{name}}?",
                     "confirm_close_dm_long": "Můžete ji později znovu otevřít, zmizí ale na obou stranách.",
-                    "confirm_kick": "Opravdu chcete vyhodit uživatele {{name}}?",
-                    "block_user_long": "Opravdu chcete zablokovat uživatele {{name}}? Bude také odebrán ze seznamu přátel .",
+                    "confirm_kick": "opravdu chcete vyhodit {{name}}?",
+                    "block_user_long": "Opravdu chcete blokovat {{name}} ? Bude taktéž odebrán z seznamu přátel .",
                     "confirm_ban_reason": "Důvod banu",
-                    "unfriend_user": "Odebrat uživatele {{name}} z přátel?",
-                    "block_user": "Zablokovat uživatele {{name}} ?",
-                    "confirm_ban": "Chystáte se zabanovat uživatele {{name}}",
-                    "unfriend_user_long": "Nejspíše s ním nebudete moci komunikovat, dokud si jej znovu nepřidáte.",
+                    "unfriend_user": "Odebrat {{name}} z přátel?",
+                    "block_user": "Block {{name}} ?",
+                    "confirm_ban": "Estás a punto de inhabilitar {{name}}",
+                    "unfriend_user_long": "Je možné, že s nimi nebudete moci znovu mluvit, dokud si je nepřidáte zpět.",
                     "silent_leave": "Tiše odejít",
                     "members_not_notified": "Ostatní členové nebudou upozorněni"
                 },
@@ -318,11 +318,11 @@
                 },
                 "changelogs": {
                     "title": "Seznam změn",
-                    "description": "Přečtěte si o aktualizacích aplikace Revolt.",
+                    "description": "Přečtěte si o aktualizacích aplikace Kimani.",
                     "older": "Zobrazit starší aktualizace"
                 },
                 "report": {
-                    "thank_you": "Děkujeme, že pomáháte udržet Revolt bezpečným. Vaše nahlášení co nejdříve prověříme.",
+                    "thank_you": "Děkujeme, že pomáháte udržet Kimani bezpečným. Vaše nahlášení co nejdříve prověříme.",
                     "reported": "Nahlášen",
                     "block_user": "Chcete tohoto uživatele zablokovat?",
                     "content_reason": {
@@ -364,7 +364,7 @@
                     "mutual_friends": "Společní přátelé",
                     "mutual_groups": "Společné skupiny",
                     "no_groups": "Žádné společné skupiny",
-                    "empty": "Je tu trochu prázdno…",
+                    "empty": "Je tu trošku prázdno…",
                     "sub": {
                         "connections": "Propojení",
                         "information": "Informace",
@@ -372,7 +372,7 @@
                     },
                     "badges": {
                         "translator": "Překladatel",
-                        "early_adopter": "Raný uživatel",
+                        "early_adopter": "Inovátor",
                         "supporter": "Podporovatel",
                         "founder": "Zakladatel",
                         "responsible_disclosure": "Zodpovědně zveřejněné bezpečnostní problémy",
@@ -384,25 +384,25 @@
                 "server_identity": {
                     "avatar": "Avatar",
                     "title": "Změnit identitu na serveru {{server}}",
-                    "nickname": "Přezdívka"
+                    "nickname": "Přezdívku"
                 },
                 "create_bot": {
-                    "failed": "Chyba při vytváření bota!",
+                    "failed": "Chyba při vytváření bota !",
                     "title": "Vytvořit nového bota"
                 },
                 "user_picker": {
-                    "select": "Vyberte přátele k přidání."
+                    "select": "Vyber přátele k pozvání."
                 }
             },
             "copy_username": "Kliknutím zkopírujete uživatelské jméno",
             "copy": "Kliknutím zkopírujete",
             "invite": {
                 "invalid_desc": "Pozvánka možná neexistuje, nebo nemáte oprávnění k připojení.",
-                "user_count": "{{member_count}} uživatelů",
-                "login": "Přihlásit se do Revoltu",
+                "user_count": "{{member_count}} počet uživatelů",
+                "login": "Přihlásit k Kimaniu",
                 "invited_by": "Pozván uživatelem {{user}}",
                 "accept": "Přijmout pozvánku",
-                "invalid": "Neplatná pozvánka!"
+                "invalid": "Neplatná pozvánka !"
             },
             "server-badges": {
                 "official": "Oficiální server",
@@ -435,7 +435,7 @@
             "copy_link": "Kopírovat odkaz",
             "open_server_settings": "Nastavení serveru",
             "open_link": "Otevřít odkaz",
-            "copy_sid": "Kopírovat ID serveru",
+            "copy_sid": "Zkopírovat ID serveru",
             "view_profile": "Zobrazit profil",
             "kick_member": "Vyhodit člena",
             "unblock_user": "Odblokovat uživatele",
@@ -454,7 +454,7 @@
             "clear_status": "Vymazat status",
             "leave_group": "Opustit skupinu",
             "leave_server": "Opustit server",
-            "close_dm": "Zavřít PZ",
+            "close_dm": "Zavřít přímé zprávy",
             "edit_identity": "Upravit identitu",
             "create_category": "Vytvořit kategorii",
             "create_invite": "Vytvořit pozvánku",
@@ -472,7 +472,7 @@
                     "change_field": "Změnit",
                     "title": "Můj účet",
                     "2fa": {
-                        "description": "Přidejte další vrstvu zabezpečení povolením 2FA u vašeho účtu.",
+                        "description": "Přidejte další vrstvu zabezpečení povolením 2FA ve vašem účtu.",
                         "title": "Dvoufaktorové ověřování",
                         "add_auth": "Přidat ověřovací aplikaci",
                         "remove_auth": "Odebrat ověřovací aplikaci",
@@ -484,12 +484,12 @@
                         "two_factor_off": "Nemáte povolené dvoufaktorové ověřování!"
                     },
                     "manage": {
-                        "description": "Svůj účet můžete kdykoli deaktivovat nebo odstranit. Obě akce vás odhlásí z vašich aktivních relací.",
+                        "description": "Svůj účet můžete kdykoli deaktivovat nebo smazat. Obě akce vás odhlásí z vašich aktivních relací.",
                         "disable": "Deaktivovat účet",
                         "title": "Správa účtu",
                         "delete": "Označit účet k odstranění",
-                        "disable_description": "Ke svému účtu nebudete mít přístup, pokud nekontaktujete podporu – vaše data nicméně nebudou smazána.",
-                        "delete_description": "Váš účet a všechna vaše data (včetně vašich zpráv a seznamu přátel) budou zařazeny do fronty na odstranění. Bude vám odeslán potvrzovací e-mail – tuto akci můžete do 7 dnů zrušit kontaktováním podpory."
+                        "disable_description": "Ke svému účtu nebudete mít přístup, pokud nekontaktujete podporu - vaše data nicméně nebudou smazána.",
+                        "delete_description": "Váš účet a všechna vaše data (včetně vašich zpráv a seznamu přátel) budou zařazeny do fronty na smazání. Bude vám odeslán potvrzovací e-mail - tuto akci můžete do 7 dnů zrušit kontaktováním podpory."
                     },
                     "unique_id": "Toto je jedinečný identifikátor uživatele pro váš účet."
                 },
@@ -497,8 +497,8 @@
                     "title": "Profil",
                     "info": "Informace",
                     "fetching": "Načítání profilu…",
-                    "placeholder": "Napište něco o sobě…",
-                    "edit_background": "Upravit pozadí",
+                    "placeholder": "Napiš něco o sobě…",
+                    "edit_background": "Upravit tapetu",
                     "custom_background": "Vlastní pozadí",
                     "profile_picture": "Profilový obrázek",
                     "edit_profile": "Upravit profil"
@@ -514,8 +514,8 @@
                     "title": "Vzhled",
                     "theme": "Motiv",
                     "color": {
-                        "light": "světlý",
-                        "dark": "tmavý"
+                        "light": "Světlé",
+                        "dark": "Tmavé"
                     },
                     "advanced": "Pokročilá nastavení",
                     "message_display": "Zobrazení zpráv",
@@ -525,37 +525,37 @@
                     "import_manual": "Importovat ručně",
                     "custom_css": "Vlastní CSS",
                     "sync": "Synchronizovat",
-                    "import_theme": "Importovat motiv z řetězce",
+                    "import_theme": "Importovat styl z textu",
                     "display": {
                         "compact_description": "Staré dobré IRC.",
                         "compact": "Kompaktní",
                         "default": "Výchozí",
-                        "default_description": "Nádherné, elegantní a moderní."
+                        "default_description": "Krásné, moderní a příjemné na oči."
                     },
-                    "emoji_pack": "Sada smajlíků",
-                    "theme_data": "Data motivu",
-                    "font": "Písmo",
-                    "accent_selector": "Barva motivu",
-                    "reset_overrides": "Resetovat přepsání",
-                    "import": "Importovat motiv",
-                    "ligatures": "Ligatury písma",
+                    "emoji_pack": "Sada emoji",
+                    "theme_data": "Témový data",
+                    "font": "Font",
+                    "accent_selector": "Barva zvýraznění",
+                    "reset_overrides": "Resetovat přepisy",
+                    "import": "Importuj tému",
+                    "ligatures": "Fontové Ligatúry",
                     "ligatures_desc": "U podporovaných fontů budou znaky spojeny dohromady ligaturou – například -> bude změněno na šipku.",
                     "mono_font": "Výběr proporcionálního písma",
                     "theme_options": {
                         "seasonal": "Motiv podle období",
-                        "seasonal_desc": "Zobrazí animace v domovské záložce v období svátků.",
+                        "seasonal_desc": "Ukazuje animace v domovské záložce v období prázdnin.",
                         "follow": "Použít motiv zařízení",
-                        "title": "Možnosti motivu",
-                        "transparency": "Efekty průhlednosti",
+                        "title": "Nastavení motivů",
+                        "transparency": "Průhlednost",
                         "follow_desc": "Pokud je tato funkce povolena, po zvolení již nebude možné motiv měnit, ani používat vlastní motiv.",
-                        "transparency_desc": "Povolí průhlednost některých prvků v aplikaci."
+                        "transparency_desc": "Nastaví průhlednost některých prvků v aplikaci."
                     },
                     "discover": {
                         "title": "Prozkoumejte motivy",
                         "description": "Procházet motivy vytvořené komunitou"
                     },
                     "appearance_options": {
-                        "show_account_age": "Vždy zobrazit stáří účtu vedle zprávy o připojení",
+                        "show_account_age": "Vždy zobrazit stáří účtu vedle zpráv o připojení",
                         "show_account_age_desc": "Pokud je tato funkce zakázána, bude stáří účtu zobrazeno pouze novým uživatelům.",
                         "show_send_desc": "Pokud je tato možnost zakázána, bude tlačítko k odeslání zprávy zobrazeno pouze na mobilu.",
                         "show_send": "Vždy zobrazit tlačítko k odeslání zprávy",
@@ -568,7 +568,7 @@
                         "title": "Písma"
                     },
                     "emoji": {
-                        "title": "Smajlíci"
+                        "title": "Emoji"
                     },
                     "advanced_options": {
                         "title": "Pokročilé možnosti"
@@ -577,12 +577,12 @@
                 "source_code": "Zdrojový kód",
                 "feedback": {
                     "title": "Zpětná vazba",
-                    "suggest_desc": "Navrhněte nové funkce Revoltu v diskusích na GitHubu.",
+                    "suggest_desc": "Navrhněte nové funkce Kimani v diskusích na GitHubu.",
                     "issue_desc": "Chcete-li nám snadněji řešit problémy, můžete na GitHubu vytvořit problém.",
                     "suggest": "Poslat návrh na funkci",
                     "bug": "Sledování chyb",
                     "bug_desc": "Zde si můžete prohlédnout aktuální hlášení chyb.",
-                    "issue": "Vytvořit nové problém",
+                    "issue": "Vytvořit nové chybové hlášení",
                     "description": "Poslat zpětnou vazbu"
                 },
                 "notifications": {
@@ -590,11 +590,11 @@
                     "enable_desktop": "Povolit oznámení na ploše",
                     "enable_sound": "Přehrát zvuk při příchozí zprávě.",
                     "descriptions": {
-                        "enable_desktop": "Pokud je tato možnost povolena, budete při otevřené aplikaci dostávat oznámení.",
+                        "enable_desktop": "Pokud je tato možnost povolena, budete dostávat oznámení při otevřené aplikaci.",
                         "enable_push": "Pokud je tato možnost povolena, budete dostávat oznámení když jste offline."
                     },
                     "sounds": "Zvuky",
-                    "push_notifications": "Vyskakovací oznámení",
+                    "push_notifications": "Push Notifikace",
                     "sound": {
                         "outbound": "Zpráva odeslána",
                         "message": "Zpráva přijata",
@@ -606,8 +606,8 @@
                 "language": {
                     "title": "Jazyk",
                     "select": "Vybrat jazyk",
-                    "other": "Další nastavení jazyka",
-                    "const": "Umělé jazyky"
+                    "other": "Další jazykové možnosti",
+                    "const": "Konstruované jazyky"
                 },
                 "logOut": "Odhlásit se",
                 "donate": {
@@ -615,35 +615,35 @@
                 },
                 "sync": {
                     "descriptions": {
-                        "locale": "Synchronizovat vaše nastavení jazyka.",
-                        "appearance": "Synchronizovat možnosti vzhledu, jako je váš vybraný balíček smajlíků a hustota zpráv.",
-                        "theme": "Synchronizovat vámi zvolený motiv, barvy a jakékoli vlastní CSS."
+                        "locale": "Tím se synchronizuje vaše nastavení jazyka.",
+                        "appearance": "Tím se synchronizují možnosti vzhledu, jako je váš vybraný balíček smajlíků a hustota zpráv.",
+                        "theme": "Tím se synchronizuje vámi zvolený motiv, barvy a jakékoli vlastní CSS."
                     },
                     "title": "Synchronizace",
-                    "categories": "Kategorie synchronizace",
-                    "options": "Nastavení synchronizace"
+                    "categories": "Synchronizace kategorií",
+                    "options": "Možnosti Synchronizace"
                 },
                 "bots": {
                     "title": "Moji boti",
                     "public_bot": "Veřejný bot",
                     "unique_id": "Toto je jedinečný identifikátor vašeho bota. Není to jeho token.",
-                    "public_bot_desc": "Pokud je tato funkce povolena, ostatní uživatelé mohou přidávat tohoto bota na servery a do skupinových zpráv.",
+                    "public_bot_desc": "Pokud je tato funkce povolena, ostatní uživatelé mohou přidat tohoto bota na servery a do skupinových zpráv.",
                     "create_bot": "Vytvořit bota",
                     "copy_invite": "Kopírovat odkaz pozvánky",
                     "add": "Přidat bota",
                     "token": "Token",
                     "profile": "Profil bota",
-                    "public_bot_tip": "Tento bot je veřejný. Kdokoli jej může pozvat.",
+                    "public_bot_tip": "Tento bot je veřejný. Kdokoli ho může pozvat.",
                     "private_bot_tip": "Tento bot je soukromý. Pozvat jej můžete pouze vy.",
                     "reserved": "Poznámka: toto pole je vyhrazeno pro budoucí funkci.",
-                    "interactions_url": "URL interakcí"
+                    "interactions_url": "URL Interakce"
                 },
                 "audio": {
                     "device_label_NA": "N/A",
-                    "button_retry": "Zkusit znovu",
+                    "button_retry": "skus to znova",
                     "input_device": "Mikrofon",
-                    "output_device": "Reproduktor / sluchátka",
-                    "tip_retry": "Neudělili jste aplikaci Revolt oprávnění k použití mikrofonu. {{retryBtn}}.",
+                    "output_device": "Reproduktor / Sluchátka",
+                    "tip_retry": "Neudělili jste aplikaci Kimani oprávnění k použití mikrofonu. Prosím {{retryBtn}}.",
                     "title": "Nastavení hlasu",
                     "tip_grant_permission": "Pro přístup k nastavení zvuku musíte udělit oprávnění.",
                     "button_grant": "Udělit oprávnění"
@@ -657,7 +657,7 @@
                     "title": "Nastavení plochy"
                 },
                 "theme_shop": {
-                    "title": "Obchod s motivy",
+                    "title": "Obchod se vzhledy",
                     "description": "Vyberte si ze stovek motivů vytvořených a spravovaných komunitou.",
                     "category": {
                         "saved": "Uložené",
@@ -676,7 +676,7 @@
                     "title": "Doplňky",
                     "wip": "Varování: tato funkce je stále ve vývoji.",
                     "delete_plugin": "Odstranit",
-                    "no_plugins": "Nemáte nainstalovány žádné doplňky."
+                    "no_plugins": "Momentálně nejsou nainstalovány žádné doplňky."
                 },
                 "accessibility": {
                     "title": "Přístupnost",
@@ -690,24 +690,24 @@
                     "edit_keybind": "Upravit klávesovou zkratku",
                     "action": {
                         "navigate_channel_up": {
-                            "description": "Přejít na předchozí kanál.",
-                            "title": "Přejít na předchozí kanál"
+                            "description": "Navigovat na předchozí kanál.",
+                            "title": "Navigovat na předchozí kanál"
                         },
                         "messaging_edit_previous_message": {
                             "title": "Upravit předchozí zprávu",
                             "description": "Upravit poslední odeslanou zprávu v aktuálně načteném okně se zprávami."
                         },
                         "navigate_channel_down": {
-                            "title": "Přejít na další kanál",
-                            "description": "Přejít na další kanál."
+                            "title": "Navigovat na další kanál",
+                            "description": "Navigovat na další kanál."
                         },
                         "navigate_server_up": {
-                            "title": "Přejít na předchozí server",
-                            "description": "Přejít na předchozí server."
+                            "title": "Navigovat na předchozí server",
+                            "description": "Navigovat na předchozí server."
                         },
                         "navigate_server_down": {
-                            "title": "Přejít na další server",
-                            "description": "Přejít na další server."
+                            "title": "Navigovat na další server",
+                            "description": "Navigovat na další server."
                         },
                         "auto_complete_up": {
                             "title": "Předchozí výběr automatického dokončení",
@@ -727,7 +727,7 @@
                         },
                         "navigate_previous_context": {
                             "description": "Pokročilá klávesová zkratka obvykle používaná k uzavření stránky nastavení, dialogu nebo vyskakovacího okna pro návrat na předchozí kontext.",
-                            "title": "Přejít na předchozí kontext"
+                            "title": "Navigovat na předchozí kontext"
                         },
                         "input_submit": {
                             "title": "Odeslat vstup",
@@ -777,9 +777,9 @@
                 }
             },
             "categories": {
-                "user_settings": "Uživatelská nastavení",
-                "client_settings": "Nastavení klienta",
-                "danger_zone": "Nebezpečná zóna"
+                "user_settings": "Uživatelská Nastavení",
+                "client_settings": "Nastavení Aplikace",
+                "danger_zone": "Zóna nebezpečí"
             },
             "title": "Nastavení",
             "channel_pages": {
@@ -802,7 +802,7 @@
                 "overview": {
                     "title": "Přehled",
                     "system_messages": "Kanály systémových zpráv",
-                    "name": "Název serveru",
+                    "name": "Název Serveru",
                     "description": "Popis kanálu"
                 },
                 "members": {
@@ -811,13 +811,13 @@
                 "bans": {
                     "title": "Bany",
                     "user": "Uživatel",
-                    "reason": "Důvod banu",
+                    "reason": "Důvod Banu",
                     "revoke": "Zrušit",
                     "no_reason": "Žádný důvod banu."
                 },
                 "invites": {
                     "title": "Pozvánky",
-                    "code": "Kód pozvánky",
+                    "code": "Zvací kód",
                     "channel": "Kanál",
                     "revoke": "Zrušit",
                     "invitor": "Tvůrce pozvánky"
@@ -826,11 +826,11 @@
                     "title": "Kategorie"
                 },
                 "management": {
-                    "title": "Správa uživatelů"
+                    "title": "Správa Uživatelů"
                 },
                 "emojis": {
-                    "title": "Smajlíci",
-                    "upload": "Nahrát smajlíka"
+                    "title": "Smajlíky",
+                    "upload": "Nahrát smajlík"
                 },
                 "customisation": {
                     "title": "Přizpůsobení"
@@ -840,8 +840,8 @@
                 "role_name": "Název role",
                 "server": "Oprávnění serveru",
                 "channel": "Oprávnění kanálu",
-                "create_role": "Vytvořit novou roli",
-                "default_role": "Výchozí",
+                "create_role": "Vytvořte novou roli",
+                "default_role": "Základní",
                 "title": "Oprávnění role {{role}}",
                 "role_options": "Možnosti role",
                 "hoist_desc": "Zobrazit tuto roli nad ostatními.",
@@ -861,18 +861,18 @@
         "home": {
             "join-testers": "Připojte se na testovací server",
             "goto-testers": "Přejít na server pro testery",
-            "donate": "Přispět na Revolt",
+            "donate": "Přispějte Kimaniu",
             "settings": "Otevřít nastavení",
-            "feedback": "Zpětná vazba",
-            "settings-tooltip": "Také můžete kliknout pravým na ikonu uživatele vlevo nahoře, nebo na ni kliknout levým, pokud jste již doma.",
+            "feedback": "Poskytněte zpětnou vazbu na Kimani",
+            "settings-tooltip": "Můžete také kliknout pravým tlačítkem na ikonu uživatele v levém horním rohu nebo na ni kliknout levým tlačítkem, pokud jste již doma.",
             "social": "Najděte servery a roboty",
             "goto-testers_desc": "Zde můžete nahlásit problémy a diskutovat o vylepšeních přímo s námi.",
-            "donate_desc": "Podpořte projekt finančním darem - děkujeme!",
-            "feedback_desc": "Dejte nám vědět, jak můžeme naši aplikaci vylepšit.",
+            "donate_desc": "Podpořte projekt darem - děkujeme!",
+            "feedback_desc": "Dejte nám vědět, jak můžeme naši aplikaci vylepšit, a poskytněte nám zpětnou vazbu.",
             "directs": "Přímé zprávy",
             "join-testers_desc": "Zde můžete nahlásit problémy a diskutovat o vylepšeních přímo s námi.",
             "group": "Vytvořit skupinu",
-            "discover": "Prozkoumat Revolt",
+            "discover": "Prozkoumat Kimani",
             "discover_desc": "Najděte komunitu podle svých koníčků a zájmů.",
             "group_desc": "Pozvěte všechny své přátele, pár cool botů a uspořádejte velkou párty."
         },
@@ -889,25 +889,25 @@
         "sameElse": "L",
         "nextWeek": "dddd [v] {{time}}",
         "defaults": {
-            "date_separator": ".",
-            "date_format": "traditional",
+            "date_separator": "/",
+            "date_format": "Tradiční",
             "twelvehour": "no"
         },
-        "lastWeek": "[Poslední] dddd [v] {{time}}"
+        "lastWeek": "[Minulá] dddd [v] {{time}}"
     },
     "quantities": {
         "members": {
-            "many": "{{count}} členů",
-            "one": "1 člen"
+            "many": "{{count}} Členů",
+            "one": "1 Člen"
         },
         "dropFiles": {
             "one": "Přetáhnout soubor",
-            "many": "Nahrát {{count}} souborů"
+            "many": "Přetáhnout {{count}} souborů"
         }
     },
     "notifications": {
-        "sent_request": "@{{person}} vám poslal/a žádost o přátelství.",
-        "now_friends": "S uživatelem @{{person}} jste nyní přátelé!"
+        "sent_request": "@{{person}} ti poslal(a) žádost o přátelství.",
+        "now_friends": "Nyní jste přátelé s @{{person}} !"
     },
     "error": {
         "Unlabelled": "Něco se stalo.",
@@ -918,39 +918,39 @@
         "UnknownUser": "Neznámý uživatel.",
         "WrongPassword": "Špatné heslo.",
         "DatabaseError": "Chyba databáze.",
-        "FileTooLarge": "Soubor je příliš velký.",
-        "TooLong": "Příliš dlouhé",
-        "TooShort": "Příliš krátké",
-        "RequiredField": "Vyžadováno",
-        "UnknownError": "Viz konzole.",
-        "NetworkError": "Chyba sítě.",
-        "MissingPermission": "Chybějící oprávnění.",
+        "FileTooLarge": "Soubor je moc velký.",
+        "TooLong": "Moc dlouhé",
+        "TooShort": "Moc krátké",
+        "RequiredField": "Požadované",
+        "UnknownError": "Otevřít konzoli.",
+        "NetworkError": "Chyba připojení.",
+        "MissingPermission": "Chybějící povolení.",
         "EmailInUse": "E-mail je již používán.",
         "AlreadyOnboarded": "Úvod byl již dokončen.",
-        "AlreadyFriends": "S tímto uživatelem již jste přátelé.",
-        "AlreadySentRequest": "Tomuto uživateli již byla odeslána žádost.",
-        "Blocked": "Tohoto uživatele jste již zablokovali.",
-        "Unavailable": "Nedostupné.",
+        "AlreadyFriends": "Už jste přáteli s tímto uživatelem.",
+        "AlreadySentRequest": "Žádost již byla odeslána tomuto uživateli .",
+        "Blocked": "Tento uživatel je již blokován .",
+        "Unavailable": "Nedostupný.",
         "Unauthorized": "Neautorizovaný.",
-        "FailedValidation": "Nepodařilo se ověřit pole.",
-        "MissingHeaders": "Chybějící hlavičky.",
-        "InvalidSession": "Neplatná relace.",
+        "FailedValidation": "Nepodařilo se ověřit pole .",
+        "MissingHeaders": "Chybějící hlavy.",
+        "InvalidSession": "Neplatná relace .",
         "EmailFailed": "Nepodařilo se odeslat e-mail.",
-        "InvalidCredentials": "E-mail nebo heslo je nesprávné.",
+        "InvalidCredentials": "Email nebo heslo je špatné .",
         "InvalidToken": "Neplatný token",
-        "BlockedOther": "Tento uživatel si vás zablokoval.",
+        "BlockedOther": "Tento uživatel tě zablokoval .",
         "NoEffect": "Tento požadavek neměl žádný účinek.",
-        "InvalidEmail": "Neplatná e-mailová adresa",
-        "MissingData": "Požadavku chybí data.",
-        "ProbeError": "Chyba při získávání metadat.",
+        "InvalidEmail": "Neplatná Emailová adresa",
+        "MissingData": "K požadavku chybí data .",
+        "ProbeError": "Chyba při získávání metadat .",
         "ReachedMaximumBots": "Dosáhli jste maximálního množství botů.",
-        "UnsupportedBrowser": "Prohlížeč nepodporuje tuto funkci.",
-        "AudioPermissionBlock": "Nemáme přístup k vašemu mikrofonu. Zkontrolujte prosím nastavení prohlížeče.",
-        "RenderFail": "Nepodařilo se vykreslit šablonu.",
+        "UnsupportedBrowser": "Prohlížeči chybí podpora této funkce .",
+        "AudioPermissionBlock": "Nemáme přístup k mikrofonu. Zkontroluj prosím nastavení svého prohlížeče.",
+        "RenderFail": "Šablony se nepodařila načíst.",
         "MissingInvite": "V požadavku chybí zvací kód.",
-        "FailedToReceive": "Serveru se nepodařilo přijmout váš soubor.",
+        "FailedToReceive": "Server selhal při získávání tvého souboru.",
         "InvalidInvite": "Neplatný kód",
-        "IoError": "Server narazil na chybu I/O.",
+        "IoError": "Server zjistil chybu I/O.",
         "DeniedNotification": "Zamítli jste přístup k oznámením. Zkontrolujte nastavení stránky.",
         "CompromisedPassword": "Toto heslo bylo prolomeno.",
         "DiscriminatorChangeRatelimited": "Příliš mnoho změn značky."
@@ -960,36 +960,36 @@
     },
     "permissions": {
         "KickMembers": {
-            "t": "Vyhazovat členy",
-            "d": "Umožňuje členům odebírat z tohoto serveru jiné členy. Vyhození členové se budou moci opět přidat, pokud dostanou novou pozvánku."
+            "t": "Vyhodit členy",
+            "d": "Umožňuje členům odebrat členy z tohoto serveru. Vyhození členové se mohou znovu připojit s pozvánkou."
         },
         "ManageChannels": {
             "t": "Správa kanálů",
-            "d": "Umožňuje členům vytvářet, upravovat nebo odstraňovat kanály."
+            "d": "Umožňuje členům tvořit, upravovat a mazat kanály."
         },
         "BanMembers": {
-            "t": "Banovat členy",
-            "d": "Umožní členům trvale odstranit jiné členy z tohoto serveru."
+            "t": "Zabanovat člena",
+            "d": "Umožní členům navždy odstranit jiné členy z tohoto serveru."
         },
         "ManageServer": {
             "d": "Umožní členům změnit název serveru, popis, ikonu a další související informace.",
             "t": "Správa serveru"
         },
         "RemoveAvatars": {
-            "d": "Umožňuje členům odstranit alternativní profilové obrázky jiných členů na tomto serveru.",
+            "d": "Umožní členům odstranit alternativní profilové obrázky jiných členů na tomto serveru.",
             "t": "Odebrat avatar"
         },
         "ChangeAvatar": {
             "t": "Změnit avatar",
-            "d": "Umožňuje členům nastavit si jiný profilový obrázek pro tento server."
+            "d": "Umožní členům nastavit si jiný profilový obrázek pro tento server."
         },
         "ManageNicknames": {
             "t": "Spravovat přezdívky",
-            "d": "Umožňuje členům měnit přezdívky ostatních členů."
+            "d": "Umožní členům změnit přezdívky ostatních členů."
         },
         "ChangeNickname": {
             "t": "Změnit přezdívku",
-            "d": "Umožňuje členům změnit si svou přezdívku na tomto serveru."
+            "d": "Umožní členům změnit si svou přezdívku na tomto serveru."
         },
         "Masquerade": {
             "t": "Maskování",
@@ -997,19 +997,19 @@
         },
         "ManageMessages": {
             "t": "Spravovat zprávy",
-            "d": "Umožňuje členům mazat zprávy odeslané ostatními členy."
+            "d": "Umožní členům mazat zprávy odeslané ostatními členy."
         },
         "ManageChannel": {
-            "d": "Umožňuje členům upravovat nebo odstranit kanál.",
+            "d": "Umožní členům editovat nebo mazat kanály.",
             "t": "Správa kanálů"
         },
         "SendMessage": {
             "t": "Odesílat zprávy",
-            "d": "Umožňuje členům posílat zprávy do textových kanálů."
+            "d": "Umožní členům posílání zpráv v textových kanálech."
         },
         "UploadFiles": {
             "t": "Nahrát soubory",
-            "d": "Umožňuje členům nahrávat soubory v textových kanálech."
+            "d": "Umožní členům nahrávat soubory v textových kanálech."
         },
         "VoiceCall": {
             "t": "Hlasový Hovor",
@@ -1017,14 +1017,14 @@
         },
         "InviteOthers": {
             "t": "Pozvat další",
-            "d": "Umožňuje členům pozvat další uživatele do kanálu."
+            "d": "Umožní členům pozvat další uživatele do kanálu."
         },
         "ManageRole": {
-            "t": "Spravovat role",
-            "d": "Umožní členům vytvářet, upravovat a odstraňovat role, které jsou níže než jejich role, a upravovat jejich oprávnění v nastavení jednotlivých kanálů."
+            "t": "Manage roles",
+            "d": "Umožní členům vytvářet, upravovat a mazat role s nižší hodnotou a upravovat jejich oprávnění v nastavení jednotlivých kanálů."
         },
         "ViewChannel": {
-            "d": "Umožňuje členům vidět všechny kanály, ve kterých mají toto oprávnění.",
+            "d": "Umožní členům vidět všechny kanály, na kterých mají toto oprávnění.",
             "t": "Zobrazit kanál"
         },
         "ReadMessageHistory": {
@@ -1056,12 +1056,12 @@
             "d": "Umožňuje členům měnit oprávnění ke kanálům a rolím, které jsou níže než jejich role."
         },
         "TimeoutMembers": {
-            "t": "Pozastavit členy",
+            "t": "Ztlumit členy",
             "d": "Umožňuje dočasně zakázat členům interagovat se serverem."
         },
         "AssignRoles": {
             "d": "Umožňuje členům udělovat role pod jejich vlastní rolí dalším členům.",
-            "t": "Přidělit role"
+            "t": "Udělit role"
         },
         "Connect": {
             "t": "Připojit se",

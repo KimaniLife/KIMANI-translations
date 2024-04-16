@@ -4,7 +4,7 @@
             "pages": {
                 "feedback": {
                     "issue_desc": "For å gjøre det lettere for oss å lete etter feil, kan du rapportere det på GitHub.",
-                    "suggest_desc": "Foreslå nye Revolt-funksjoner i GitHub-diskusjon.",
+                    "suggest_desc": "Foreslå nye Kimani-funksjoner i GitHub-diskusjon.",
                     "issue": "Opprett en ny problemrapport",
                     "suggest": "Send inn funksjonsforslag",
                     "bug": "Feilsporer",
@@ -132,7 +132,7 @@
                     "input_device": "Mikrofon",
                     "button_retry": "prøv igjen",
                     "device_label_NA": "Ikke tilgjengelig",
-                    "tip_retry": "Du har ikke gitt Revolt tillatelse til å bruke mikrofonen din, vennligst {{retryBtn}}.",
+                    "tip_retry": "Du har ikke gitt Kimani tillatelse til å bruke mikrofonen din, vennligst {{retryBtn}}.",
                     "button_grant": "Gi tillatelse",
                     "tip_grant_permission": "Du må gi oss tillatelse for å nå lydinstillinger."
                 },
@@ -160,7 +160,7 @@
                         "title": "Kontohåndtering",
                         "description": "Deaktiver eller slett kontoen din når du vil. Begge handlingene vil logge deg ut av dine aktive økter.",
                         "delete_description": "Kontoen din og all dataen din (inkludert meldingene dine og vennelisten) vil bli satt i kø for sletting. En bekreftelses-e-post vil bli sendt – du kan avbryte dette innen 7 dager ved å kontakte brukerstøtte.",
-                        "disable_description": "Du får ikke tilgang til kontoen din før du tar kontakt med brukerstøtte. Men vær trygg, dataene dine vil ikke bli slettet."
+                        "disable_description": "Du vil ikke kunne få tilgang til kontoen din med mindre du kontakter brukerstøtte - imidlertid vil dataene dine ikke bli slettet."
                     },
                     "2fa": {
                         "remove_auth": "Fjern identitetsbekrefter",
@@ -408,7 +408,7 @@
                     "unknown_reacted": "{{count}} reagerte",
                     "single_reacted": "1 person reagerte"
                 },
-                "new_to_revolt": "Ny til Revolt",
+                "new_to_revolt": "Ny til Kimani",
                 "new_to_server": "Ny til denne serveren"
             },
             "servers": {
@@ -476,7 +476,7 @@
                 }
             },
             "invite": {
-                "login": "Logg inn på Revolt",
+                "login": "Logg inn på Kimani",
                 "user_count": "{{member_count}} brukere",
                 "accept": "Godta invitasjon",
                 "invited_by": "Invitert av {{user}}",
@@ -580,7 +580,7 @@
                     "ignore": "Ignorer oppdatering"
                 },
                 "changelogs": {
-                    "description": "Les om oppdateringer til Revolt.",
+                    "description": "Les om oppdateringer til Kimani.",
                     "title": "Endringslogg",
                     "older": "Vis eldre oppdateringer"
                 },
@@ -605,7 +605,7 @@
                         "Underage": "Denne brukeren er ikke gammel nok til å ha en konto"
                     },
                     "reported": "Rapportert",
-                    "thank_you": "Takk for at du hjelper til med å holde Revolt trygt. Vi vil se igjennom rapporten din så snart som mulig.",
+                    "thank_you": "Takk for at du hjelper til med å holde Kimani trygt. Vi vil se igjennom rapporten din så snart som mulig.",
                     "block_user": "Vil du blokkere denne brukeren?"
                 }
             },
@@ -717,15 +717,15 @@
             "directs": "Direktemeldinger",
             "join-testers": "Bli med i testers serveren",
             "goto-testers": "Gå til tester serveren",
-            "donate": "Doner til Revolt",
+            "donate": "Doner til Kimani",
             "settings-tooltip": "Du kan også høyre-klikke bruker ikonet øverst til venstre, eller venstre klikk den hvis du er hjemme allerede.",
-            "feedback": "Gi en tilbakemelding til Revolt",
+            "feedback": "Gi en tilbakemelding til Kimani",
             "settings": "Åpne innstillinger",
             "join-testers_desc": "Du kan foreslå forbedringer og rapportere inn feil til oss her.",
             "goto-testers_desc": "Du kan foreslå forbedringer og rapportere inn feil til oss her.",
             "donate_desc": "Støtt prosjektet ved å donere - takk!",
             "feedback_desc": "Fortell oss hvordan vi kan forbedre appen vår ved å gi oss en tilbakemelding.",
-            "discover": "Oppdag Revolt",
+            "discover": "Oppdag Kimani",
             "discover_desc": "Finn et fellesskap basert på dine hobbyer eller interesser.",
             "group": "Opprett en gruppe",
             "group_desc": "Inviter alle vennene dine, noen kule roboter, og ha en stor fest."
@@ -943,7 +943,7 @@
         "missing_verification": "Fikk du ingen e-post?",
         "create": "Opprett en ny konto",
         "existing": "Har du allerede en konto?",
-        "new": "Ny på Revolt?",
+        "new": "Ny på Kimani?",
         "remembered": "Gå tilbake til innlogging",
         "set_password": "Skriv et nytt passord",
         "reset": "Tilbakestill passord",
@@ -964,7 +964,7 @@
         "register": "Registrer",
         "title": "Logg inn",
         "welcome": "Velkommen!",
-        "subtitle": "Logg inn på Revolt",
+        "subtitle": "Logg inn på Kimani",
         "welcome2": "Hallo!",
         "subtitle2": "Opprett en konto",
         "unofficial_instance": "Tredjepartsinstans.",
@@ -1000,13 +1000,5 @@
     },
     "actions": {
         "submit": "Send Inn"
-    },
-    "keys": {
-        "PageUp": {
-            "full": "Side Opp"
-        },
-        "PageDown": {
-            "full": "Side Ned"
-        }
     }
 }
