@@ -26,7 +26,7 @@
         "favorite_destinations": "What are your favorite destinations?",
         "languages_spoken": "What languages do you speak?",
         "passions_and_hobbies": "What are your passions and hobbies?",
-        "tik_tok": "What is your Tik Tok account?",
+        "linkedin": "What is your LinkedIn account?",
         "x_account": "What is your X account?",
         "instagram": "What is your Instagram account?",
         "facebook": "What is your Facebook account?",
@@ -57,7 +57,7 @@
             "favorite_destinations": "Enter your favorite destinations",
             "languages_spoken": "Enter the languages you speak",
             "passions_and_hobbies": "Enter your passions & hobbies",
-            "tik_tok": "Enter your Tik Tok account URL",
+            "linkedin": "Enter your LinkedIn account URL",
             "x_account": "Enter your X account URL",
             "instagram": "Enter your Instagram account URL",
             "facebook": "Enter your Facebook account URL"
