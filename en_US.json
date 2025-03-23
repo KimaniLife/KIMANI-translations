@@ -1070,5 +1070,59 @@
         "CapsLock": {
             "full": "Caps Lock"
         }
+    },
+    "destinations": {
+        "post_trip": {
+            "title": "Post a Trip",
+            "departure": "Departure",
+            "arrival": "Arrival",
+            "business": "Business",
+            "leisure": "Leisure",
+            "description": {
+                "label": "Description",
+                "placeholder": "Tell us about your trip..."
+            },
+            "done": "Done"
+        },
+        "filters": {
+            "search": {
+                "placeholder": "Search your destination..."
+            }
+        },
+        "sections": {
+            "local_communities": "Local Communities",
+            "location": "Location"
+        },
+        "actions": {
+            "post_trip": "Post a Trip",
+            "see_all": "See All"
+        }
+    },
+    "all_trips": {
+        "back": "Back",
+        "title": "Who's in {{location}}?",
+        "empty_state": "No travelers found. Be the first to add a trip!",
+        "dates": "{{start}} - {{end}}"
+    },
+    "trip_details": {
+        "post": "{{name}}'s post",
+        "travel_purpose": "Travel purpose",
+        "dates": {
+            "from": "From:",
+            "to": "To:"
+        },
+        "no_description": "No description provided",
+        "comments": {
+            "title": "Comments",
+            "empty": "No comments yet. Be the first to comment!",
+            "input_placeholder": "Add a comment to this trip..."
+        },
+        "actions": {
+            "send_message": "Send Message",
+            "add_friend": "Add Friend"
+        }
+    },
+    "trip_comment": {
+        "unknown_user": "Unknown User"
     }
 }
