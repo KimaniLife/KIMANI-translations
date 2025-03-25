@@ -295,6 +295,10 @@
                     "created": "Created {{time_ago}}",
                     "logout": "Log out of all other sessions"
                 },
+                "invite": {
+                    "title": "Invite",
+                    "description": "Invite friends to Kimani Life"
+                },
                 "audio": {
                     "title": "Voice Settings",
                     "input_device": "Microphone",
