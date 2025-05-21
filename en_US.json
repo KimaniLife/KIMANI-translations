@@ -88,7 +88,9 @@
             "verify": "Failed to verify!"
         },
         "subtitle2": "CREATE ACCOUNT",
-        "subtitle": "LOGIN",
+        "subtitle": "Member Sign In",
+        "reset_subtitle": "RESET PASSWORD",
+        "reset_send": "Send reset link",
         "unofficial_instance": "Third-party instance.",
         "totp": "Authenticator App",
         "recovery": "Recovery Code",
