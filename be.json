@@ -329,7 +329,7 @@
                     "device_label_NA": "Не знойдзена",
                     "button_retry": "паўтарыць",
                     "tip_retry": "Вы не далі Kimani доступу да вашага мікрафона, калі ласка {{retryBtn}}.",
-                    "tip_grant_permission": "Вам трэба даць дазвол на доступ да налад аўдыя.",
+                    "tip_grant_permission": "Вам трэба даць дазвол на доступ да налад аўдыя.",
                     "button_grant": "Даць дазвол"
                 },
                 "notifications": {

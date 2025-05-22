@@ -90,7 +90,7 @@
                 "failed_upload": "Nem sikerült feltölteni.",
                 "uploading_file": "Feltöltés folyamatban…",
                 "message_saved": "Mentés a többi feljegyzéshez",
-                "bot": "Robi 🤖",
+                "bot": "Robi 🤖",
                 "unknown_user": "<ismeretlen felhasználó>",
                 "start": {
                     "group": "Innen indult a beszélgetés",
@@ -638,7 +638,7 @@
                     "confirm_delete_long": "Még nem késő visszavonni a visszahozhatatlant.",
                     "confirm_ban": "Ezennel {{name}} ki lesz tiltva innen",
                     "create_invite_generate": "Meghívó létrehozása…",
-                    "block_user": "Kizárod őt? „{{name}}”",
+                    "block_user": "Kizárod őt? „{{name}}”",
                     "unfriend_user": "Te és {{name}} nem lesztek ismerősök",
                     "unfriend_user_long": "Nem fogsz tudni többé kapcsolatba lépni vele, amíg újból ismerősnek nem jelölöd.",
                     "block_user_long": "Tényleg ki szeretnéd zárni {{name}} tagot? Az ismerőseid közül is törölve lesz.",
