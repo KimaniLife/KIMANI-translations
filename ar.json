@@ -1,1122 +1,1135 @@
 {
-    "general": {
-        "about": "حول",
-        "tos": "شروط الخدمة",
-        "privacy": "سياسة الخصوصية",
-        "image_by": "الصورة من قبل",
-        "loading": "جار التحميل…",
-        "on": "مفعل",
-        "off": "موقف",
-        "unavailable": "غير متوفر",
-        "disabled": "معطل",
-        "learn_more": "إقرأ المزيد"
-    },
-    "login": {
-        "title": "تسجيل الدخول",
-        "email": "البريد الإلكتروني",
-        "password": "كلمة المرور",
-        "enter": {
-            "email": "الرجاء إدخال بريدك الإلكتروني.",
-            "password": "أدخل كلمة المرور الخاصة بك.",
-            "invite": "أدخل رمز الدعوة.",
-            "username": "أدخل اسم المستخدم الخاص بك.",
-            "current_password": "أدخل كلمة السر الحالية.",
-            "new_password": "أدخل كلمة مرور جديدة."
-        },
-        "forgot": "نسيت كلمة السر؟",
-        "new": "جديد على Kimani؟",
-        "create": "إنشاء حساب جديد",
-        "current_password": "كلمة السر الحالية",
-        "existing": "لديك حساب بالفعل؟",
-        "cancel": "إلغاء الطلب",
-        "invite": "رمز الدعوة",
-        "username": "‌اسم المستخدم",
-        "register": "سجّل",
-        "check_mail": "راجع بريدك الإلكتروني!",
-        "set_password": "تعيين كلمة سر جديدة",
-        "missing_verification": "لم تستلم رسالة في بريدك الإلكتروني؟",
-        "resend": "إعادة إرسال رسالة التحقق",
-        "successful_registration": "تم إنشاء حسابك بنجاح!",
-        "error": {
-            "create": "فشل التسجيل!",
-            "login": "فشل تسجيل الدخول!",
-            "reset": "فشلت إعادة التعيين!",
-            "resend": "فشلت إعادة الإرسال!",
-            "verify": "فشل توثيق حسابك!"
-        },
-        "reset": "أعد تعيين كلمة السر",
-        "remembered": "العودة لتسجيل الدخول",
-        "email_delay": "لقد أرسلنا لك بريد إلكتروني للتحقق. الرجاء انتظار لمدة 10 دقائق لوصول البريد قبل المحاولة مرة أخري.",
-        "check_spam": "الرجاء التحقق من رسائل البريد غير المرغوبة (Spam) إذا لم تجد الرسالة",
-        "open_mail_provider": "افتح {{provider}}",
-        "welcome": "أهلًا!",
-        "subtitle": "تسجيل الدخول إلى Kimani",
-        "welcome2": "مرحباً!",
-        "subtitle2": "إنشاء حساب",
-        "unofficial_instance": "نموذج مزود خارجي.",
-        "totp": "تطبيق المصادقة الثنائية",
-        "recovery": "رمز الاسترجاع",
-        "verifying_account": "جار التحقق من حسابك…",
-        "verified_account": "تم توثيق حسابك بنجاح!",
-        "verified_continue": "الذهاب لتسجيل الدخول",
-        "new_password": "كلمة مرور جديدة",
-        "log_out_other": "تسجيل خروج من جميع الجلسات الاخرى"
-    },
-    "app": {
-        "main": {
-            "channel": {
-                "message": "ارسل رسالة الى {{name}}",
-                "system": {
-                    "user_joined": "{{user}} انضم",
-                    "user_left": "{{user}} غادر",
-                    "user_kicked": "{{user}} تم طرده",
-                    "user_banned": "{{user}} تم حظره",
-                    "removed_by": "{{user}} تمت إزالته من قبل {{other_user}}",
-                    "added_by": "{{user}} تمت اضافته من قبل {{other_user}}",
-                    "channel_renamed": "‫غير {{user}} اسم القناة إلى {{name}}",
-                    "channel_icon_changed": "غير {{user}} أيقونة القناة",
-                    "channel_description_changed": "غير {{user}} وصف القناة",
-                    "channel_ownership_changed": "أعطى {{from}} مِلكية المجموعة إلى {{to}}",
-                    "registered_at": "مسجل {{time}}"
-                },
-                "typing": {
-                    "several": "العديد من الأشخاص يكتبون…",
-                    "multiple": "{{userlist}} و {{user}} يكتبون…",
-                    "single": "{{user}} يكتب…"
-                },
-                "notifications": {
-                    "default": "استخدام الإعدادات الإفتراضية",
-                    "all": "كل الرسائل",
-                    "mention": "عند ذكري فقط",
-                    "none": "لا شيء",
-                    "muted": "مكتوم"
-                },
-                "unknown_user": "<مستخدم مجهول>",
-                "search": {
-                    "sort": {
-                        "relevance": "الصلة",
-                        "latest": "الأحدث",
-                        "oldest": "الأقدم"
-                    },
-                    "title": "البحث"
-                },
-                "failed_upload": "حدث خطأ في رفع الملف!",
-                "attached_file": "{{filename}} مرفق",
-                "start": {
-                    "group": "هذه هي بداية محادثتكم.",
-                    "saved": "هذه بداية ملاحظاتك."
-                },
-                "voice": {
-                    "leave": "غادر",
-                    "connected": "متصل صوتيًا",
-                    "mute": "اكتم الصوت",
-                    "unmute": "ألغ الكتم"
-                },
-                "misc": {
-                    "spoiler_attachment": "حرق",
-                    "jump_present": "انتقل إلى الرسائل الحاضرة",
-                    "viewing_old": "ما معروض هو رسائل قديمة",
-                    "sent_file": "أرسل مرفقًا",
-                    "failed_load": "تعذر تحميل الرسالة.",
-                    "no_sending": "ليس لديك صلاحية لإرسال رسائل في هذه القناة.",
-                    "blocked_messages": "{{count}} رسائل محظورة",
-                    "blocked_user": "مستخدم محظور",
-                    "sent_multiple_files": "أرسل عدة مرفقات",
-                    "jump_beginning": "انتقل إلى البداية",
-                    "new_messages": "رسائل جديدة منذ {{time_ago}}",
-                    "load_file": "إختيار ملف",
-                    "timed_out": "لقد تم توقيفك عن إرسال الرسائل لمدة {{time}}.",
-                    "not_loaded": "فشل تحميل الرسائل، اضغط للانتقال"
-                },
-                "edited": "(تم التعديل)",
-                "message_where": "أرسل رسالة في {{channel_name}}",
-                "message_who": "راسل @{{person}}",
-                "uploading_file": "جار الرفع…",
-                "nsfw": {
-                    "confirm": "أنا أؤكد أن عمري لا يقل عن 18 عاماً.",
-                    "channel": {
-                        "marked": "هذه القناة تحوي محتوى غير لائق (NSFW).",
-                        "confirm": "الدخول للقناة"
-                    }
-                },
-                "message_saved": "الحفظ في ملاحظاتك",
-                "bot": "بوت",
-                "errors": {
-                    "title": "عذرًا، لا يوجد شيء هنا!",
-                    "nochannel": "لا قناة",
-                    "nochannels": "هذا السيرفر لا يحوي أي قنوات أو ليس لديك صلاحية للوصول إلى أي منها."
-                },
-                "reply": {
-                    "replying": "الرد على",
-                    "toggle": "تنبيه كاتب الرسالة"
-                },
-                "bridge": "جسر",
-                "user_timed_out": "المستخدم موقف عن إرسال الرسائل لمدة {{time}}.",
-                "bridged": "هذه الرسالة مرسلة من منصة أخرى",
-                "team": "التواصل الرسمي",
-                "new_to_revolt": "جديد على Kimani",
-                "new_to_server": "جديد على هذا السيرفر",
-                "reactions": {
-                    "unknown_reacted": "{{count}} اشخاص تفاعلوا",
-                    "single_reacted": "شخص واحد تفاعل",
-                    "people_reacted": "{{people}} تفاعلوا",
-                    "others_reacted": "{{userlist}} و {{count}} آخرون تفاعلوا"
-                }
-            },
-            "categories": {
-                "conversations": "المحادثات",
-                "channels": "القنوات",
-                "members": "الأعضاء",
-                "participants": "المشاركون"
-            },
-            "servers": {
-                "channel_name": "اسم القناة",
-                "channel_description": "وصف القناة",
-                "description": "وصف السيرفر",
-                "create": "أنشئ سيرفر",
-                "name": "اسم السيرفر",
-                "custom_banner": "لافتة خاصة",
-                "text_channel": "قناة نصية",
-                "voice_channel": "قناة صوتية",
-                "channel_type": "نوع القناة",
-                "owner": "مالك السيرفر",
-                "category_name": "اسم الفئة"
-            },
-            "groups": {
-                "create": "أنشئ مجموعة",
-                "name": "اسم المجموعة",
-                "owner": "مالك المجموعة",
-                "description": "وصف المجموعة"
-            }
-        },
-        "navigation": {
-            "tabs": {
-                "dev": "مطور",
-                "saved": "الملاحظات المحفوظة",
-                "friends": "الأصدقاء",
-                "unreads": "الرسائل غير المقروءة",
-                "home": "الصفحة الرئيسية"
-            }
-        },
-        "status": {
-            "online": "متصل",
-            "busy": "لا تقم بالإزعاج",
-            "invisible": "متخفي",
-            "offline": "غير متصل",
-            "idle": "خامل",
-            "reconnect": "أعد الاتصال",
-            "focus": "مركز"
-        },
-        "context_menu": {
-            "open_group_settings": "إعدادات المجموعة",
-            "delete_message": "احذف الرسالة",
-            "reply_message": "ردّ",
-            "create_channel": "إنشاء قناة",
-            "cancel_message": "إلغاء محاولة الإرسال",
-            "add_friend": "إرسال طلب صداقة",
-            "save_file": "احفظ الملف",
-            "save_video": "احفظ الفيديو",
-            "open_link": "افتح الرابط",
-            "cancel_friend": "ألغ الطلب",
-            "ban_member": "اُحظر العضو",
-            "block_user": "احظر المستخدم",
-            "delete_channel": "حذف القناة",
-            "copy_message_link": "انسخ رابط الرسالة",
-            "unblock_user": "فك الحظر",
-            "open_image": "افتح الصورة",
-            "retry_message": "إعادة محاولة الإرسال",
-            "close_dm": "إغلاق المحادثة الخاصة",
-            "clear_status": "امسح الحالة",
-            "set_custom_status": "ضع حالة مخصصة",
-            "copy_id": "انسخ المعرّف",
-            "save_image": "احفظ الصورة",
-            "open_video": "افتح الفيديو",
-            "copy_link": "انسخ الرابط",
-            "remove_friend": "إزالة الصديق",
-            "custom_status": "حالة مُخَصَّصة",
-            "leave_group": "مغادرة المجموعة",
-            "leave_server": "مغادرة السيرفر",
-            "delete_server": "احذف السيرفر",
-            "edit_identity": "تعديل الهوية",
-            "edit_message": "عدّل الرسالة",
-            "remove_member": "أزل من المجموعة",
-            "kick_member": "اطرد العضو",
-            "open_file": "افتح الملف",
-            "message_user": "راسِل",
-            "copy_uid": "انسخ معرّف المستخدم",
-            "copy_cid": "انسخ معرّف القناة",
-            "quote_message": "اقتبس الرسالة",
-            "copy_text": "انسخ النص",
-            "copy_mid": "انسخ معرّف الرسالة",
-            "create_invite": "إنشاء دعوة",
-            "open_server_settings": "إعدادات السيرفر",
-            "copy_selection": "انسخ المحدد",
-            "copy_sid": "انسخ معرّف السيرفر",
-            "view_profile": "اعرض الملف الشخصي",
-            "mark_as_read": "حدده كمقروء",
-            "create_category": "إنشاء فئة",
-            "open_channel_settings": "إعدادات القناة",
-            "open_notification_options": "خيارات الإشعارات",
-            "mention": "أذكر",
-            "mark_unread": "حدده كغير مقروء",
-            "make_owner": "إنقل مِلكية المجموعة",
-            "report_message": "الإبلاغ عن الرسالة",
-            "report_user": "أبلغ عن مستخدم",
-            "report_server": "الإبلاغ عن السيرفر"
-        },
-        "settings": {
-            "pages": {
-                "sessions": {
-                    "this_device": "هذا الجهاز",
-                    "created": "أُنشئَ منذ {{time_ago}}",
-                    "active_sessions": "الجلسات الحالية",
-                    "logout": "تسجيل خروج من جميع الجلسات الأخرى",
-                    "title": "الجلسات"
-                },
-                "account": {
-                    "manage": {
-                        "title": "إدارة الحساب",
-                        "disable": "تعطيل الحساب",
-                        "delete": "تحديد الحساب ليتم حذفه",
-                        "description": "يمكنك تعطيل أو حذف حسابك في أي وقت. الإجرائين سيقوما بتسجيل خروجك من جميع جلساتك الحالية.",
-                        "disable_description": "لن يكن لك القدرة أن تستخدم حسابك إلا إذا اتصلت بالدعم لكن بياناتك لن تحذف.",
-                        "delete_description": "حسابك وجميع بياناتك (مع رسالاتك وأصدقائك) سيتم وضعها في قائمة الانتظار للحذف. سيبعت لك رسالة تأكيد بالبريد إلكتروني - يمكنك إلغاء هذا القرار خلال 7 أيام عن طريق الاتصال بالدعم."
-                    },
-                    "2fa": {
-                        "add_auth": "أضف موثقًا",
-                        "title": "المصادقة الثنائية (2FA)",
-                        "description": "أضف طبقة من الأمان عن طريق تفعيل خدمة المصادقة الثنائية (2FA).",
-                        "remove_auth": "أزل موثقًا",
-                        "view_recovery": "عرض رموز الاسترجاع",
-                        "view_recovery_long": "عرض وتحميل رموز الاسترجاع للمصادقة الثنائية (2FA) الخاصة بك.",
-                        "generate_recovery": "إنتاج رموز استرجاع",
-                        "generate_recovery_long": "استعد لإستخدام المصادقة الثنائية (2FA) من خلال إعداد طريقة استرجاع.",
-                        "two_factor_on": "المصادقة الثنائية (2FA) مفعلة حالياً.",
-                        "two_factor_off": "المصادقة الثنائية (2FA) غير مفعّلة!"
-                    },
-                    "title": "حسابي",
-                    "change_field": "تعديل",
-                    "unique_id": "هذا معرف مستخدم فريد لحسابك."
-                },
-                "profile": {
-                    "placeholder": "اكتب شيئاً عن نفسك…",
-                    "profile_picture": "صورة الحساب",
-                    "fetching": "جار تجميع بيانات حسابك…",
-                    "title": "الملف الشخصي",
-                    "info": "المعلومات",
-                    "custom_background": "خلفية خاصة",
-                    "edit_background": "تعديل الخلفية",
-                    "edit_profile": "تعديل الملف الشخصي"
-                },
-                "appearance": {
-                    "display": {
-                        "default": "الإفتراضي",
-                        "compact": "مضغوط",
-                        "default_description": "جميل، أنيق ومعاصِر.",
-                        "compact_description": "يشبه نظام بروتوكول الدردشة عبر الإنترنت القديم (IRC)."
-                    },
-                    "title": "المظهر",
-                    "import": "استيراد سمة",
-                    "theme": "السمة",
-                    "emoji_pack": "حزمة الرموز التعبيرية",
-                    "reset_overrides": "إعادة تعيين الإعدادات المعدلة",
-                    "mono_font": "محدد الخط الثابت",
-                    "color": {
-                        "light": "فاتح",
-                        "dark": "مظلم"
-                    },
-                    "message_display": "عرض الرسالة",
-                    "advanced": "خيارات متقدمة",
-                    "accent_selector": "درجة اللون",
-                    "overrides": "تجاوزات سمة تجريدية",
-                    "sync": "خيارات المزامنة",
-                    "font": "الخط",
-                    "ligatures": "أربطة الخط",
-                    "theme_data": "بيانات السمة",
-                    "import_theme": "استيراد سمة من نص",
-                    "ligatures_desc": "بالنسبة للخطوط المدعومة، ميزة الحروف المركبة تجمع الأحرف المزدوجة معًا - على سبيل المثال، تحويل -> إلى سهم.",
-                    "custom_css": "أوراق الأنماط المتتالية (CSS) المخصصة",
-                    "theme_options": {
-                        "seasonal_desc": "يعرض التأثيرات في علامة التبويب \"الصفحة الرئيسية\" خلال مواسم العطلات.",
-                        "transparency": "تأثيرات الشفافية",
-                        "transparency_desc": "لتمكين تأثيرات الشفافية في جميع أنحاء التطبيق.",
-                        "title": "خيارات السمة",
-                        "follow": "اعتمد على سمة النظام",
-                        "follow_desc": "عند تفعيل هذا، لن تتمكن من تغيير المظهر الخاص بك أو استخدام سمة خاصة.",
-                        "seasonal": "سمة موسمية"
-                    },
-                    "discover": {
-                        "title": "إستكشاف السِّمات",
-                        "description": "تصفَّح السمات التي صنعها المجتمع"
-                    },
-                    "appearance_options": {
-                        "show_send_desc": "إذا قمت بتعطيل هذا، زر إرسال الرسالة سيظهر في الهواتف المحمولة فقط.",
-                        "show_send": "اظهار زر إرسال الرسالة دائمًا",
-                        "title": "إعدادات المظهر",
-                        "show_account_age": "إظهار عمر الحساب دائماً بجوار رسائل الانضمام",
-                        "show_account_age_desc": "إذا تم تعطيل هذا، فلن يظهر عمر الحساب إلا للمستخدمين الجدد."
-                    },
-                    "colours": {
-                        "title": "الألوان"
-                    },
-                    "emoji": {
-                        "title": "الإيموجي"
-                    },
-                    "fonts": {
-                        "title": "الخطوط"
-                    },
-                    "advanced_options": {
-                        "title": "خيارات متقدمة"
-                    }
-                },
-                "audio": {
-                    "title": "إعدادات الصوت",
-                    "input_device": "الميكروفون",
-                    "output_device": "مكبر الصوت / السماعة",
-                    "button_retry": "أعد المحاولة",
-                    "device_label_NA": "غير متوفر",
-                    "tip_retry": "لم تعط الإذن للوصول إلى الميكروفون الخاص بك، الرجاء {{retryBtn}}.",
-                    "button_grant": "امنح الصلاحية",
-                    "tip_grant_permission": "عليك منح الإذن للوصول إلى إعدادات الصوت."
-                },
-                "experiments": {
-                    "not_available": "لا توجد ميزات تجريبية متوفرة الآن.",
-                    "title": "ميزات تجريبية",
-                    "features": "الميزات المتوفرة"
-                },
-                "source_code": "مصدر البرنامج",
-                "language": {
-                    "title": "اللغة",
-                    "select": "اختر اللغة",
-                    "other": "خيارات لغة أُخرى",
-                    "const": "اللغات المركبة"
-                },
-                "notifications": {
-                    "sounds": "الأصوات",
-                    "enable_desktop": "فعّل تنبيهات الحاسوب",
-                    "descriptions": {
-                        "enable_desktop": "عند تفعيله، ستستلم التنبيهات بينما البرنامج مفتوح.",
-                        "enable_push": "عند تفعيله، سوف تتلقى الإشعارات عندما تكون غير متصل."
-                    },
-                    "title": "الإشعارات",
-                    "push_notifications": "إرسال التنبيهات",
-                    "enable_push": "فعّل إرسال التنبيهات",
-                    "sound": {
-                        "message": "عند استلام رسالة",
-                        "outbound": "عند إرسال رسالة",
-                        "call_join": "عند انضمام مستخدم للمكالمة",
-                        "call_leave": "عند مغادرة مستخدم للمكالمة"
-                    }
-                },
-                "donate": {
-                    "title": "التبرع"
-                },
-                "feedback": {
-                    "bug": "متعقب الأخطاء",
-                    "suggest": "أرسل إلينا اقتراحاتك لإضافة الميزات",
-                    "suggest_desc": "إقترح علينا أفكار جديدة في قسم النقاشات على منصة GitHub.",
-                    "issue": "إنشاء ابلاغ عن مشكلة",
-                    "issue_desc": "لمساعدتنا على إستلام بلاغات المشاكل بسهولة يرجى إنشاءها على GitHub.",
-                    "bug_desc": "عرض تقارير متعقب الأخطاء هنا.",
-                    "title": "رأيك",
-                    "description": "إرسال اقتراحات لتحسين المنصة"
-                },
-                "sync": {
-                    "categories": "مزامنة الفئات",
-                    "descriptions": {
-                        "theme": "هذا سوف يقوم بمزامنة السمة المختارة، والألوان وأية أنماط متتالية مخصصة.",
-                        "appearance": "هذا سوف يقوم بمزامنة الخيارات المظهرية مثل حزمة الوجوه التعبيرية وكثافة الرسائل.",
-                        "locale": "هذا سوف يقوم بمزامنة اللغة المستخدمة حاليًا."
-                    },
-                    "title": "المزامنة",
-                    "options": "خيارات المزامنة"
-                },
-                "logOut": "تسجيل خروج",
-                "native": {
-                    "title": "إعدادات سطح المكتب"
-                },
-                "bots": {
-                    "title": "البوتّات الخاصة بي",
-                    "copy_invite": "نسخ رابط الدعوة",
-                    "reserved": "ملاحظة: هذا الحقل محجوز للمستقبل.",
-                    "public_bot_desc": "إذا كان هذا مفعل، المستخدمين الآخرون مسموح لهم بإضافة هذا البوت إلي المجموعات.",
-                    "create_bot": "إنشاء بوت",
-                    "add": "إضافة بوت",
-                    "token": "الرمز السري",
-                    "public_bot_tip": "هذا البوت عام. الجميع له القدرة لدعوته.",
-                    "private_bot_tip": "هذا البوت خاص. أنت فقط لك القدرة لدعوته.",
-                    "public_bot": "بوت عام",
-                    "interactions_url": "رابط التفاعلات",
-                    "unique_id": "هذا معرِّف فريد للبوت الخاص بك. وليس الرمز السري للبوت.",
-                    "profile": "الملف الشخصي للبوت"
-                },
-                "theme_shop": {
-                    "title": "متجر السمات",
-                    "category": {
-                        "new": "جديد هذا الأسبوع",
-                        "viewall": "عرض الكل",
-                        "saved": "السمات المحفوظة",
-                        "manage": "إدارة السمات المحفوظة",
-                        "default": "السمات الإفتراضية",
-                        "highest": "السمات الأعلى تصنيفاً"
-                    },
-                    "search": "البحث عن سمات…",
-                    "description": "تصفح مئات السمات، التي أنشأها واختارها المجتمع.",
-                    "by": "بواسطة",
-                    "active": "نشط حاليًا",
-                    "use": "استخدم السمة"
-                },
-                "plugins": {
-                    "title": "الإضافات",
-                    "wip": "تحذير: هذه الميزة لا تزال قيد التطوير.",
-                    "delete_plugin": "حذف",
-                    "no_plugins": "لا توجد إضافات مثبتة حاليا."
-                },
-                "accessibility": {
-                    "descriptions": {
-                        "reduced_motion": "عند تفعيل هذا، لن يتم تشغيل تأثيرات الحركة أو ستكون أقل شدة."
-                    },
-                    "title": "إمكانية الوصول",
-                    "reduced_motion": "تقليل الحركة"
-                },
-                "keybinds": {
-                    "action": {
-                        "messaging_edit_previous_message": {
-                            "description": "تعديل الرسالة السابقة في قائمة الرسائل الحالية.",
-                            "title": "تعديل الرسالة السابقة"
-                        },
-                        "auto_complete_down": {
-                            "description": "تحريك اختيار الإكمال التلقائي إلي الإختيار التالي.",
-                            "title": "اختيار الإكمال التلقائي التالي"
-                        },
-                        "input_submit": {
-                            "description": "ربط مفتاح متقدم طبيعيا يستخدم لتسليم المدخلات الحالية.\nهذا قد يشمل تسليم رسالة، تسليم تعديل لرسالة، بحث، إلخ...",
-                            "title": "تسليم المدخلات"
-                        },
-                        "input_force_submit": {
-                            "description": "ربط مفتاح متقدم طبيعيا يستخدم لإجبار تسليم الإدخال الحالي، مع تجاهل بعض الفحوصات أو الروابط المفتاحية الأخري.\nهذا قد يشمل تسليم رسالة بدلاً من تأكيد اختيار الإكمال التلقائي.",
-                            "title": "إجبار تسليم المدخلات"
-                        },
-                        "navigate_channel_up": {
-                            "title": "تنقل للقناة السابقة",
-                            "description": "تنقل للقناة السابقة."
-                        },
-                        "navigate_server_up": {
-                            "title": "تنقل للسيرفر السابق",
-                            "description": "تنقل للسيرفر السابق."
-                        },
-                        "auto_complete_up": {
-                            "title": "اختيار الإكمال التلقائي السابق",
-                            "description": "تحريك اختيار الإكمال التلقائي إلي الإختيار السابق."
-                        },
-                        "navigate_channel_down": {
-                            "title": "تنقل للقناة التالية",
-                            "description": "تنقل للقناة التالية."
-                        },
-                        "navigate_server_down": {
-                            "title": "تنقل للسيرفر التالي",
-                            "description": "تنقل للسيرفر التالي."
-                        },
-                        "auto_complete_select": {
-                            "title": "تأكيد إختيار الإكمال التلقائي",
-                            "description": "تأكيد اختيار الإكمال التلقائي الحالي."
-                        },
-                        "input_cancel": {
-                            "title": "إلغاء إدخال",
-                            "description": "ربط مفتاح متقدم طبيعيا يستخدم لإلغاء الإدخال الحالي.\nهذا قد يشمل إلغاء تعديل لرسالة، إزالة صورة في قائمة الإنتظار، أو أي حالات أخري."
-                        },
-                        "messaging_scroll_to_bottom": {
-                            "title": "انتقل لآخر الرسائل",
-                            "description": "ينتقل لآخر قائمة الرسائل."
-                        },
-                        "messaging_mark_channel_read": {
-                            "title": "تمييز القناة كمقروءة",
-                            "description": "يميز القناة الحالية كمقروءة."
-                        },
-                        "navigate_previous_context": {
-                            "title": "تنقل للنافذة السابقة",
-                            "description": "رابط مفتاح متقدم طبيعيا مستخدم لقفل صفحة الإعدادات أو مشروط، ويرجع للنافذة السابق."
-                        },
-                        "developer_toggle_all_experiments": {
-                            "title": "تبديل تجربة الوضع الآمن",
-                            "description": "هذا سيفعّل أو يبطل جميع التجارب في آنٍ واحد."
-                        }
-                    },
-                    "title": "روابط المفاتيح",
-                    "description": "عرض وتعيين روابط مفاتيح",
-                    "search": "‫البحث عن روابط مفاتيح…",
-                    "add_keybind": "إضافة رابط مفتاح جديد",
-                    "edit_keybind": "تعديل رابط مفتاح",
-                    "remove_keybind": "إزالة رابط مفتاح",
-                    "reset_keybind": "إعادة ضبط رابط المفتاح إلي {{keybind}}",
-                    "category": {
-                        "navigation": "التنقل",
-                        "messaging": "المراسلة",
-                        "advanced": "متقدم"
-                    }
-                }
-            },
-            "actions": {
-                "remove": "إزالة",
-                "upload": "إرفع",
-                "max_filesize": "(الحد المسموح {{filesize}})",
-                "edit": "تعديل {{name}}"
-            },
-            "title": "الإعدادات",
-            "categories": {
-                "user_settings": "إعدادات المستخدم",
-                "client_settings": "إعدادات التطبيق",
-                "danger_zone": "منطقة الخطر"
-            },
-            "server_pages": {
-                "overview": {
-                    "name": "اسم السيرفر",
-                    "description": "وصف القناة",
-                    "system_messages": "قنوات رسائل النظام",
-                    "title": "نظرة عامة"
-                },
-                "invites": {
-                    "invitor": "الداعي",
-                    "title": "الدعوات",
-                    "channel": "القناة",
-                    "revoke": "تعطيل",
-                    "code": "رمز الدعوة"
-                },
-                "members": {
-                    "title": "الأعضاء"
-                },
-                "bans": {
-                    "user": "المستخدم",
-                    "reason": "سبب الحظر",
-                    "title": "المستخدمون المحظورون",
-                    "revoke": "إنهاء الحظر",
-                    "no_reason": "لا يوجد سبب للحظر."
-                },
-                "roles": {
-                    "title": "الرُتب"
-                },
-                "categories": {
-                    "title": "الفئات"
-                },
-                "management": {
-                    "title": "إدارة المستخدمين"
-                },
-                "customisation": {
-                    "title": "التخصيص"
-                },
-                "emojis": {
-                    "title": "الرموز التعبيرية",
-                    "upload": "رفع الرموز التعبيرية"
-                }
-            },
-            "channel_pages": {
-                "overview": {
-                    "name": "اسم القناة",
-                    "description": "وصف القناة",
-                    "title": "نظرة عامة"
-                },
-                "permissions": {
-                    "title": "الصلاحيات"
-                },
-                "webhooks": {
-                    "title": "ربط الخدمات"
-                }
-            },
-            "tips": {
-                "languages": {
-                    "a": "لا ترى لغة وتود إضافتها؟",
-                    "b": "ساعدنا عن طريق المساهمة في الترجمة."
-                },
-                "account": {
-                    "a": "هل تود تعديل ملفك العام؟",
-                    "b": "انتقل لإعدادات ملفك العام."
-                },
-                "sessions": {
-                    "a": "إذا لاحظت وجود جلسة مجهولة في القائمة،",
-                    "b": "قُم بتأمين حسابك عن طريق تغيير كلمة السر الخاصة بك و تفعيل المصادقة الثنائية لحسابك."
-                }
-            },
-            "permissions": {
-                "create_role": "أنشئ رتبة جديدة",
-                "role_name": "اسم الرتبة",
-                "default_role": "إفتراضي",
-                "server": "صلاحيات السيرفر",
-                "channel": "صلاحيات القناة",
-                "role_options": "إعدادات الرتبة",
-                "hoist_role": "رفع الرتبة",
-                "hoist_desc": "عرض هذه الرتبة فوق الرتب الاخرى.",
-                "title": "صلاحيات الرتبة {{role}}",
-                "edit_title": "تعديل الصلاحيات",
-                "role_ranking": "تصنيف الرتبة",
-                "role_colour": "لون الرتبة",
-                "delete_role": "حذف الرتبة"
-            }
-        },
-        "special": {
-            "invite": {
-                "user_count": "{{member_count}} مستخدم",
-                "invited_by": "تمت دعوته بواسطة {{user}}",
-                "login": "سَجِّل دخولك إلى Kimani",
-                "accept": "قبول الدعوة",
-                "invalid_desc": "رابط الدعوة غير موجود، أو لا تمتلك الصلاحيات للإنضمام.",
-                "invalid": "دعوة غير صالحة!"
-            },
-            "popovers": {
-                "user_profile": {
-                    "sub": {
-                        "badges": "الشارات",
-                        "information": "معلومات",
-                        "connections": "المواقع الموصولة"
-                    },
-                    "badges": {
-                        "supporter": "داعم",
-                        "translator": "مُتَرجِم",
-                        "early_adopter": "مستخدم مُبَكِّر",
-                        "responsible_disclosure": "بلغ عن الأخطاء الأمنية بشكل مناسب",
-                        "founder": "مؤسس",
-                        "moderation": "إشراف على المنصة"
-                    },
-                    "profile": "الملف الشخصي",
-                    "mutual_groups": "المجموعات المُشتَركة",
-                    "mutual_servers": "السيرفرات المشتَركة",
-                    "no_servers": "لا سيرفرات مشتركة",
-                    "mutual_friends": "الأصدقاء المُشتَركون",
-                    "no_users": "لا أصدقاء مُشتَركين",
-                    "no_groups": "لا مجموعات مُشتَركة",
-                    "empty": "تبدو المساحة هنا فارغة…"
-                },
-                "user_picker": {
-                    "select": "قُم بتحديد أصدقاء لإضافتهم."
-                },
-                "create_bot": {
-                    "title": "إنشاء بوت جديد",
-                    "failed": "فشل في إنشاء البوت!"
-                },
-                "server_identity": {
-                    "nickname": "لقب",
-                    "avatar": "الصورة الرمزية",
-                    "title": "غيّر مُعرِّفَك في {{server}}"
-                }
-            },
-            "requires_online": "يجب أن تكون متصلاً لرؤية هذا.",
-            "status": {
-                "connecting": "جار الإتصال…",
-                "offline": "غير متصل.",
-                "disconnected": "انقطع الإتصال.",
-                "reconnecting": "تتم إعادة الإتصال…"
-            },
-            "friends": {
-                "blocked": "محظور",
-                "from": {
-                    "single": "من {{user}}",
-                    "multiple": "من {{userlist}} و {{user}}",
-                    "several": "من {{userlist}} و {{count}} آخرين…"
-                },
-                "incoming": "طلب صداقة وارد.",
-                "pending": "الطلبات قيد الانتظار",
-                "outgoing": "طلب صداقة مرسل.",
-                "nobody": "لا أحد هنا بعد!",
-                "sent": "مُرسَل"
-            },
-            "copy_username": "اضغط لنسخ اسم المستخدم",
-            "copy": "اضغط للنسخ",
-            "modals": {
-                "actions": {
-                    "update": "حدّث",
-                    "delete": "احذف",
-                    "send_email": "أرسل بريد إلكتروني",
-                    "remove": "أزل",
-                    "leave": "غادر",
-                    "reload": "أعد تحميل التطبيق",
-                    "back": "تراجع",
-                    "ok": "تأكيد",
-                    "kick": "أطرد",
-                    "block": "اُحظر",
-                    "reveal": "أظهر",
-                    "cancel": "ألغ",
-                    "continue": "استمرار",
-                    "ban": "أُحظر",
-                    "save": "احفظ",
-                    "hide": "أخف",
-                    "close": "أغلق",
-                    "create": "أنشئ",
-                    "preview": "استعراض",
-                    "edit": "عدّل",
-                    "reset": "إعادة التعيين",
-                    "done": "تم إنجازه",
-                    "confirm": "تأكيد",
-                    "report": "بلّغ",
-                    "dont_block": "لا تحظر"
-                },
-                "prompt": {
-                    "confirm_leave": "هل تريد مغادرة {{name}}؟",
-                    "block_user": "أتريد حظر {{name}}؟",
-                    "confirm_kick": "هل أنت متأكد أنك تريد طرد {{name}}؟",
-                    "confirm_ban": "أنت على وشك أن تحظر {{name}}",
-                    "confirm_ban_reason": "سبب الحظر",
-                    "confirm_leave_long": "لن تتمكن من الانضمام مجدداً ما لم تتم دعوتك مرة أُخرى.",
-                    "confirm_close_dm": "إغلاق المحادثة مع {{name}}؟",
-                    "confirm_delete": "حذف {{name}}؟",
-                    "confirm_delete_message_long": "هل أنت متأكد من حذف هذا؟",
-                    "unfriend_user_long": "لن تتمكن من محادثتهم مجدداً إلا إذا أعدت إضافتهم.",
-                    "block_user_long": "هل أنت متأكد انك تريد حظر {{name}}؟ سيتم إزالتهم من قائمة أصدقائك أيضاً.",
-                    "unfriend_user": "إلغاء صداقة {{name}}؟",
-                    "create_invite_generate": "جار انشاء دعوة…",
-                    "confirm_delete_long": "لا يمكن التراجع عن الحذف.",
-                    "create_invite_created": "ها هو رمز الدعوة الجديد الخاص بك:",
-                    "confirm_close_dm_long": "يمكنك فتحها لاحقاً ولكنها ستختفي من كِلا الطرفين.",
-                    "silent_leave": "غادر بدون إشعار",
-                    "members_not_notified": "لن يتم إعلام الأعضاء الآخرين"
-                },
-                "signed_out": "لقد تم تسجيل خروجك!",
-                "onboarding": {
-                    "welcome": "مرحباً بك في",
-                    "pick": "اختر اسم مستخدم ليتمكن الآخرون من العثور عليك بواسطته، يمكنك تغييره لاحقاً في الإعدادات."
-                },
-                "account": {
-                    "change": {
-                        "password": "تغيير كلمة السر الخاصة بك",
-                        "username": "تغيير اسم المستخدم",
-                        "email": "تغيير البريد الالكتروني"
-                    },
-                    "failed": "فشل التغيير!"
-                },
-                "clipboard": {
-                    "copy": "نسخ يدوي:",
-                    "unavailable": "حافظة النسخ غير متوفرة!",
-                    "https": "لست في سياق الHTTPS."
-                },
-                "error": "حدث خطأ ما!",
-                "external_links": {
-                    "title": "الروابط الخارجية قد تكون خطيرة!",
-                    "trust_domain": "ثِق في اسم النطاق هذا",
-                    "short": "هل أنت متأكد أنك تريد الذهاب إلى:"
-                },
-                "token_reveal": "رمز {{name}} السرّي",
-                "sessions": {
-                    "accept": "حذف جميع الجلسات",
-                    "short": "لا يمكنك التراجع عن هذا الفعل.",
-                    "title": "هل أنت متأكد أنك تريد أن تزيل جميع جلساتك؟"
-                },
-                "confirm": "تأكيد الأمر",
-                "mfa": {
-                    "recovery_codes": "رموز الإسترجاع الخاصة بك",
-                    "save_codes": "الرجاء حفظ هذه الرموز في مكان آمن.",
-                    "confirm": "يرجى التأكيد بإستخدام الطريقة المختارة.",
-                    "select_method": "يرجى إختيار طريقة لمصادقة طلبك.",
-                    "enable_totp": "تفعيل تطبيق المصادقة الثنائية",
-                    "prompt_totp": "يرجى استعمال الكاميرا لتصوير الشكل أو استخدام الرمز أدناه في تطبيق المصادقة الذي تستخدمه.",
-                    "enter_code": "ادخل الرمز"
-                },
-                "changelogs": {
-                    "title": "التغييرات",
-                    "description": "إقرا عن تحديثات Kimani.",
-                    "older": "إعرض التحديثات السابقة"
-                },
-                "out_of_date": {
-                    "title": "تطبيقك إصداره قديم!",
-                    "description": "يجب تحديثه لكي يعمل مع التغييرات الجديدة.",
-                    "version": "تطبيقك إصداره {{client}}, والسيرفر يتطلب {{server}}.",
-                    "ignore": "تجاهل التحديث",
-                    "attempting": "جار محاولة التحديث…"
-                },
-                "report": {
-                    "message": "الإبلاغ عن رسالة",
-                    "by_name": "الإبلاغ عن {{name}}",
-                    "no_reason": "لا يوجد سبب محدد / سبب آخر",
-                    "reason": "السبب",
-                    "additional_context": "معلومات إضافية",
-                    "content_reason": {
-                        "SpamAbuse": "هذه هي رسائل مزعجة أو إساءة استخدام النظام الأساسي",
-                        "Malware": "هذه برامج ضارة",
-                        "Illegal": "يخالف المحتوى قانونًا واحدًا أو أكثر",
-                        "PromotesHarm": "المحتوى يحرض على إيذاء الآخرين أو النفس",
-                        "Harassment": "هذه هي المضايقة أو الإساءة التي تستهدف مستخدم آخر"
-                    },
-                    "user_reason": {
-                        "InappropriateProfile": "الملف الشخصي للمستخدم غير مناسب للجمهور العام",
-                        "Impersonation": "هذا المستخدم ينتحل شخص آخر",
-                        "SpamAbuse": "يرسل المستخدم رسائل مزعجة أو يسيء استخدام النظام الأساسي",
-                        "BanEvasion": "هذا المستخدم يتهرب من الحظر",
-                        "Underage": "هذا المستخدم ليس كبيرًا بما يكفي ليكون لديه حساب"
-                    },
-                    "block_user": "هل تريد حظر هذا المستخدم؟",
-                    "reported": "تم الإبلاغ",
-                    "thank_you": "شكرا للمساعدة في الحفاظ على أمان Kimani. سنراجع تقريرك في أقرب وقت ممكن."
-                },
-                "edit_keybind": {
-                    "title": "تعديل رابط المفتاح ل{{action}}",
-                    "placeholder": "اضغط علي المفاتيح لتسجل"
-                }
-            },
-            "server-badges": {
-                "official": "سيرفر رسمي",
-                "verified": "سيرفر مؤكد"
-            }
-        },
-        "permissions": {
-            "required": "الصلاحيات المطلوبة"
-        },
-        "home": {
-            "goto-testers": "الذهاب لسيرفر المختبرين",
-            "donate": "تبرع لKimani",
-            "feedback": "أرسل إلينا آرائك عن Kimani",
-            "settings": "افتح الإعدادات",
-            "settings-tooltip": "يمكنك أيضًا النقر بالزر الأيمن للفأرة فوق صورة المستخدم الموجودة في الجزء العلوي الأيسر، أو النقر بزر الفأرة الأيسر إذا كنت في الصفحة الرئيسية.",
-            "social": "ابحث عن خوادم وبوت",
-            "join-testers": "انضم لسيرفر المختبرين",
-            "join-testers_desc": "يمكنك الإبلاغ عن أية مشاكل ومناقشة التحسينات معنا مباشرةً هنا.",
-            "goto-testers_desc": "يمكنك الإبلاغ عن أية مشاكل ومناقشة التحسينات معنا مباشرةً هنا.",
-            "donate_desc": "ادعم المشروع بالتبرع - شكرًا لك!",
-            "feedback_desc": "أخبرنا كيف يمكننا تحسين تطبيقنا من خلال تزويدنا بالتعليقات.",
-            "discover": "استكشف Kimani",
-            "discover_desc": "ابحث عن مجتمع يحوي هواياتك أو اهتماماتك.",
-            "group": "أنشئ مجموعة",
-            "group_desc": "قم بدعوة جميع أصدقائك، وبعض البوتات الرائعة، وأقم حفلة كبيرة.",
-            "directs": "الرسائل الخاصة"
-        }
-    },
-    "error": {
-        "Blocked": "قمت بحظر هذا المستخدم.",
-        "BlockedOther": "لقد قام هذا المستخدم بحظرك.",
-        "InvalidEmail": "البريد الإكتروني غير صالح",
-        "FileTooLarge": "الملف كبير جداً.",
-        "TooShort": "قصير للغاية",
-        "TooLong": "طويل للغاية",
-        "FailedToReceive": "فشل الخادم في استقبال ملفك.",
-        "RequiredField": "مطلوب",
-        "Unavailable": "غير متاح.",
-        "NoEffect": "هذا الطلب لم يكن له أي تأثير.",
-        "NetworkError": "خطأ في الشبكة.",
-        "UnknownUser": "مستخدم مجهول.",
-        "UsernameTaken": "اسم المستخدم مأخوذ.",
-        "AlreadyFriends": "أنت بالفعل صديق مع هذا المستخدم.",
-        "OperationFailed": "فشلت العملية.",
-        "InternalError": "خطأ داخلي.",
-        "Unauthorized": "غير مصرّح.",
-        "FailedValidation": "فشل التحقق من صحة المعلومات الموفرة.",
-        "DatabaseError": "خطأ في قاعدة البيانات.",
-        "MissingPermission": "صلاحيات غير مُكتَمِلة.",
-        "UnknownError": "راجع الConsole.",
-        "InvalidSession": "جلسة غير صالحة.",
-        "UnverifiedAccount": "حساب غير مُؤكَّد.",
-        "InvalidCredentials": "البريد الإلكتروني أو كلمة السر خاطئة.",
-        "InvalidToken": "رمز سري غير صالح",
-        "InvalidInvite": "رمز دعوة غير صالح",
-        "ProbeError": "فشل الحصول على البيانات الوصفية للملف.",
-        "UnsupportedBrowser": "المتصفح يفتقد دعم لهذه الميزة.",
-        "Unlabelled": "حدث خطأ ما.",
-        "EmailInUse": "البريد الإلكتروني قيد الاستخد‏ام.",
-        "EmailFailed": "فشل إرسال البريد الإلكتروني.",
-        "AlreadySentRequest": "لقد أرسلت طلباً إلى هذا الشخص مُسبقاً.",
-        "IoError": "واجه الخادم خطأ في الإدخال / الإخراج (I/O).",
-        "DeniedNotification": "لقد قمت بمنع وصول الاشعارات. تحقق من صفحة الإعدادات.",
-        "MissingHeaders": "الترويسة مفقودة.",
-        "CompromisedPassword": "كلمة السر هذه قد تم اختراقها سابقاً.",
-        "MissingInvite": "رمز الدعوة مفقود في الطلب.",
-        "MissingData": "يفتَقِد الطلب بعض البيانات.",
-        "RenderFail": "فشل عرض القالب.",
-        "AlreadyOnboarded": "قد تم إكمال التسجيل سابقًا.",
-        "ReachedMaximumBots": "وصلت للحد الأقصى من عدد البوتّات.",
-        "AudioPermissionBlock": "لا يمكن الوصول إلى الميكروفون الخاص بك. يرجى التحقق من إعدادات المتصفح.",
-        "DiscriminatorChangeRatelimited": "تغييرات عديدة لتغيير شعار الاسم."
-    },
-    "permissions": {
-        "ManageChannels": {
-            "t": "إدارة القنوات",
-            "d": "السماح للأعضاء بإنشاء، تعديل، أو حذف القنوات."
-        },
-        "ChangeNickname": {
-            "d": "السماح للأعضاء بتغيير ألقابهم في هذا السيرفر.",
-            "t": "تغيير اللقب"
-        },
-        "ManageNicknames": {
-            "t": "إدارة الألقاب",
-            "d": "السماح للأعضاء بتغيير ألقاب الأعضاء الآخرين."
-        },
-        "KickMembers": {
-            "d": "السماح للأعضاء بإزالة أعضاء آخرين من هذا السيرفر. يمكن للأعضاء المطرودين أن ينضموا من خلال دعوة مرة اخرى.",
-            "t": "طرد الأعضاء"
-        },
-        "ManageServer": {
-            "d": "السماح للأعضاء بتغيير اسم السيرفر، وصفه، صورته، و بعض الامور الاخرى المتعلقة به.",
-            "t": "إدارة السيرفر"
-        },
-        "ChangeAvatar": {
-            "t": "تغيير الصورة الرمزية",
-            "d": "السماح للأعضاء بتغيير صورهم الرمزية في هذا السيرفر."
-        },
-        "RemoveAvatars": {
-            "t": "إزالة الصور الرمزية",
-            "d": "السماح للأعضاء بإزالة الصور الرمزية الخاصة بأعضاء آخرين في هذا السيرفر."
-        },
-        "BanMembers": {
-            "t": "حظر الأعضاء",
-            "d": "السماح للأعضاء بإزالة أعضاء آخرين من السيرفر بشكل نهائي."
-        },
-        "ManageChannel": {
-            "d": "السماح للأعضاء بتعديل و حذف القنوات.",
-            "t": "إدارة القنوات"
-        },
-        "UploadFiles": {
-            "d": "السماح للأعضاء برفع ملفات في القنوات النَّصيّة.",
-            "t": "رفع الملفات"
-        },
-        "ManageMessages": {
-            "d": "السماح للأعضاء بحذف الرسائل المُرسَلة بواسطة أعضاء آخرين.",
-            "t": "إدارة الرسائل"
-        },
-        "SendMessage": {
-            "d": "السماح للأعضاء بالإرسال في القنوات الكتابية.",
-            "t": "إرسال الرسائل"
-        },
-        "VoiceCall": {
-            "t": "مكالمة صوتية",
-            "d": "السماح للأعضاء بدخول القنوات الصوتية."
-        },
-        "InviteOthers": {
-            "d": "السماح للأعضاء بدعوة مستخدمين آخرين إلى قناة.",
-            "t": "دعوة الآخرين"
-        },
-        "EmbedLinks": {
-            "t": "تضمين روابط",
-            "d": "السماح للأعضاء بعرض المحتويات المضمّنة في الروابط التي ارسلوها في القنوات النصيّة."
-        },
-        "Masquerade": {
-            "d": "يسمح للأعضاء بتغيير ألقابهم وصورهم الرمزية لكل رسالة.",
-            "t": "التَّنَكُّر"
-        },
-        "ManageRole": {
-            "t": "إدارة الرتب",
-            "d": "السماح للأعضاء بإنشاء وتعديل و حذف الأدوار الأقل منزلة. أيضاً السماح لهم بتعديل صلاحيات رتب القنوات."
-        },
-        "ViewChannel": {
-            "t": "عرض القناة",
-            "d": "السماح للأعضاء بالإطلاع على أي قناة يملكون صلاحية الوصول إليها."
-        },
-        "SendEmbeds": {
-            "t": "إرسال رسائل مُضمَنة",
-            "d": "يسمح للأعضاء بإرسال رسائل مُضمَنة، سواء إن كانت روابط أو رسائل تضمين مُخَصَّصة."
-        },
-        "Speak": {
-            "t": "تحدث",
-            "d": "يسمح للأعضاء بالتَّحَدُّث في قناة صوتية."
-        },
-        "Video": {
-            "t": "فيديو",
-            "d": "يسمح للأعضاء ببث فيديو في قناة صوتية."
-        },
-        "Connect": {
-            "d": "يسمح للأعضاء بالإتصال إلى قناة صوتية.",
-            "t": "الإتصال"
-        },
-        "DeafenMembers": {
-            "t": "منع الأعضاء من الاستماع",
-            "d": "يسمح للأعضاء بمنع أعضاء اخرين من الإستماع في قناة صوتية."
-        },
-        "AssignRoles": {
-            "d": "يسمح للأعضاء بإضافة رتب ذي تصنيف أقل منهم لأعضاء آخرين.",
-            "t": "تعيين الرتب"
-        },
-        "ReadMessageHistory": {
-            "t": "قراءة سِجِل الرسائل",
-            "d": "يسمح للأعضاء بقراءة سِجِل رسائل هذه القناة."
-        },
-        "MuteMembers": {
-            "d": "يسمح للأعضاء بكتم أعضاء آخرين في قناة صوتية.",
-            "t": "كتم الأعضاء"
-        },
-        "MoveMembers": {
-            "d": "يسمح للأعضاء بتحريك أعضاء آخرين بين القنوات الصوتية.",
-            "t": "تحريك الأعضاء"
-        },
-        "ManagePermissions": {
-            "t": "إدارة الصلاحيات",
-            "d": "يسمح للأعضاء بتغيير صلاحيات القنوات أو صلاحيات الرتب ذي التصنيف الأقل منهم."
-        },
-        "TimeoutMembers": {
-            "d": "يسمح للأعضاء بمنع المستخدمين من التفاعل مع السيرفر مؤقتًا.",
-            "t": "حظر مؤقت للأعضاء"
-        },
-        "ManageWebhooks": {
-            "d": "يسمح للأعضاء بالتحكم بربط الخدمات في قناة.",
-            "t": "إدارة ربط الخدمات"
-        },
-        "ManageCustomisation": {
-            "d": "يسمح للأعضاء بإنشاء وتعديل وحذف الرموز التعبيرية.",
-            "t": "إدارة التعديلات"
-        },
-        "React": {
-            "t": "استخدم ردود الفعل",
-            "d": "يسمح للأعضاء بالرد على الرسائل بالايموجيات."
-        }
-    },
-    "shortcuts": {
-        "ctrlc": "Ctrl + C"
-    },
-    "quantities": {
-        "members": {
-            "one": "عضو واحد",
-            "many": "{{count}} أعضاء"
-        },
-        "dropFiles": {
-            "one": "ارفع ملفًا",
-            "many": "ارفع {{count}} ملفات"
-        }
-    },
-    "notifications": {
-        "now_friends": "أنت الآن صديق مع @{{person}}!",
-        "sent_request": "@{{person}} أرسل لك طلب صداقة."
-    },
-    "dayjs": {
-        "lastDay": "[أمس عند] {{time}}",
-        "defaults": {
-            "date_separator": "/",
-            "date_format": "traditional",
-            "twelvehour": "yes"
-        },
-        "lastWeek": "dddd [السابق عند] {{time}}",
-        "sameDay": "[اليوم عند] {{time}}",
-        "nextDay": "[غداً عند] {{time}}",
-        "nextWeek": "dddd [عند] {{time}}"
-    },
-    "actions": {
-        "submit": "إرسال"
-    },
-    "keys": {
-        "Escape": {
-            "short": "Esc"
-        },
-        "Insert": {
-            "short": "Ins"
-        },
-        "Backspace": {
-            "short": "Backspace"
-        },
-        "ScrollLock": {
-            "short": "ScrLK",
-            "full": "Scroll Lock"
-        },
-        "Control": {
-            "short": "Ctrl"
-        },
-        "Delete": {
-            "short": "Del"
-        },
-        "PageUp": {
-            "full": "Page Up",
-            "short": "PgUp"
-        },
-        "PageDown": {
-            "full": "Page Down",
-            "short": "PgDown"
-        },
-        "PrintScreen": {
-            "full": "Print Screen",
-            "short": "PrtSc"
-        },
-        "CapsLock": {
-            "full": "Caps Lock"
-        }
-    }
+    "general": {
+        "about": "عنا",
+        "tos": "شروط الخدمة",
+        "privacy": "سياسة الخصوصية",
+        "image_by": "الصورة بواسطة",
+        "loading": "جاري التحميل…",
+        "on": "تشغيل",
+        "off": "إيقاف",
+        "disabled": "معطل",
+        "unavailable": "غير متاح",
+        "learn_more": "تعلم المزيد"
+    },
+    "login": {
+        "title": "تسجيل الدخول",
+        "register": "تسجيل",
+        "username": "اسم المستخدم",
+        "first_name": "الاسم الأول",
+        "last_name": "اسم العائلة",
+        "phone_number": "رقم الهاتف",
+        "country": "البلد",
+        "city": "المدينة",
+        "occupation": "المهنة",
+        "tell_us_more_about_you": "أخبرنا المزيد عنك",
+        "likes_attending_to": "هل تحب حضور؟",
+        "favorite_destinations": "ما هي وجهاتك المفضلة؟",
+        "languages_spoken": "ما هي اللغات التي تتحدثها؟",
+        "passions_and_hobbies": "ما هي شغفك وهواياتك؟",
+        "linkedin": "ما هو حسابك على LinkedIn؟",
+        "x_account": "ما هو حسابك على X؟",
+        "instagram": "ما هو حسابك على Instagram؟",
+        "facebook": "ما هو حسابك على Facebook؟",
+        "email": "البريد الإلكتروني",
+        "password": "كلمة المرور",
+        "invite": "رمز الدعوة",
+        "current_password": "كلمة المرور الحالية",
+        "enter": {
+            "username": "أدخل اسم المستخدم المفضل لديك.",
+            "email": "البريد الإلكتروني",
+            "password": "كلمة المرور",
+            "confirm_password": "تأكيد كلمة المرور",
+            "terms_and_conditions_1": "أوافق على",
+            "terms_and_conditions_2": "الشروط والأحكام",
+            "pledge_1": "أوافق وأقبل",
+            "pledge_2": "تعهد كيماني",
+            "invite": "أدخل رمز الدعوة الخاص بك.",
+            "current_password": "أدخل كلمة المرور الحالية الخاصة بك.",
+            "new_password": "أدخل كلمة مرور جديدة.",
+            "first_name": "أدخل اسمك الأول.",
+            "last_name": "أدخل اسم عائلتك.",
+            "phone_number": "أدخل رقم هاتفك.",
+            "country": "أدخل بلدك.",
+            "city": "أدخل مدينتك.",
+            "occupation": "أدخل مهنتك.",
+            "tell_us_more_about_you": "أخبرنا المزيد عنك..",
+            "likes_attending_to": "أدخل ما تحب حضوره",
+            "favorite_destinations": "أدخل وجهاتك المفضلة",
+            "languages_spoken": "أدخل اللغات التي تتحدثها",
+            "passions_and_hobbies": "أدخل شغفك وهواياتك",
+            "linkedin": "أدخل عنوان URL لحساب LinkedIn الخاص بك",
+            "x_account": "أدخل عنوان URL لحساب X الخاص بك",
+            "instagram": "أدخل عنوان URL لحساب Instagram الخاص بك",
+            "facebook": "أدخل عنوان URL لحساب Facebook الخاص بك"
+        },
+        "forgot": "نسيت كلمة المرور؟",
+        "reset": "إعادة تعيينها",
+        "login_problems": "هل تواجه مشاكل في تسجيل الدخول؟ البريد الإلكتروني: support@kimanilife.com",
+        "set_password": "تعيين كلمة مرور جديدة",
+        "remembered": "العودة إلى تسجيل الدخول",
+        "new": "ليس لديك حساب؟",
+        "existing": "هل لديك حساب بالفعل؟",
+        "create": "إنشاء حساب جديد",
+        "pre_approved": "فقط رسائل البريد الإلكتروني المعتمدة مسبقًا ستتمكن من إنشاء حساب.",
+        "missing_verification": "لم تستلم رسالة بريد إلكتروني؟",
+        "resend": "إعادة إرسال التحقق",
+        "cancel": "إلغاء الطلب",
+        "check_mail": "تحقق من بريدك!",
+        "reset_sent": "لقد أرسلنا لك رابط إعادة تعيين كلمة المرور إلى بريدك الإلكتروني.",
+        "email_delay": "قد يستغرق الأمر بضع دقائق",
+        "check_spam": "لا ترى البريد الإلكتروني؟ تحقق من مجلد البريد العشوائي.",
+        "open_mail_provider": "افتح {{provider}}",
+        "successful_registration": "تم التسجيل بنجاح!",
+        "error": {
+            "create": "فشل التسجيل!",
+            "login": "فشل تسجيل الدخول!",
+            "reset": "فشل إعادة التعيين!",
+            "resend": "فشل إعادة الإرسال!",
+            "verify": "فشل التحقق!"
+        },
+        "subtitle2": "إنشاء حساب",
+        "subtitle": "تسجيل دخول عضو كيماني",
+        "reset_subtitle": "إعادة تعيين كلمة المرور",
+        "reset_send": "إرسال رابط إعادة التعيين",
+        "unofficial_instance": "مثيل تابع لجهة خارجية.",
+        "totp": "تطبيق المصادقة",
+        "recovery": "رمز الاسترداد",
+        "verifying_account": "جاري التحقق من حسابك…",
+        "verified_account": "تم التحقق من حسابك!",
+        "verified_continue": "المتابعة لتسجيل الدخول",
+        "new_password": "كلمة مرور جديدة",
+        "log_out_other": "تسجيل الخروج من جميع الجلسات الأخرى"
+    },
+    "app": {
+        "status": {
+            "online": "متصل",
+            "idle": "خامل",
+            "busy": "عدم الإزعاج",
+            "invisible": "غير مرئي",
+            "offline": "غير متصل",
+            "reconnect": "إعادة الاتصال",
+            "focus": "تركيز"
+        },
+        "navigation": {
+            "tabs": {
+                "home": "الرئيسية",
+                "dev": "المطور",
+                "friends": "الأصدقاء",
+                "unreads": "غير المقروءة",
+                "saved": "الملاحظات المحفوظة"
+            }
+        },
+        "main": {
+            "categories": {
+                "conversations": "المحادثات",
+                "participants": "المشاركون",
+                "channels": "القنوات",
+                "members": "الأعضاء"
+            },
+            "channel": {
+                "message_where": "رسالة {{channel_name}}",
+                "message_who": "رسالة {{person}}",
+                "message_saved": "حفظ في ملاحظاتك",
+                "uploading_file": "جاري الرفع…",
+                "failed_upload": "فشل التحميل!",
+                "attached_file": "مرفق {{filename}}",
+                "typing": {
+                    "single": "{{user}} يكتب…",
+                    "multiple": "{{userlist}} و {{user}} يكتبون…",
+                    "several": "عدة أشخاص يكتبون…"
+                },
+                "system": {
+                    "user_joined": "{{user}} انضم",
+                    "user_left": "{{user}} غادر",
+                    "user_kicked": "تم طرد {{user}}",
+                    "user_banned": "تم حظر {{user}}",
+                    "added_by": "تمت إضافة {{user}} بواسطة {{other_user}}",
+                    "removed_by": "تمت إزالة {{user}} بواسطة {{other_user}}",
+                    "channel_renamed": "قام {{user}} بإعادة تسمية القناة إلى {{name}}",
+                    "channel_description_changed": "قام {{user}} بتغيير وصف القناة",
+                    "channel_icon_changed": "قام {{user}} بتغيير أيقونة القناة",
+                    "channel_ownership_changed": "قام {{from}} بمنح {{to}} ملكية المجموعة",
+                    "registered_at": "مسجل في {{time}}"
+                },
+                "start": {
+                    "group": "هذه بداية محادثتك.",
+                    "saved": "هنا تبدأ ملاحظاتك."
+                },
+                "voice": {
+                    "connected": "تم الاتصال الصوتي",
+                    "leave": "مغادرة",
+                    "mute": "كتم الصوت",
+                    "unmute": "إلغاء كتم الصوت"
+                },
+                "misc": {
+                    "viewing_old": "عرض الرسائل القديمة",
+                    "jump_present": "القفز إلى الوقت الحالي",
+                    "jump_beginning": "القفز إلى البداية",
+                    "spoiler_attachment": "تنبيه (سبويلر)",
+                    "failed_load": "لم يتم تحميل الرسالة.",
+                    "no_sending": "ليس لديك إذن لإرسال رسائل في هذه القناة.",
+                    "blocked_messages": "{{count}} رسائل محظورة",
+                    "blocked_user": "المستخدم المحظور",
+                    "sent_file": "تم إرسال مرفق",
+                    "sent_multiple_files": "تم إرسال مرفقات متعددة",
+                    "new_messages": "رسائل جديدة منذ {{time_ago}}",
+                    "load_file": "تحميل ملف",
+                    "timed_out": "تم تحديد مهلة لك لمدة {{time}}.",
+                    "not_loaded": "الرسالة لم يتم تحميلها، انقر للانتقال"
+                },
+                "nsfw": {
+                    "channel": {
+                        "marked": "هذه القناة مصنفة على أنها NSFW (غير آمنة للعمل).",
+                        "confirm": "ادخل القناة"
+                    },
+                    "confirm": "أؤكد أن عمري لا يقل عن 18 عامًا."
+                },
+                "unknown_user": "<مستخدم غير معروف>",
+                "edited": "(تم التعديل)",
+                "bot": "بوت",
+                "notifications": {
+                    "default": "استخدام الافتراضي",
+                    "all": "جميع الرسائل",
+                    "mention": "الإشارات فقط",
+                    "none": "لا شيء",
+                    "muted": "صامت"
+                },
+                "search": {
+                    "title": "بحث",
+                    "sort": {
+                        "relevance": "الصلة",
+                        "latest": "الأحدث",
+                        "oldest": "الأقدم"
+                    }
+                },
+                "errors": {
+                    "title": "عفوًا، لا يوجد شيء هنا!",
+                    "nochannels": "لا يحتوي هذا الخادم على قنوات، أو ليس لديك وصول إلى أي منها.",
+                    "nochannel": "لا توجد قناة"
+                },
+                "reply": {
+                    "replying": "الرد على",
+                    "toggle": "تبديل تنبيه المؤلف"
+                },
+                "bridge": "جسر",
+                "user_timed_out": "لقد تم تحديد مهلة لك لمدة {{time}}.",
+                "bridged": "تم إرسال الرسالة على منصة أخرى",
+                "team": "التواصل الرسمي",
+                "new_to_revolt": "جديد على Kimani Life",
+                "new_to_server": "جديد على هذا الخادم",
+                "reactions": {
+                    "others_reacted": "قام {{userlist}} و {{count}} آخرون بالتفاعل",
+                    "unknown_reacted": "قام {{count}} أشخاص بالتفاعل",
+                    "single_reacted": "تفاعل شخص واحد",
+                    "people_reacted": "تفاعل {{people}}"
+                }
+            },
+            "groups": {
+                "create": "إنشاء مجموعة",
+                "name": "اسم المجموعة",
+                "description": "وصف المجموعة",
+                "owner": "مالك المجموعة"
+            },
+            "servers": {
+                "create": "إنشاء خادم",
+                "name": "اسم الخادم",
+                "description": "وصف الخادم",
+                "channel_name": "اسم القناة",
+                "channel_type": "نوع القناة",
+                "channel_description": "وصف القناة",
+                "custom_banner": "لافتة مخصصة",
+                "owner": "مالك الخادم",
+                "text_channel": "قناة نصية",
+                "voice_channel": "قناة صوتية",
+                "category_name": "اسم الفئة"
+            }
+        },
+        "settings": {
+            "title": "الإعدادات",
+            "categories": {
+                "user_settings": "إعدادات المستخدم",
+                "client_settings": "إعدادات العميل",
+                "danger_zone": "منطقة الخطر"
+            },
+            "actions": {
+                "remove": "إزالة",
+                "upload": "رفع",
+                "max_filesize": "(الحد الأقصى لحجم الملف {{filesize}})",
+                "edit": "تعديل {{name}}"
+            },
+            "pages": {
+                "account": {
+                    "title": "حسابي",
+                    "change_field": "تغيير",
+                    "unique_id": "هذا معرف مستخدم فريد لحسابك.",
+                    "2fa": {
+                        "title": "المصادقة الثنائية",
+                        "description": "أضف طبقة إضافية من الأمان عن طريق تمكين المصادقة الثنائية على حسابك.",
+                        "add_auth": "إضافة مصادق",
+                        "remove_auth": "إزالة المصادق",
+                        "two_factor_off": "لم تقم بتمكين المصادقة الثنائية!",
+                        "view_recovery": "عرض رموز الاسترداد",
+                        "view_recovery_long": "عرض وتنزيل رموز استرداد المصادقة الثنائية الخاصة بك.",
+                        "generate_recovery": "إنشاء رموز احتياطية",
+                        "generate_recovery_long": "استعد لاستخدام المصادقة الثنائية عن طريق إعداد طريقة احتياطية.",
+                        "two_factor_on": "المصادقة الثنائية قيد التشغيل حاليًا."
+                    },
+                    "manage": {
+                        "title": "إدارة الحساب",
+                        "description": "تعطيل أو حذف حسابك في أي وقت. سيؤدي هذا الإجراء إلى تسجيل خروجك وحذف حسابك بالكامل، بما في ذلك سجل الدردشة والأصدقاء.",
+                        "disable": "تعطيل الحساب",
+                        "delete": "حذف الحساب"
+                    }
+                },
+                "profile": {
+                    "title": "الملف الشخصي",
+                    "info": "معلومات",
+                    "fetching": "جاري جلب ملفك الشخصي…",
+                    "placeholder": "اكتب شيئًا عن نفسك…",
+                    "profile_picture": "صورة الملف الشخصي",
+                    "custom_background": "خلفية مخصصة",
+                    "edit_background": "تعديل الخلفية",
+                    "edit_profile": "تعديل الملف الشخصي"
+                },
+                "sessions": {
+                    "title": "الجلسات",
+                    "active_sessions": "الجلسات النشطة",
+                    "this_device": "هذا الجهاز",
+                    "created": "تم الإنشاء {{time_ago}}",
+                    "logout": "تسجيل الخروج من جميع الجلسات الأخرى"
+                },
+                "invite": {
+                    "title": "دعوة",
+                    "description": "ادعُ الأصدقاء إلى Kimani Life"
+                },
+                "audio": {
+                    "title": "إعدادات الصوت",
+                    "input_device": "الميكروفون",
+                    "output_device": "مكبر الصوت / سماعات الرأس",
+                    "tip_retry": "لم تمنح إذن الوصول إلى الميكروفون الخاص بك، يرجى {{retryBtn}}.",
+                    "device_label_NA": "غير متاح",
+                    "button_retry": "إعادة المحاولة",
+                    "tip_grant_permission": "تحتاج إلى منح إذن للوصول إلى إعدادات الصوت.",
+                    "button_grant": "منح الإذن"
+                },
+                "appearance": {
+                    "title": "المظهر",
+                    "theme": "السمة",
+                    "display": {
+                        "default": "افتراضي",
+                        "compact": "مضغوط",
+                        "default_description": "جميل، أنيق وعصري.",
+                        "compact_description": "IRC القديم الجيد."
+                    },
+                    "color": {
+                        "light": "فاتح",
+                        "dark": "داكن"
+                    },
+                    "accent_selector": "لون التمييز",
+                    "emoji_pack": "حزمة الرموز التعبيرية",
+                    "message_display": "عرض الرسالة",
+                    "advanced": "خيارات متقدمة",
+                    "overrides": "تجاوزات السمة",
+                    "reset_overrides": "إعادة تعيين التجاوزات",
+                    "import": "استيراد سمة",
+                    "import_theme": "استيراد سمة من سلسلة نصية",
+                    "theme_data": "بيانات السمة",
+                    "custom_css": "CSS مخصص",
+                    "sync": "خيارات المزامنة",
+                    "font": "الخط",
+                    "mono_font": "محدد الخط أحادي المسافة",
+                    "ligatures": "روابط الخطوط",
+                    "ligatures_desc": "بالنسبة للخطوط المدعومة، تجمع الروابط الأحرف معًا - على سبيل المثال، تحول -> إلى سهم.",
+                    "theme_options": {
+                        "title": "خيارات السمة",
+                        "follow_desc": "عند تحديده، لن تتمكن من تغيير سمتك أو استخدام سمة مخصصة.",
+                        "seasonal": "السمة الموسمية",
+                        "follow": "اتبع سمة النظام",
+                        "transparency": "تأثيرات الشفافية",
+                        "transparency_desc": "تمكين تأثيرات الشفافية (مثل الزجاج المصنفر) في جميع أنحاء التطبيق.",
+                        "seasonal_desc": "يعرض التأثيرات في علامة التبويب الرئيسية خلال مواسم الأعياد."
+                    },
+                    "discover": {
+                        "title": "اكتشف السمات",
+                        "description": "تصفح السمات التي أنشأها المجتمع"
+                    },
+                    "appearance_options": {
+                        "title": "خيارات المظهر",
+                        "show_send": "إظهار زر إرسال الرسالة دائمًا",
+                        "show_send_desc": "إذا تم تعطيله، سيظهر زر إرسال الرسالة فقط على الهاتف المحمول.",
+                        "show_account_age": "إظهار عمر الحساب دائمًا بجانب رسائل الانضمام",
+                        "show_account_age_desc": "إذا تم تعطيله، سيتم عرض عمر الحساب فقط للمستخدمين الجدد."
+                    },
+                    "colours": {
+                        "title": "الألوان"
+                    },
+                    "emoji": {
+                        "title": "الرموز التعبيرية"
+                    },
+                    "fonts": {
+                        "title": "الخطوط"
+                    },
+                    "advanced_options": {
+                        "title": "خيارات متقدمة"
+                    }
+                },
+                "notifications": {
+                    "title": "الإشعارات",
+                    "push_notifications": "إشعارات الدفع",
+                    "enable_desktop": "تمكين إشعارات سطح المكتب",
+                    "enable_push": "تمكين إشعارات الدفع",
+                    "sounds": "الأصوات",
+                    "descriptions": {
+                        "enable_desktop": "سيؤدي هذا إلى إرسال إشعارات إليك أثناء فتح تطبيقك.",
+                        "enable_push": "تمكين لتلقي الإشعارات عندما تكون غير متصل."
+                    },
+                    "sound": {
+                        "message": "رسالة مستلمة",
+                        "outbound": "رسالة مرسلة",
+                        "call_join": "انضم المستخدم إلى المكالمة",
+                        "call_leave": "غادر المستخدم المكالمة"
+                    }
+                },
+                "language": {
+                    "title": "اللغة",
+                    "select": "اختر لغتك",
+                    "const": "اللغات المُنشأة",
+                    "other": "خيارات لغة أخرى"
+                },
+                "sync": {
+                    "title": "مزامنة",
+                    "categories": "فئات المزامنة",
+                    "descriptions": {
+                        "appearance": "سيقوم هذا بمزامنة خيارات مثل حزم الرموز التعبيرية وكثافة الرسائل.",
+                        "theme": "سيقوم هذا بمزامنة السمة المختارة والألوان وأي CSS مخصص.",
+                        "locale": "سيقوم هذا بمزامنة لغتك المختارة حاليًا."
+                    },
+                    "options": "خيارات المزامنة"
+                },
+                "native": {
+                    "title": "إعدادات سطح المكتب"
+                },
+                "experiments": {
+                    "title": "التجارب",
+                    "features": "الميزات المتاحة",
+                    "not_available": "لا توجد تجارب متاحة في هذا الوقت."
+                },
+                "donate": {
+                    "title": "تبرع"
+                },
+                "source_code": "الكود المصدري",
+                "bots": {
+                    "title": "الروبوتات الخاصة بي",
+                    "create_bot": "إنشاء روبوت",
+                    "copy_invite": "نسخ رابط الدعوة",
+                    "add": "إضافة روبوت",
+                    "token": "الرمز",
+                    "public_bot_tip": "الروبوت عام. يمكن لأي شخص دعوته.",
+                    "private_bot_tip": "الروبوت خاص. يمكنك فقط دعوته.",
+                    "public_bot": "روبوت عام",
+                    "public_bot_desc": "ما إذا كان سيسمح للمستخدمين الآخرين بدعوة هذا الروبوت.",
+                    "interactions_url": "عنوان URL للتفاعلات",
+                    "reserved": "ملاحظة: هذا الحقل محجوز للمستقبل.",
+                    "unique_id": "هذا معرف فريد لروبوتك. هذا ليس رمز الروبوت.",
+                    "profile": "ملف تعريف الروبوت"
+                },
+                "feedback": {
+                    "title": "ملاحظات",
+                    "suggest": "إرسال اقتراح ميزة",
+                    "suggest_desc": "اقتراح ميزات Kimani Life جديدة في مناقشات GitHub.",
+                    "issue": "إنشاء مشكلة جديدة",
+                    "issue_desc": "لمساعدتنا في العثور على المشكلات وتقييمها بسهولة أكبر، يمكنك إنشاء مشكلة على GitHub.",
+                    "bug": "متتبع الأخطاء",
+                    "bug_desc": "عرض تقارير الأخطاء النشطة حاليًا هنا.",
+                    "description": "إرسال ملاحظات"
+                },
+                "logOut": "تسجيل الخروج",
+                "theme_shop": {
+                    "title": "متجر السمات",
+                    "category": {
+                        "highest": "الأعلى تقييمًا",
+                        "viewall": "عرض الكل",
+                        "manage": "إدارة المحفوظات",
+                        "new": "جديد هذا الأسبوع",
+                        "default": "السمات الافتراضية",
+                        "saved": "محفوظ"
+                },
+                    "active": "نشط حاليا",
+                    "description": "تصفح مئات السمات، التي أنشأها ونظمها المجتمع.",
+                    "search": "البحث عن السمات…",
+                    "use": "استخدام السمة",
+                    "by": "بواسطة"
+                },
+                "plugins": {
+                    "title": "الإضافات",
+                    "delete_plugin": "حذف",
+                    "wip": "تحذير: هذه الميزة لا تزال قيد التطوير.",
+                    "no_plugins": "لا توجد إضافات مثبتة حاليًا."
+                }
+            },
+            "channel_pages": {
+                "overview": {
+                    "title": "نظرة عامة",
+                    "name": "اسم القناة",
+                    "description": "وصف القناة"
+                },
+                "permissions": {
+                    "title": "الأذونات"
+                },
+                "webhooks": {
+                    "title": "خطافات الويب"
+                }
+            },
+            "server_pages": {
+                "overview": {
+                    "title": "نظرة عامة",
+                    "name": "اسم الخادم",
+                    "description": "وصف القناة",
+                    "system_messages": "قنوات رسائل النظام"
+                },
+                "members": {
+                    "title": "الأعضاء"
+                },
+                "invites": {
+                    "title": "الدعوات",
+                    "code": "رمز الدعوة",
+                    "invitor": "الداعي",
+                    "channel": "القناة",
+                    "revoke": "إلغاء"
+                },
+                "bans": {
+                    "title": "الحظر",
+                    "user": "المستخدم",
+                    "reason": "سبب الحظر",
+                    "revoke": "إلغاء",
+                    "no_reason": "لا يوجد سبب للحظر."
+                },
+                "roles": {
+                    "title": "الأدوار"
+                },
+                "categories": {
+                    "title": "الفئات"
+                },
+                "management": {
+                    "title": "إدارة المستخدم"
+                },
+                "customisation": {
+                    "title": "التخصيص"
+                },
+                "emojis": {
+                    "title": "الرموز التعبيرية",
+                    "upload": "رفع رمز تعبيري"
+                }
+            },
+            "tips": {
+                "account": {
+                    "a": "هل تبحث عن تخصيص ملفك الشخصي العام؟",
+                    "b": "توجه إلى إعدادات ملفك الشخصي."
+                },
+                "languages": {
+                    "a": "هل ينقصك لغة تريدها؟",
+                    "b": "ساهم في المزيد من الترجمات."
+                },
+                "sessions": {
+                    "a": "إذا رأيت جلسة غير معروفة في القائمة،",
+                    "b": "قم بتأمين حسابك عن طريق تغيير كلمة المرور واستخدام المصادقة الثنائية."
+                }
+            },
+            "permissions": {
+                "default_role": "افتراضي",
+                "server": "أذونات الخادم",
+                "channel": "أذونات القناة",
+                "create_role": "إنشاء دور جديد",
+                "role_name": "اسم الدور",
+                "delete_role": "حذف الدور",
+                "hoist_role": "رفع الدور",
+                "hoist_desc": "عرض هذا الدور فوق الأدوار الأخرى.",
+                "title": "أذونات لـ {{role}}",
+                "edit_title": "تعديل الأذونات",
+                "role_colour": "لون الدور",
+                "role_options": "خيارات الدور",
+                "role_ranking": "ترتيب الدور"
+            }
+        },
+        "special": {
+            "copy_username": "انقر لنسخ اسم المستخدم",
+            "copy": "انقر للنسخ",
+            "friends": {
+                "pending": "الطلبات المعلقة",
+                "sent": "المرسلة",
+                "blocked": "المحظورة",
+                "incoming": "طلب صداقة وارد.",
+                "outgoing": "طلب صداقة صادر.",
+                "nobody": "لا أحد هنا بعد!",
+                "from": {
+                    "single": "من {{user}}",
+                    "multiple": "من {{userlist}} و {{user}}",
+                    "several": "من {{userlist}} و {{count}} آخرين…"
+                }
+            },
+            "status": {
+                "offline": "غير متصل.",
+                "disconnected": "غير متصل.",
+                "connecting": "جاري الاتصال…",
+                "reconnecting": "جاري إعادة الاتصال…"
+            },
+            "modals": {
+                "error": "حدث خطأ!",
+                "clipboard": {
+                    "unavailable": "الحافظة غير متاحة!",
+                    "https": "أنت لست حاليًا في سياق HTTPS.",
+                    "copy": "نسخ يدوي:"
+                },
+                "signed_out": "تم تسجيل خروجك!",
+                "token_reveal": "رمز {{name}}",
+                "onboarding": {
+                    "welcome": "",
+                    "pick": "اختر اسم مستخدم تريد أن يتمكن الأشخاص من العثور عليك من خلاله، يمكن تغيير ذلك لاحقًا في الإعدادات."
+                },
+                "prompt": {
+                    "confirm_leave": "هل تريد مغادرة {{name}}؟",
+                    "confirm_leave_long": "لن تتمكن من الانضمام مرة أخرى إلا إذا تمت دعوتك مرة أخرى.",
+                    "confirm_close_dm": "هل تريد إغلاق المحادثة مع {{name}}؟",
+                    "confirm_close_dm_long": "يمكنك إعادة فتحها لاحقًا ولكنها ستختفي من كلا الجانبين.",
+                    "confirm_delete": "هل تريد حذف {{name}}؟",
+                    "confirm_delete_long": "بمجرد حذفها، لا يمكن التراجع.",
+                    "confirm_delete_message_long": "هل أنت متأكد أنك تريد حذف هذا؟",
+                    "create_invite_generate": "جاري إنشاء الدعوة…",
+                    "create_invite_created": "هذا هو رمز الدعوة الجديد الخاص بك:",
+                    "confirm_kick": "هل أنت متأكد أنك تريد طرد {{name}}؟",
+                    "confirm_ban": "أنت على وشك حظر {{name}}",
+                    "confirm_ban_reason": "سبب الحظر",
+                    "unfriend_user": "إلغاء صداقة {{name}}؟",
+                    "unfriend_user_long": "قد لا تتمكن من التحدث معهم مرة أخرى حتى تضيفهم مرة أخرى.",
+                    "block_user": "هل تريد حظر {{name}}؟",
+                    "block_user_long": "هل أنت متأكد أنك تريد حظر {{name}}؟ سيتم إزالته أيضًا من قائمة أصدقائك.",
+                    "silent_leave": "مغادرة بصمت",
+                    "members_not_notified": "لن يتم إخطار الأعضاء الآخرين"
+                },
+                "account": {
+                    "change": {
+                        "username": "تغيير اسم المستخدم الخاص بك",
+                        "email": "تغيير بريدك الإلكتروني",
+                        "password": "تغيير كلمة المرور الخاصة بك"
+                    },
+                    "failed": "فشل التغيير!"
+                },
+                "external_links": {
+                    "title": "الروابط الخارجية قد تكون خطيرة!",
+                    "short": "هل أنت متأكد أنك تريد الذهاب إلى:",
+                    "trust_domain": "ثق بهذا النطاق"
+                },
+                "actions": {
+                    "ok": "موافق",
+                    "ban": "حظر",
+                    "kick": "طرد",
+                    "save": "حفظ",
+                    "hide": "إخفاء",
+                    "edit": "تعديل",
+                    "block": "حظر",
+                    "close": "إغلاق",
+                    "leave": "مغادرة",
+                    "back": "عودة",
+                    "remove": "إزالة",
+                    "delete": "حذف",
+                    "create": "إنشاء",
+                    "reveal": "كشف",
+                    "update": "تحديث",
+                    "cancel": "إلغاء",
+                    "preview": "معاينة",
+                    "reload": "إعادة تحميل التطبيق",
+                    "continue": "متابعة",
+                    "send_email": "إرسال بريد إلكتروني",
+                    "confirm": "تأكيد",
+                    "done": "تم",
+                    "reset": "إعادة تعيين",
+                    "report": "إبلاغ",
+                    "dont_block": "عدم الحظر"
+                },
+                "sessions": {
+                    "short": "لا يمكنك التراجع عن هذا الإجراء.",
+                    "accept": "إزالة جميع الجلسات",
+                    "title": "هل أنت متأكد أنك تريد مسح جلساتك؟"
+                },
+                "changelogs": {
+                    "description": "اقرأ عن تحديثات Kimani Life.",
+                    "older": "عرض التحديثات الأقدم",
+                    "title": "سجلات التغيير"
+                },
+                "confirm": "تأكيد الإجراء",
+                "mfa": {
+                    "recovery_codes": "رموز الاسترداد الخاصة بك",
+                    "save_codes": "الرجاء حفظ هذه الرموز في مكان آمن.",
+                    "confirm": "الرجاء التأكيد باستخدام طريقة مختارة.",
+                    "select_method": "الرجاء تحديد طريقة لمصادقة طلبك.",
+                    "enable_totp": "تمكين تطبيق المصادقة",
+                    "prompt_totp": "الرجاء مسح الرمز أو استخدام الرمز أدناه في تطبيق المصادقة الخاص بك.",
+                    "enter_code": "أدخل الرمز"
+                },
+                "out_of_date": {
+                    "title": "عميلك قديم!",
+                    "description": "يجب تحديثه ليعمل مع التغييرات الأخيرة.",
+                    "version": "عميلك هو الإصدار {{client}}، بينما يتطلب الخادم الإصدار {{server}}.",
+                    "ignore": "تجاهل التحديث",
+                    "attempting": "جاري محاولة التحديث…"
+                },
+                "report": {
+                    "no_reason": "لم يتم تحديد سبب / سبب آخر",
+                    "message": "الإبلاغ عن رسالة",
+                    "by_name": "الإبلاغ عن {{name}}",
+                    "reason": "السبب",
+                    "additional_context": "معلومات إضافية",
+                    "content_reason": {
+                        "Illegal": "المحتوى يخالف قانونًا واحدًا أو أكثر",
+                        "SpamAbuse": "هذا بريد عشوائي أو إساءة استخدام للمنصة",
+                        "PromotesHarm": "المحتوى يروج للأذى للآخرين أو للنفس",
+                        "Malware": "هذا برنامج ضار",
+                        "Harassment": "هذا مضايقة أو إساءة موجهة لمستخدم آخر"
+                    },
+                    "user_reason": {
+                        "SpamAbuse": "المستخدم يرسل بريدًا عشوائيًا أو يسيء استخدام المنصة",
+                        "InappropriateProfile": "ملف تعريف المستخدم غير مناسب للجمهور العام",
+                        "Impersonation": "هذا المستخدم ينتحل شخصية أخرى",
+                        "BanEvasion": "هذا المستخدم يتحايل على الحظر",
+                        "Underage": "هذا المستخدم ليس كبيرًا بما يكفي لامتلاك حساب"
+                    },
+                    "reported": "تم الإبلاغ",
+                    "thank_you": "شكرًا لك على المساعدة في الحفاظ على أمان Kimani Life. سنراجع بلاغك في أقرب وقت ممكن.",
+                    "block_user": "هل ترغب في حظر هذا المستخدم؟"
+                }
+            },
+            "popovers": {
+                "user_profile": {
+                    "profile": "الملف الشخصي",
+                    "mutual_friends": "الأصدقاء المشتركون",
+                    "mutual_groups": "المجموعات المشتركة",
+                    "mutual_servers": "الخوادم المشتركة",
+                    "empty": "إنه فارغ قليلاً هنا…",
+                    "no_users": "لا يوجد أصدقاء مشتركين",
+                    "no_groups": "لا توجد مجموعات مشتركة",
+                    "no_servers": "لا توجد خوادم مشتركة",
+                    "sub": {
+                        "badges": "الشارات",
+                        "information": "المعلومات",
+                        "connections": "الاتصالات"
+                    },
+                    "badges": {
+                        "translator": "مترجم",
+                        "supporter": "داعم",
+                        "responsible_disclosure": "مشكلة (مشاكل) أمنية تم الكشف عنها بمسؤولية",
+                        "early_adopter": "متبني مبكر",
+                        "moderation": "إدارة المنصة",
+                        "founder": "مؤسس"
+                    }
+                },
+                "user_picker": {
+                    "select": "حدد الأصدقاء المراد إضافتهم."
+                },
+                "create_bot": {
+                    "title": "إنشاء روبوت جديد",
+                    "failed": "فشل إنشاء روبوت!"
+                },
+                "server_identity": {
+                    "nickname": "الاسم المستعار",
+                    "title": "تغيير الهوية على {{server}}",
+                    "avatar": "صورة المستخدم"
+                }
+            },
+            "requires_online": "تحتاج إلى أن تكون متصلاً بالإنترنت لعرض هذا.",
+            "invite": {
+                "invited_by": "مدعو من قبل {{user}}",
+                "login": "تسجيل الدخول إلى Kimani Life",
+                "accept": "قبول الدعوة",
+                "user_count": "{{member_count}} مستخدمين",
+                "invalid": "دعوة غير صالحة!",
+                "invalid_desc": "قد لا تكون الدعوة موجودة أو ليس لديك إذن بالانضمام."
+            },
+            "server-badges": {
+                "official": "خادم رسمي",
+                "verified": "خادم موثق"
+            }
+        },
+        "context_menu": {
+            "copy_id": "نسخ المعرف",
+            "copy_selection": "نسخ التحديد",
+            "copy_text": "نسخ النص",
+            "copy_uid": "نسخ معرف المستخدم",
+            "copy_sid": "نسخ معرف الخادم",
+            "copy_cid": "نسخ معرف القناة",
+            "copy_mid": "نسخ معرف الرسالة",
+            "copy_message_link": "نسخ رابط الرسالة",
+            "mention": "إشارة",
+            "message_user": "رسالة",
+            "view_profile": "عرض الملف الشخصي",
+            "mark_as_read": "وضع علامة كمقروءة",
+            "retry_message": "إعادة محاولة الإرسال",
+            "cancel_message": "إلغاء الإرسال",
+            "reply_message": "رد",
+            "quote_message": "اقتباس الرسالة",
+            "edit_message": "تعديل الرسالة",
+            "delete_message": "حذف الرسالة",
+            "remove_member": "إزالة من المجموعة",
+            "kick_member": "طرد عضو",
+            "ban_member": "حظر عضو",
+            "open_file": "فتح ملف",
+            "save_file": "حفظ الملف",
+            "open_image": "فتح الصورة",
+            "save_image": "حفظ الصورة",
+            "open_video": "فتح الفيديو",
+            "save_video": "حفظ الفيديو",
+            "copy_link": "نسخ الرابط",
+            "open_link": "فتح الرابط",
+            "block_user": "حظر المستخدم",
+            "unblock_user": "إلغاء حظر المستخدم",
+            "add_friend": "إضافة صديق",
+            "remove_friend": "إزالة صديق",
+            "cancel_friend": "إلغاء الطلب",
+            "custom_status": "حالة مخصصة",
+            "clear_status": "مسح الحالة",
+            "set_custom_status": "تعيين حالة مخصصة",
+            "leave_group": "مغادرة المجموعة",
+            "leave_server": "مغادرة الخادم",
+            "close_dm": "إغلاق الرسالة الخاصة",
+            "delete_server": "حذف الخادم",
+            "edit_identity": "تعديل الهوية",
+            "delete_channel": "حذف القناة",
+            "create_channel": "إنشاء قناة",
+            "create_category": "إنشاء فئة",
+            "create_invite": "إنشاء دعوة",
+            "open_notification_options": "خيارات الإشعارات",
+            "open_channel_settings": "إعدادات القناة",
+            "open_server_settings": "إعدادات الخادم",
+            "open_group_settings": "إعدادات المجموعة",
+            "mark_unread": "وضع علامة كغير مقروءة",
+            "make_owner": "نقل ملكية المجموعة",
+            "report_message": "الإبلاغ عن رسالة",
+            "report_user": "الإبلاغ عن مستخدم",
+            "report_server": "الإبلاغ عن خادم"
+        },
+        "permissions": {
+            "required": "الأذونات المطلوبة"
+        },
+        "home": {
+            "join-testers": "انضم إلى خادم المختبرين",
+            "goto-testers": "اذهب إلى خادم المختبرين",
+            "donate": "تبرع لـ Kimani Life",
+            "feedback": "قدم ملاحظاتك حول Kimani Life",
+            "settings": "فتح الإعدادات",
+            "settings-tooltip": "يمكنك أيضًا النقر بزر الماوس الأيمن على أيقونة المستخدم في أعلى اليسار، أو النقر بزر الماوس الأيسر إذا كنت بالفعل على الصفحة الرئيسية.",
+            "social": "البحث عن الخوادم والروبوتات",
+            "directs": "الرسائل المباشرة",
+            "join-testers_desc": "يمكنك الإبلاغ عن المشاكل ومناقشة التحسينات معنا مباشرة هنا.",
+            "goto-testers_desc": "يمكنك الإبلاغ عن المشاكل ومناقشة التحسينات معنا مباشرة هنا.",
+            "donate_desc": "ادعم المشروع بالتبرع - شكرًا لك!",
+            "feedback_desc": "دعنا نعرف كيف يمكننا تحسين تطبيقنا من خلال تزويدنا بملاحظاتك.",
+            "discover": "اكتشف Kimani Life",
+            "discover_desc": "ابحث عن مجتمع بناءً على هواياتك أو اهتماماتك.",
+            "group": "إنشاء مجموعة",
+            "group_desc": "ادعُ جميع أصدقائك، وبعض الروبوتات الرائعة، وأقم حفلة كبيرة."
+        },
+        "home2": {
+            "amb-join": "انضم كسفير",
+            "spon-join": "كن راعيا",
+            "ven-join": "التقديم كمزود خدمة مفضل",
+            "foun-join": "كن عضوا مؤسسا",
+            "amb-desc": "لوريم إيبسوم دولور كيميت."
+        }
+    },
+    "quantities": {
+        "members": {
+            "one": "عضو واحد",
+            "many": "{{count}} أعضاء"
+        },
+        "dropFiles": {
+            "many": "أسقط {{count}} ملفًا",
+            "one": "أسقط ملفًا"
+        }
+    },
+    "dayjs": {
+        "lastDay": "[أمس الساعة] {{time}}",
+        "sameDay": "[اليوم الساعة] {{time}}",
+        "nextDay": "[غدًا الساعة] {{time}}",
+        "lastWeek": "[الجمعة الماضية الساعة] {{time}}",
+        "nextWeek": "[الجمعة القادمة الساعة] {{time}}",
+        "defaults": {
+            "date_separator": "/",
+            "date_format": "simplified",
+            "twelvehour": "yes"
+        }
+    },
+    "notifications": {
+        "sent_request": "أرسل لك @{{person}} طلب صداقة.",
+        "now_friends": "أنت الآن صديق @{{person}}!"
+    },
+    "error": {
+        "NetworkError": "خطأ في الشبكة.",
+        "Unauthorized": "غير مصرح به.",
+        "Unlabelled": "حدث خطأ ما.",
+        "FailedValidation": "فشل التحقق من صحة الحقول.",
+        "DatabaseError": "خطأ في قاعدة البيانات.",
+        "InternalError": "خطأ داخلي.",
+        "MissingPermission": "إذن مفقود.",
+        "UnknownError": "انظر وحدة التحكم.",
+        "OperationFailed": "فشلت العملية.",
+        "RenderFail": "فشل عرض القالب.",
+        "MissingHeaders": "العناوين مفقودة.",
+        "InvalidSession": "جلسة غير صالحة.",
+        "UnverifiedAccount": "حساب غير موثق.",
+        "UnknownUser": "مستخدم غير معروف.",
+        "EmailInUse": "البريد الإلكتروني قيد الاستخدام.",
+        "EmailFailed": "فشل إرسال البريد الإلكتروني.",
+        "InvalidCredentials": "البريد الإلكتروني أو كلمة المرور خاطئة.",
+        "InvalidToken": "رمز غير صالح",
+        "MissingInvite": "رمز الدعوة مفقود في الطلب.",
+        "InvalidInvite": "رمز غير صالح",
+        "AlreadyOnboarded": "اكتملت عملية الإعداد بالفعل.",
+        "UsernameTaken": "اسم المستخدم هذا مستخدم بالفعل.",
+        "AlreadyFriends": "أنت صديق لهذا المستخدم بالفعل.",
+        "AlreadySentRequest": "تم إرسال طلب بالفعل إلى هذا المستخدم.",
+        "Blocked": "لقد قمت بحظر هذا المستخدم.",
+        "BlockedOther": "هذا المستخدم قام بحظرك.",
+        "NoEffect": "لم يكن لهذا الطلب أي تأثير.",
+        "RequiredField": "مطلوب",
+        "TooShort": "قصير جدًا",
+        "TooLong": "طويل جدًا",
+        "InvalidEmail": "عنوان بريد إلكتروني غير صالح",
+        "Unavailable": "غير متاح.",
+        "FileTooLarge": "الملف كبير جدًا.",
+        "FailedToReceive": "فشل الخادم في استقبال ملفك.",
+        "MissingData": "الطلب يفتقر إلى البيانات.",
+        "ProbeError": "فشل في الحصول على بيانات تعريف الملف.",
+        "IoError": "واجه الخادم خطأ في الإدخال/الإخراج.",
+        "UnsupportedBrowser": "المتصفح يفتقر إلى دعم هذه الميزة.",
+        "DeniedNotification": "لقد رفضت الوصول إلى الإشعارات، تحقق من إعدادات الصفحة.",
+        "CompromisedPassword": "كلمة المرور هذه معرضة للخطر.",
+        "ReachedMaximumBots": "لقد وصلت إلى الحد الأقصى من الروبوتات.",
+        "AudioPermissionBlock": "لا يوجد وصول إلى الميكروفون الخاص بك، يرجى التحقق من تكوين متصفحك.",
+        "DiscriminatorChangeRatelimited": "عدد كبير جدًا من تغييرات العلامات."
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
+    },
+    "permissions": {
+        "ManageChannels": {
+            "t": "إدارة القنوات",
+            "d": "يسمح للأعضاء بإنشاء القنوات وتعديلها وحذفها."
+        },
+        "ManageServer": {
+            "t": "إدارة الخادم",
+            "d": "يسمح للأعضاء بتغيير اسم هذا الخادم ووصفه ورمزه والمعلومات الأخرى ذات الصلة."
+        },
+        "KickMembers": {
+            "t": "طرد الأعضاء",
+            "d": "يسمح للأعضاء بإزالة الأعضاء من هذا الخادم. يمكن للأعضاء المطردين الانضمام مرة أخرى بدعوة."
+        },
+        "BanMembers": {
+            "t": "حظر الأعضاء",
+            "d": "يسمح للأعضاء بإزالة الأعضاء بشكل دائم من هذا الخادم."
+        },
+        "ChangeNickname": {
+            "t": "تغيير الاسم المستعار",
+            "d": "يسمح للأعضاء بتغيير أسمائهم المستعارة على هذا الخادم."
+        },
+        "ManageNicknames": {
+            "t": "إدارة الأسماء المستعارة",
+            "d": "يسمح للأعضاء بتغيير أسماء الأعضاء الآخرين المستعارة."
+        },
+        "ChangeAvatar": {
+            "t": "تغيير الصورة الرمزية",
+            "d": "يسمح للأعضاء بتغيير صورتهم الرمزية للخادم على هذا الخادم."
+        },
+        "RemoveAvatars": {
+            "t": "إزالة الصور الرمزية",
+            "d": "يسمح للأعضاء بإزالة الصور الرمزية للخادم للأعضاء الآخرين على هذا الخادم."
+        },
+        "SendMessage": {
+            "t": "إرسال الرسائل",
+            "d": "يسمح للأعضاء بإرسال الرسائل في القنوات النصية."
+        },
+        "ManageMessages": {
+            "t": "إدارة الرسائل",
+            "d": "يسمح للأعضاء بحذف الرسائل التي يرسلها أعضاء آخرون."
+        },
+        "ManageChannel": {
+            "t": "إدارة القنوات",
+            "d": "يسمح للأعضاء بتعديل أو حذف قناة."
+        },
+        "VoiceCall": {
+            "t": "مكالمة صوتية",
+            "d": "يسمح للأعضاء بالانضمام إلى القنوات الصوتية."
+        },
+        "InviteOthers": {
+            "t": "دعوة آخرين",
+            "d": "يسمح للأعضاء بدعوة مستخدمين آخرين إلى قناة."
+        },
+        "EmbedLinks": {
+            "t": "تضمين الروابط",
+            "d": "يسمح للأعضاء بعرض محتوى مضمن على الروابط التي ينشرونها في القنوات النصية."
+        },
+        "UploadFiles": {
+            "t": "رفع الملفات",
+            "d": "يسمح للأعضاء برفع الملفات في القنوات النصية."
+        },
+        "Masquerade": {
+            "t": "تنكر",
+            "d": "يسمح للأعضاء بتغيير أسمائهم وصورهم الرمزية لكل رسالة."
+        },
+        "ManageRole": {
+            "t": "إدارة الأدوار",
+            "d": "يسمح للأعضاء بإنشاء الأدوار وتعديلها وحذفها ذات المرتبة الأقل من مرتبتهم. كما يسمح لهم بتعديل أذونات الأدوار على القنوات."
+        },
+        "ViewChannel": {
+            "t": "عرض القناة",
+            "d": "يسمح للأعضاء بعرض أي قنوات لديهم إذن عليها."
+        },
+        "ManagePermissions": {
+            "t": "إدارة الأذونات",
+            "d": "يسمح للأعضاء بتغيير الأذونات للقنوات والأدوار ذات المرتبة الأقل."
+        },
+        "ReadMessageHistory": {
+            "t": "قراءة سجل الرسائل",
+            "d": "يسمح للأعضاء بقراءة سجل الرسائل لهذه القناة."
+        },
+        "Connect": {
+            "t": "اتصال",
+            "d": "يسمح للأعضاء بالاتصال بقناة صوتية."
+        },
+        "ManageWebhooks": {
+            "t": "إدارة خطافات الويب",
+            "d": "يسمح للأعضاء بالتحكم في خطافات الويب في قناة."
+        },
+        "SendEmbeds": {
+            "t": "إرسال تضمينات",
+            "d": "يسمح للأعضاء بإرسال محتوى مضمن، سواء من الروابط أو التضمينات النصية المخصصة."
+        },
+        "DeafenMembers": {
+            "d": "يسمح للأعضاء بكتم صوت الآخرين في قناة صوتية.",
+            "t": "كتم صوت الأعضاء"
+        },
+        "MoveMembers": {
+            "t": "نقل الأعضاء",
+            "d": "يسمح للأعضاء بنقل الآخرين بين القنوات الصوتية."
+        },
+        "Video": {
+            "d": "يسمح للأعضاء ببث الفيديو في قناة صوتية.",
+            "t": "فيديو"
+        },
+        "MuteMembers": {
+            "t": "كتم صوت الأعضاء",
+            "d": "يسمح للأعضاء بكتم صوت الآخرين في قناة صوتية."
+        },
+        "TimeoutMembers": {
+            "t": "تحديد مهلة للأعضاء",
+            "d": "يسمح للأعضاء بمنع المستخدمين مؤقتًا من التفاعل مع الخادم."
+        },
+        "AssignRoles": {
+            "t": "تعيين الأدوار",
+            "d": "يسمح للأعضاء بتعيين أدوار أقل من مرتبتهم لأعضاء آخرين."
+        },
+        "Speak": {
+            "t": "تحدث",
+            "d": "يسمح للأعضاء بالتحدث في قناة صوتية."
+        },
+        "ManageCustomisation": {
+            "t": "إدارة التخصيص",
+            "d": "يسمح للأعضاء بإنشاء الرموز التعبيرية وتعديلها وحذفها."
+        },
+        "React": {
+            "t": "استخدام التفاعلات",
+            "d": "يسمح للأعضاء بالتفاعل مع الرسائل."
+        }
+    },
+    "actions": {
+        "submit": "إرسال"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "صفحة للأعلى",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "صفحة للأسفل",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "طباعة الشاشة",
+            "short": "PrtSc"
+        },
+        "ScrollLock": {
+            "full": "قفل التمرير",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "قفل الأحرف الكبيرة"
+        }
+    },
+    "destinations": {
+        "post_trip": {
+            "title": "انشر رحلة",
+            "departure": "المغادرة",
+            "arrival": "الوصول",
+            "business": "عمل",
+            "leisure": "ترفيه",
+            "description": {
+                "label": "الوصف",
+                "placeholder": "أخبرنا عن رحلتك..."
+            },
+            "done": "تم"
+        },
+        "filters": {
+            "search": {
+                "placeholder": "ابحث عن وجهتك..."
+            }
+        },
+        "sections": {
+            "local_communities": "المجتمعات المحلية",
+            "location": "الموقع"
+        },
+        "actions": {
+            "post_trip": "انشر رحلة",
+            "see_all": "شاهد الكل"
+        }
+    },
+    "all_trips": {
+        "back": "عودة",
+        "title": "من في {{location}}؟",
+        "empty_state": "لم يتم العثور على مسافرين. كن أول من يضيف رحلة!",
+        "dates": "{{start}} - {{end}}"
+    },
+    "trip_details": {
+        "post": "منشور {{name}}",
+        "travel_purpose": "الغرض من السفر",
+        "dates": {
+            "from": "من:",
+            "to": "إلى:"
+        },
+        "no_description": "لم يتم تقديم وصف",
+        "comments": {
+            "title": "التعليقات",
+            "empty": "لا توجد تعليقات بعد. كن أول من يعلق!",
+            "input_placeholder": "أضف تعليقًا على هذه الرحلة..."
+        },
+        "actions": {
+            "send_message": "إرسال رسالة",
+            "add_friend": "إضافة صديق"
+        }
+    },
+    "trip_comment": {
+        "unknown_user": "مستخدم غير معروف"
+    }
 }
