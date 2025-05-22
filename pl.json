@@ -1,1135 +1,1135 @@
 {
-    "general": {
-        "about": "O nas",
-        "tos": "Warunki usługi",
-        "privacy": "Polityka prywatności",
-        "image_by": "Obrazek autorstwa",
-        "loading": "Ładowanie…",
-        "on": "Włączone",
-        "off": "Wyłączone",
-        "disabled": "Wyłączone",
-        "unavailable": "Niedostępne",
-        "learn_more": "Dowiedz się więcej"
-    },
-    "login": {
-        "title": "ZALOGUJ SIĘ",
-        "register": "Zarejestruj się",
-        "username": "Nazwa użytkownika",
-        "first_name": "Imię",
-        "last_name": "Nazwisko",
-        "phone_number": "Numer telefonu",
-        "country": "Kraj",
-        "city": "Miasto",
-        "occupation": "Zawód",
-        "tell_us_more_about_you": "Opowiedz nam więcej o sobie",
-        "likes_attending_to": "Lubisz uczestniczyć w?",
-        "favorite_destinations": "Jakie są Twoje ulubione miejsca docelowe?",
-        "languages_spoken": "Jakimi językami mówisz?",
-        "passions_and_hobbies": "Jakie są Twoje pasje i hobby?",
-        "linkedin": "Jaki jest Twój profil LinkedIn?",
-        "x_account": "Jaki jest Twój profil X?",
-        "instagram": "Jaki jest Twój profil Instagram?",
-        "facebook": "Jaki jest Twój profil Facebook?",
-        "email": "E-mail",
-        "password": "Hasło",
-        "invite": "Kod zaproszenia",
-        "current_password": "Bieżące hasło",
-        "enter": {
-            "username": "Wprowadź preferowaną nazwę użytkownika.",
-            "email": "E-MAIL",
-            "password": "HASŁO",
-            "confirm_password": "POTWIERDŹ HASŁO",
-            "terms_and_conditions_1": "Akceptuję",
-            "terms_and_conditions_2": "Warunki i zasady",
-            "pledge_1": "Zgadzam się i akceptuję",
-            "pledge_2": "Kimani Pledge",
-            "invite": "Wprowadź swój kod zaproszenia.",
-            "current_password": "Wprowadź swoje bieżące hasło.",
-            "new_password": "Wprowadź nowe hasło.",
-            "first_name": "Wprowadź swoje imię.",
-            "last_name": "Wprowadź swoje nazwisko.",
-            "phone_number": "Wprowadź swój numer telefonu.",
-            "country": "Wprowadź swój kraj.",
-            "city": "Wprowadź swoje miasto.",
-            "occupation": "Wprowadź swój zawód.",
-            "tell_us_more_about_you": "Opowiedz nam więcej o sobie..",
-            "likes_attending_to": "Wpisz, w czym lubisz uczestniczyć",
-            "favorite_destinations": "Wpisz swoje ulubione miejsca docelowe",
-            "languages_spoken": "Wpisz języki, którymi mówisz",
-            "passions_and_hobbies": "Wpisz swoje pasje i hobby",
-            "linkedin": "Wprowadź adres URL swojego profilu LinkedIn",
-            "x_account": "Wprowadź adres URL swojego profilu X",
-            "instagram": "Wprowadź adres URL swojego profilu Instagram",
-            "facebook": "Wprowadź adres URL swojego profilu Facebook"
-        },
-        "forgot": "Zapomniałeś hasła?",
-        "reset": "Zresetuj",
-        "login_problems": "Problemy z logowaniem? Wyślij e-mail na adres: support@kimanilife.com",
-        "set_password": "Ustaw nowe hasło",
-        "remembered": "Wróć do logowania",
-        "new": "Nie masz konta?",
-        "existing": "Masz już konto?",
-        "create": "Utwórz nowe konto",
-        "pre_approved": "Tylko wstępnie zatwierdzone adresy e-mail będą mogły utworzyć konto.",
-        "missing_verification": "Nie otrzymałeś e-maila?",
-        "resend": "Wyślij weryfikację ponownie",
-        "cancel": "Anuluj prośbę",
-        "check_mail": "Sprawdź swoją pocztę!",
-        "reset_sent": "Wysłaliśmy Ci link do resetowania hasła na Twój adres e-mail.",
-        "email_delay": "Może to potrwać kilka minut",
-        "check_spam": "Nie widzisz e-maila? Sprawdź folder spam.",
-        "open_mail_provider": "Otwórz {{provider}}",
-        "successful_registration": "Pomyślnie zarejestrowano!",
-        "error": {
-            "create": "Nie udało się zarejestrować!",
-            "login": "Nie udało się zalogować!",
-            "reset": "Nie udało się zresetować!",
-            "resend": "Nie udało się wysłać ponownie!",
-            "verify": "Nie udało się zweryfikować!"
-        },
-        "subtitle2": "UTWÓRZ KONTO",
-        "subtitle": "Logowanie dla członków Kimani",
-        "reset_subtitle": "RESETOWANIE HASŁA",
-        "reset_send": "Wyślij link do resetowania",
-        "unofficial_instance": "Instancja zewnętrzna.",
-        "totp": "Aplikacja uwierzytelniająca",
-        "recovery": "Kod odzyskiwania",
-        "verifying_account": "Weryfikacja konta…",
-        "verified_account": "Twoje konto zostało zweryfikowane!",
-        "verified_continue": "Kontynuuj logowanie",
-        "new_password": "Nowe hasło",
-        "log_out_other": "Wyloguj się ze wszystkich innych sesji"
-    },
-    "app": {
-        "status": {
-            "online": "Online",
-            "idle": "Bezczynny",
-            "busy": "Nie przeszkadzać",
-            "invisible": "Niewidoczny",
-            "offline": "Offline",
-            "reconnect": "Połącz ponownie",
-            "focus": "Skupienie"
-        },
-        "navigation": {
-            "tabs": {
-                "home": "Strona główna",
-                "dev": "Deweloper",
-                "friends": "Znajomi",
-                "unreads": "Nieprzeczytane",
-                "saved": "Zapisane notatki"
-            }
-        },
-        "main": {
-            "categories": {
-                "conversations": "Rozmowy",
-                "participants": "Uczestnicy",
-                "channels": "Kanały",
-                "members": "Członkowie"
-            },
-            "channel": {
-                "message_where": "Wiadomość {{channel_name}}",
-                "message_who": "Wiadomość {{person}}",
-                "message_saved": "Zapisz w swoich notatkach",
-                "uploading_file": "Przesyłanie…",
-                "failed_upload": "Przesyłanie nie powiodło się!",
-                "attached_file": "Załączono {{filename}}",
-                "typing": {
-                    "single": "{{user}} pisze…",
-                    "multiple": "{{userlist}} i {{user}} piszą…",
-                    "several": "Kilka osób pisze…"
-                },
-                "system": {
-                    "user_joined": "{{user}} dołączył/a",
-                    "user_left": "{{user}} opuścił/a",
-                    "user_kicked": "{{user}} został/a wyrzucony/a",
-                    "user_banned": "{{user}} został/a zbanowany/a",
-                    "added_by": "{{user}} został/a dodany/a przez {{other_user}}",
-                    "removed_by": "{{user}} został/a usunięty/a przez {{other_user}}",
-                    "channel_renamed": "{{user}} zmienił/a nazwę kanału na {{name}}",
-                    "channel_description_changed": "{{user}} zmienił/a opis kanału",
-                    "channel_icon_changed": "{{user}} zmienił/a ikonę kanału",
-                    "channel_ownership_changed": "{{from}} przekazał/a {{to}} własność grupy",
-                    "registered_at": "Zarejestrowano {{time}}"
-                },
-                "start": {
-                    "group": "To jest początek Twojej rozmowy.",
-                    "saved": "Tutaj zaczynają się Twoje notatki."
-                },
-                "voice": {
-                    "connected": "Połączono głosowo",
-                    "leave": "Opuść",
-                    "mute": "Wycisz",
-                    "unmute": "Włącz głos"
-                },
-                "misc": {
-                    "viewing_old": "Wyświetlanie starszych wiadomości",
-                    "jump_present": "Przejdź do obecnego",
-                    "jump_beginning": "Przejdź na początek",
-                    "spoiler_attachment": "Spoiler",
-                    "failed_load": "Nie udało się załadować wiadomości.",
-                    "no_sending": "Nie masz uprawnień do wysyłania wiadomości na tym kanale.",
-                    "blocked_messages": "{{count}} zablokowanych wiadomości",
-                    "blocked_user": "Zablokowany użytkownik",
-                    "sent_file": "Wysłano załącznik",
-                    "sent_multiple_files": "Wysłano wiele załączników",
-                    "new_messages": "Nowe wiadomości od {{time_ago}}",
-                    "load_file": "Załaduj plik",
-                    "timed_out": "Masz timeout na {{time}}.",
-                    "not_loaded": "Wiadomość nie załadowana, kliknij, aby przejść"
-                },
-                "nsfw": {
-                    "channel": {
-                        "marked": "Ten kanał jest oznaczony jako NSFW.",
-                        "confirm": "Wejdź na kanał"
-                    },
-                    "confirm": "Potwierdzam, że mam ukończone 18 lat."
-                },
-                "unknown_user": "<Nieznany użytkownik>",
-                "edited": "(edytowano)",
-                "bot": "Bot",
-                "notifications": {
-                    "default": "Użyj domyślnych",
-                    "all": "Wszystkie wiadomości",
-                    "mention": "Tylko wzmianki",
-                    "none": "Brak",
-                    "muted": "Wyciszone"
-                },
-                "search": {
-                    "title": "Szukaj",
-                    "sort": {
-                        "relevance": "Trafność",
-                        "latest": "Najnowsze",
-                        "oldest": "Najstarsze"
-                    }
-                },
-                "errors": {
-                    "title": "Ups, nic tu nie ma!",
-                    "nochannels": "Ten serwer nie ma kanałów lub nie masz do nich dostępu.",
-                    "nochannel": "Brak kanału"
-                },
-                "reply": {
-                    "replying": "Odpowiadanie na",
-                    "toggle": "Przełącz ping autora"
-                },
-                "bridge": "most",
-                "user_timed_out": "Masz timeout na {{time}}.",
-                "bridged": "Wiadomość została wysłana na innej platformie",
-                "team": "Oficjalna komunikacja",
-                "new_to_revolt": "Nowy w Kimani Life",
-                "new_to_server": "Nowy na tym serwerze",
-                "reactions": {
-                    "others_reacted": "{{userlist}} i {{count}} innych zareagowało",
-                    "unknown_reacted": "{{count}} osób zareagowało",
-                    "single_reacted": "1 osoba zareagowała",
-                    "people_reacted": "{{people}} zareagowało"
-                }
-            },
-            "groups": {
-                "create": "Utwórz grupę",
-                "name": "Nazwa grupy",
-                "description": "Opis grupy",
-                "owner": "Właściciel grupy"
-            },
-            "servers": {
-                "create": "Utwórz serwer",
-                "name": "Nazwa serwera",
-                "description": "Opis serwera",
-                "channel_name": "Nazwa kanału",
-                "channel_type": "Typ kanału",
-                "channel_description": "Opis kanału",
-                "custom_banner": "Niestandardowy baner",
-                "owner": "Właściciel serwera",
-                "text_channel": "Kanał tekstowy",
-                "voice_channel": "Kanał głosowy",
-                "category_name": "Nazwa kategorii"
-            }
-        },
-        "settings": {
-            "title": "Ustawienia",
-            "categories": {
-                "user_settings": "Ustawienia użytkownika",
-                "client_settings": "Ustawienia klienta",
-                "danger_zone": "Strefa zagrożenia"
-            },
-            "actions": {
-                "remove": "Usuń",
-                "upload": "Prześlij",
-                "max_filesize": "(maks. {{filesize}})",
-                "edit": "Edytuj {{name}}"
-            },
-            "pages": {
-                "account": {
-                    "title": "Moje konto",
-                    "change_field": "Zmień",
-                    "unique_id": "To jest unikalny identyfikator użytkownika Twojego konta.",
-                    "2fa": {
-                        "title": "Uwierzytelnianie dwuskładnikowe",
-                        "description": "Dodaj dodatkową warstwę bezpieczeństwa, włączając 2FA na swoim koncie.",
-                        "add_auth": "Dodaj uwierzytelniacz",
-                        "remove_auth": "Usuń uwierzytelniacz",
-                        "two_factor_off": "Nie włączyłeś uwierzytelniania dwuskładnikowego!",
-                        "view_recovery": "Wyświetl kody odzyskiwania",
-                        "view_recovery_long": "Wyświetl i pobierz swoje kody odzyskiwania 2FA.",
-                        "generate_recovery": "Generuj kody zapasowe",
-                        "generate_recovery_long": "Przygotuj się do użycia 2FA, konfigurując metodę zapasową.",
-                        "two_factor_on": "Uwierzytelnianie dwuskładnikowe jest obecnie włączone."
-                    },
-                    "manage": {
-                        "title": "Zarządzanie kontem",
-                        "description": "Dezaktywuj lub usuń swoje konto w dowolnym momencie. Ta akcja wyloguje Cię i całkowicie usunie Twoje konto, w tym historię czatów i znajomych.",
-                        "disable": "Dezaktywuj konto",
-                        "delete": "Usuń konto"
-                    }
-                },
-                "profile": {
-                    "title": "Profil",
-                    "info": "Informacje",
-                    "fetching": "Pobieranie Twojego profilu…",
-                    "placeholder": "Napisz coś o sobie…",
-                    "profile_picture": "Zdjęcie profilowe",
-                    "custom_background": "Niestandardowe tło",
-                    "edit_background": "Edytuj tło",
-                    "edit_profile": "Edytuj profil"
-                },
-                "sessions": {
-                    "title": "Sesje",
-                    "active_sessions": "Aktywne sesje",
-                    "this_device": "To urządzenie",
-                    "created": "Utworzono {{time_ago}}",
-                    "logout": "Wyloguj się ze wszystkich innych sesji"
-                },
-                "invite": {
-                    "title": "Zaproś",
-                    "description": "Zaproś znajomych do Kimani Life"
-                },
-                "audio": {
-                    "title": "Ustawienia głosu",
-                    "input_device": "Mikrofon",
-                    "output_device": "Głośnik / Słuchawki",
-                    "tip_retry": "Nie zezwoliłeś na dostęp do mikrofonu, proszę {{retryBtn}}.",
-                    "device_label_NA": "N/D",
-                    "button_retry": "Spróbuj ponownie",
-                    "tip_grant_permission": "Musisz udzielić pozwolenia na dostęp do ustawień audio.",
-                    "button_grant": "Udziel pozwolenia"
-                },
-                "appearance": {
-                    "title": "Wygląd",
-                    "theme": "Motyw",
-                    "display": {
-                        "default": "Domyślny",
-                        "compact": "Kompaktowy",
-                        "default_description": "Piękny, elegancki i nowoczesny.",
-                        "compact_description": "Stary dobry IRC."
-                    },
-                    "color": {
-                        "light": "jasny",
-                        "dark": "ciemny"
-                    },
-                    "accent_selector": "Kolor akcentu",
-                    "emoji_pack": "Pakiet emoji",
-                    "message_display": "Wyświetlanie wiadomości",
-                    "advanced": "Zaawansowane opcje",
-                    "overrides": "Nadpisywanie motywu",
-                    "reset_overrides": "Zresetuj nadpisywanie",
-                    "import": "Importuj motyw",
-                    "import_theme": "Importuj motyw z ciągu znaków",
-                    "theme_data": "Dane motywu",
-                    "custom_css": "Niestandardowy CSS",
-                    "sync": "Opcje synchronizacji",
-                    "font": "Czcionka",
-                    "mono_font": "Selektor czcionki monospace",
-                    "ligatures": "Ligatury czcionek",
-                    "ligatures_desc": "Dla obsługiwanych czcionek, ligatury łączą znaki - na przykład, zmieniając -> w strzałkę.",
-                    "theme_options": {
-                        "title": "Opcje motywu",
-                        "follow_desc": "Jeśli zaznaczone, nie będziesz mógł zmienić motywu ani użyć niestandardowego.",
-                        "seasonal": "Motyw sezonowy",
-                        "follow": "Podążaj za motywem systemowym",
-                        "transparency": "Efekty przezroczystości",
-                        "transparency_desc": "Włącza efekty przezroczystości (jak matowe szkło) w całej aplikacji.",
-                        "seasonal_desc": "Wyświetla efekty w zakładce głównej podczas sezonów świątecznych."
-                    },
-                    "discover": {
-                        "title": "Odkryj motywy",
-                        "description": "Przeglądaj motywy stworzone przez społeczność"
-                    },
-                    "appearance_options": {
-                        "title": "Opcje wyglądu",
-                        "show_send": "Zawsze pokazuj przycisk „Wyślij wiadomość”",
-                        "show_send_desc": "Jeśli wyłączone, przycisk „Wyślij wiadomość” będzie wyświetlany tylko na urządzeniach mobilnych.",
-                        "show_account_age": "Zawsze pokazuj wiek konta obok wiadomości o dołączeniu",
-                        "show_account_age_desc": "Jeśli wyłączone, wiek konta będzie wyświetlany tylko dla nowych użytkowników."
-                    },
-                    "colours": {
-                        "title": "Kolory"
-                    },
-                    "emoji": {
-                        "title": "Emoji"
-                    },
-                    "fonts": {
-                        "title": "Czcionki"
-                    },
-                    "advanced_options": {
-                        "title": "Zaawansowane opcje"
-                    }
-                },
-                "notifications": {
-                    "title": "Powiadomienia",
-                    "push_notifications": "Powiadomienia push",
-                    "enable_desktop": "Włącz powiadomienia pulpitu",
-                    "enable_push": "Włącz powiadomienia push",
-                    "sounds": "Dźwięki",
-                    "descriptions": {
-                        "enable_desktop": "To włączy powiadomienia, gdy aplikacja jest otwarta.",
-                        "enable_push": "Włącz, aby otrzymywać powiadomienia, gdy jesteś offline."
-                    },
-                    "sound": {
-                        "message": "Wiadomość odebrana",
-                        "outbound": "Wiadomość wysłana",
-                        "call_join": "Użytkownik dołączył do rozmowy",
-                        "call_leave": "Użytkownik opuścił rozmowę"
-                    }
-                },
-                "language": {
-                    "title": "Język",
-                    "select": "Wybierz swój język",
-                    "const": "Języki konstruowane",
-                    "other": "Inne opcje językowe"
-                },
-                "sync": {
-                    "title": "Synchronizuj",
-                    "categories": "Synchronizuj kategorie",
-                    "descriptions": {
-                        "appearance": "To zsynchronizuje opcje, takie jak pakiety emoji i gęstość wiadomości.",
-                        "theme": "To zsynchronizuje wybrany motyw, kolory i niestandardowy CSS.",
-                        "locale": "To zsynchronizuje aktualnie wybrany język."
-                    },
-                    "options": "Opcje synchronizacji"
-                },
-                "native": {
-                    "title": "Ustawienia pulpitu"
-                },
-                "experiments": {
-                    "title": "Eksperymenty",
-                    "features": "Dostępne funkcje",
-                    "not_available": "Obecnie brak dostępnych eksperymentów."
-                },
-                "donate": {
-                    "title": "Wspomóż"
-                },
-                "source_code": "Kod źródłowy",
-                "bots": {
-                    "title": "Moje boty",
-                    "create_bot": "Utwórz bota",
-                    "copy_invite": "Kopiuj link zapraszający",
-                    "add": "Dodaj bota",
-                    "token": "Token",
-                    "public_bot_tip": "Bot jest publiczny. Każdy może go zaprosić.",
-                    "private_bot_tip": "Bot jest prywatny. Tylko Ty możesz go zaprosić.",
-                    "public_bot": "Bot publiczny",
-                    "public_bot_desc": "Czy zezwolić innym użytkownikom na zapraszanie tego bota.",
-                    "interactions_url": "URL interakcji",
-                    "reserved": "Uwaga: To pole jest zarezerwowane na przyszłość.",
-                    "unique_id": "To jest unikalny identyfikator Twojego bota. To nie jest token bota.",
-                    "profile": "Profil bota"
-                },
-                "feedback": {
-                    "title": "Opinie",
-                    "suggest": "Prześlij sugestię funkcji",
-                    "suggest_desc": "Sugeruj nowe funkcje Kimani Life w dyskusjach na GitHubie.",
-                    "issue": "Utwórz nowy problem",
-                    "issue_desc": "Aby pomóc nam łatwiej znaleźć i ocenić problemy, możesz utworzyć problem na GitHubie.",
-                    "bug": "Śledzenie błędów",
-                    "bug_desc": "Zobacz aktywne zgłoszenia błędów tutaj.",
-                    "description": "Prześlij opinię"
-                },
-                "logOut": "Wyloguj się",
-                "theme_shop": {
-                    "title": "Sklep z motywami",
-                    "category": {
-                        "highest": "Najwyżej oceniane",
-                        "viewall": "Pokaż wszystko",
-                        "manage": "Zarządzaj zapisanymi",
-                        "new": "Nowe w tym tygodniu",
-                        "default": "Motywy domyślne",
-                        "saved": "Zapisane"
-                },
-                    "active": "Aktualnie aktywny",
-                    "description": "Przeglądaj setki motywów, stworzonych i wyselekcjonowanych przez społeczność.",
-                    "search": "Szukaj motywów…",
-                    "use": "Użyj motywu",
-                    "by": "przez"
-                },
-                "plugins": {
-                    "title": "Wtyczki",
-                    "delete_plugin": "Usuń",
-                    "wip": "Ostrzeżenie: Ta funkcja jest nadal w fazie rozwoju.",
-                    "no_plugins": "Brak zainstalowanych wtyczek."
-                }
-            },
-            "channel_pages": {
-                "overview": {
-                    "title": "Przegląd",
-                    "name": "Nazwa kanału",
-                    "description": "Opis kanału"
-                },
-                "permissions": {
-                    "title": "Uprawnienia"
-                },
-                "webhooks": {
-                    "title": "Webhooki"
-                }
-            },
-            "server_pages": {
-                "overview": {
-                    "title": "Przegląd",
-                    "name": "Nazwa serwera",
-                    "description": "Opis kanału",
-                    "system_messages": "Kanały wiadomości systemowych"
-                },
-                "members": {
-                    "title": "Członkowie"
-                },
-                "invites": {
-                    "title": "Zaproszenia",
-                    "code": "Kod zaproszenia",
-                    "invitor": "Zapraszający",
-                    "channel": "Kanał",
-                    "revoke": "Odwołaj"
-                },
-                "bans": {
-                    "title": "Bany",
-                    "user": "Użytkownik",
-                    "reason": "Powód bana",
-                    "revoke": "Odwołaj",
-                    "no_reason": "Brak powodu bana."
-                },
-                "roles": {
-                    "title": "Role"
-                },
-                "categories": {
-                    "title": "Kategorie"
-                },
-                "management": {
-                    "title": "Zarządzanie użytkownikami"
-                },
-                "customisation": {
-                    "title": "Dostosowanie"
-                },
-                "emojis": {
-                    "title": "Emoji",
-                    "upload": "Prześlij Emoji"
-                }
-            },
-            "tips": {
-                "account": {
-                    "a": "Chcesz dostosować swój profil publiczny?",
-                    "b": "Przejdź do ustawień profilu."
-                },
-                "languages": {
-                    "a": "Brakuje języka, którego potrzebujesz?",
-                    "b": "Pomóż w dodaniu większej liczby tłumaczeń."
-                },
-                "sessions": {
-                    "a": "Jeśli widzisz nieznaną sesję na liście,",
-                    "b": "zabezpiecz swoje konto, zmieniając hasło i używając 2FA."
-                }
-            },
-            "permissions": {
-                "default_role": "Domyślna",
-                "server": "Uprawnienia serwera",
-                "channel": "Uprawnienia kanału",
-                "create_role": "Utwórz nową rolę",
-                "role_name": "Nazwa roli",
-                "delete_role": "Usuń rolę",
-                "hoist_role": "Podnieś rolę",
-                "hoist_desc": "Wyświetl tę rolę powyżej innych.",
-                "title": "Uprawnienia dla {{role}}",
-                "edit_title": "Edytuj uprawnienia",
-                "role_colour": "Kolor roli",
-                "role_options": "Opcje roli",
-                "role_ranking": "Ranking roli"
-            }
-        },
-        "special": {
-            "copy_username": "Kliknij, aby skopiować nazwę użytkownika",
-            "copy": "Kliknij, aby skopiować",
-            "friends": {
-                "pending": "Oczekujące prośby",
-                "sent": "Wysłane",
-                "blocked": "Zablokowane",
-                "incoming": "Przychodzące zaproszenie do znajomych.",
-                "outgoing": "Wychodzące zaproszenie do znajomych.",
-                "nobody": "Nikogo tu jeszcze nie ma!",
-                "from": {
-                    "single": "Od {{user}}",
-                    "multiple": "Od {{userlist}} i {{user}}",
-                    "several": "Od {{userlist}} i {{count}} innych…"
-                }
-            },
-            "status": {
-                "offline": "Offline.",
-                "disconnected": "Rozłączono.",
-                "connecting": "Łączenie…",
-                "reconnecting": "Ponowne łączenie…"
-            },
-            "modals": {
-                "error": "Wystąpił błąd!",
-                "clipboard": {
-                    "unavailable": "Schowek niedostępny!",
-                    "https": "Obecnie nie znajdujesz się w kontekście HTTPS.",
-                    "copy": "Kopiuj ręcznie:"
-                },
-                "signed_out": "Zostałeś wylogowany!",
-                "token_reveal": "Token użytkownika {{name}}",
-                "onboarding": {
-                    "welcome": "",
-                    "pick": "Wybierz nazwę użytkownika, pod którą ludzie będą mogli Cię znaleźć; można to później zmienić w ustawieniach."
-                },
-                "prompt": {
-                    "confirm_leave": "Opuścić {{name}}?",
-                    "confirm_leave_long": "Nie będziesz mógł dołączyć ponownie, chyba że zostaniesz ponownie zaproszony.",
-                    "confirm_close_dm": "Zamknąć rozmowę z {{name}}?",
-                    "confirm_close_dm_long": "Możesz ją później ponownie otworzyć, ale zniknie z obu stron.",
-                    "confirm_delete": "Usunąć {{name}}?",
-                    "confirm_delete_long": "Raz usunięte, nie ma powrotu.",
-                    "confirm_delete_message_long": "Czy na pewno chcesz to usunąć?",
-                    "create_invite_generate": "Generowanie zaproszenia…",
-                    "create_invite_created": "Oto Twój nowy kod zaproszenia:",
-                    "confirm_kick": "Czy na pewno chcesz wyrzucić {{name}}?",
-                    "confirm_ban": "Masz zamiar zbanować {{name}}",
-                    "confirm_ban_reason": "Powód bana",
-                    "unfriend_user": "Anulować znajomość z {{name}}?",
-                    "unfriend_user_long": "Możesz nie być w stanie ponownie z nimi rozmawiać, dopóki ich ponownie nie dodasz.",
-                    "block_user": "Zablokować {{name}}?",
-                    "block_user_long": "Czy na pewno chcesz zablokować {{name}}? Zostaną również usunięci z Twojej listy znajomych.",
-                    "silent_leave": "Opuść po cichu",
-                    "members_not_notified": "Inni członkowie nie zostaną powiadomieni"
-                },
-                "account": {
-                    "change": {
-                        "username": "Zmień swoją nazwę użytkownika",
-                        "email": "Zmień swój adres e-mail",
-                        "password": "Zmień swoje hasło"
-                    },
-                    "failed": "Nie udało się zmienić!"
-                },
-                "external_links": {
-                    "title": "Linki zewnętrzne mogą być niebezpieczne!",
-                    "short": "Czy na pewno chcesz przejść do:",
-                    "trust_domain": "Zaufaj tej domenie"
-                },
-                "actions": {
-                    "ok": "OK",
-                    "ban": "Banuj",
-                    "kick": "Wyrzuć",
-                    "save": "Zapisz",
-                    "hide": "Ukryj",
-                    "edit": "Edytuj",
-                    "block": "Zablokuj",
-                    "close": "Zamknij",
-                    "leave": "Opuść",
-                    "back": "Wróć",
-                    "remove": "Usuń",
-                    "delete": "Usuń",
-                    "create": "Utwórz",
-                    "reveal": "Pokaż",
-                    "update": "Zaktualizuj",
-                    "cancel": "Anuluj",
-                    "preview": "Podgląd",
-                    "reload": "Przeładuj aplikację",
-                    "continue": "Kontynuuj",
-                    "send_email": "Wyślij e-mail",
-                    "confirm": "Potwierdź",
-                    "done": "Gotowe",
-                    "reset": "Resetuj",
-                    "report": "Zgłoś",
-                    "dont_block": "Nie blokuj"
-                },
-                "sessions": {
-                    "short": "Nie możesz cofnąć tej akcji.",
-                    "accept": "Usuń wszystkie sesje",
-                    "title": "Czy na pewno chcesz wyczyścić swoje sesje?"
-                },
-                "changelogs": {
-                    "description": "Przeczytaj o aktualizacjach Kimani Life.",
-                    "older": "Wyświetl starsze aktualizacje",
-                    "title": "Historia zmian"
-                },
-                "confirm": "Potwierdź akcję",
-                "mfa": {
-                    "recovery_codes": "Twoje kody odzyskiwania",
-                    "save_codes": "Proszę zapisać je w bezpiecznym miejscu.",
-                    "confirm": "Proszę potwierdzić wybraną metodą.",
-                    "select_method": "Proszę wybrać metodę uwierzytelnienia prośby.",
-                    "enable_totp": "Włącz aplikację uwierzytelniającą",
-                    "prompt_totp": "Proszę zeskanować lub użyć poniższego tokena w aplikacji uwierzytelniającej.",
-                    "enter_code": "Wprowadź kod"
-                },
-                "out_of_date": {
-                    "title": "Twój klient jest nieaktualny!",
-                    "description": "Musi zostać zaktualizowany, aby działał z ostatnimi zmianami.",
-                    "version": "Twój klient to wersja {{client}}, podczas gdy serwer wymaga wersji {{server}}.",
-                    "ignore": "Ignoruj zaktualizowane",
-                    "attempting": "Próba aktualizacji…"
-                },
-                "report": {
-                    "no_reason": "Brak podanego powodu / inny powód",
-                    "message": "Zgłoś wiadomość",
-                    "by_name": "Zgłoś {{name}}",
-                    "reason": "Powód",
-                    "additional_context": "Dodatkowe informacje",
-                    "content_reason": {
-                        "Illegal": "Treść narusza jedno lub więcej praw",
-                        "SpamAbuse": "To jest spam lub nadużycie platformy",
-                        "PromotesHarm": "Treść promuje krzywdę innych lub siebie",
-                        "Malware": "To jest złośliwe oprogramowanie",
-                        "Harassment": "To jest nękanie lub nadużycie skierowane do innego użytkownika"
-                    },
-                    "user_reason": {
-                        "SpamAbuse": "Użytkownik wysyła spam lub w inny sposób nadużywa platformy",
-                        "InappropriateProfile": "Profil użytkownika jest nieodpowiedni dla ogólnej publiczności",
-                        "Impersonation": "Ten użytkownik podszywa się pod kogoś innego",
-                        "BanEvasion": "Ten użytkownik omija bana",
-                        "Underage": "Ten użytkownik nie jest wystarczająco dorosły, aby mieć konto"
-                    },
-                    "reported": "Zgłoszono",
-                    "thank_you": "Dziękujemy za pomoc w utrzymaniu bezpieczeństwa Kimani Life. Rozpatrzymy Twoje zgłoszenie tak szybko, jak to możliwe.",
-                    "block_user": "Czy chcesz zablokować tego użytkownika?"
-                }
-            },
-            "popovers": {
-                "user_profile": {
-                    "profile": "Profil",
-                    "mutual_friends": "Wspólni znajomi",
-                    "mutual_groups": "Wspólne grupy",
-                    "mutual_servers": "Wspólne serwery",
-                    "empty": "Trochę tu pusto…",
-                    "no_users": "Brak wspólnych znajomych",
-                    "no_groups": "Brak wspólnych grup",
-                    "no_servers": "Brak wspólnych serwerów",
-                    "sub": {
-                        "badges": "Odznaki",
-                        "information": "Informacje",
-                        "connections": "Połączenia"
-                    },
-                    "badges": {
-                        "translator": "Tłumacz",
-                        "supporter": "Wspierający",
-                        "responsible_disclosure": "Odpowiedzialne ujawnienie problemu/problemów bezpieczeństwa",
-                        "early_adopter": "Wczesny użytkownik",
-                        "moderation": "Moderacja platformy",
-                        "founder": "Założyciel"
-                    }
-                },
-                "user_picker": {
-                    "select": "Wybierz znajomych do dodania."
-                },
-                "create_bot": {
-                    "title": "Utwórz nowego bota",
-                    "failed": "Nie udało się utworzyć bota!"
-                },
-                "server_identity": {
-                    "nickname": "Pseudonim",
-                    "title": "Zmień tożsamość na {{server}}",
-                    "avatar": "Zdjęcie użytkownika"
-                }
-            },
-            "requires_online": "Musisz być online, aby to wyświetlić.",
-            "invite": {
-                "invited_by": "Zaproszony przez {{user}}",
-                "login": "Zaloguj się do Kimani Life",
-                "accept": "Akceptuj zaproszenie",
-                "user_count": "{{member_count}} użytkowników",
-                "invalid": "Nieprawidłowe zaproszenie!",
-                "invalid_desc": "Zaproszenie może nie istnieć lub nie masz uprawnień do dołączenia."
-            },
-            "server-badges": {
-                "official": "Oficjalny serwer",
-                "verified": "Zweryfikowany serwer"
-            }
-        },
-        "context_menu": {
-            "copy_id": "Kopiuj ID",
-            "copy_selection": "Kopiuj zaznaczenie",
-            "copy_text": "Kopiuj tekst",
-            "copy_uid": "Kopiuj ID użytkownika",
-            "copy_sid": "Kopiuj ID serwera",
-            "copy_cid": "Kopiuj ID kanału",
-            "copy_mid": "Kopiuj ID wiadomości",
-            "copy_message_link": "Kopiuj link wiadomości",
-            "mention": "Wzmiankuj",
-            "message_user": "Wiadomość",
-            "view_profile": "Wyświetl profil",
-            "mark_as_read": "Oznacz jako przeczytane",
-            "retry_message": "Ponów wysyłanie",
-            "cancel_message": "Anuluj wysyłanie",
-            "reply_message": "Odpowiedz",
-            "quote_message": "Cytuj wiadomość",
-            "edit_message": "Edytuj wiadomość",
-            "delete_message": "Usuń wiadomość",
-            "remove_member": "Usuń z grupy",
-            "kick_member": "Wyrzuć członka",
-            "ban_member": "Zbanuj członka",
-            "open_file": "Otwórz plik",
-            "save_file": "Zapisz plik",
-            "open_image": "Otwórz obraz",
-            "save_image": "Zapisz obraz",
-            "open_video": "Otwórz wideo",
-            "save_video": "Zapisz wideo",
-            "copy_link": "Kopiuj link",
-            "open_link": "Otwórz link",
-            "block_user": "Zablokuj użytkownika",
-            "unblock_user": "Odblokuj użytkownika",
-            "add_friend": "Dodaj znajomego",
-            "remove_friend": "Usuń znajomego",
-            "cancel_friend": "Anuluj prośbę",
-            "custom_status": "Status niestandardowy",
-            "clear_status": "Wyczyść status",
-            "set_custom_status": "Ustaw status niestandardowy",
-            "leave_group": "Opuść grupę",
-            "leave_server": "Opuść serwer",
-            "close_dm": "Zamknij DM",
-            "delete_server": "Usuń serwer",
-            "edit_identity": "Edytuj tożsamość",
-            "delete_channel": "Usuń kanał",
-            "create_channel": "Utwórz kanał",
-            "create_category": "Utwórz kategorię",
-            "create_invite": "Utwórz zaproszenie",
-            "open_notification_options": "Opcje powiadomień",
-            "open_channel_settings": "Ustawienia kanału",
-            "open_server_settings": "Ustawienia serwera",
-            "open_group_settings": "Ustawienia grupy",
-            "mark_unread": "Oznacz jako nieprzeczytane",
-            "make_owner": "Przekaż własność grupy",
-            "report_message": "Zgłoś wiadomość",
-            "report_user": "Zgłoś użytkownika",
-            "report_server": "Zgłoś serwer"
-        },
-        "permissions": {
-            "required": "Wymagane uprawnienia"
-        },
-        "home": {
-            "join-testers": "Dołącz do serwera testerów",
-            "goto-testers": "Przejdź do serwera testerów",
-            "donate": "Wspomóż Kimani Life",
-            "feedback": "Prześlij opinię o Kimani Life",
-            "settings": "Otwórz ustawienia",
-            "settings-tooltip": "Możesz także kliknąć prawym przyciskiem myszy ikonę użytkownika w lewym górnym rogu lub kliknąć lewym przyciskiem myszy, jeśli jesteś już na stronie głównej.",
-            "social": "Znajdź serwery i boty",
-            "directs": "Wiadomości bezpośrednie",
-            "join-testers_desc": "Możesz tutaj bezpośrednio zgłaszać problemy i omawiać z nami ulepszenia.",
-            "goto-testers_desc": "Możesz tutaj bezpośrednio zgłaszać problemy i omawiać z nami ulepszenia.",
-            "donate_desc": "Wspomóż projekt, przekazując darowiznę - dziękujemy!",
-            "feedback_desc": "Daj nam znać, jak możemy ulepszyć naszą aplikację, przesyłając nam opinię.",
-            "discover": "Odkryj Kimani Life",
-            "discover_desc": "Znajdź społeczność opartą na swoich zainteresowaniach lub hobby.",
-            "group": "Utwórz grupę",
-            "group_desc": "Zaproś wszystkich swoich znajomych, kilka fajnych botów i zrób wielką imprezę."
-        },
-        "home2": {
-            "amb-join": "Dołącz jako Ambasador",
-            "spon-join": "Zostań Sponsorem",
-            "ven-join": "Złóż wniosek jako Preferowany Dostawca Usług",
-            "foun-join": "Zostań Członkiem Założycielem",
-            "amb-desc": "Lorem ipsum dolor kimet."
-        }
-    },
-    "quantities": {
-        "members": {
-            "one": "1 członek",
-            "many": "{{count}} członków"
-        },
-        "dropFiles": {
-            "many": "Upuść {{count}} plików",
-            "one": "Upuść plik"
-        }
-    },
-    "dayjs": {
-        "lastDay": "[Wczoraj o] {{time}}",
-        "sameDay": "[Dzisiaj o] {{time}}",
-        "nextDay": "[Jutro o] {{time}}",
-        "lastWeek": "[W zeszły] dddd [o] {{time}}",
-        "nextWeek": "dddd [o] {{time}}",
-        "defaults": {
-            "date_separator": "/",
-            "date_format": "simplified",
-            "twelvehour": "yes"
-        }
-    },
-    "notifications": {
-        "sent_request": "@{{person}} wysłał(a) Ci zaproszenie do znajomych.",
-        "now_friends": "Jesteś teraz znajomym/ą @{{person}}!"
-    },
-    "error": {
-        "NetworkError": "Błąd sieci.",
-        "Unauthorized": "Nieautoryzowany.",
-        "Unlabelled": "Coś się stało.",
-        "FailedValidation": "Nie udało się zweryfikować pól.",
-        "DatabaseError": "Błąd bazy danych.",
-        "InternalError": "Błąd wewnętrzny.",
-        "MissingPermission": "Brak uprawnień.",
-        "UnknownError": "Zobacz konsolę.",
-        "OperationFailed": "Operacja nie powiodła się.",
-        "RenderFail": "Renderowanie szablonu nie powiodło się.",
-        "MissingHeaders": "Brak nagłówków.",
-        "InvalidSession": "Nieprawidłowa sesja.",
-        "UnverifiedAccount": "Niezweryfikowane konto.",
-        "UnknownUser": "Nieznany użytkownik.",
-        "EmailInUse": "E-mail w użyciu.",
-        "EmailFailed": "Nie udało się wysłać e-maila.",
-        "InvalidCredentials": "Nieprawidłowy e-mail lub hasło.",
-        "InvalidToken": "Nieprawidłowy token",
-        "MissingInvite": "Brak kodu zaproszenia w żądaniu.",
-        "InvalidInvite": "Nieprawidłowy kod",
-        "AlreadyOnboarded": "Już zakończono wdrażanie.",
-        "UsernameTaken": "Ta nazwa użytkownika jest zajęta.",
-        "AlreadyFriends": "Już znajomy z tym użytkownikiem.",
-        "AlreadySentRequest": "Wysłano już prośbę do tego użytkownika.",
-        "Blocked": "Zablokowałeś tego użytkownika.",
-        "BlockedOther": "Ten użytkownik Cię zablokował.",
-        "NoEffect": "To żądanie nie miało żadnego wpływu.",
-        "RequiredField": "Wymagane",
-        "TooShort": "Za krótki",
-        "TooLong": "Za długi",
-        "InvalidEmail": "Nieprawidłowy adres e-mail",
-        "Unavailable": "Niedostępne.",
-        "FileTooLarge": "Plik jest za duży.",
-        "FailedToReceive": "Serwer nie odebrał Twojego pliku.",
-        "MissingData": "W żądaniu brakuje danych.",
-        "ProbeError": "Nie udało się pobrać metadanych pliku.",
-        "IoError": "Serwer napotkał błąd wejścia/wyjścia.",
-        "UnsupportedBrowser": "Przeglądarka nie obsługuje tej funkcji.",
-        "DeniedNotification": "Odrzuciłeś dostęp do powiadomień, sprawdź ustawienia strony.",
-        "CompromisedPassword": "To hasło zostało skompromitowane.",
-        "ReachedMaximumBots": "Osiągnąłeś maksymalną liczbę botów.",
-        "AudioPermissionBlock": "Brak dostępu do mikrofonu, sprawdź konfigurację przeglądarki.",
-        "DiscriminatorChangeRatelimited": "Zbyt wiele zmian tagów."
-    },
-    "shortcuts": {
-        "ctrlc": "Ctrl + C"
-    },
-    "permissions": {
-        "ManageChannels": {
-            "t": "Zarządzaj kanałami",
-            "d": "Pozwala członkom tworzyć, edytować i usuwać kanały."
-        },
-        "ManageServer": {
-            "t": "Zarządzaj serwerem",
-            "d": "Pozwala członkom zmieniać nazwę, opis, ikonę i inne powiązane informacje tego serwera."
-        },
-        "KickMembers": {
-            "t": "Wyrzucaj członków",
-            "d": "Pozwala członkom usuwać członków z tego serwera. Wyrzuceni członkowie mogą ponownie dołączyć za pomocą zaproszenia."
-        },
-        "BanMembers": {
-            "t": "Banuj członków",
-            "d": "Pozwala członkom trwale usuwać członków z tego serwera."
-        },
-        "ChangeNickname": {
-            "t": "Zmień pseudonim",
-            "d": "Pozwala członkom zmieniać swój pseudonim na tym serwerze."
-        },
-        "ManageNicknames": {
-            "t": "Zarządzaj pseudonimami",
-            "d": "Pozwala członkom zmieniać pseudonimy innych członków."
-        },
-        "ChangeAvatar": {
-            "t": "Zmień awatar",
-            "d": "Pozwala członkom zmieniać swój awatar serwera na tym serwerze."
-        },
-        "RemoveAvatars": {
-            "t": "Usuń awatary",
-            "d": "Pozwala członkom usuwać awatary serwera innych członków na tym serwerze."
-        },
-        "SendMessage": {
-            "t": "Wysyłaj wiadomości",
-            "d": "Pozwala członkom wysyłać wiadomości na kanałach tekstowych."
-        },
-        "ManageMessages": {
-            "t": "Zarządzaj wiadomościami",
-            "d": "Pozwala członkom usuwać wiadomości wysłane przez innych członków."
-        },
-        "ManageChannel": {
-            "t": "Zarządzaj kanałami",
-            "d": "Pozwala członkom edytować lub usuwać kanał."
-        },
-        "VoiceCall": {
-            "t": "Rozmowa głosowa",
-            "d": "Pozwala członkom dołączać do kanałów głosowych."
-        },
-        "InviteOthers": {
-            "t": "Zapraszaj innych",
-            "d": "Pozwala członkom zapraszać innych użytkowników na kanał."
-        },
-        "EmbedLinks": {
-            "t": "Osadzaj linki",
-            "d": "Pozwala członkom wyświetlać osadzone treści z linków, które publikują na kanałach tekstowych."
-        },
-        "UploadFiles": {
-            "t": "Przesyłaj pliki",
-            "d": "Pozwala członkom przesyłać pliki na kanałach tekstowych."
-        },
-        "Masquerade": {
-            "t": "Maskarada",
-            "d": "Pozwala członkom zmieniać swoją nazwę i awatar dla poszczególnych wiadomości."
-        },
-        "ManageRole": {
-            "t": "Zarządzaj rolami",
-            "d": "Pozwala członkom tworzyć, edytować i usuwać role o niższej randze niż ich własna. Pozwala im również modyfikować uprawnienia ról na kanałach."
-        },
-        "ViewChannel": {
-            "t": "Wyświetl kanał",
-            "d": "Pozwala członkom wyświetlać wszystkie kanały, do których mają uprawnienia."
-        },
-        "ManagePermissions": {
-            "t": "Zarządzaj uprawnieniami",
-            "d": "Pozwala członkom zmieniać uprawnienia dla kanałów i ról o niższej randze."
-        },
-        "ReadMessageHistory": {
-            "t": "Czytaj historię wiadomości",
-            "d": "Pozwala członkom czytać historię wiadomości tego kanału."
-        },
-        "Connect": {
-            "t": "Połącz",
-            "d": "Pozwala członkom łączyć się z kanałem głosowym."
-        },
-        "ManageWebhooks": {
-            "t": "Zarządzaj webhookami",
-            "d": "Pozwala członkom kontrolować webhooki na kanale."
-        },
-        "SendEmbeds": {
-            "t": "Wysyłaj osadzone treści",
-            "d": "Pozwala członkom wysyłać osadzone treści, zarówno z linków, jak i niestandardowych osadzonych tekstów."
-        },
-        "DeafenMembers": {
-            "d": "Pozwala członkom wyciszać innych w kanale głosowym.",
-            "t": "Wyciszaj członków"
-        },
-        "MoveMembers": {
-            "t": "Przenoś członków",
-            "d": "Pozwala członkom przenosić innych między kanałami głosowymi."
-        },
-        "Video": {
-            "d": "Pozwala członkom przesyłać strumieniowo wideo w kanale głosowym.",
-            "t": "Wideo"
-        },
-        "MuteMembers": {
-            "t": "Wyciszaj członków",
-            "d": "Pozwala członkom wyciszać innych w kanale głosowym."
-        },
-        "TimeoutMembers": {
-            "t": "Timeout dla członków",
-            "d": "Pozwala członkom tymczasowo uniemożliwiać użytkownikom interakcję z serwerem."
-        },
-        "AssignRoles": {
-            "t": "Przypisz role",
-            "d": "Pozwala członkom przypisywać role poniżej ich własnej rangi innym członkom."
-        },
-        "Speak": {
-            "t": "Mów",
-            "d": "Pozwala członkom mówić w kanale głosowym."
-        },
-        "ManageCustomisation": {
-            "t": "Zarządzaj dostosowaniem",
-            "d": "Pozwala członkom tworzyć, edytować i usuwać emoji."
-        },
-        "React": {
-            "t": "Używaj reakcji",
-            "d": "Pozwala członkom reagować na wiadomości."
-        }
-    },
-    "actions": {
-        "submit": "Wyślij"
-    },
-    "keys": {
-        "Escape": {
-            "short": "Esc"
-        },
-        "Control": {
-            "short": "Ctrl"
-        },
-        "Insert": {
-            "short": "Ins"
-        },
-        "Delete": {
-            "short": "Del"
-        },
-        "Backspace": {
-            "short": "Backspace"
-        },
-        "PageUp": {
-            "full": "Page Up",
-            "short": "PgUp"
-        },
-        "PageDown": {
-            "full": "Page Down",
-            "short": "PgDown"
-        },
-        "PrintScreen": {
-            "full": "Print Screen",
-            "short": "PrtSc"
-        },
-        "ScrollLock": {
-            "full": "Scroll Lock",
-            "short": "ScrLK"
-        },
-        "CapsLock": {
-            "full": "Caps Lock"
-        }
-    },
-    "destinations": {
-        "post_trip": {
-            "title": "Opublikuj podróż",
-            "departure": "Wyjazd",
-            "arrival": "Przyjazd",
-            "business": "Biznes",
-            "leisure": "Wypoczynek",
-            "description": {
-                "label": "Opis",
-                "placeholder": "Opowiedz nam o swojej podróży..."
-            },
-            "done": "Gotowe"
-        },
-        "filters": {
-            "search": {
-                "placeholder": "Szukaj miejsca docelowego..."
-            }
-        },
-        "sections": {
-            "local_communities": "Społeczności lokalne",
-            "location": "Lokalizacja"
-        },
-        "actions": {
-            "post_trip": "Opublikuj podróż",
-            "see_all": "Zobacz wszystko"
-        }
-    },
-    "all_trips": {
-        "back": "Wstecz",
-        "title": "Kto jest w {{location}}?",
-        "empty_state": "Nie znaleziono podróżnych. Bądź pierwszym, który doda podróż!",
-        "dates": "{{start}} - {{end}}"
-    },
-    "trip_details": {
-        "post": "Post użytkownika {{name}}",
-        "travel_purpose": "Cel podróży",
-        "dates": {
-            "from": "Od:",
-            "to": "Do:"
-        },
-        "no_description": "Brak opisu",
-        "comments": {
-            "title": "Komentarze",
-            "empty": "Brak komentarzy. Bądź pierwszym, który skomentuje!",
-            "input_placeholder": "Dodaj komentarz do tej podróży..."
-        },
-        "actions": {
-            "send_message": "Wyślij wiadomość",
-            "add_friend": "Dodaj znajomego"
-        }
-    },
-    "trip_comment": {
-        "unknown_user": "Nieznany użytkownik"
-    }
+    "general": {
+        "about": "O nas",
+        "tos": "Warunki usługi",
+        "privacy": "Polityka prywatności",
+        "image_by": "Obrazek autorstwa",
+        "loading": "Ładowanie…",
+        "on": "Włączone",
+        "off": "Wyłączone",
+        "disabled": "Wyłączone",
+        "unavailable": "Niedostępne",
+        "learn_more": "Dowiedz się więcej"
+    },
+    "login": {
+        "title": "ZALOGUJ SIĘ",
+        "register": "Zarejestruj się",
+        "username": "Nazwa użytkownika",
+        "first_name": "Imię",
+        "last_name": "Nazwisko",
+        "phone_number": "Numer telefonu",
+        "country": "Kraj",
+        "city": "Miasto",
+        "occupation": "Zawód",
+        "tell_us_more_about_you": "Opowiedz nam więcej o sobie",
+        "likes_attending_to": "Lubisz uczestniczyć w?",
+        "favorite_destinations": "Jakie są Twoje ulubione miejsca docelowe?",
+        "languages_spoken": "Jakimi językami mówisz?",
+        "passions_and_hobbies": "Jakie są Twoje pasje i hobby?",
+        "linkedin": "Jaki jest Twój profil LinkedIn?",
+        "x_account": "Jaki jest Twój profil X?",
+        "instagram": "Jaki jest Twój profil Instagram?",
+        "facebook": "Jaki jest Twój profil Facebook?",
+        "email": "E-mail",
+        "password": "Hasło",
+        "invite": "Kod zaproszenia",
+        "current_password": "Bieżące hasło",
+        "enter": {
+            "username": "Wprowadź preferowaną nazwę użytkownika.",
+            "email": "E-MAIL",
+            "password": "HASŁO",
+            "confirm_password": "POTWIERDŹ HASŁO",
+            "terms_and_conditions_1": "Akceptuję",
+            "terms_and_conditions_2": "Warunki i zasady",
+            "pledge_1": "Zgadzam się i akceptuję",
+            "pledge_2": "Kimani Pledge",
+            "invite": "Wprowadź swój kod zaproszenia.",
+            "current_password": "Wprowadź swoje bieżące hasło.",
+            "new_password": "Wprowadź nowe hasło.",
+            "first_name": "Wprowadź swoje imię.",
+            "last_name": "Wprowadź swoje nazwisko.",
+            "phone_number": "Wprowadź swój numer telefonu.",
+            "country": "Wprowadź swój kraj.",
+            "city": "Wprowadź swoje miasto.",
+            "occupation": "Wprowadź swój zawód.",
+            "tell_us_more_about_you": "Opowiedz nam więcej o sobie..",
+            "likes_attending_to": "Wpisz, w czym lubisz uczestniczyć",
+            "favorite_destinations": "Wpisz swoje ulubione miejsca docelowe",
+            "languages_spoken": "Wpisz języki, którymi mówisz",
+            "passions_and_hobbies": "Wpisz swoje pasje i hobby",
+            "linkedin": "Wprowadź adres URL swojego profilu LinkedIn",
+            "x_account": "Wprowadź adres URL swojego profilu X",
+            "instagram": "Wprowadź adres URL swojego profilu Instagram",
+            "facebook": "Wprowadź adres URL swojego profilu Facebook"
+        },
+        "forgot": "Zapomniałeś hasła?",
+        "reset": "Zresetuj",
+        "login_problems": "Problemy z logowaniem? Wyślij e-mail na adres: support@kimanilife.com",
+        "set_password": "Ustaw nowe hasło",
+        "remembered": "Wróć do logowania",
+        "new": "Nie masz konta?",
+        "existing": "Masz już konto?",
+        "create": "Utwórz nowe konto",
+        "pre_approved": "Tylko wstępnie zatwierdzone adresy e-mail będą mogły utworzyć konto.",
+        "missing_verification": "Nie otrzymałeś e-maila?",
+        "resend": "Wyślij weryfikację ponownie",
+        "cancel": "Anuluj prośbę",
+        "check_mail": "Sprawdź swoją pocztę!",
+        "reset_sent": "Wysłaliśmy Ci link do resetowania hasła na Twój adres e-mail.",
+        "email_delay": "Może to potrwać kilka minut",
+        "check_spam": "Nie widzisz e-maila? Sprawdź folder spam.",
+        "open_mail_provider": "Otwórz {{provider}}",
+        "successful_registration": "Pomyślnie zarejestrowano!",
+        "error": {
+            "create": "Nie udało się zarejestrować!",
+            "login": "Nie udało się zalogować!",
+            "reset": "Nie udało się zresetować!",
+            "resend": "Nie udało się wysłać ponownie!",
+            "verify": "Nie udało się zweryfikować!"
+        },
+        "subtitle2": "UTWÓRZ KONTO",
+        "subtitle": "Logowanie dla członków Kimani",
+        "reset_subtitle": "RESETOWANIE HASŁA",
+        "reset_send": "Wyślij link do resetowania",
+        "unofficial_instance": "Instancja zewnętrzna.",
+        "totp": "Aplikacja uwierzytelniająca",
+        "recovery": "Kod odzyskiwania",
+        "verifying_account": "Weryfikacja konta…",
+        "verified_account": "Twoje konto zostało zweryfikowane!",
+        "verified_continue": "Kontynuuj logowanie",
+        "new_password": "Nowe hasło",
+        "log_out_other": "Wyloguj się ze wszystkich innych sesji"
+    },
+    "app": {
+        "status": {
+            "online": "Online",
+            "idle": "Bezczynny",
+            "busy": "Nie przeszkadzać",
+            "invisible": "Niewidoczny",
+            "offline": "Offline",
+            "reconnect": "Połącz ponownie",
+            "focus": "Skupienie"
+        },
+        "navigation": {
+            "tabs": {
+                "home": "Strona główna",
+                "dev": "Deweloper",
+                "friends": "Znajomi",
+                "unreads": "Nieprzeczytane",
+                "saved": "Zapisane notatki"
+            }
+        },
+        "main": {
+            "categories": {
+                "conversations": "Rozmowy",
+                "participants": "Uczestnicy",
+                "channels": "Kanały",
+                "members": "Członkowie"
+            },
+            "channel": {
+                "message_where": "Wiadomość {{channel_name}}",
+                "message_who": "Wiadomość {{person}}",
+                "message_saved": "Zapisz w swoich notatkach",
+                "uploading_file": "Przesyłanie…",
+                "failed_upload": "Przesyłanie nie powiodło się!",
+                "attached_file": "Załączono {{filename}}",
+                "typing": {
+                    "single": "{{user}} pisze…",
+                    "multiple": "{{userlist}} i {{user}} piszą…",
+                    "several": "Kilka osób pisze…"
+                },
+                "system": {
+                    "user_joined": "{{user}} dołączył/a",
+                    "user_left": "{{user}} opuścił/a",
+                    "user_kicked": "{{user}} został/a wyrzucony/a",
+                    "user_banned": "{{user}} został/a zbanowany/a",
+                    "added_by": "{{user}} został/a dodany/a przez {{other_user}}",
+                    "removed_by": "{{user}} został/a usunięty/a przez {{other_user}}",
+                    "channel_renamed": "{{user}} zmienił/a nazwę kanału na {{name}}",
+                    "channel_description_changed": "{{user}} zmienił/a opis kanału",
+                    "channel_icon_changed": "{{user}} zmienił/a ikonę kanału",
+                    "channel_ownership_changed": "{{from}} przekazał/a {{to}} własność grupy",
+                    "registered_at": "Zarejestrowano {{time}}"
+                },
+                "start": {
+                    "group": "To jest początek Twojej rozmowy.",
+                    "saved": "Tutaj zaczynają się Twoje notatki."
+                },
+                "voice": {
+                    "connected": "Połączono głosowo",
+                    "leave": "Opuść",
+                    "mute": "Wycisz",
+                    "unmute": "Włącz głos"
+                },
+                "misc": {
+                    "viewing_old": "Wyświetlanie starszych wiadomości",
+                    "jump_present": "Przejdź do obecnego",
+                    "jump_beginning": "Przejdź na początek",
+                    "spoiler_attachment": "Spoiler",
+                    "failed_load": "Nie udało się załadować wiadomości.",
+                    "no_sending": "Nie masz uprawnień do wysyłania wiadomości na tym kanale.",
+                    "blocked_messages": "{{count}} zablokowanych wiadomości",
+                    "blocked_user": "Zablokowany użytkownik",
+                    "sent_file": "Wysłano załącznik",
+                    "sent_multiple_files": "Wysłano wiele załączników",
+                    "new_messages": "Nowe wiadomości od {{time_ago}}",
+                    "load_file": "Załaduj plik",
+                    "timed_out": "Masz timeout na {{time}}.",
+                    "not_loaded": "Wiadomość nie załadowana, kliknij, aby przejść"
+                },
+                "nsfw": {
+                    "channel": {
+                        "marked": "Ten kanał jest oznaczony jako NSFW.",
+                        "confirm": "Wejdź na kanał"
+                    },
+                    "confirm": "Potwierdzam, że mam ukończone 18 lat."
+                },
+                "unknown_user": "<Nieznany użytkownik>",
+                "edited": "(edytowano)",
+                "bot": "Bot",
+                "notifications": {
+                    "default": "Użyj domyślnych",
+                    "all": "Wszystkie wiadomości",
+                    "mention": "Tylko wzmianki",
+                    "none": "Brak",
+                    "muted": "Wyciszone"
+                },
+                "search": {
+                    "title": "Szukaj",
+                    "sort": {
+                        "relevance": "Trafność",
+                        "latest": "Najnowsze",
+                        "oldest": "Najstarsze"
+                    }
+                },
+                "errors": {
+                    "title": "Ups, nic tu nie ma!",
+                    "nochannels": "Ten serwer nie ma kanałów lub nie masz do nich dostępu.",
+                    "nochannel": "Brak kanału"
+                },
+                "reply": {
+                    "replying": "Odpowiadanie na",
+                    "toggle": "Przełącz ping autora"
+                },
+                "bridge": "most",
+                "user_timed_out": "Masz timeout na {{time}}.",
+                "bridged": "Wiadomość została wysłana na innej platformie",
+                "team": "Oficjalna komunikacja",
+                "new_to_revolt": "Nowy w Kimani Life",
+                "new_to_server": "Nowy na tym serwerze",
+                "reactions": {
+                    "others_reacted": "{{userlist}} i {{count}} innych zareagowało",
+                    "unknown_reacted": "{{count}} osób zareagowało",
+                    "single_reacted": "1 osoba zareagowała",
+                    "people_reacted": "{{people}} zareagowało"
+                }
+            },
+            "groups": {
+                "create": "Utwórz grupę",
+                "name": "Nazwa grupy",
+                "description": "Opis grupy",
+                "owner": "Właściciel grupy"
+            },
+            "servers": {
+                "create": "Utwórz serwer",
+                "name": "Nazwa serwera",
+                "description": "Opis serwera",
+                "channel_name": "Nazwa kanału",
+                "channel_type": "Typ kanału",
+                "channel_description": "Opis kanału",
+                "custom_banner": "Niestandardowy baner",
+                "owner": "Właściciel serwera",
+                "text_channel": "Kanał tekstowy",
+                "voice_channel": "Kanał głosowy",
+                "category_name": "Nazwa kategorii"
+            }
+        },
+        "settings": {
+            "title": "Ustawienia",
+            "categories": {
+                "user_settings": "Ustawienia użytkownika",
+                "client_settings": "Ustawienia klienta",
+                "danger_zone": "Strefa zagrożenia"
+            },
+            "actions": {
+                "remove": "Usuń",
+                "upload": "Prześlij",
+                "max_filesize": "(maks. {{filesize}})",
+                "edit": "Edytuj {{name}}"
+            },
+            "pages": {
+                "account": {
+                    "title": "Moje konto",
+                    "change_field": "Zmień",
+                    "unique_id": "To jest unikalny identyfikator użytkownika Twojego konta.",
+                    "2fa": {
+                        "title": "Uwierzytelnianie dwuskładnikowe",
+                        "description": "Dodaj dodatkową warstwę bezpieczeństwa, włączając 2FA na swoim koncie.",
+                        "add_auth": "Dodaj uwierzytelniacz",
+                        "remove_auth": "Usuń uwierzytelniacz",
+                        "two_factor_off": "Nie włączyłeś uwierzytelniania dwuskładnikowego!",
+                        "view_recovery": "Wyświetl kody odzyskiwania",
+                        "view_recovery_long": "Wyświetl i pobierz swoje kody odzyskiwania 2FA.",
+                        "generate_recovery": "Generuj kody zapasowe",
+                        "generate_recovery_long": "Przygotuj się do użycia 2FA, konfigurując metodę zapasową.",
+                        "two_factor_on": "Uwierzytelnianie dwuskładnikowe jest obecnie włączone."
+                    },
+                    "manage": {
+                        "title": "Zarządzanie kontem",
+                        "description": "Dezaktywuj lub usuń swoje konto w dowolnym momencie. Ta akcja wyloguje Cię i całkowicie usunie Twoje konto, w tym historię czatów i znajomych.",
+                        "disable": "Dezaktywuj konto",
+                        "delete": "Usuń konto"
+                    }
+                },
+                "profile": {
+                    "title": "Profil",
+                    "info": "Informacje",
+                    "fetching": "Pobieranie Twojego profilu…",
+                    "placeholder": "Napisz coś o sobie…",
+                    "profile_picture": "Zdjęcie profilowe",
+                    "custom_background": "Niestandardowe tło",
+                    "edit_background": "Edytuj tło",
+                    "edit_profile": "Edytuj profil"
+                },
+                "sessions": {
+                    "title": "Sesje",
+                    "active_sessions": "Aktywne sesje",
+                    "this_device": "To urządzenie",
+                    "created": "Utworzono {{time_ago}}",
+                    "logout": "Wyloguj się ze wszystkich innych sesji"
+                },
+                "invite": {
+                    "title": "Zaproś",
+                    "description": "Zaproś znajomych do Kimani Life"
+                },
+                "audio": {
+                    "title": "Ustawienia głosu",
+                    "input_device": "Mikrofon",
+                    "output_device": "Głośnik / Słuchawki",
+                    "tip_retry": "Nie zezwoliłeś na dostęp do mikrofonu, proszę {{retryBtn}}.",
+                    "device_label_NA": "N/D",
+                    "button_retry": "Spróbuj ponownie",
+                    "tip_grant_permission": "Musisz udzielić pozwolenia na dostęp do ustawień audio.",
+                    "button_grant": "Udziel pozwolenia"
+                },
+                "appearance": {
+                    "title": "Wygląd",
+                    "theme": "Motyw",
+                    "display": {
+                        "default": "Domyślny",
+                        "compact": "Kompaktowy",
+                        "default_description": "Piękny, elegancki i nowoczesny.",
+                        "compact_description": "Stary dobry IRC."
+                    },
+                    "color": {
+                        "light": "jasny",
+                        "dark": "ciemny"
+                    },
+                    "accent_selector": "Kolor akcentu",
+                    "emoji_pack": "Pakiet emoji",
+                    "message_display": "Wyświetlanie wiadomości",
+                    "advanced": "Zaawansowane opcje",
+                    "overrides": "Nadpisywanie motywu",
+                    "reset_overrides": "Zresetuj nadpisywanie",
+                    "import": "Importuj motyw",
+                    "import_theme": "Importuj motyw z ciągu znaków",
+                    "theme_data": "Dane motywu",
+                    "custom_css": "Niestandardowy CSS",
+                    "sync": "Opcje synchronizacji",
+                    "font": "Czcionka",
+                    "mono_font": "Selektor czcionki monospace",
+                    "ligatures": "Ligatury czcionek",
+                    "ligatures_desc": "Dla obsługiwanych czcionek, ligatury łączą znaki - na przykład, zmieniając -> w strzałkę.",
+                    "theme_options": {
+                        "title": "Opcje motywu",
+                        "follow_desc": "Jeśli zaznaczone, nie będziesz mógł zmienić motywu ani użyć niestandardowego.",
+                        "seasonal": "Motyw sezonowy",
+                        "follow": "Podążaj za motywem systemowym",
+                        "transparency": "Efekty przezroczystości",
+                        "transparency_desc": "Włącza efekty przezroczystości (jak matowe szkło) w całej aplikacji.",
+                        "seasonal_desc": "Wyświetla efekty w zakładce głównej podczas sezonów świątecznych."
+                    },
+                    "discover": {
+                        "title": "Odkryj motywy",
+                        "description": "Przeglądaj motywy stworzone przez społeczność"
+                    },
+                    "appearance_options": {
+                        "title": "Opcje wyglądu",
+                        "show_send": "Zawsze pokazuj przycisk „Wyślij wiadomość”",
+                        "show_send_desc": "Jeśli wyłączone, przycisk „Wyślij wiadomość” będzie wyświetlany tylko na urządzeniach mobilnych.",
+                        "show_account_age": "Zawsze pokazuj wiek konta obok wiadomości o dołączeniu",
+                        "show_account_age_desc": "Jeśli wyłączone, wiek konta będzie wyświetlany tylko dla nowych użytkowników."
+                    },
+                    "colours": {
+                        "title": "Kolory"
+                    },
+                    "emoji": {
+                        "title": "Emoji"
+                    },
+                    "fonts": {
+                        "title": "Czcionki"
+                    },
+                    "advanced_options": {
+                        "title": "Zaawansowane opcje"
+                    }
+                },
+                "notifications": {
+                    "title": "Powiadomienia",
+                    "push_notifications": "Powiadomienia push",
+                    "enable_desktop": "Włącz powiadomienia pulpitu",
+                    "enable_push": "Włącz powiadomienia push",
+                    "sounds": "Dźwięki",
+                    "descriptions": {
+                        "enable_desktop": "To włączy powiadomienia, gdy aplikacja jest otwarta.",
+                        "enable_push": "Włącz, aby otrzymywać powiadomienia, gdy jesteś offline."
+                    },
+                    "sound": {
+                        "message": "Wiadomość odebrana",
+                        "outbound": "Wiadomość wysłana",
+                        "call_join": "Użytkownik dołączył do rozmowy",
+                        "call_leave": "Użytkownik opuścił rozmowę"
+                    }
+                },
+                "language": {
+                    "title": "Język",
+                    "select": "Wybierz swój język",
+                    "const": "Języki konstruowane",
+                    "other": "Inne opcje językowe"
+                },
+                "sync": {
+                    "title": "Synchronizuj",
+                    "categories": "Synchronizuj kategorie",
+                    "descriptions": {
+                        "appearance": "To zsynchronizuje opcje, takie jak pakiety emoji i gęstość wiadomości.",
+                        "theme": "To zsynchronizuje wybrany motyw, kolory i niestandardowy CSS.",
+                        "locale": "To zsynchronizuje aktualnie wybrany język."
+                    },
+                    "options": "Opcje synchronizacji"
+                },
+                "native": {
+                    "title": "Ustawienia pulpitu"
+                },
+                "experiments": {
+                    "title": "Eksperymenty",
+                    "features": "Dostępne funkcje",
+                    "not_available": "Obecnie brak dostępnych eksperymentów."
+                },
+                "donate": {
+                    "title": "Wspomóż"
+                },
+                "source_code": "Kod źródłowy",
+                "bots": {
+                    "title": "Moje boty",
+                    "create_bot": "Utwórz bota",
+                    "copy_invite": "Kopiuj link zapraszający",
+                    "add": "Dodaj bota",
+                    "token": "Token",
+                    "public_bot_tip": "Bot jest publiczny. Każdy może go zaprosić.",
+                    "private_bot_tip": "Bot jest prywatny. Tylko Ty możesz go zaprosić.",
+                    "public_bot": "Bot publiczny",
+                    "public_bot_desc": "Czy zezwolić innym użytkownikom na zapraszanie tego bota.",
+                    "interactions_url": "URL interakcji",
+                    "reserved": "Uwaga: To pole jest zarezerwowane na przyszłość.",
+                    "unique_id": "To jest unikalny identyfikator Twojego bota. To nie jest token bota.",
+                    "profile": "Profil bota"
+                },
+                "feedback": {
+                    "title": "Opinie",
+                    "suggest": "Prześlij sugestię funkcji",
+                    "suggest_desc": "Sugeruj nowe funkcje Kimani Life w dyskusjach na GitHubie.",
+                    "issue": "Utwórz nowy problem",
+                    "issue_desc": "Aby pomóc nam łatwiej znaleźć i ocenić problemy, możesz utworzyć problem na GitHubie.",
+                    "bug": "Śledzenie błędów",
+                    "bug_desc": "Zobacz aktywne zgłoszenia błędów tutaj.",
+                    "description": "Prześlij opinię"
+                },
+                "logOut": "Wyloguj się",
+                "theme_shop": {
+                    "title": "Sklep z motywami",
+                    "category": {
+                        "highest": "Najwyżej oceniane",
+                        "viewall": "Pokaż wszystko",
+                        "manage": "Zarządzaj zapisanymi",
+                        "new": "Nowe w tym tygodniu",
+                        "default": "Motywy domyślne",
+                        "saved": "Zapisane"
+                    },
+                    "active": "Aktualnie aktywny",
+                    "description": "Przeglądaj setki motywów, stworzonych i wyselekcjonowanych przez społeczność.",
+                    "search": "Szukaj motywów…",
+                    "use": "Użyj motywu",
+                    "by": "przez"
+                },
+                "plugins": {
+                    "title": "Wtyczki",
+                    "delete_plugin": "Usuń",
+                    "wip": "Ostrzeżenie: Ta funkcja jest nadal w fazie rozwoju.",
+                    "no_plugins": "Brak zainstalowanych wtyczek."
+                }
+            },
+            "channel_pages": {
+                "overview": {
+                    "title": "Przegląd",
+                    "name": "Nazwa kanału",
+                    "description": "Opis kanału"
+                },
+                "permissions": {
+                    "title": "Uprawnienia"
+                },
+                "webhooks": {
+                    "title": "Webhooki"
+                }
+            },
+            "server_pages": {
+                "overview": {
+                    "title": "Przegląd",
+                    "name": "Nazwa serwera",
+                    "description": "Opis kanału",
+                    "system_messages": "Kanały wiadomości systemowych"
+                },
+                "members": {
+                    "title": "Członkowie"
+                },
+                "invites": {
+                    "title": "Zaproszenia",
+                    "code": "Kod zaproszenia",
+                    "invitor": "Zapraszający",
+                    "channel": "Kanał",
+                    "revoke": "Odwołaj"
+                },
+                "bans": {
+                    "title": "Bany",
+                    "user": "Użytkownik",
+                    "reason": "Powód bana",
+                    "revoke": "Odwołaj",
+                    "no_reason": "Brak powodu bana."
+                },
+                "roles": {
+                    "title": "Role"
+                },
+                "categories": {
+                    "title": "Kategorie"
+                },
+                "management": {
+                    "title": "Zarządzanie użytkownikami"
+                },
+                "customisation": {
+                    "title": "Dostosowanie"
+                },
+                "emojis": {
+                    "title": "Emoji",
+                    "upload": "Prześlij Emoji"
+                }
+            },
+            "tips": {
+                "account": {
+                    "a": "Chcesz dostosować swój profil publiczny?",
+                    "b": "Przejdź do ustawień profilu."
+                },
+                "languages": {
+                    "a": "Brakuje języka, którego potrzebujesz?",
+                    "b": "Pomóż w dodaniu większej liczby tłumaczeń."
+                },
+                "sessions": {
+                    "a": "Jeśli widzisz nieznaną sesję na liście,",
+                    "b": "zabezpiecz swoje konto, zmieniając hasło i używając 2FA."
+                }
+            },
+            "permissions": {
+                "default_role": "Domyślna",
+                "server": "Uprawnienia serwera",
+                "channel": "Uprawnienia kanału",
+                "create_role": "Utwórz nową rolę",
+                "role_name": "Nazwa roli",
+                "delete_role": "Usuń rolę",
+                "hoist_role": "Podnieś rolę",
+                "hoist_desc": "Wyświetl tę rolę powyżej innych.",
+                "title": "Uprawnienia dla {{role}}",
+                "edit_title": "Edytuj uprawnienia",
+                "role_colour": "Kolor roli",
+                "role_options": "Opcje roli",
+                "role_ranking": "Ranking roli"
+            }
+        },
+        "special": {
+            "copy_username": "Kliknij, aby skopiować nazwę użytkownika",
+            "copy": "Kliknij, aby skopiować",
+            "friends": {
+                "pending": "Oczekujące prośby",
+                "sent": "Wysłane",
+                "blocked": "Zablokowane",
+                "incoming": "Przychodzące zaproszenie do znajomych.",
+                "outgoing": "Wychodzące zaproszenie do znajomych.",
+                "nobody": "Nikogo tu jeszcze nie ma!",
+                "from": {
+                    "single": "Od {{user}}",
+                    "multiple": "Od {{userlist}} i {{user}}",
+                    "several": "Od {{userlist}} i {{count}} innych…"
+                }
+            },
+            "status": {
+                "offline": "Offline.",
+                "disconnected": "Rozłączono.",
+                "connecting": "Łączenie…",
+                "reconnecting": "Ponowne łączenie…"
+            },
+            "modals": {
+                "error": "Wystąpił błąd!",
+                "clipboard": {
+                    "unavailable": "Schowek niedostępny!",
+                    "https": "Obecnie nie znajdujesz się w kontekście HTTPS.",
+                    "copy": "Kopiuj ręcznie:"
+                },
+                "signed_out": "Zostałeś wylogowany!",
+                "token_reveal": "Token użytkownika {{name}}",
+                "onboarding": {
+                    "welcome": "",
+                    "pick": "Wybierz nazwę użytkownika, pod którą ludzie będą mogli Cię znaleźć; można to później zmienić w ustawieniach."
+                },
+                "prompt": {
+                    "confirm_leave": "Opuścić {{name}}?",
+                    "confirm_leave_long": "Nie będziesz mógł dołączyć ponownie, chyba że zostaniesz ponownie zaproszony.",
+                    "confirm_close_dm": "Zamknąć rozmowę z {{name}}?",
+                    "confirm_close_dm_long": "Możesz ją później ponownie otworzyć, ale zniknie z obu stron.",
+                    "confirm_delete": "Usunąć {{name}}?",
+                    "confirm_delete_long": "Raz usunięte, nie ma powrotu.",
+                    "confirm_delete_message_long": "Czy na pewno chcesz to usunąć?",
+                    "create_invite_generate": "Generowanie zaproszenia…",
+                    "create_invite_created": "Oto Twój nowy kod zaproszenia:",
+                    "confirm_kick": "Czy na pewno chcesz wyrzucić {{name}}?",
+                    "confirm_ban": "Masz zamiar zbanować {{name}}",
+                    "confirm_ban_reason": "Powód bana",
+                    "unfriend_user": "Anulować znajomość z {{name}}?",
+                    "unfriend_user_long": "Możesz nie być w stanie ponownie z nimi rozmawiać, dopóki ich ponownie nie dodasz.",
+                    "block_user": "Zablokować {{name}}?",
+                    "block_user_long": "Czy na pewno chcesz zablokować {{name}}? Zostaną również usunięci z Twojej listy znajomych.",
+                    "silent_leave": "Opuść po cichu",
+                    "members_not_notified": "Inni członkowie nie zostaną powiadomieni"
+                },
+                "account": {
+                    "change": {
+                        "username": "Zmień swoją nazwę użytkownika",
+                        "email": "Zmień swój adres e-mail",
+                        "password": "Zmień swoje hasło"
+                    },
+                    "failed": "Nie udało się zmienić!"
+                },
+                "external_links": {
+                    "title": "Linki zewnętrzne mogą być niebezpieczne!",
+                    "short": "Czy na pewno chcesz przejść do:",
+                    "trust_domain": "Zaufaj tej domenie"
+                },
+                "actions": {
+                    "ok": "OK",
+                    "ban": "Banuj",
+                    "kick": "Wyrzuć",
+                    "save": "Zapisz",
+                    "hide": "Ukryj",
+                    "edit": "Edytuj",
+                    "block": "Zablokuj",
+                    "close": "Zamknij",
+                    "leave": "Opuść",
+                    "back": "Wróć",
+                    "remove": "Usuń",
+                    "delete": "Usuń",
+                    "create": "Utwórz",
+                    "reveal": "Pokaż",
+                    "update": "Zaktualizuj",
+                    "cancel": "Anuluj",
+                    "preview": "Podgląd",
+                    "reload": "Przeładuj aplikację",
+                    "continue": "Kontynuuj",
+                    "send_email": "Wyślij e-mail",
+                    "confirm": "Potwierdź",
+                    "done": "Gotowe",
+                    "reset": "Resetuj",
+                    "report": "Zgłoś",
+                    "dont_block": "Nie blokuj"
+                },
+                "sessions": {
+                    "short": "Nie możesz cofnąć tej akcji.",
+                    "accept": "Usuń wszystkie sesje",
+                    "title": "Czy na pewno chcesz wyczyścić swoje sesje?"
+                },
+                "changelogs": {
+                    "description": "Przeczytaj o aktualizacjach Kimani Life.",
+                    "older": "Wyświetl starsze aktualizacje",
+                    "title": "Historia zmian"
+                },
+                "confirm": "Potwierdź akcję",
+                "mfa": {
+                    "recovery_codes": "Twoje kody odzyskiwania",
+                    "save_codes": "Proszę zapisać je w bezpiecznym miejscu.",
+                    "confirm": "Proszę potwierdzić wybraną metodą.",
+                    "select_method": "Proszę wybrać metodę uwierzytelnienia prośby.",
+                    "enable_totp": "Włącz aplikację uwierzytelniającą",
+                    "prompt_totp": "Proszę zeskanować lub użyć poniższego tokena w aplikacji uwierzytelniającej.",
+                    "enter_code": "Wprowadź kod"
+                },
+                "out_of_date": {
+                    "title": "Twój klient jest nieaktualny!",
+                    "description": "Musi zostać zaktualizowany, aby działał z ostatnimi zmianami.",
+                    "version": "Twój klient to wersja {{client}}, podczas gdy serwer wymaga wersji {{server}}.",
+                    "ignore": "Ignoruj zaktualizowane",
+                    "attempting": "Próba aktualizacji…"
+                },
+                "report": {
+                    "no_reason": "Brak podanego powodu / inny powód",
+                    "message": "Zgłoś wiadomość",
+                    "by_name": "Zgłoś {{name}}",
+                    "reason": "Powód",
+                    "additional_context": "Dodatkowe informacje",
+                    "content_reason": {
+                        "Illegal": "Treść narusza jedno lub więcej praw",
+                        "SpamAbuse": "To jest spam lub nadużycie platformy",
+                        "PromotesHarm": "Treść promuje krzywdę innych lub siebie",
+                        "Malware": "To jest złośliwe oprogramowanie",
+                        "Harassment": "To jest nękanie lub nadużycie skierowane do innego użytkownika"
+                    },
+                    "user_reason": {
+                        "SpamAbuse": "Użytkownik wysyła spam lub w inny sposób nadużywa platformy",
+                        "InappropriateProfile": "Profil użytkownika jest nieodpowiedni dla ogólnej publiczności",
+                        "Impersonation": "Ten użytkownik podszywa się pod kogoś innego",
+                        "BanEvasion": "Ten użytkownik omija bana",
+                        "Underage": "Ten użytkownik nie jest wystarczająco dorosły, aby mieć konto"
+                    },
+                    "reported": "Zgłoszono",
+                    "thank_you": "Dziękujemy za pomoc w utrzymaniu bezpieczeństwa Kimani Life. Rozpatrzymy Twoje zgłoszenie tak szybko, jak to możliwe.",
+                    "block_user": "Czy chcesz zablokować tego użytkownika?"
+                }
+            },
+            "popovers": {
+                "user_profile": {
+                    "profile": "Profil",
+                    "mutual_friends": "Wspólni znajomi",
+                    "mutual_groups": "Wspólne grupy",
+                    "mutual_servers": "Wspólne serwery",
+                    "empty": "Trochę tu pusto…",
+                    "no_users": "Brak wspólnych znajomych",
+                    "no_groups": "Brak wspólnych grup",
+                    "no_servers": "Brak wspólnych serwerów",
+                    "sub": {
+                        "badges": "Odznaki",
+                        "information": "Informacje",
+                        "connections": "Połączenia"
+                    },
+                    "badges": {
+                        "translator": "Tłumacz",
+                        "supporter": "Wspierający",
+                        "responsible_disclosure": "Odpowiedzialne ujawnienie problemu/problemów bezpieczeństwa",
+                        "early_adopter": "Wczesny użytkownik",
+                        "moderation": "Moderacja platformy",
+                        "founder": "Założyciel"
+                    }
+                },
+                "user_picker": {
+                    "select": "Wybierz znajomych do dodania."
+                },
+                "create_bot": {
+                    "title": "Utwórz nowego bota",
+                    "failed": "Nie udało się utworzyć bota!"
+                },
+                "server_identity": {
+                    "nickname": "Pseudonim",
+                    "title": "Zmień tożsamość na {{server}}",
+                    "avatar": "Zdjęcie użytkownika"
+                }
+            },
+            "requires_online": "Musisz być online, aby to wyświetlić.",
+            "invite": {
+                "invited_by": "Zaproszony przez {{user}}",
+                "login": "Zaloguj się do Kimani Life",
+                "accept": "Akceptuj zaproszenie",
+                "user_count": "{{member_count}} użytkowników",
+                "invalid": "Nieprawidłowe zaproszenie!",
+                "invalid_desc": "Zaproszenie może nie istnieć lub nie masz uprawnień do dołączenia."
+            },
+            "server-badges": {
+                "official": "Oficjalny serwer",
+                "verified": "Zweryfikowany serwer"
+            }
+        },
+        "context_menu": {
+            "copy_id": "Kopiuj ID",
+            "copy_selection": "Kopiuj zaznaczenie",
+            "copy_text": "Kopiuj tekst",
+            "copy_uid": "Kopiuj ID użytkownika",
+            "copy_sid": "Kopiuj ID serwera",
+            "copy_cid": "Kopiuj ID kanału",
+            "copy_mid": "Kopiuj ID wiadomości",
+            "copy_message_link": "Kopiuj link wiadomości",
+            "mention": "Wzmiankuj",
+            "message_user": "Wiadomość",
+            "view_profile": "Wyświetl profil",
+            "mark_as_read": "Oznacz jako przeczytane",
+            "retry_message": "Ponów wysyłanie",
+            "cancel_message": "Anuluj wysyłanie",
+            "reply_message": "Odpowiedz",
+            "quote_message": "Cytuj wiadomość",
+            "edit_message": "Edytuj wiadomość",
+            "delete_message": "Usuń wiadomość",
+            "remove_member": "Usuń z grupy",
+            "kick_member": "Wyrzuć członka",
+            "ban_member": "Zbanuj członka",
+            "open_file": "Otwórz plik",
+            "save_file": "Zapisz plik",
+            "open_image": "Otwórz obraz",
+            "save_image": "Zapisz obraz",
+            "open_video": "Otwórz wideo",
+            "save_video": "Zapisz wideo",
+            "copy_link": "Kopiuj link",
+            "open_link": "Otwórz link",
+            "block_user": "Zablokuj użytkownika",
+            "unblock_user": "Odblokuj użytkownika",
+            "add_friend": "Dodaj znajomego",
+            "remove_friend": "Usuń znajomego",
+            "cancel_friend": "Anuluj prośbę",
+            "custom_status": "Status niestandardowy",
+            "clear_status": "Wyczyść status",
+            "set_custom_status": "Ustaw status niestandardowy",
+            "leave_group": "Opuść grupę",
+            "leave_server": "Opuść serwer",
+            "close_dm": "Zamknij DM",
+            "delete_server": "Usuń serwer",
+            "edit_identity": "Edytuj tożsamość",
+            "delete_channel": "Usuń kanał",
+            "create_channel": "Utwórz kanał",
+            "create_category": "Utwórz kategorię",
+            "create_invite": "Utwórz zaproszenie",
+            "open_notification_options": "Opcje powiadomień",
+            "open_channel_settings": "Ustawienia kanału",
+            "open_server_settings": "Ustawienia serwera",
+            "open_group_settings": "Ustawienia grupy",
+            "mark_unread": "Oznacz jako nieprzeczytane",
+            "make_owner": "Przekaż własność grupy",
+            "report_message": "Zgłoś wiadomość",
+            "report_user": "Zgłoś użytkownika",
+            "report_server": "Zgłoś serwer"
+        },
+        "permissions": {
+            "required": "Wymagane uprawnienia"
+        },
+        "home": {
+            "join-testers": "Dołącz do serwera testerów",
+            "goto-testers": "Przejdź do serwera testerów",
+            "donate": "Wspomóż Kimani Life",
+            "feedback": "Prześlij opinię o Kimani Life",
+            "settings": "Otwórz ustawienia",
+            "settings-tooltip": "Możesz także kliknąć prawym przyciskiem myszy ikonę użytkownika w lewym górnym rogu lub kliknąć lewym przyciskiem myszy, jeśli jesteś już na stronie głównej.",
+            "social": "Znajdź serwery i boty",
+            "directs": "Wiadomości bezpośrednie",
+            "join-testers_desc": "Możesz tutaj bezpośrednio zgłaszać problemy i omawiać z nami ulepszenia.",
+            "goto-testers_desc": "Możesz tutaj bezpośrednio zgłaszać problemy i omawiać z nami ulepszenia.",
+            "donate_desc": "Wspomóż projekt, przekazując darowiznę - dziękujemy!",
+            "feedback_desc": "Daj nam znać, jak możemy ulepszyć naszą aplikację, przesyłając nam opinię.",
+            "discover": "Odkryj Kimani Life",
+            "discover_desc": "Znajdź społeczność opartą na swoich zainteresowaniach lub hobby.",
+            "group": "Utwórz grupę",
+            "group_desc": "Zaproś wszystkich swoich znajomych, kilka fajnych botów i zrób wielką imprezę."
+        },
+        "home2": {
+            "amb-join": "Dołącz jako Ambasador",
+            "spon-join": "Zostań Sponsorem",
+            "ven-join": "Złóż wniosek jako Preferowany Dostawca Usług",
+            "foun-join": "Zostań Członkiem Założycielem",
+            "amb-desc": "Lorem ipsum dolor kimet."
+        }
+    },
+    "quantities": {
+        "members": {
+            "one": "1 członek",
+            "many": "{{count}} członków"
+        },
+        "dropFiles": {
+            "many": "Upuść {{count}} plików",
+            "one": "Upuść plik"
+        }
+    },
+    "dayjs": {
+        "lastDay": "[Wczoraj o] {{time}}",
+        "sameDay": "[Dzisiaj o] {{time}}",
+        "nextDay": "[Jutro o] {{time}}",
+        "lastWeek": "[W zeszły] dddd [o] {{time}}",
+        "nextWeek": "dddd [o] {{time}}",
+        "defaults": {
+            "date_separator": "/",
+            "date_format": "simplified",
+            "twelvehour": "yes"
+        }
+    },
+    "notifications": {
+        "sent_request": "@{{person}} wysłał(a) Ci zaproszenie do znajomych.",
+        "now_friends": "Jesteś teraz znajomym/ą @{{person}}!"
+    },
+    "error": {
+        "NetworkError": "Błąd sieci.",
+        "Unauthorized": "Nieautoryzowany.",
+        "Unlabelled": "Coś się stało.",
+        "FailedValidation": "Nie udało się zweryfikować pól.",
+        "DatabaseError": "Błąd bazy danych.",
+        "InternalError": "Błąd wewnętrzny.",
+        "MissingPermission": "Brak uprawnień.",
+        "UnknownError": "Zobacz konsolę.",
+        "OperationFailed": "Operacja nie powiodła się.",
+        "RenderFail": "Renderowanie szablonu nie powiodło się.",
+        "MissingHeaders": "Brak nagłówków.",
+        "InvalidSession": "Nieprawidłowa sesja.",
+        "UnverifiedAccount": "Niezweryfikowane konto.",
+        "UnknownUser": "Nieznany użytkownik.",
+        "EmailInUse": "E-mail w użyciu.",
+        "EmailFailed": "Nie udało się wysłać e-maila.",
+        "InvalidCredentials": "Nieprawidłowy e-mail lub hasło.",
+        "InvalidToken": "Nieprawidłowy token",
+        "MissingInvite": "Brak kodu zaproszenia w żądaniu.",
+        "InvalidInvite": "Nieprawidłowy kod",
+        "AlreadyOnboarded": "Już zakończono wdrażanie.",
+        "UsernameTaken": "Ta nazwa użytkownika jest zajęta.",
+        "AlreadyFriends": "Już znajomy z tym użytkownikiem.",
+        "AlreadySentRequest": "Wysłano już prośbę do tego użytkownika.",
+        "Blocked": "Zablokowałeś tego użytkownika.",
+        "BlockedOther": "Ten użytkownik Cię zablokował.",
+        "NoEffect": "To żądanie nie miało żadnego wpływu.",
+        "RequiredField": "Wymagane",
+        "TooShort": "Za krótki",
+        "TooLong": "Za długi",
+        "InvalidEmail": "Nieprawidłowy adres e-mail",
+        "Unavailable": "Niedostępne.",
+        "FileTooLarge": "Plik jest za duży.",
+        "FailedToReceive": "Serwer nie odebrał Twojego pliku.",
+        "MissingData": "W żądaniu brakuje danych.",
+        "ProbeError": "Nie udało się pobrać metadanych pliku.",
+        "IoError": "Serwer napotkał błąd wejścia/wyjścia.",
+        "UnsupportedBrowser": "Przeglądarka nie obsługuje tej funkcji.",
+        "DeniedNotification": "Odrzuciłeś dostęp do powiadomień, sprawdź ustawienia strony.",
+        "CompromisedPassword": "To hasło zostało skompromitowane.",
+        "ReachedMaximumBots": "Osiągnąłeś maksymalną liczbę botów.",
+        "AudioPermissionBlock": "Brak dostępu do mikrofonu, sprawdź konfigurację przeglądarki.",
+        "DiscriminatorChangeRatelimited": "Zbyt wiele zmian tagów."
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
+    },
+    "permissions": {
+        "ManageChannels": {
+            "t": "Zarządzaj kanałami",
+            "d": "Pozwala członkom tworzyć, edytować i usuwać kanały."
+        },
+        "ManageServer": {
+            "t": "Zarządzaj serwerem",
+            "d": "Pozwala członkom zmieniać nazwę, opis, ikonę i inne powiązane informacje tego serwera."
+        },
+        "KickMembers": {
+            "t": "Wyrzucaj członków",
+            "d": "Pozwala członkom usuwać członków z tego serwera. Wyrzuceni członkowie mogą ponownie dołączyć za pomocą zaproszenia."
+        },
+        "BanMembers": {
+            "t": "Banuj członków",
+            "d": "Pozwala członkom trwale usuwać członków z tego serwera."
+        },
+        "ChangeNickname": {
+            "t": "Zmień pseudonim",
+            "d": "Pozwala członkom zmieniać swój pseudonim na tym serwerze."
+        },
+        "ManageNicknames": {
+            "t": "Zarządzaj pseudonimami",
+            "d": "Pozwala członkom zmieniać pseudonimy innych członków."
+        },
+        "ChangeAvatar": {
+            "t": "Zmień awatar",
+            "d": "Pozwala członkom zmieniać swój awatar serwera na tym serwerze."
+        },
+        "RemoveAvatars": {
+            "t": "Usuń awatary",
+            "d": "Pozwala członkom usuwać awatary serwera innych członków na tym serwerze."
+        },
+        "SendMessage": {
+            "t": "Wysyłaj wiadomości",
+            "d": "Pozwala członkom wysyłać wiadomości na kanałach tekstowych."
+        },
+        "ManageMessages": {
+            "t": "Zarządzaj wiadomościami",
+            "d": "Pozwala członkom usuwać wiadomości wysłane przez innych członków."
+        },
+        "ManageChannel": {
+            "t": "Zarządzaj kanałami",
+            "d": "Pozwala członkom edytować lub usuwać kanał."
+        },
+        "VoiceCall": {
+            "t": "Rozmowa głosowa",
+            "d": "Pozwala członkom dołączać do kanałów głosowych."
+        },
+        "InviteOthers": {
+            "t": "Zapraszaj innych",
+            "d": "Pozwala członkom zapraszać innych użytkowników na kanał."
+        },
+        "EmbedLinks": {
+            "t": "Osadzaj linki",
+            "d": "Pozwala członkom wyświetlać osadzone treści z linków, które publikują na kanałach tekstowych."
+        },
+        "UploadFiles": {
+            "t": "Przesyłaj pliki",
+            "d": "Pozwala członkom przesyłać pliki na kanałach tekstowych."
+        },
+        "Masquerade": {
+            "t": "Maskarada",
+            "d": "Pozwala członkom zmieniać swoją nazwę i awatar dla poszczególnych wiadomości."
+        },
+        "ManageRole": {
+            "t": "Zarządzaj rolami",
+            "d": "Pozwala członkom tworzyć, edytować i usuwać role o niższej randze niż ich własna. Pozwala im również modyfikować uprawnienia ról na kanałach."
+        },
+        "ViewChannel": {
+            "t": "Wyświetl kanał",
+            "d": "Pozwala członkom wyświetlać wszystkie kanały, do których mają uprawnienia."
+        },
+        "ManagePermissions": {
+            "t": "Zarządzaj uprawnieniami",
+            "d": "Pozwala członkom zmieniać uprawnienia dla kanałów i ról o niższej randze."
+        },
+        "ReadMessageHistory": {
+            "t": "Czytaj historię wiadomości",
+            "d": "Pozwala członkom czytać historię wiadomości tego kanału."
+        },
+        "Connect": {
+            "t": "Połącz",
+            "d": "Pozwala członkom łączyć się z kanałem głosowym."
+        },
+        "ManageWebhooks": {
+            "t": "Zarządzaj webhookami",
+            "d": "Pozwala członkom kontrolować webhooki na kanale."
+        },
+        "SendEmbeds": {
+            "t": "Wysyłaj osadzone treści",
+            "d": "Pozwala członkom wysyłać osadzone treści, zarówno z linków, jak i niestandardowych osadzonych tekstów."
+        },
+        "DeafenMembers": {
+            "d": "Pozwala członkom wyciszać innych w kanale głosowym.",
+            "t": "Wyciszaj członków"
+        },
+        "MoveMembers": {
+            "t": "Przenoś członków",
+            "d": "Pozwala członkom przenosić innych między kanałami głosowymi."
+        },
+        "Video": {
+            "d": "Pozwala członkom przesyłać strumieniowo wideo w kanale głosowym.",
+            "t": "Wideo"
+        },
+        "MuteMembers": {
+            "t": "Wyciszaj członków",
+            "d": "Pozwala członkom wyciszać innych w kanale głosowym."
+        },
+        "TimeoutMembers": {
+            "t": "Timeout dla członków",
+            "d": "Pozwala członkom tymczasowo uniemożliwiać użytkownikom interakcję z serwerem."
+        },
+        "AssignRoles": {
+            "t": "Przypisz role",
+            "d": "Pozwala członkom przypisywać role poniżej ich własnej rangi innym członkom."
+        },
+        "Speak": {
+            "t": "Mów",
+            "d": "Pozwala członkom mówić w kanale głosowym."
+        },
+        "ManageCustomisation": {
+            "t": "Zarządzaj dostosowaniem",
+            "d": "Pozwala członkom tworzyć, edytować i usuwać emoji."
+        },
+        "React": {
+            "t": "Używaj reakcji",
+            "d": "Pozwala członkom reagować na wiadomości."
+        }
+    },
+    "actions": {
+        "submit": "Wyślij"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "Page Up",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "Page Down",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "Print Screen",
+            "short": "PrtSc"
+        },
+        "ScrollLock": {
+            "full": "Scroll Lock",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
+        }
+    },
+    "destinations": {
+        "post_trip": {
+            "title": "Opublikuj podróż",
+            "departure": "Wyjazd",
+            "arrival": "Przyjazd",
+            "business": "Biznes",
+            "leisure": "Wypoczynek",
+            "description": {
+                "label": "Opis",
+                "placeholder": "Opowiedz nam o swojej podróży..."
+            },
+            "done": "Gotowe"
+        },
+        "filters": {
+            "search": {
+                "placeholder": "Szukaj miejsca docelowego..."
+            }
+        },
+        "sections": {
+            "local_communities": "Społeczności lokalne",
+            "location": "Lokalizacja"
+        },
+        "actions": {
+            "post_trip": "Opublikuj podróż",
+            "see_all": "Zobacz wszystko"
+        }
+    },
+    "all_trips": {
+        "back": "Wstecz",
+        "title": "Kto jest w {{location}}?",
+        "empty_state": "Nie znaleziono podróżnych. Bądź pierwszym, który doda podróż!",
+        "dates": "{{start}} - {{end}}"
+    },
+    "trip_details": {
+        "post": "Post użytkownika {{name}}",
+        "travel_purpose": "Cel podróży",
+        "dates": {
+            "from": "Od:",
+            "to": "Do:"
+        },
+        "no_description": "Brak opisu",
+        "comments": {
+            "title": "Komentarze",
+            "empty": "Brak komentarzy. Bądź pierwszym, który skomentuje!",
+            "input_placeholder": "Dodaj komentarz do tej podróży..."
+        },
+        "actions": {
+            "send_message": "Wyślij wiadomość",
+            "add_friend": "Dodaj znajomego"
+        }
+    },
+    "trip_comment": {
+        "unknown_user": "Nieznany użytkownik"
+    }
 }

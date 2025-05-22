@@ -11,8 +11,8 @@
         "open_mail_provider": "Ovrir {{provider}}",
         "successful_registration": "Conte crïe avec succes!",
         "error": {
-            "create": "Eschec de l'inscription !",
-            "login": "Eschec de la connexion !",
+            "create": "Eschec de l'inscription !",
+            "login": "Eschec de la connexion !",
             "reset": "Eschec de la remise a zero!",
             "resend": "Eschec du renvoi!",
             "verify": "Eschec de la verification !"
@@ -136,7 +136,7 @@
                     "viewing_old": "Veüe des messages plus anciiens",
                     "spoiler_attachment": "Secré",
                     "failed_load": "Lecture du message impossible.",
-                    "blocked_messages": "{{count}} messages bloqués",
+                    "blocked_messages": "{{count}} messages bloqués",
                     "blocked_user": "Utilisateur bloqué",
                     "sent_file": "Envoyé un fichier",
                     "sent_multiple_files": "Envoyé plusieurs fichiers",
@@ -205,7 +205,7 @@
             "directs": "Messages Directs",
             "join-testers_desc": "Vos pöoiez nos informer des problèmes et discuter de suggestïons directement avec nos ici.",
             "feedback_desc": "Aidant nos à ameliorer nostre servise en nos donant vos suggestïons.",
-            "donate_desc": "Suportez le projet en faisant donacion - merci !",
+            "donate_desc": "Suportez le projet en faisant donacion - merci !",
             "discover": "Descovrir Kimani",
             "discover_desc": "Trovez une comunauté correspondant à vos passïons et à vos interests.",
             "group": "Crïer une coterie",
