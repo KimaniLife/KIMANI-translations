@@ -64,7 +64,7 @@
         },
         "forgot": "Forgot your password?",
         "reset": "Reset it",
-        "login_problems": "Any problems logging in? Email: Info@kimanilife.com",
+        "login_problems": "Any problems logging in? Email: support@kimanilife.com",
         "set_password": "Set new password",
         "remembered": "Go back to login",
         "new": "Don't have an account?",
@@ -88,7 +88,7 @@
             "verify": "Failed to verify!"
         },
         "subtitle2": "CREATE ACCOUNT",
-        "subtitle": "Member Sign In",
+        "subtitle": "Kimani Member Sign In",
         "reset_subtitle": "RESET PASSWORD",
         "reset_send": "Send reset link",
         "unofficial_instance": "Third-party instance.",
