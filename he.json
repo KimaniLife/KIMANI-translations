@@ -1,804 +1,1135 @@
 {
-    "general": {
-        "loading": "נטען…",
-        "on": "פעיל",
-        "off": "כבוי",
-        "disabled": "סגור",
-        "unavailable": "לא זמין",
-        "about": "אודות",
-        "image_by": "תמונה על ידי",
-        "tos": "תנאי השירות",
-        "privacy": "מדיניות פרטיות",
-        "learn_more": "למידע נוסף"
-    },
-    "login": {
-        "title": "התחבר",
-        "register": "הרשם",
-        "username": "שם משתמש",
-        "email": "דוא\"ל",
-        "invite": "קוד הזמנה",
-        "current_password": "סיסמה נוכחית",
-        "enter": {
-            "username": "הכנס את שם המשתמש שלך.",
-            "password": "הכנס את הסיסמה שלך.",
-            "invite": "הקלד את קוד ההזמנה שלך.",
-            "current_password": "הקלד את הסיסמה הנוכחית שלך.",
-            "email": "הכנס את האימייל שלך.",
-            "new_password": "הכנס סיסמה חדשה."
-        },
-        "forgot": "שכחת את הסיסמה שלך?",
-        "reset": "אפס סיסמה",
-        "remembered": "חזור להתחברות",
-        "new": "חדש לKimani?",
-        "existing": "כבר יש לך חשבון?",
-        "create": "צור חשבון חדש",
-        "check_mail": "בדוק את הדוא\"ל שלך!",
-        "check_spam": "בבקשה בדוק בתיקיית הספאם אם אתה לא מוצא את זה",
-        "successful_registration": "חשבון נוצר בהצלחה!",
-        "error": {
-            "create": "יצירת חשבון נכשלה!",
-            "login": "כניסה לחשבון נכשלה!",
-            "resend": "שליחה מחדש נכשלה!",
-            "reset": "איפוס נכשל!",
-            "verify": "האימות נכשל!"
-        },
-        "open_mail_provider": "פתח {{provider}}",
-        "password": "סיסמה",
-        "set_password": "הגדר סיסמה חדשה",
-        "resend": "שלח שוב קוד אימות",
-        "cancel": "בטל בקשה",
-        "email_delay": "בבקשה המתן עד 10 דקות לקבלת המייל.",
-        "welcome": "ברוכים הבאים!",
-        "missing_verification": "לא קיבלת מייל?",
-        "subtitle2": "צור משתמש",
-        "subtitle": "היכנס Kimani",
-        "welcome2": "שלום!",
-        "totp": "אפליקציית אימות",
-        "recovery": "קוד שחזור",
-        "new_password": "סיסמה חדשה",
-        "log_out_other": "התנתק מכל המכשירים",
-        "verifying_account": "מאמת את המשתמש שלך…",
-        "verified_account": "חשבונך אומת בהצלחה!",
-        "verified_continue": "המשך כדי להתחבר",
-        "unofficial_instance": "מופע של צד שלישי."
-    },
-    "app": {
-        "status": {
-            "online": "מחובר",
-            "idle": "ישן",
-            "busy": "נא לא להפריע",
-            "invisible": "בלתי נראה",
-            "offline": "מנותק",
-            "reconnect": "להתחבר מחדש",
-            "focus": "להתמקד"
-        },
-        "navigation": {
-            "tabs": {
-                "home": "בית",
-                "dev": "מפתח",
-                "friends": "חברים",
-                "unreads": "לא נקראו",
-                "saved": "הערות שמורות"
-            }
-        },
-        "main": {
-            "categories": {
-                "conversations": "שיחות",
-                "participants": "משתתפים",
-                "channels": "ערוצים",
-                "members": "חברים"
-            },
-            "channel": {
-                "message_where": "שלח הודעה ב {{channel_name}}",
-                "message_who": "שלח הודעה אל {{person}}",
-                "uploading_file": "מעלה…",
-                "attached_file": "מצורף {{filename}}",
-                "typing": {
-                    "single": "{{user}} מקליד…",
-                    "multiple": "{{userlist}} ו {{user}} מקלידים…",
-                    "several": "מספר אנשים מקלידים…"
-                },
-                "system": {
-                    "user_joined": "{{user}} נכנס",
-                    "user_left": "{{user}} עזב",
-                    "user_kicked": "{{user}} קיבל קיק",
-                    "user_banned": "{{user}} קיבל באן",
-                    "removed_by": "{{user}} נמחק על ידי {{other_user}}",
-                    "channel_description_changed": "{{user}} שינה את תיאור הערוץ",
-                    "channel_icon_changed": "{{user}} שינה את התמונה של הערוץ",
-                    "added_by": "{{user}} נוסף על ידי {{other_user}}",
-                    "channel_renamed": "{{user}} שינה את שם הערוץ ל {{name}}"
-                },
-                "start": {
-                    "group": "זאת ההתחלה של שיחתחם.",
-                    "saved": "זוהי ההתחלה של ההערות שלך."
-                },
-                "voice": {
-                    "leave": "צא",
-                    "mute": "מיות",
-                    "connected": "קול מחובר",
-                    "unmute": "הוריד מיוט"
-                },
-                "misc": {
-                    "viewing_old": "קורא הודעות ישנות",
-                    "failed_load": "הודעות לא יכלו להיטען.",
-                    "no_sending": "אין לך הרשאה לשלוח הודעות בערוץ זה.",
-                    "blocked_user": "חסמת את המשתמש",
-                    "jump_present": "קפוץ להווה",
-                    "spoiler_attachment": "ספוילר",
-                    "blocked_messages": "{{count}} הודעות חסומות",
-                    "sent_file": "שלח קובץ מצורף",
-                    "sent_multiple_files": "שלח מספר קבצים מצורפים",
-                    "jump_beginning": "קפוץ להתחלה",
-                    "new_messages": "הודעות חדשות מאז {{time_ago}}"
-                },
-                "notifications": {
-                    "default": "השתמש בברית המחדל",
-                    "all": "כל ההודעות",
-                    "none": "כלום",
-                    "mention": "אזכורים בלבד",
-                    "muted": "מיוט"
-                },
-                "search": {
-                    "title": "חפש",
-                    "sort": {
-                        "relevance": "רלוונטיות",
-                        "latest": "אחרון",
-                        "oldest": "ישנה"
-                    }
-                },
-                "message_saved": "שמור בהערות שלך",
-                "failed_upload": "העלה נכשלה!",
-                "nsfw": {
-                    "channel": {
-                        "marked": "ערוץ זה מסומן כ NSFW.",
-                        "confirm": "כנס לערוץ"
-                    },
-                    "confirm": "אני מאשר שאני בן 18 או יותר."
-                },
-                "unknown_user": "<משתמש לא ידוע>",
-                "bot": "בוט",
-                "errors": {
-                    "title": "אופס, אין כאן כלום!",
-                    "nochannel": "אין ערוץ",
-                    "nochannels": "לשרת זה אין ערוצים, או שאין לך גישה לאף אחד."
-                },
-                "edited": "(ערוך)",
-                "reply": {
-                    "replying": "משיב ל",
-                    "toggle": "החלף פינג מחבר"
-                }
-            },
-            "groups": {
-                "create": "צור קבוצה",
-                "owner": "מנהל הקבוצה",
-                "name": "שם קבוצה",
-                "description": "תיאור קבוצה"
-            },
-            "servers": {
-                "create": "צור שרת",
-                "name": "שם שרת",
-                "description": "תיואר שרת",
-                "channel_name": "שם ערוץ",
-                "channel_type": "סוג ערוץ",
-                "channel_description": "תיאור ערוץ",
-                "custom_banner": "באנר מותאם אישית",
-                "owner": "מנהל שרת",
-                "text_channel": "ערוץ טקסט",
-                "voice_channel": "ערוץ קולי",
-                "category_name": "שם קטגוריה"
-            }
-        },
-        "settings": {
-            "pages": {
-                "appearance": {
-                    "import": "ייבא נושא",
-                    "import_theme": "ייבא נושא מהמחרוזת",
-                    "title": "מראה חיצוני",
-                    "theme": "נושא",
-                    "display": {
-                        "default": "ברירת מחדל",
-                        "compact": "צפוף",
-                        "default_description": "יפה, אלגנטי ומודרני.",
-                        "compact_description": "IRC הישן והטוב."
-                    },
-                    "color": {
-                        "light": "אור",
-                        "dark": "חשוך"
-                    },
-                    "emoji_pack": "חבילת אמוג'י",
-                    "message_display": "הצגת הודעות",
-                    "advanced": "הגדרות מתקדמות",
-                    "accent_selector": "צבע מבטא",
-                    "overrides": "דריסת נושא",
-                    "reset_overrides": "איפוס דריסות",
-                    "font": "גופן",
-                    "sync": "אפשרויות סנכרון",
-                    "custom_css": "CSS מותאם אישית",
-                    "mono_font": "בורר הגופנים Monospace",
-                    "ligatures": "מצבי גופן",
-                    "theme_data": "נתוני נושא",
-                    "theme_options": {
-                        "follow_desc": "כאשר מסומן, לא תוכל לשנות את העיצוב שלך או להשתמש בעיצוב מותאם אישית.",
-                        "seasonal_desc": "מציג אפקטים בכרטיסיית הבית במהלך עונות החגים.",
-                        "follow": "עקוב אחר נושא המערכת",
-                        "seasonal": "נושא עונתי",
-                        "transparency": "אפקטי שקיפות",
-                        "transparency_desc": "מאפשר אפקטים של שקיפות בכל האפליקציה.",
-                        "title": "אפשרויות ערכת נושא"
-                    },
-                    "discover": {
-                        "description": "עיין בנושאים שנעשו על ידי הקהילה",
-                        "title": "גלה ערכות נושא"
-                    },
-                    "ligatures_desc": "עבור גופנים נתמכים, ליגטורות משלבות תווים יחד, למשל, הפיכת -> לחץ."
-                },
-                "account": {
-                    "title": "חשבון שלי",
-                    "change_field": "שינוי",
-                    "unique_id": "זהו מזהה משתמש ייחודי לחשבונך.",
-                    "2fa": {
-                        "add_auth": "הוסף מאמת",
-                        "remove_auth": "הסר את המאמת",
-                        "title": "אימות דו-גורמי",
-                        "description": "הוסף שכבת אבטחה נוספת על ידי הפעלת 2FA בחשבונך."
-                    },
-                    "manage": {
-                        "title": "ניהול חשבון",
-                        "disable": "בטל חשבון",
-                        "delete": "מחק חשבון",
-                        "description": "השבת או מחק את חשבונך בכל עת. פעולה זו תנתק אותך ותמחק את חשבונך במלואו, כולל היסטוריית הצ'אט והחברים שלך."
-                    }
-                },
-                "profile": {
-                    "title": "פרופיל",
-                    "info": "מידע",
-                    "fetching": "מחפש את הפרופיל שלך …",
-                    "profile_picture": "תמונת פרופיל",
-                    "custom_background": "רקע מותאם אישית",
-                    "edit_background": "ערוך רקע",
-                    "placeholder": "רשום משהו עצמך…",
-                    "edit_profile": "ערוך פרופיל"
-                },
-                "sessions": {
-                    "title": "-הפעלות",
-                    "active_sessions": "מפגשים אקטיבים",
-                    "this_device": "מכשיר זה",
-                    "created": "נוצר {{time_ago}}",
-                    "logout": "צא מכל שאר ההפעלות"
-                },
-                "audio": {
-                    "title": "הגדרות קול",
-                    "input_device": "מיקרופון",
-                    "output_device": "רמקול / אוזניות",
-                    "device_label_NA": "N/A",
-                    "button_retry": "נסה שוב",
-                    "tip_retry": "לא נתת הרשאה לגשת למיקרופון שלך, בבקשה {{retryBtn}}.",
-                    "tip_grant_permission": "עליך להעניק הרשאה לגשת להגדרות שמע.",
-                    "button_grant": "תן רשות"
-                },
-                "notifications": {
-                    "title": "הודעות",
-                    "push_notifications": "הודעות Push",
-                    "enable_desktop": "אפשר הודעות שולחן עבודה.",
-                    "enable_push": "אפשר התראות Push.",
-                    "descriptions": {
-                        "enable_push": "אפשר לקבל התראות כאשר אתה במצב לא מקוון.",
-                        "enable_desktop": "זה ייתן לך התראות בזמן שהאפליקציה שלך פתוחה."
-                    },
-                    "sound": {
-                        "message": "הודעה התקבלה",
-                        "outbound": "הודעה נשלחה",
-                        "call_join": "משתמש ניכנס לשיחה",
-                        "call_leave": "משתמש עזב את השיחה"
-                    },
-                    "sounds": "קולות"
-                },
-                "language": {
-                    "title": "שפה",
-                    "other": "אפשרויות שפה אחרות",
-                    "select": "בחר את השפה שלך",
-                    "const": "שפות בנויות"
-                },
-                "sync": {
-                    "title": "סינכרון",
-                    "categories": "סינכרון קטגוריות",
-                    "descriptions": {
-                        "theme": "זה יסנכרן את הנושא, הצבעים וכל CSS שבחרת.",
-                        "locale": "פעולה זו תסנכרן את השפה שבחרת כרגע.",
-                        "appearance": "זה יסנכרן אפשרויות כגון חבילות אמוג'י וצפיפות הודעות."
-                    },
-                    "options": "אפשרויות סנכרון"
-                },
-                "experiments": {
-                    "title": "ניסויים",
-                    "features": "תכונות זמינות",
-                    "not_available": "אין ניסוי פתוח בזמן הזה."
-                },
-                "donate": {
-                    "title": "תרום"
-                },
-                "source_code": "Source code",
-                "bots": {
-                    "title": "הבוטים שלי",
-                    "create_bot": "צור בוט",
-                    "copy_invite": "העתק קישור הזמנה",
-                    "token": "אסימון",
-                    "public_bot_tip": "בוט הוא ציבורי. כל אחד יכול להזמין אותו.",
-                    "private_bot_tip": "בוט הוא פרטי.רק אתה יכול להזמין אותו.",
-                    "public_bot": "בוט ציבורי",
-                    "public_bot_desc": "האם לאפשר למשתמשים אחרים להזמין את הבוט הזה.",
-                    "add": "תוסיף בוט",
-                    "unique_id": "זהו מזהה ייחודי לבוט שלך. זה לא האסימון של הבוט.",
-                    "interactions_url": "כתובת אתר לאינטראקציות",
-                    "reserved": "הערה: שדה זה שמור לעתיד.",
-                    "profile": "פרופיל בוט"
-                },
-                "feedback": {
-                    "title": "משוב",
-                    "suggest": "שלח הצעת תכונה",
-                    "suggest_desc": "הצע תכונות חדשות ל Kimani בדיוני GitHub.",
-                    "issue": "צור גיליון חדש",
-                    "bug": "מוצא באגים",
-                    "bug_desc": "הצג כאן דוחות באגים פעילים.",
-                    "issue_desc": "כדי לעזור לנו בקלות יותר לפתור בעיות, תוכל ליצור בעיה ב- GitHub.",
-                    "description": "שלח משוב"
-                },
-                "theme_shop": {
-                    "title": "חנות נושא",
-                    "category": {
-                        "new": "חדש השבוע",
-                        "saved": "שמור",
-                        "manage": "נהל נשמר",
-                        "default": "ערכות נושא ברירת מחדל",
-                        "highest": "דירוג הגבוה ביותר",
-                        "viewall": "צפה בהכל"
-                    },
-                    "search": "חפש ערכות נושא...",
-                    "description": "עיין במאות ערכות נושא, שנוצרו ואוצרות על ידי הקהילה.",
-                    "use": "השתמש בערכת נושא",
-                    "active": "פעיל כרגע",
-                    "by": "על ידי"
-                },
-                "logOut": "התנתק",
-                "native": {
-                    "title": "הגדרות שולחן עבודה"
-                }
-            },
-            "title": "הגדרות",
-            "actions": {
-                "remove": "מחק",
-                "upload": "העלה",
-                "max_filesize": "(מקסימום {{filesize}})"
-            },
-            "categories": {
-                "client_settings": "הגדרות לקוח",
-                "user_settings": "הגדרות משתמש"
-            },
-            "channel_pages": {
-                "overview": {
-                    "title": "סקירה כללית",
-                    "name": "שם ערוץ",
-                    "description": "תיאור ערוץ"
-                },
-                "permissions": {
-                    "title": "הרשאות"
-                }
-            },
-            "server_pages": {
-                "overview": {
-                    "title": "סקירה כללית",
-                    "name": "שם שרת",
-                    "description": "תיאור ערוץ",
-                    "system_messages": "ערוצי הודעות מערכת"
-                },
-                "invites": {
-                    "title": "הזמנות",
-                    "code": "קוד הזמנה",
-                    "invitor": "מזמין",
-                    "channel": "ערוץ",
-                    "revoke": "בטל"
-                },
-                "bans": {
-                    "user": "משתמש",
-                    "reason": "סיבת באן",
-                    "revoke": "בטל",
-                    "no_reason": "אין סיבת באן.",
-                    "title": "באנים"
-                },
-                "categories": {
-                    "title": "קטגוריות"
-                },
-                "roles": {
-                    "title": "תפקידים"
-                },
-                "members": {
-                    "title": "חברים"
-                },
-                "management": {
-                    "title": "ניהול משתמשים"
-                }
-            },
-            "tips": {
-                "languages": {
-                    "a": "חסר את השפה שאתה רוצה?",
-                    "b": "עזור להוסיף עוד שפות."
-                },
-                "account": {
-                    "b": "עבור אל הגדרות הפרופיל שלך.",
-                    "a": "רוצה לשנות את הפרופיל הציבורי שלך?"
-                },
-                "sessions": {
-                    "a": "אם אתה רואה הפעלה לא ידועה ברשימה,",
-                    "b": "אבטח את חשבונך על ידי שינוי הסיסמה שלך ושימוש ב- 2FA."
-                }
-            },
-            "permissions": {
-                "default_role": "ברירת מחדל",
-                "server": "הרשאות שרת",
-                "channel": "הרשאות ערוץ",
-                "create_role": "צור תפקיד חדש",
-                "role_name": "שם תפקיד"
-            }
-        },
-        "special": {
-            "copy": "לחץ להעתיק",
-            "copy_username": "לחץ להעתיק שם משתמש",
-            "friends": {
-                "pending": "בקשות בהמתנה",
-                "sent": "יוצאות",
-                "blocked": "חסום",
-                "incoming": "בקשת חברות נכנסת.",
-                "nobody": "אף אחד כאן!",
-                "from": {
-                    "single": "מ {{user}}",
-                    "multiple": "מ {{userlist}} ו {{user}}",
-                    "several": "מ {{userlist}} ו {{count}} עוד…"
-                },
-                "outgoing": "בקשת חברות יוצאת."
-            },
-            "status": {
-                "offline": "מנותק.",
-                "disconnected": "מנותק.",
-                "connecting": "מתחבר…",
-                "reconnecting": "מתחבר מחדש…"
-            },
-            "modals": {
-                "error": "התרחשה שגיאה!",
-                "clipboard": {
-                    "unavailable": "הלוח אינו זמין!",
-                    "copy": "העתקה ידנית:",
-                    "https": "כרגע אינך בהקשר HTTPS."
-                },
-                "token_reveal": "האסימון של {{name}}",
-                "prompt": {
-                    "confirm_leave": "עזוב {{name}}?",
-                    "confirm_leave_long": "לא תוכל להצטרף מחדש אלא אם תוזמן מחדש.",
-                    "confirm_close_dm": "סגור שיחה עם {{name}}?",
-                    "confirm_close_dm_long": "תוכל לפתוח אותו מחדש מאוחר יותר אך הוא ייעלם משני הצדדים.",
-                    "confirm_delete_long": "ברגע שזה נמחק, אין דרך חזרה.",
-                    "confirm_kick": "אתה בטוח שאתה רוצה להעיף את {{name}}?",
-                    "confirm_ban": "אתה עומד לתת באן ל {{name}}",
-                    "confirm_ban_reason": "סיבת באן",
-                    "unfriend_user": "מחק {{name}}?",
-                    "block_user": "חסום {{name}}?",
-                    "confirm_delete": "מחק {{name}}?",
-                    "confirm_delete_message_long": "האם אתה בטוח שברצונך למחוק זאת?",
-                    "create_invite_generate": "יוצר הזמנה…",
-                    "create_invite_created": "הנה הקוד הזמנה החדש שלך:",
-                    "unfriend_user_long": "ייתכן שלא תוכל לדבר איתם שוב עד שתוסיף אותם בחזרה.",
-                    "block_user_long": "האם אתה בטוח שברצונך לחסום את {{name}}? הם גם יוסרו מרשימת החברים שלך."
-                },
-                "account": {
-                    "change": {
-                        "username": "שנה את שם המשתמש שלך",
-                        "email": "שנה את הדוא\"ל שלך",
-                        "password": "שנה את הסיסמה שלך"
-                    },
-                    "failed": "שינוי נכשל!"
-                },
-                "external_links": {
-                    "short": "אתה בטוח שאתה רוצה ללכת ל:",
-                    "trust_domain": "תסמוך על הDomain הזה",
-                    "title": "קישורים חיצוניים יכולים להיות מסוכנים!"
-                },
-                "actions": {
-                    "ok": "אוקי",
-                    "ban": "באן",
-                    "kick": "תעיף",
-                    "hide": "הסתר",
-                    "edit": "ערוך",
-                    "block": "חסום",
-                    "close": "סגור",
-                    "leave": "עזוב",
-                    "back": "חזור",
-                    "remove": "הוריד",
-                    "delete": "מחק",
-                    "create": "צור",
-                    "reveal": "גלה",
-                    "cancel": "בטל",
-                    "preview": "תצוגה מקדמת",
-                    "reload": "טען מחדש את האפליקציה",
-                    "send_email": "שלח דוא\"ל",
-                    "save": "שמור",
-                    "update": "עדכן",
-                    "continue": "המשך"
-                },
-                "signed_out": "יצאת מהחשבון!",
-                "onboarding": {
-                    "welcome": "ברוכים הבאים ל",
-                    "pick": "בחר שם משתמש שאתה רוצה שאנשים יוכלו למצוא אותך לפיו, ניתן לשנות זאת מאוחר יותר בהגדרות."
-                }
-            },
-            "popovers": {
-                "user_profile": {
-                    "profile": "פרופיל",
-                    "mutual_groups": "קבוצות משותפות",
-                    "mutual_servers": "שרתים משותפים",
-                    "empty": "זה די רק כאן…",
-                    "no_users": "אין חברים משותפים",
-                    "sub": {
-                        "badges": "תגים",
-                        "information": "מידע",
-                        "connections": "חיבורים"
-                    },
-                    "badges": {
-                        "translator": "מתרגם",
-                        "supporter": "תומך",
-                        "responsible_disclosure": "באגים חשופים באחריות",
-                        "early_adopter": "מאמץ מוקדם",
-                        "moderation": "ניהול פלטפורמה",
-                        "founder": "מייסד"
-                    },
-                    "mutual_friends": "חברים משותפים",
-                    "no_groups": "אין קבוצות משותפות",
-                    "no_servers": "אין שרתים משותפים"
-                },
-                "user_picker": {
-                    "select": "בחר חברים להוסיף."
-                },
-                "create_bot": {
-                    "title": "צור בוט חדש",
-                    "failed": "יצירת בוט נכשלה!"
-                },
-                "server_identity": {
-                    "title": "שנה זהות ב {{server}}",
-                    "nickname": "כינוי",
-                    "avatar": "אווטר"
-                }
-            },
-            "requires_online": "אתה צריך להיות מחובר בשביל לראות את זה.",
-            "invite": {
-                "invited_by": "הוזמן על ידי {{user}}",
-                "login": "כנס ל Kimani",
-                "accept": "קבל את ההזמנה",
-                "user_count": "{{member_count}} משתמשים",
-                "invalid": "הזמנה שגויה!",
-                "invalid_desc": "ייתכן שההזמנה לא קיימת או שאין לך הרשאה להצטרף."
-            },
-            "server-badges": {
-                "verified": "שרת מאומת",
-                "official": "שרת רשמי"
-            }
-        },
-        "context_menu": {
-            "copy_id": "העתק זהות",
-            "copy_text": "העתק טקסט",
-            "copy_uid": "העתק זהות של משתמש",
-            "copy_sid": "העתק זהות שרת",
-            "copy_cid": "העתק זהות ערוץ",
-            "copy_message_link": "העתק קישור הודעה",
-            "message_user": "הודעה",
-            "view_profile": "צפה פרופיל",
-            "mark_as_read": "סמן כנקרא",
-            "retry_message": "נסה לשלוח שוב",
-            "mention": "הזכיר",
-            "cancel_message": "בטל שליחה",
-            "reply_message": "תגיב",
-            "quote_message": "ציטוט הודעה",
-            "edit_message": "ערוך הודעה",
-            "delete_message": "מחק הודעה",
-            "remove_member": "הוריד מהקבוצה",
-            "save_file": "שמור קובץ",
-            "kick_member": "תעיף חבר",
-            "ban_member": "באן חבר",
-            "save_image": "שמור תמונה",
-            "open_video": "פתח סרטון",
-            "save_video": "שמור סרטון",
-            "open_link": "פתח קישור",
-            "block_user": "חסום משתמש",
-            "unblock_user": "הסר חסימה ממשתמש",
-            "add_friend": "הוסף חבר",
-            "remove_friend": "הוריד חבר",
-            "cancel_friend": "בטל בקשה",
-            "clear_status": "סטטוס ברור",
-            "set_custom_status": "הגדר סטטוס מותאם אישית",
-            "leave_group": "עזוב קבוצה",
-            "leave_server": "עזוב שרת",
-            "edit_identity": "ערוך זהות",
-            "delete_channel": "מחק ערוץ",
-            "create_channel": "צור ערוץ",
-            "create_category": "צור קטגוריה",
-            "create_invite": "צור הזמנה",
-            "open_notification_options": "אפשרות התראות",
-            "open_channel_settings": "הגדרות ערוץ",
-            "open_server_settings": "הגדרות שרת",
-            "copy_selection": "העתק בחירה",
-            "copy_mid": "העתק זהות הודעה",
-            "open_file": "פתח קובץ",
-            "open_image": "פתח תמונה",
-            "copy_link": "העתק קישור",
-            "custom_status": "סטטוס מותאם אישית",
-            "close_dm": "סגור הודעות ישירות",
-            "delete_server": "מחק שרת",
-            "open_group_settings": "הגדרות קבוצה",
-            "mark_unread": "סמן כלא נקרא"
-        },
-        "permissions": {
-            "required": "נדרשות הרשאות"
-        },
-        "home": {
-            "directs": "הודעות ישירות",
-            "settings": "פתח הגדרות",
-            "settings-tooltip": "ניתן גם ללחוץ על תמונת הפרופיל משמאל למעלה, או לחיצה ימנית עליה אם אתה כבר במסך הבית.",
-            "feedback": "שלח משוב על Kimani",
-            "join-testers": "הצטרף לשרת הבודקים",
-            "goto-testers": "לך אל שרת הבודקים",
-            "goto-testers_desc": "ניתן לדווח על תקלות ולדון בשיפורים עמנו ישירות כאן.",
-            "join-testers_desc": "ניתן לדווח על תקלות ולדון בשיפורים עמנו ישירות כאן.",
-            "donate_desc": "תמוך בפרויקט באמצעות תרומה - תודה!",
-            "feedback_desc": "עזור לנו לשפר את המוצר ע\"י מתן משוב.",
-            "discover": "גלה את REVOLT",
-            "discover_desc": "מצא קהילה המבוססת על התחביבים או תחומי העניין שלך.",
-            "donate": "לתרום עבור Kimani",
-            "group": "ליצור קבוצה",
-            "group_desc": "הזמן את כל החברים שלך, כמה בוטים מגניבים, וערוך מסיבה גדולה."
-        }
-    },
-    "permissions": {
-        "ChangeAvatar": {
-            "t": "שנה אווטאר",
-            "d": "מאפשר לחברים לשנות את אווטאר השרת שלהם בשרת זה."
-        },
-        "ManageChannels": {
-            "t": "נהל ערוצים",
-            "d": "אפשר לחברים ליצור, לערוך ולמחוק ערוצים."
-        },
-        "ManageServer": {
-            "t": "נהל שרת",
-            "d": "מאפשר לחברים לשנות את שם השרת, התיאור, הסמל ומידע קשור אחר."
-        },
-        "KickMembers": {
-            "t": "העיף חברים",
-            "d": "מאפשר לחברים להסיר חברים מהשרת הזה. חברים בועטים יכולים להצטרף מחדש עם הזמנה."
-        },
-        "ChangeNickname": {
-            "t": "שנה כינוי",
-            "d": "מאפשר לחברים לשנות את כינוים בשרת זה."
-        },
-        "ManageNicknames": {
-            "t": "נהל כינוים",
-            "d": "מאפשר לחברים לשנות את כינויים של חברים אחרים."
-        },
-        "RemoveAvatars": {
-            "t": "הסר אווטרים",
-            "d": "מאפשר לחברים להסיר את דמות השרת של חברים אחרים בשרת זה."
-        },
-        "BanMembers": {
-            "t": "באן חברים",
-            "d": "מאפשר לחברים להסיר חברים לצמיתות מהשרת הזה."
-        },
-        "ManageMessages": {
-            "d": "מאפשר לחברים למחוק הודעות שנשלחו על ידי חברים אחרים.",
-            "t": "נהל הודעות"
-        },
-        "SendMessage": {
-            "t": "שלח הודעות",
-            "d": "מאפשר לחברים לשלוח הודעות בערוצי טקסט."
-        },
-        "ManageChannel": {
-            "t": "נהל ערוצים",
-            "d": "מאפשר לחברים לערוך או למחוק ערוץ."
-        },
-        "VoiceCall": {
-            "t": "שיחה קולית",
-            "d": "מאפשר לחברים להצטרף לערוצי קול."
-        },
-        "InviteOthers": {
-            "t": "הזמן אחרים",
-            "d": "מאפשר לחברים להזמין חברים אחרים לערוץ."
-        },
-        "EmbedLinks": {
-            "t": "הטמעת קישורים",
-            "d": "מאפשר לחברים להציג תוכן מוטמע בקישורים שהם מפרסמים בערוצי טקסט."
-        },
-        "UploadFiles": {
-            "t": "העלה קבצים",
-            "d": "מאפשר לחברים להעלות קבצים בערוצי טקסט."
-        },
-        "Masquerade": {
-            "t": "נֶשֶׁף מַסֵכוֹת",
-            "d": "מאפשר לחברים לשנות את השם והדמות שלהם לכל הודעה."
-        },
-        "ManageRole": {
-            "t": "נהל תפקידים",
-            "d": "מאפשר לחברים ליצור, לערוך ולמחוק תפקידים עם דירוג נמוך מזה שלהם. מאפשר להם גם לשנות הרשאות תפקיד בערוצים."
-        },
-        "ViewChannel": {
-            "d": "מאפשר לחברים לצפות בערוצים שבהם יש להם הרשאה זו.",
-            "t": "ראה ערוץ"
-        }
-    },
-    "quantities": {
-        "members": {
-            "one": "חבר 1",
-            "many": "{{count}} חברים"
-        }
-    },
-    "dayjs": {
-        "lastDay": "[אתמול בשעה] {{time}}",
-        "sameDay": "[היום בשעה] {{time}}",
-        "nextDay": "[מחר בשעה] {{time}}",
-        "nextWeek": "dddd [בשעה] {{time}}",
-        "defaults": {
-            "date_format": "traditional",
-            "twelvehour": "no",
-            "date_separator": "/"
-        },
-        "lastWeek": "dddd [האחרון] [בשעה] {{time}}"
-    },
-    "notifications": {
-        "now_friends": "אתה עכשיו חבר עם @{{person}}!",
-        "sent_request": "@{{person}} שלח לך בקשת חברות."
-    },
-    "error": {
-        "NetworkError": "בעיה ברשת.",
-        "Unauthorized": "לא מורשה.",
-        "Unlabelled": "משהו קרה.",
-        "FailedValidation": "אימות השדות נכשל.",
-        "DatabaseError": "שגיאה במסד נתונים.",
-        "InternalError": "שגיאה פנימית.",
-        "MissingPermission": "חסר הרשאה.",
-        "UnknownError": "בדוק קונסולה.",
-        "MissingHeaders": "חסרים כותרות.",
-        "InvalidSession": "הפעלה לא חוקית.",
-        "UnknownUser": "משתמש לא ידוע.",
-        "EmailInUse": "דוא\"ל בשימוש.",
-        "EmailFailed": "דאו\"ל נכשל לשלוח.",
-        "InvalidCredentials": "דאו\"ל או סיסמה לא נכונים.",
-        "InvalidToken": "אסימון לא נכון",
-        "MissingInvite": "קוד הזמנה חסר בבקשה.",
-        "InvalidInvite": "קוד לא תקין",
-        "AlreadyOnboarded": "כבר סיימו את ההרשמה.",
-        "UsernameTaken": "שם משתמש בשימוש.",
-        "AlreadyFriends": "אתה כבר חסר של המשתמש הזה.",
-        "AlreadySentRequest": "כבר שלחת בקשה למשתמש הזה.",
-        "Blocked": "אתה חסמת את המשתמש הזה.",
-        "BlockedOther": "המשתמש הזה חסם אותך.",
-        "NoEffect": "לבקשה זו לא הייתה כל השפעה.",
-        "RequiredField": "חייב",
-        "TooShort": "נמוך מדיי",
-        "TooLong": "ארוך מדיי",
-        "InvalidEmail": "דוא\"ל לא תקין",
-        "Unavailable": "לא זמין.",
-        "FileTooLarge": "קובץ גדול מדיי.",
-        "FailedToReceive": "שרת נכשל לקבל את הקובץ שלך.",
-        "MissingData": "הבקשה חסרה נתונים.",
-        "IoError": "השרת נתקל בשגיאת קלט/פלט.",
-        "UnsupportedBrowser": "אין תמיכה בדפדפן לתכונה זו.",
-        "CompromisedPassword": "סיסמה זו נפגעת.",
-        "ReachedMaximumBots": "הגעתה לכמות הבוטים המקסימלית.",
-        "AudioPermissionBlock": "אין גישה למיקרופון, בדוק את הגדרות הדפדפן.",
-        "OperationFailed": "פעולה נכשלה.",
-        "RenderFail": "עיבוד התבנית נכשל.",
-        "UnverifiedAccount": "חשבון לא מאומת.",
-        "ProbeError": "קבלת מטא -הנתונים של הקובץ נכשלה.",
-        "DeniedNotification": "מניעת גישה להתראות, בדוק את הגדרות הדף."
-    },
-    "shortcuts": {
-        "ctrlc": "Ctrl + C"
-    },
-    "actions": {
-        "submit": "הגש"
-    }
+    "general": {
+        "about": "אודות",
+        "tos": "תנאי שירות",
+        "privacy": "מדיניות פרטיות",
+        "image_by": "תמונה מאת",
+        "loading": "טוען…",
+        "on": "פועל",
+        "off": "כבוי",
+        "disabled": "מושבת",
+        "unavailable": "לא זמין",
+        "learn_more": "למידע נוסף"
+    },
+    "login": {
+        "title": "התחברות",
+        "register": "הרשמה",
+        "username": "שם משתמש",
+        "first_name": "שם פרטי",
+        "last_name": "שם משפחה",
+        "phone_number": "מספר טלפון",
+        "country": "מדינה",
+        "city": "עיר",
+        "occupation": "עיסוק",
+        "tell_us_more_about_you": "ספר/י לנו עוד על עצמך",
+        "likes_attending_to": "את/ה אוהב/ת להשתתף ב?",
+        "favorite_destinations": "מהם היעדים המועדפים עליך?",
+        "languages_spoken": "באילו שפות את/ה מדבר/ת?",
+        "passions_and_hobbies": "מהן התשוקות והתחביבים שלך?",
+        "linkedin": "מהו חשבון הלינקדאין שלך?",
+        "x_account": "מהו חשבון ה-X שלך?",
+        "instagram": "מהו חשבון האינסטגרם שלך?",
+        "facebook": "מהו חשבון הפייסבוק שלך?",
+        "email": "דוא\"ל",
+        "password": "סיסמה",
+        "invite": "קוד הזמנה",
+        "current_password": "סיסמה נוכחית",
+        "enter": {
+            "username": "הזן/הזיני את שם המשתמש המועדף עליך.",
+            "email": "דוא\"ל",
+            "password": "סיסמה",
+            "confirm_password": "אישור סיסמה",
+            "terms_and_conditions_1": "אני מקבל/ת את",
+            "terms_and_conditions_2": "התנאים וההגבלות",
+            "pledge_1": "אני מסכים/ה ומקבל/ת את",
+            "pledge_2": "הבטחת קימאני",
+            "invite": "הזן/הזיני את קוד ההזמנה שלך.",
+            "current_password": "הזן/הזיני את הסיסמה הנוכחית שלך.",
+            "new_password": "הזן/הזיני סיסמה חדשה.",
+            "first_name": "הזן/הזיני את שמך הפרטי.",
+            "last_name": "הזן/הזיני את שם המשפחה שלך.",
+            "phone_number": "הזן/הזיני את מספר הטלפון שלך.",
+            "country": "הזן/הזיני את מדינתך.",
+            "city": "הזן/הזיני את עירך.",
+            "occupation": "הזן/הזיני את עיסוקך.",
+            "tell_us_more_about_you": "ספר/י לנו עוד על עצמך..",
+            "likes_attending_to": "הזן/הזיני מה את/ה אוהב/ת להשתתף בו",
+            "favorite_destinations": "הזן/הזיני את היעדים המועדפים עליך",
+            "languages_spoken": "הזן/הזיני את השפות שאת/ה מדבר/ת",
+            "passions_and_hobbies": "הזן/הזיני את התשוקות והתחביבים שלך",
+            "linkedin": "הזן/הזיני את כתובת האתר של חשבון הלינקדאין שלך",
+            "x_account": "הזן/הזיני את כתובת האתר של חשבון ה-X שלך",
+            "instagram": "הזן/הזיני את כתובת האתר של חשבון האינסטגרם שלך",
+            "facebook": "הזן/הזיני את כתובת האתר של חשבון הפייסבוק שלך"
+        },
+        "forgot": "שכחת את הסיסמה שלך?",
+        "reset": "אפס/י אותה",
+        "login_problems": "בעיות בהתחברות? שלח/י אימייל ל: support@kimanilife.com",
+        "set_password": "הגדר/הגדירי סיסמה חדשה",
+        "remembered": "חזור/חזרי להתחברות",
+        "new": "אין לך חשבון?",
+        "existing": "כבר יש לך חשבון?",
+        "create": "צור/צרי חשבון חדש",
+        "pre_approved": "רק מיילים שאושרו מראש יוכלו ליצור חשבון.",
+        "missing_verification": "לא קיבלת אימייל?",
+        "resend": "שלח/י אימות מחדש",
+        "cancel": "בטל/י בקשה",
+        "check_mail": "בדוק/בדקי את הדוא\"ל שלך!",
+        "reset_sent": "שלחנו לך קישור לאיפוס סיסמה לדוא\"ל שלך.",
+        "email_delay": "זה עשוי לקחת כמה דקות",
+        "check_spam": "לא רואה את המייל? בדוק/בדקי את תיקיית הספאם שלך.",
+        "open_mail_provider": "פתח/פתחי את {{provider}}",
+        "successful_registration": "נרשמת בהצלחה!",
+        "error": {
+            "create": "נכשל הרישום!",
+            "login": "נכשל בהתחברות!",
+            "reset": "נכשל באיפוס!",
+            "resend": "נכשל בשליחה חוזרת!",
+            "verify": "נכשל באימות!"
+        },
+        "subtitle2": "יצירת חשבון",
+        "subtitle": "כניסה למערכת חברי קימאני",
+        "reset_subtitle": "איפוס סיסמה",
+        "reset_send": "שלח/י קישור לאיפוס",
+        "unofficial_instance": "עותק צד שלישי.",
+        "totp": "אפליקציית מאמת",
+        "recovery": "קוד שחזור",
+        "verifying_account": "מאמת את חשבונך…",
+        "verified_account": "חשבונך אומת!",
+        "verified_continue": "המשך/המשיכי להתחברות",
+        "new_password": "סיסמה חדשה",
+        "log_out_other": "התנתק/י מכל שאר ההפעלות"
+    },
+    "app": {
+        "status": {
+            "online": "מחובר/ת",
+            "idle": "לא פעיל/ה",
+            "busy": "נא לא להפריע",
+            "invisible": "בלתי נראה/נראית",
+            "offline": "מנותק/ת",
+            "reconnect": "התחבר/י מחדש",
+            "focus": "מיקוד"
+        },
+        "navigation": {
+            "tabs": {
+                "home": "בית",
+                "dev": "מפתח",
+                "friends": "חברים",
+                "unreads": "לא נקראו",
+                "saved": "הערות שמורות"
+            }
+        },
+        "main": {
+            "categories": {
+                "conversations": "שיחות",
+                "participants": "משתתפים",
+                "channels": "ערוצים",
+                "members": "חברים"
+            },
+            "channel": {
+                "message_where": "הודעה {{channel_name}}",
+                "message_who": "הודעה {{person}}",
+                "message_saved": "שמור/שמרי בהערות שלך",
+                "uploading_file": "מעלה…",
+                "failed_upload": "העלאה נכשלה!",
+                "attached_file": "קובץ מצורף {{filename}}",
+                "typing": {
+                    "single": "{{user}} מקליד/ה…",
+                    "multiple": "{{userlist}} ו-{{user}} מקלידים/ות…",
+                    "several": "כמה אנשים מקלידים/ות…"
+                },
+                "system": {
+                    "user_joined": "{{user}} הצטרף/ה",
+                    "user_left": "{{user}} יצא/ה",
+                    "user_kicked": "{{user}} נזרק/ה",
+                    "user_banned": "{{user}} נחסם/נחסמה",
+                    "added_by": "{{user}} נוסף/ה על ידי {{other_user}}",
+                    "removed_by": "{{user}} הוסר/ה על ידי {{other_user}}",
+                    "channel_renamed": "{{user}} שינה/שינתה את שם הערוץ ל-{{name}}",
+                    "channel_description_changed": "{{user}} שינה/שינתה את תיאור הערוץ",
+                    "channel_icon_changed": "{{user}} שינה/שינתה את אייקון הערוץ",
+                    "channel_ownership_changed": "{{from}} העביר/ה את בעלות הקבוצה ל-{{to}}",
+                    "registered_at": "נרשם/ה ב-{{time}}"
+                },
+                "start": {
+                    "group": "זהו תחילת השיחה שלך.",
+                    "saved": "כאן מתחילות ההערות שלך."
+                },
+                "voice": {
+                    "connected": "קול מחובר",
+                    "leave": "צא/י",
+                    "mute": "השתק",
+                    "unmute": "בטל/י השתקה"
+                },
+                "misc": {
+                    "viewing_old": "צופה/צופה בהודעות ישנות יותר",
+                    "jump_present": "קפוץ/קפצי להווה",
+                    "jump_beginning": "קפוץ/קפצי להתחלה",
+                    "spoiler_attachment": "ספוילר",
+                    "failed_load": "לא ניתן לטעון הודעה.",
+                    "no_sending": "אין לך הרשאה לשלוח הודעות בערוץ זה.",
+                    "blocked_messages": "{{count}} הודעות חסומות",
+                    "blocked_user": "משתמש חסום",
+                    "sent_file": "נשלח קובץ מצורף",
+                    "sent_multiple_files": "נשלחו מספר קבצים מצורפים",
+                    "new_messages": "הודעות חדשות מאז {{time_ago}}",
+                    "load_file": "טען קובץ",
+                    "timed_out": "הושתקת/הושתקת למשך {{time}}.",
+                    "not_loaded": "הודעה לא נטענה, לחץ/לחצי כדי לקפוץ"
+                },
+                "nsfw": {
+                    "channel": {
+                        "marked": "ערוץ זה מסומן כ-NSFW.",
+                        "confirm": "היכנס/י לערוץ"
+                    },
+                    "confirm": "אני מאשר/ת שאני בן/בת 18 לפחות."
+                },
+                "unknown_user": "<משתמש לא ידוע>",
+                "edited": "(נערך)",
+                "bot": "בוט",
+                "notifications": {
+                    "default": "השתמש/י בברירת מחדל",
+                    "all": "כל ההודעות",
+                    "mention": "אזכורים בלבד",
+                    "none": "ללא",
+                    "muted": "מושתק/ת"
+                },
+                "search": {
+                    "title": "חיפוש",
+                    "sort": {
+                        "relevance": "רלוונטיות",
+                        "latest": "הכי חדש",
+                        "oldest": "הכי ישן"
+                    }
+                },
+                "errors": {
+                    "title": "אופס, אין כאן כלום!",
+                    "nochannels": "לשרת זה אין ערוצים, או שאין לך גישה לאף אחד מהם.",
+                    "nochannel": "אין ערוץ"
+                },
+                "reply": {
+                    "replying": "משיב/ה ל-",
+                    "toggle": "החלף/החליפי התראת מחבר"
+                },
+                "bridge": "גשר",
+                "user_timed_out": "המשתמש/ת הושתק/הושתקה למשך {{time}}.",
+                "bridged": "ההודעה נשלחה בפלטפורמה אחרת",
+                "team": "תקשורת רשמית",
+                "new_to_revolt": "חדש/ה ב-Kimani Life",
+                "new_to_server": "חדש/ה בשרת זה",
+                "reactions": {
+                    "others_reacted": "{{userlist}} ו-{{count}} אחרים/ות הגיבו",
+                    "unknown_reacted": "{{count}} אנשים הגיבו",
+                    "single_reacted": "אדם אחד הגיב",
+                    "people_reacted": "{{people}} הגיבו"
+                }
+            },
+            "groups": {
+                "create": "צור/צרי קבוצה",
+                "name": "שם קבוצה",
+                "description": "תיאור קבוצה",
+                "owner": "בעל/ת קבוצה"
+            },
+            "servers": {
+                "create": "צור/צרי שרת",
+                "name": "שם שרת",
+                "description": "תיאור שרת",
+                "channel_name": "שם ערוץ",
+                "channel_type": "סוג ערוץ",
+                "channel_description": "תיאור ערוץ",
+                "custom_banner": "באנר מותאם אישית",
+                "owner": "בעל/ת שרת",
+                "text_channel": "ערוץ טקסט",
+                "voice_channel": "ערוץ קולי",
+                "category_name": "שם קטגוריה"
+            }
+        },
+        "settings": {
+            "title": "הגדרות",
+            "categories": {
+                "user_settings": "הגדרות משתמש",
+                "client_settings": "הגדרות לקוח",
+                "danger_zone": "אזור מסוכן"
+            },
+            "actions": {
+                "remove": "הסר/י",
+                "upload": "העלה/העלי",
+                "max_filesize": "(מקסימום {{filesize}})",
+                "edit": "ערוך/ערכי את {{name}}"
+            },
+            "pages": {
+                "account": {
+                    "title": "החשבון שלי",
+                    "change_field": "שנה/שני",
+                    "unique_id": "זהו מזהה משתמש ייחודי עבור חשבונך.",
+                    "2fa": {
+                        "title": "אימות דו-שלבי",
+                        "description": "הוסף/הוסיפי שכבת אבטחה נוספת על ידי הפעלת אימות דו-שלבי בחשבונך.",
+                        "add_auth": "הוסף/הוסיפי מאמת",
+                        "remove_auth": "הסר/הסירי מאמת",
+                        "two_factor_off": "לא הפעלת אימות דו-שלבי!",
+                        "view_recovery": "הצג/הציגי קודי שחזור",
+                        "view_recovery_long": "הצג/הציגי והורד/הורידי את קודי השחזור הדו-שלביים שלך.",
+                        "generate_recovery": "צור/צרי קודי גיבוי",
+                        "generate_recovery_long": "התכונן/התכונני לשימוש באימות דו-שלבי על ידי הגדרת שיטת גיבוי.",
+                        "two_factor_on": "אימות דו-שלבי מופעל כרגע."
+                    },
+                    "manage": {
+                        "title": "ניהול חשבון",
+                        "description": "השבת/השביתי או מחק/מחקי את חשבונך בכל עת. פעולה זו תנתק אותך ותמחק לחלוטין את חשבונך, כולל היסטוריית הצ'אט והחברים שלך.",
+                        "disable": "השבת/השביתי חשבון",
+                        "delete": "מחק/מחקי חשבון"
+                    }
+                },
+                "profile": {
+                    "title": "פרופיל",
+                    "info": "מידע",
+                    "fetching": "מביא/ה את הפרופיל שלך…",
+                    "placeholder": "כתוב/כתבי משהו על עצמך…",
+                    "profile_picture": "תמונת פרופיל",
+                    "custom_background": "רקע מותאם אישית",
+                    "edit_background": "ערוך/ערכי רקע",
+                    "edit_profile": "ערוך/ערכי פרופיל"
+                },
+                "sessions": {
+                    "title": "הפעלות",
+                    "active_sessions": "הפעלות פעילות",
+                    "this_device": "מכשיר זה",
+                    "created": "נוצר/ה לפני {{time_ago}}",
+                    "logout": "התנתק/י מכל שאר ההפעלות"
+                },
+                "invite": {
+                    "title": "הזמן/הזמיני",
+                    "description": "הזמן/הזמיני חברים ל-Kimani Life"
+                },
+                "audio": {
+                    "title": "הגדרות קול",
+                    "input_device": "מיקרופון",
+                    "output_device": "רמקול / אוזניות",
+                    "tip_retry": "לא נתת הרשאה לגישה למיקרופון שלך, אנא {{retryBtn}}.",
+                    "device_label_NA": "לא זמין",
+                    "button_retry": "נסה/נסי שוב",
+                    "tip_grant_permission": "את/ה צריך/ה לתת הרשאה לגישה להגדרות שמע.",
+                    "button_grant": "תן/תני הרשאה"
+                },
+                "appearance": {
+                    "title": "מראה",
+                    "theme": "ערכת נושא",
+                    "display": {
+                        "default": "ברירת מחדל",
+                        "compact": "קומפקטי",
+                        "default_description": "יפה, אלגנטי ומודרני.",
+                        "compact_description": "ה-IRC הטוב והישן."
+                    },
+                    "color": {
+                        "light": "בהיר",
+                        "dark": "כהה"
+                    },
+                    "accent_selector": "צבע הדגשה",
+                    "emoji_pack": "חבילת אימוג'י",
+                    "message_display": "תצוגת הודעות",
+                    "advanced": "אפשרויות מתקדמות",
+                    "overrides": "עקיפת ערכת נושא",
+                    "reset_overrides": "אפס/י עקיפות",
+                    "import": "ייבא/י ערכת נושא",
+                    "import_theme": "ייבא/י ערכת נושא ממחרוזת",
+                    "theme_data": "נתוני ערכת נושא",
+                    "custom_css": "CSS מותאם אישית",
+                    "sync": "אפשרויות סנכרון",
+                    "font": "גופן",
+                    "mono_font": "בורר גופן מונוספייס",
+                    "ligatures": "ליגטורות גופנים",
+                    "ligatures_desc": "עבור גופנים נתמכים, ליגטורות משלבות תווים יחד - לדוגמה, הופכות -> לחץ.",
+                    "theme_options": {
+                        "title": "אפשרויות ערכת נושא",
+                        "follow_desc": "כאשר מסומן, לא תוכל/י לשנות את ערכת הנושא שלך או להשתמש בערכה מותאמת אישית.",
+                        "seasonal": "ערכת נושא עונתית",
+                        "follow": "עקוב/עקבי אחר ערכת הנושא של המערכת",
+                        "transparency": "אפקטים של שקיפות",
+                        "transparency_desc": "מאפשר/ת אפקטים של שקיפות (כמו זכוכית חלבית) בכל האפליקציה.",
+                        "seasonal_desc": "מציג/ה אפקטים בלשונית הבית במהלך עונות החגים."
+                    },
+                    "discover": {
+                        "title": "גלה/י ערכות נושא",
+                        "description": "עיין/עייני בערכות נושא שנוצרו על ידי הקהילה"
+                    },
+                    "appearance_options": {
+                        "title": "אפשרויות מראה",
+                        "show_send": "הצג/הציגי תמיד כפתור שלח/י הודעה",
+                        "show_send_desc": "אם מושבת, כפתור שלח/י הודעה יופיע רק בנייד.",
+                        "show_account_age": "הצג/הציגי תמיד את גיל החשבון לצד הודעות הצטרפות",
+                        "show_account_age_desc": "אם מושבת, גיל החשבון יוצג רק למשתמשים חדשים."
+                    },
+                    "colours": {
+                        "title": "צבעים"
+                    },
+                    "emoji": {
+                        "title": "אימוג'י"
+                    },
+                    "fonts": {
+                        "title": "גופנים"
+                    },
+                    "advanced_options": {
+                        "title": "אפשרויות מתקדמות"
+                    }
+                },
+                "notifications": {
+                    "title": "התראות",
+                    "push_notifications": "התראות דחיפה",
+                    "enable_desktop": "אפשר/י התראות שולחן עבודה",
+                    "enable_push": "אפשר/י התראות דחיפה",
+                    "sounds": "צלילים",
+                    "descriptions": {
+                        "enable_desktop": "זה ייתן לך התראות בזמן שהאפליקציה שלך פתוחה.",
+                        "enable_push": "אפשר/י לקבל התראות כשאת/ה במצב לא מקוון."
+                    },
+                    "sound": {
+                        "message": "הודעה התקבלה",
+                        "outbound": "הודעה נשלחה",
+                        "call_join": "משתמש/ת הצטרף/ה לשיחה",
+                        "call_leave": "משתמש/ת עזב/ה את השיחה"
+                    }
+                },
+                "language": {
+                    "title": "שפה",
+                    "select": "בחר/בחרי את שפתך",
+                    "const": "שפות מתוכננות",
+                    "other": "אפשרויות שפה אחרות"
+                },
+                "sync": {
+                    "title": "סנכרון",
+                    "categories": "סנכרון קטגוריות",
+                    "descriptions": {
+                        "appearance": "זה יסנכרן אפשרויות כמו חבילות אימוג'י וצפיפות הודעות.",
+                        "theme": "זה יסנכרן את ערכת הנושא שבחרת, צבעים וכל CSS מותאם אישית.",
+                        "locale": "זה יסנכרן את השפה שבחרת כרגע."
+                    },
+                    "options": "אפשרויות סנכרון"
+                },
+                "native": {
+                    "title": "הגדרות שולחן עבודה"
+                },
+                "experiments": {
+                    "title": "ניסויים",
+                    "features": "תכונות זמינות",
+                    "not_available": "אין ניסויים זמינים בשלב זה."
+                },
+                "donate": {
+                    "title": "תרומה"
+                },
+                "source_code": "קוד מקור",
+                "bots": {
+                    "title": "הבוטים שלי",
+                    "create_bot": "צור/צרי בוט",
+                    "copy_invite": "העתק/העתיקי קישור הזמנה",
+                    "add": "הוסף/הוסיפי בוט",
+                    "token": "אסימון",
+                    "public_bot_tip": "הבוט ציבורי. כל אחד יכול להזמין אותו.",
+                    "private_bot_tip": "הבוט פרטי. רק אתה/את יכול/ה להזמין אותו.",
+                    "public_bot": "בוט ציבורי",
+                    "public_bot_desc": "האם לאפשר למשתמשים אחרים להזמין את הבוט הזה.",
+                    "interactions_url": "כתובת אתר אינטראקציות",
+                    "reserved": "הערה: שדה זה שמור לעתיד.",
+                    "unique_id": "זהו מזהה ייחודי עבור הבוט שלך. זה לא אסימון הבוט.",
+                    "profile": "פרופיל בוט"
+                },
+                "feedback": {
+                    "title": "משוב",
+                    "suggest": "שלח/י הצעת תכונה",
+                    "suggest_desc": "הצע/הציעי תכונות חדשות ל-Kimani Life בדיוני GitHub.",
+                    "issue": "צור/צרי בעיה חדשה",
+                    "issue_desc": "כדי לעזור לנו למצוא ולהעריך בעיות ביתר קלות, תוכל/י ליצור בעיה ב-GitHub.",
+                    "bug": "מעקב באגים",
+                    "bug_desc": "צפה/צפי בדוחות באגים פעילים כאן.",
+                    "description": "שלח/י משוב"
+                },
+                "logOut": "התנתק/י",
+                "theme_shop": {
+                    "title": "חנות ערכות נושא",
+                    "category": {
+                        "highest": "הכי מדורג",
+                        "viewall": "הצג/הציגי הכל",
+                        "manage": "נהל/נהלי שמורים",
+                        "new": "חדש/ה השבוע",
+                        "default": "ערכות נושא ברירת מחדל",
+                        "saved": "שמור/ה"
+                    },
+                    "active": "פעיל/ה כרגע",
+                    "description": "עיין/עייני במאות ערכות נושא, שנוצרו ונבחרו על ידי הקהילה.",
+                    "search": "חפש/חפשי ערכות נושא…",
+                    "use": "השתמש/י בערכת נושא",
+                    "by": "מאת"
+                },
+                "plugins": {
+                    "title": "תוספים",
+                    "delete_plugin": "מחק/מחקי",
+                    "wip": "אזהרה: תכונה זו עדיין בפיתוח.",
+                    "no_plugins": "אין תוספים מותקנים כרגע."
+                }
+            },
+            "channel_pages": {
+                "overview": {
+                    "title": "סקירה כללית",
+                    "name": "שם ערוץ",
+                    "description": "תיאור ערוץ"
+                },
+                "permissions": {
+                    "title": "הרשאות"
+                },
+                "webhooks": {
+                    "title": "Webhooks"
+                }
+            },
+            "server_pages": {
+                "overview": {
+                    "title": "סקירה כללית",
+                    "name": "שם שרת",
+                    "description": "תיאור ערוץ",
+                    "system_messages": "ערוצי הודעות מערכת"
+                },
+                "members": {
+                    "title": "חברים"
+                },
+                "invites": {
+                    "title": "הזמנות",
+                    "code": "קוד הזמנה",
+                    "invitor": "מזמין",
+                    "channel": "ערוץ",
+                    "revoke": "בטל/י"
+                },
+                "bans": {
+                    "title": "חסימות",
+                    "user": "משתמש",
+                    "reason": "סיבת חסימה",
+                    "revoke": "בטל/י",
+                    "no_reason": "אין סיבת חסימה."
+                },
+                "roles": {
+                    "title": "תפקידים"
+                },
+                "categories": {
+                    "title": "קטגוריות"
+                },
+                "management": {
+                    "title": "ניהול משתמשים"
+                },
+                "customisation": {
+                    "title": "התאמה אישית"
+                },
+                "emojis": {
+                    "title": "אימוג'י",
+                    "upload": "העלה/העלי אימוג'י"
+                }
+            },
+            "tips": {
+                "account": {
+                    "a": "מחפש/ת להתאים אישית את הפרופיל הציבורי שלך?",
+                    "b": "עבור/עברי להגדרות הפרופיל שלך."
+                },
+                "languages": {
+                    "a": "חסרה שפה שאת/ה רוצה?",
+                    "b": "עזור/עזרי לתרום עוד תרגומים."
+                },
+                "sessions": {
+                    "a": "אם אתה/את רואה הפעלה לא ידועה ברשימה,",
+                    "b": "אבטח/אבטחי את חשבונך על ידי שינוי סיסמתך ושימוש באימות דו-שלבי."
+                }
+            },
+            "permissions": {
+                "default_role": "ברירת מחדל",
+                "server": "הרשאות שרת",
+                "channel": "הרשאות ערוץ",
+                "create_role": "צור/צרי תפקיד חדש",
+                "role_name": "שם תפקיד",
+                "delete_role": "מחק/מחקי תפקיד",
+                "hoist_role": "הרם/הרימי תפקיד",
+                "hoist_desc": "הצג/הציגי תפקיד זה מעל אחרים.",
+                "title": "הרשאות עבור {{role}}",
+                "edit_title": "ערוך/ערכי הרשאות",
+                "role_colour": "צבע תפקיד",
+                "role_options": "אפשרויות תפקיד",
+                "role_ranking": "דירוג תפקיד"
+            }
+        },
+        "special": {
+            "copy_username": "לחץ/לחצי כדי להעתיק שם משתמש",
+            "copy": "לחץ/לחצי כדי להעתיק",
+            "friends": {
+                "pending": "בקשות ממתינות",
+                "sent": "יוצאות",
+                "blocked": "חסומים",
+                "incoming": "בקשת חברות נכנסת.",
+                "outgoing": "בקשת חברות יוצאת.",
+                "nobody": "אף אחד/אחת כאן עדיין!",
+                "from": {
+                    "single": "מ-{{user}}",
+                    "multiple": "מ-{{userlist}} ו-{{user}}",
+                    "several": "מ-{{userlist}} ועוד {{count}}…"
+                }
+            },
+            "status": {
+                "offline": "לא מקוון/מקוונת.",
+                "disconnected": "מנותק/ת.",
+                "connecting": "מתחבר/ת…",
+                "reconnecting": "מתחבר/ת מחדש…"
+            },
+            "modals": {
+                "error": "אירעה שגיאה!",
+                "clipboard": {
+                    "unavailable": "הלוח לא זמין!",
+                    "https": "את/ה לא נמצא/ת כרגע בהקשר של HTTPS.",
+                    "copy": "העתקה ידנית:"
+                },
+                "signed_out": "התנתקת!",
+                "token_reveal": "אסימון של {{name}}",
+                "onboarding": {
+                    "welcome": "",
+                    "pick": "בחר/בחרי שם משתמש שבו אנשים יוכלו למצוא אותך, ניתן לשנות זאת מאוחר יותר בהגדרות."
+                },
+                "prompt": {
+                    "confirm_leave": "לצאת מ-{{name}}?",
+                    "confirm_leave_long": "לא תוכל/י להצטרף מחדש אלא אם כן תוזמן/תוזמני מחדש.",
+                    "confirm_close_dm": "לסגור שיחה עם {{name}}?",
+                    "confirm_close_dm_long": "תוכל/י לפתוח אותה מחדש מאוחר יותר אך היא תיעלם משני הצדדים.",
+                    "confirm_delete": "למחוק את {{name}}?",
+                    "confirm_delete_long": "לאחר מחיקה, אין דרך חזרה.",
+                    "confirm_delete_message_long": "האם אתה/את בטוח/ה שאת/ה רוצה למחוק זאת?",
+                    "create_invite_generate": "יוצר/ת הזמנה…",
+                    "create_invite_created": "הנה קוד ההזמנה החדש שלך:",
+                    "confirm_kick": "האם אתה/את בטוח/ה שאת/ה רוצה לזרוק את {{name}}?",
+                    "confirm_ban": "את/ה עומד/ת לחסום/לחסום את {{name}}",
+                    "confirm_ban_reason": "סיבת חסימה",
+                    "unfriend_user": "לבטל חברות עם {{name}}?",
+                    "unfriend_user_long": "ייתכן שלא תוכל/י לדבר איתם שוב עד שתחזיר/י אותם.",
+                    "block_user": "לחסום את {{name}}?",
+                    "block_user_long": "האם אתה/את בטוח/ה שאת/ה רוצה לחסום את {{name}}? הם/ן גם יוסרו מרשימת החברים שלך.",
+                    "silent_leave": "צא/י בשקט",
+                    "members_not_notified": "שאר החברים/ות לא יקבלו התראה"
+                },
+                "account": {
+                    "change": {
+                        "username": "שנה/שני את שם המשתמש שלך",
+                        "email": "שנה/שני את הדוא\"ל שלך",
+                        "password": "שנה/שני את סיסמתך"
+                    },
+                    "failed": "נכשל בשינוי!"
+                },
+                "external_links": {
+                    "title": "קישורים חיצוניים יכולים להיות מסוכנים!",
+                    "short": "האם אתה/את בטוח/ה שאת/ה רוצה לעבור ל-:",
+                    "trust_domain": "בטח/בטחי בדומיין זה"
+                },
+                "actions": {
+                    "ok": "אישור",
+                    "ban": "חסום/חסמי",
+                    "kick": "זרוק/זרקי",
+                    "save": "שמור/שמרי",
+                    "hide": "הסתר/הסתירי",
+                    "edit": "ערוך/ערכי",
+                    "block": "חסום/חסמי",
+                    "close": "סגור/סגרי",
+                    "leave": "צא/י",
+                    "back": "חזור/חזרי",
+                    "remove": "הסר/י",
+                    "delete": "מחק/מחקי",
+                    "create": "צור/צרי",
+                    "reveal": "חשוף/חשפי",
+                    "update": "עדכן/עדכני",
+                    "cancel": "בטל/י",
+                    "preview": "תצוגה מקדימה",
+                    "reload": "טען/טעני מחדש אפליקציה",
+                    "continue": "המשך/המשיכי",
+                    "send_email": "שלח/י דוא\"ל",
+                    "confirm": "אשר/י",
+                    "done": "בוצע",
+                    "reset": "איפוס",
+                    "report": "דווח/י",
+                    "dont_block": "אל תחסום/תחסמי"
+                },
+                "sessions": {
+                    "short": "לא ניתן לבטל פעולה זו.",
+                    "accept": "הסר/הסירי את כל ההפעלות",
+                    "title": "האם אתה/את בטוח/ה שאת/ה רוצה לנקות את ההפעלות שלך?"
+                },
+                "changelogs": {
+                    "description": "קרא/י על עדכוני Kimani Life.",
+                    "older": "הצג/הציגי עדכונים ישנים יותר",
+                    "title": "יומני שינויים"
+                },
+                "confirm": "אשר/י פעולה",
+                "mfa": {
+                    "recovery_codes": "קודי השחזור שלך",
+                    "save_codes": "אנא שמור/שמרי אותם במקום בטוח.",
+                    "confirm": "אנא אשר/י באמצעות שיטה נבחרת.",
+                    "select_method": "אנא בחר/י שיטה לאימות הבקשה שלך.",
+                    "enable_totp": "אפשר/י אפליקציית מאמת",
+                    "prompt_totp": "אנא סרוק/סרקי או השתמש/י באסימון למטה באפליקציית האימות שלך.",
+                    "enter_code": "הזן/הזיני קוד"
+                },
+                "out_of_date": {
+                    "title": "הלקוח שלך מיושן!",
+                    "description": "יש לעדכן אותו כדי שיעבוד עם שינויים אחרונים.",
+                    "version": "הלקוח שלך בגרסה {{client}}, ואילו השרת דורש את גרסה {{server}}.",
+                    "ignore": "התעלם/י מעודכן",
+                    "attempting": "מנסה לעדכן…"
+                },
+                "report": {
+                    "no_reason": "לא צוינה סיבה / סיבה אחרת",
+                    "message": "דווח/י על הודעה",
+                    "by_name": "דווח/י על {{name}}",
+                    "reason": "סיבה",
+                    "additional_context": "מידע נוסף",
+                    "content_reason": {
+                        "Illegal": "התוכן מפר חוק אחד או יותר",
+                        "SpamAbuse": "זה ספאם או שימוש לרעה בפלטפורמה",
+                        "PromotesHarm": "התוכן מקדם פגיעה באחרים או בעצמי",
+                        "Malware": "זו תוכנה זדונית",
+                        "Harassment": "זו הטרדה או התעללות המכוונת למשתמש אחר"
+                    },
+                    "user_reason": {
+                        "SpamAbuse": "המשתמש שולח/ה ספאם או מנצל/ת לרעה את הפלטפורמה",
+                        "InappropriateProfile": "פרופיל המשתמש אינו הולם לקהל הרחב",
+                        "Impersonation": "משתמש זה מתחזה למישהו אחר",
+                        "BanEvasion": "משתמש זה מתחמק מחסימה",
+                        "Underage": "משתמש זה אינו מבוגר מספיק כדי להחזיק חשבון"
+                    },
+                    "reported": "דווח/ה",
+                    "thank_you": "תודה שעזרת/עזרת לשמור על Kimani Life בטוח. נבדוק את הדיווח שלך בהקדם האפשרי.",
+                    "block_user": "האם תרצה/תרצי לחסום משתמש זה?"
+                }
+            },
+            "popovers": {
+                "user_profile": {
+                    "profile": "פרופיל",
+                    "mutual_friends": "חברים/ות משותפים/ות",
+                    "mutual_groups": "קבוצות משותפות",
+                    "mutual_servers": "שרתים משותפים",
+                    "empty": "קצת ריק כאן…",
+                    "no_users": "אין חברים/ות משותפים/ות",
+                    "no_groups": "אין קבוצות משותפות",
+                    "no_servers": "אין שרתים משותפים",
+                    "sub": {
+                        "badges": "תגים",
+                        "information": "מידע",
+                        "connections": "חיבורים"
+                    },
+                    "badges": {
+                        "translator": "מתרגם/ת",
+                        "supporter": "תומך/ת",
+                        "responsible_disclosure": "חשף/חשפה בעיות אבטחה באחריות",
+                        "early_adopter": "מאמץ/ת מוקדם/ת",
+                        "moderation": "ניהול פלטפורמה",
+                        "founder": "מייסד/ת"
+                    }
+                },
+                "user_picker": {
+                    "select": "בחר/בחרי חברים/ות להוסיף."
+                },
+                "create_bot": {
+                    "title": "צור/צרי בוט חדש",
+                    "failed": "יצירת בוט נכשלה!"
+                },
+                "server_identity": {
+                    "nickname": "כינוי",
+                    "title": "שנה/שני זהות ב-{{server}}",
+                    "avatar": "תמונת משתמש"
+                }
+            },
+            "requires_online": "את/ה צריך/ה להיות מחובר/ת כדי לראות זאת.",
+            "invite": {
+                "invited_by": "הוזמן/הוזמנה על ידי {{user}}",
+                "login": "התחבר/י ל-Kimani Life",
+                "accept": "קבל/י הזמנה",
+                "user_count": "{{member_count}} משתמשים",
+                "invalid": "הזמנה לא חוקית!",
+                "invalid_desc": "ההזמנה עשויה לא להתקיים או שאין לך הרשאה להצטרף."
+            },
+            "server-badges": {
+                "official": "שרת רשמי",
+                "verified": "שרת מאומת"
+            }
+        },
+        "context_menu": {
+            "copy_id": "העתק/העתיקי מזהה",
+            "copy_selection": "העתק/העתיקי בחירה",
+            "copy_text": "העתק/העתיקי טקסט",
+            "copy_uid": "העתק/העתיקי מזהה משתמש",
+            "copy_sid": "העתק/העתיקי מזהה שרת",
+            "copy_cid": "העתק/העתיקי מזהה ערוץ",
+            "copy_mid": "העתק/העתיקי מזהה הודעה",
+            "copy_message_link": "העתק/העתיקי קישור הודעה",
+            "mention": "אזכר/י",
+            "message_user": "הודעה",
+            "view_profile": "הצג/הציגי פרופיל",
+            "mark_as_read": "סמן/סמני כנקרא",
+            "retry_message": "נסה/נסי לשלוח מחדש",
+            "cancel_message": "בטל/י שליחה",
+            "reply_message": "השב/השיבי",
+            "quote_message": "צטט/צטטי הודעה",
+            "edit_message": "ערוך/ערכי הודעה",
+            "delete_message": "מחק/מחקי הודעה",
+            "remove_member": "הסר/הסירי מהקבוצה",
+            "kick_member": "הוצא/הוציאי חבר",
+            "ban_member": "חסום/חסמי חבר",
+            "open_file": "פתח/פתחי קובץ",
+            "save_file": "שמור/שמרי קובץ",
+            "open_image": "פתח/פתחי תמונה",
+            "save_image": "שמור/שמרי תמונה",
+            "open_video": "פתח/פתחי וידאו",
+            "save_video": "שמור/שמרי וידאו",
+            "copy_link": "העתק/העתיקי קישור",
+            "open_link": "פתח/פתחי קישור",
+            "block_user": "חסום/חסמי משתמש",
+            "unblock_user": "בטל/י חסימת משתמש",
+            "add_friend": "הוסף/הוסיפי חבר",
+            "remove_friend": "הסר/הסירי חבר",
+            "cancel_friend": "בטל/י בקשה",
+            "custom_status": "סטטוס מותאם אישית",
+            "clear_status": "נקה/נקי סטטוס",
+            "set_custom_status": "הגדר/הגדירי סטטוס מותאם אישית",
+            "leave_group": "צא/י מהקבוצה",
+            "leave_server": "צא/י מהשרת",
+            "close_dm": "סגור/סגרי הודעה ישירה",
+            "delete_server": "מחק/מחקי שרת",
+            "edit_identity": "ערוך/ערכי זהות",
+            "delete_channel": "מחק/מחקי ערוץ",
+            "create_channel": "צור/צרי ערוץ",
+            "create_category": "צור/צרי קטגוריה",
+            "create_invite": "צור/צרי הזמנה",
+            "open_notification_options": "אפשרויות התראות",
+            "open_channel_settings": "הגדרות ערוץ",
+            "open_server_settings": "הגדרות שרת",
+            "open_group_settings": "הגדרות קבוצה",
+            "mark_unread": "סמן/סמני כלא נקרא",
+            "make_owner": "העבר/העבירי בעלות על קבוצה",
+            "report_message": "דווח/י על הודעה",
+            "report_user": "דווח/י על משתמש",
+            "report_server": "דווח/י על שרת"
+        },
+        "permissions": {
+            "required": "הרשאות נדרשות"
+        },
+        "home": {
+            "join-testers": "הצטרף/הצטרפי לשרת הבודקים",
+            "goto-testers": "עבור/עברי לשרת הבודקים",
+            "donate": "תרום/תרומי ל-Kimani Life",
+            "feedback": "תן/תני משוב על Kimani Life",
+            "settings": "פתח/פתחי הגדרות",
+            "settings-tooltip": "ניתן גם ללחוץ לחיצה ימנית על אייקון המשתמש בפינה השמאלית העליונה, או ללחוץ לחיצה שמאלית אם את/ה כבר בדף הבית.",
+            "social": "מצא/י שרתים ובוטים",
+            "directs": "הודעות ישירות",
+            "join-testers_desc": "תוכל/י לדווח על בעיות ולדון בשיפורים איתנו ישירות כאן.",
+            "goto-testers_desc": "תוכל/י לדווח על בעיות ולדון בשיפורים איתנו ישירות כאן.",
+            "donate_desc": "תמכו בפרויקט על ידי תרומה - תודה!",
+            "feedback_desc": "ספר/י לנו כיצד נוכל לשפר את האפליקציה שלנו על ידי מתן משוב.",
+            "discover": "גלה/י את Kimani Life",
+            "discover_desc": "מצא/י קהילה המבוססת על התחביבים או תחומי העניין שלך.",
+            "group": "צור/צרי קבוצה",
+            "group_desc": "הזמן/הזמיני את כל החברים/ות שלך, כמה בוטים מגניבים, וערוך/ערכי מסיבה גדולה."
+        },
+        "home2": {
+            "amb-join": "הצטרף/הצטרפי כשגריר/ה",
+            "spon-join": "הפוך/הפכי לספונסר/ית",
+            "ven-join": "הגש/הגישי מועמדות כספק/ית שירות מועדף/מועדפת",
+            "foun-join": "הפוך/הפכי לחבר/ה מייסד/ת",
+            "amb-desc": "לורם איפסום דולור קימט."
+        }
+    },
+    "quantities": {
+        "members": {
+            "one": "חבר/ה אחד/אחת",
+            "many": "{{count}} חברים/ות"
+        },
+        "dropFiles": {
+            "many": "גרור/גררי {{count}} קבצים",
+            "one": "גרור/גררי קובץ"
+        }
+    },
+    "dayjs": {
+        "lastDay": "[אתמול בשעה] {{time}}",
+        "sameDay": "[היום בשעה] {{time}}",
+        "nextDay": "[מחר בשעה] {{time}}",
+        "lastWeek": "יום {{dddd}} [שעבר בשעה] {{time}}",
+        "nextWeek": "יום {{dddd}} [הבא בשעה] {{time}}",
+        "defaults": {
+            "date_separator": "/",
+            "date_format": "simplified",
+            "twelvehour": "yes"
+        }
+    },
+    "notifications": {
+        "sent_request": "@{{person}} שלח/ה לך בקשת חברות.",
+        "now_friends": "את/ה עכשיו חבר/ה של @{{person}}!"
+    },
+    "error": {
+        "NetworkError": "שגיאת רשת.",
+        "Unauthorized": "לא מורשה.",
+        "Unlabelled": "משהו קרה.",
+        "FailedValidation": "נכשלה אימות שדות.",
+        "DatabaseError": "שגיאת מסד נתונים.",
+        "InternalError": "שגיאה פנימית.",
+        "MissingPermission": "הרשאה חסרה.",
+        "UnknownError": "ראה/ראי קונסולה.",
+        "OperationFailed": "הפעולה נכשלה.",
+        "RenderFail": "עיבוד תבנית נכשל.",
+        "MissingHeaders": "כותרות חסרות.",
+        "InvalidSession": "הפעלה לא חוקית.",
+        "UnverifiedAccount": "חשבון לא מאומת.",
+        "UnknownUser": "משתמש לא ידוע.",
+        "EmailInUse": "כתובת דוא\"ל בשימוש.",
+        "EmailFailed": "שליחת דוא\"ל נכשלה.",
+        "InvalidCredentials": "דוא\"ל או סיסמה שגויים.",
+        "InvalidToken": "אסימון לא חוקי",
+        "MissingInvite": "קוד הזמנה חסר בבקשה.",
+        "InvalidInvite": "קוד לא חוקי",
+        "AlreadyOnboarded": "כבר סיימתי את תהליך ההצטרפות.",
+        "UsernameTaken": "שם משתמש זה תפוס.",
+        "AlreadyFriends": "כבר חברים/ות עם משתמש/ת זה/זו.",
+        "AlreadySentRequest": "כבר נשלחה בקשה למשתמש/ת זה/זו.",
+        "Blocked": "חסמת/חסמת משתמש/ת זה/זו.",
+        "BlockedOther": "משתמש/ת זה/זו חסם/ה אותך.",
+        "NoEffect": "לבקשה זו לא הייתה השפעה.",
+        "RequiredField": "שדה חובה",
+        "TooShort": "קצר/ה מדי",
+        "TooLong": "ארוך/ה מדי",
+        "InvalidEmail": "כתובת דוא\"ל לא חוקית",
+        "Unavailable": "לא זמין.",
+        "FileTooLarge": "קובץ גדול מדי.",
+        "FailedToReceive": "השרת לא הצליח לקבל את הקובץ שלך.",
+        "MissingData": "חסרים נתונים בבקשה.",
+        "ProbeError": "נכשל באחזור מטא-נתונים של קובץ.",
+        "IoError": "השרת נתקל בשגיאת קלט/פלט.",
+        "UnsupportedBrowser": "הדפדפן חסר תמיכה בתכונה זו.",
+        "DeniedNotification": "דחית את גישת ההתראות, בדוק/בדקי את הגדרות העמוד.",
+        "CompromisedPassword": "סיסמה זו נפגעה.",
+        "ReachedMaximumBots": "הגעת למספר המרבי של בוטים.",
+        "AudioPermissionBlock": "אין גישה למיקרופון שלך, אנא בדוק/בדקי את תצורת הדפדפן שלך.",
+        "DiscriminatorChangeRatelimited": "יותר מדי שינויי תגית."
+    },
+    "shortcuts": {
+        "ctrlc": "Ctrl + C"
+    },
+    "permissions": {
+        "ManageChannels": {
+            "t": "ניהול ערוצים",
+            "d": "מאפשר/ת לחברים/ות ליצור, לערוך ולמחוק ערוצים."
+        },
+        "ManageServer": {
+            "t": "ניהול שרת",
+            "d": "מאפשר/ת לחברים/ות לשנות את שם השרת, תיאורו, אייקון ומידע קשור אחר."
+        },
+        "KickMembers": {
+            "t": "זרוק/זרקי חברים",
+            "d": "מאפשר/ת לחברים/ות להסיר חברים/ות משרת זה. חברים/ות שנזרקו יכולים/ות להצטרף מחדש עם הזמנה."
+        },
+        "BanMembers": {
+            "t": "חסום/חסמי חברים",
+            "d": "מאפשר/ת לחברים/ות להסיר לצמיתות חברים/ות משרת זה."
+        },
+        "ChangeNickname": {
+            "t": "שנה/שני כינוי",
+            "d": "מאפשר/ת לחברים/ות לשנות את הכינוי שלהם/ן בשרת זה."
+        },
+        "ManageNicknames": {
+            "t": "ניהול כינויים",
+            "d": "מאפשר/ת לחברים/ות לשנות את הכינויים של חברים/ות אחרים/ות."
+        },
+        "ChangeAvatar": {
+            "t": "שנה/שני אווטאר",
+            "d": "מאפשר/ת לחברים/ות לשנות את אווטאר השרת שלהם/ן בשרת זה."
+        },
+        "RemoveAvatars": {
+            "t": "הסר/הסירי אווטארים",
+            "d": "מאפשר/ת לחברים/ות להסיר את אווטארי השרת של חברים/ות אחרים/ות בשרת זה."
+        },
+        "SendMessage": {
+            "t": "שלח/י הודעות",
+            "d": "מאפשר/ת לחברים/ות לשלוח הודעות בערוצי טקסט."
+        },
+        "ManageMessages": {
+            "t": "ניהול הודעות",
+            "d": "מאפשר/ת לחברים/ות למחוק הודעות שנשלחו על ידי חברים/ות אחרים/ות."
+        },
+        "ManageChannel": {
+            "t": "ניהול ערוצים",
+            "d": "מאפשר/ת לחברים/ות לערוך או למחוק ערוץ."
+        },
+        "VoiceCall": {
+            "t": "שיחת קול",
+            "d": "מאפשר/ת לחברים/ות להצטרף לערוצי קול."
+        },
+        "InviteOthers": {
+            "t": "הזמן/הזמיני אחרים",
+            "d": "מאפשר/ת לחברים/ות להזמין משתמשים/ות אחרים/ות לערוץ."
+        },
+        "EmbedLinks": {
+            "t": "הטמע/הטמיעי קישורים",
+            "d": "מאפשר/ת לחברים/ות להציג תוכן מוטמע בקישורים שהם/ן מפרסמים/ות בערוצי טקסט."
+        },
+        "UploadFiles": {
+            "t": "העלה/העלי קבצים",
+            "d": "מאפשר/ת לחברים/ות להעלות קבצים לערוצי טקסט."
+        },
+        "Masquerade": {
+            "t": "התחזות",
+            "d": "מאפשר/ת לחברים/ות לשנות את שמם/ן ואווטארם/ן לכל הודעה."
+        },
+        "ManageRole": {
+            "t": "ניהול תפקידים",
+            "d": "מאפשר/ת לחברים/ות ליצור, לערוך ולמחוק תפקידים עם דירוג נמוך משלהם/ן. גם מאפשר/ת להם/ן לשנות הרשאות תפקיד בערוצים."
+        },
+        "ViewChannel": {
+            "t": "הצג/הציגי ערוץ",
+            "d": "מאפשר/ת לחברים/ות להציג כל ערוץ שיש להם/ן הרשאה עליו."
+        },
+        "ManagePermissions": {
+            "t": "ניהול הרשאות",
+            "d": "מאפשר/ת לחברים/ות לשנות הרשאות עבור ערוצים ותפקידים עם דירוג נמוך יותר."
+        },
+        "ReadMessageHistory": {
+            "t": "קרא/י היסטוריית הודעות",
+            "d": "מאפשר/ת לחברים/ות לקרוא את היסטוריית ההודעות של ערוץ זה."
+        },
+        "Connect": {
+            "t": "התחבר/י",
+            "d": "מאפשר/ת לחברים/ות להתחבר לערוץ קולי."
+        },
+        "ManageWebhooks": {
+            "t": "ניהול Webhooks",
+            "d": "מאפשר/ת לחברים/ות לשלוט ב-webhooks בערוץ."
+        },
+        "SendEmbeds": {
+            "t": "שלח/י הטמעות",
+            "d": "מאפשר/ת לחברים/ות לשלוח תוכן מוטמע, בין אם מקישורים או הטמעות טקסט מותאמות אישית."
+        },
+        "DeafenMembers": {
+            "d": "מאפשר/ת לחברים/ות להחריש אחרים בערוץ קולי.",
+            "t": "החרש/החרישי חברים"
+        },
+        "MoveMembers": {
+            "t": "הזז/י חברים",
+            "d": "מאפשר/ת לחברים/ות להזיז אחרים/ות בין ערוצי קול."
+        },
+        "Video": {
+            "d": "מאפשר/ת לחברים/ות להזרים וידאו בערוץ קולי.",
+            "t": "וידאו"
+        },
+        "MuteMembers": {
+            "t": "השתק/השתיקי חברים",
+            "d": "מאפשר/ת לחברים/ות להשתיק אחרים/ות בערוץ קולי."
+        },
+        "TimeoutMembers": {
+            "t": "השתק/השתיקי חברים",
+            "d": "מאפשר/ת לחברים/ות למנוע זמנית ממשתמשים/ות אינטראקציה עם השרת."
+        },
+        "AssignRoles": {
+            "t": "הקצה/הקצי תפקידים",
+            "d": "מאפשר/ת לחברים/ות להקצות תפקידים מתחת לדרגתם/ן לחברים/ות אחרים/ות."
+        },
+        "Speak": {
+            "t": "דבר/י",
+            "d": "מאפשר/ת לחברים/ות לדבר בערוץ קולי."
+        },
+        "ManageCustomisation": {
+            "t": "ניהול התאמה אישית",
+            "d": "מאפשר/ת לחברים/ות ליצור, לערוך ולמחוק אימוג'י."
+        },
+        "React": {
+            "t": "השתמש/י בתגובות",
+            "d": "מאפשר/ת לחברים/ות להגיב להודעות."
+        }
+    },
+    "actions": {
+        "submit": "שלח/י"
+    },
+    "keys": {
+        "Escape": {
+            "short": "Esc"
+        },
+        "Control": {
+            "short": "Ctrl"
+        },
+        "Insert": {
+            "short": "Ins"
+        },
+        "Delete": {
+            "short": "Del"
+        },
+        "Backspace": {
+            "short": "Backspace"
+        },
+        "PageUp": {
+            "full": "עמוד למעלה",
+            "short": "PgUp"
+        },
+        "PageDown": {
+            "full": "עמוד למטה",
+            "short": "PgDown"
+        },
+        "PrintScreen": {
+            "full": "הדפס מסך",
+            "short": "PrtSc"
+        },
+        "ScrollLock": {
+            "full": "נעילת גלילה",
+            "short": "ScrLK"
+        },
+        "CapsLock": {
+            "full": "Caps Lock"
+        }
+    },
+    "destinations": {
+        "post_trip": {
+            "title": "פרסם/י טיול",
+            "departure": "יציאה",
+            "arrival": "הגעה",
+            "business": "עסקים",
+            "leisure": "פנאי",
+            "description": {
+                "label": "תיאור",
+                "placeholder": "ספר/י לנו על הטיול שלך..."
+            },
+            "done": "בוצע"
+        },
+        "filters": {
+            "search": {
+                "placeholder": "חפש/חפשי את היעד שלך..."
+            }
+        },
+        "sections": {
+            "local_communities": "קהילות מקומיות",
+            "location": "מיקום"
+        },
+        "actions": {
+            "post_trip": "פרסם/י טיול",
+            "see_all": "ראה/ראי הכל"
+        }
+    },
+    "all_trips": {
+        "back": "חזור/חזרי",
+        "title": "מי נמצא/ת ב-{{location}}?",
+        "empty_state": "לא נמצאו מטיילים/ות. היה/היי הראשון/ה להוסיף טיול!",
+        "dates": "{{start}} - {{end}}"
+    },
+    "trip_details": {
+        "post": "פוסט של {{name}}",
+        "travel_purpose": "מטרת הנסיעה",
+        "dates": {
+            "from": "מאת:",
+            "to": "אל:"
+        },
+        "no_description": "לא סופק תיאור",
+        "comments": {
+            "title": "תגובות",
+            "empty": "אין תגובות עדיין. היה/היי הראשון/ה להגיב!",
+            "input_placeholder": "הוסף/הוסיפי תגובה לטיול זה..."
+        },
+        "actions": {
+            "send_message": "שלח/י הודעה",
+            "add_friend": "הוסף/הוסיפי חבר"
+        }
+    },
+    "trip_comment": {
+        "unknown_user": "משתמש לא ידוע"
+    }
 }
