@@ -9,7 +9,13 @@
         "off": "Off",
         "disabled": "Disabled",
         "unavailable": "Unavailable",
-        "learn_more": "Learn more"
+        "learn_more": "Learn more",
+        "users": {
+            "types": {
+                "member": "Member",
+                "ambassador": "Ambassador"
+            }
+        }
     },
     "login": {
         "title": "LOGIN",
@@ -300,7 +306,15 @@
                 },
                 "invite": {
                     "title": "Invite",
-                    "description": "Invite friends to Kimani Life"
+                    "description": "Invite friends to Kimani Life",
+                    "type": "Type of Invite",
+                    "left": "Invites Left",
+                    "method": {
+                        "title": "Invite Method",
+                        "campaign": "Link",
+                        "email": "Email",
+                        "event": "Event"
+                    }
                 },
                 "audio": {
                     "title": "Voice Settings",
