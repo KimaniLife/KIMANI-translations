@@ -1,18 +1,24 @@
 {
     "general": {
-        "about": "Über uns",
+        "about": "Über",
         "tos": "Nutzungsbedingungen",
-        "privacy": "Datenschutzrichtlinie",
+        "privacy": "Datenschutz-Bestimmungen",
         "image_by": "Bild von",
-        "loading": "Lädt…",
+        "loading": "Wird geladen…",
         "on": "An",
         "off": "Aus",
         "disabled": "Deaktiviert",
         "unavailable": "Nicht verfügbar",
-        "learn_more": "Mehr erfahren"
+        "learn_more": "Erfahre mehr",
+        "users": {
+            "types": {
+                "member": "Mitglied",
+                "ambassador": "Botschafter"
+            }
+        }
     },
     "login": {
-        "title": "ANMELDUNG",
+        "title": "ANMELDEN",
         "register": "Registrieren",
         "username": "Benutzername",
         "first_name": "Vorname",
@@ -21,93 +27,93 @@
         "country": "Land",
         "city": "Stadt",
         "occupation": "Beruf",
-        "tell_us_more_about_you": "Erzähle uns mehr über dich",
-        "likes_attending_to": "Du gehst gerne zu?",
-        "favorite_destinations": "Was sind deine Lieblingsreiseziele?",
-        "languages_spoken": "Welche Sprachen sprichst du?",
-        "passions_and_hobbies": "Was sind deine Leidenschaften und Hobbys?",
-        "linkedin": "Was ist dein LinkedIn-Konto?",
-        "x_account": "Was ist dein X-Konto?",
-        "instagram": "Was ist dein Instagram-Konto?",
-        "facebook": "Was ist dein Facebook-Konto?",
+        "tell_us_more_about_you": "Erzählen Sie uns mehr über sich",
+        "likes_attending_to": "Woran nehmen Sie gerne teil?",
+        "favorite_destinations": "Was sind Ihre Lieblingsziele?",
+        "languages_spoken": "Welche Sprachen sprechen Sie?",
+        "passions_and_hobbies": "Was sind Ihre Leidenschaften und Hobbys?",
+        "linkedin": "Was ist Ihr LinkedIn-Konto?",
+        "x_account": "Was ist Ihr X-Konto?",
+        "instagram": "Was ist Ihr Instagram-Konto?",
+        "facebook": "Was ist Ihr Facebook-Konto?",
         "email": "E-Mail",
         "password": "Passwort",
         "invite": "Einladungscode",
         "current_password": "Aktuelles Passwort",
         "enter": {
-            "username": "Gib deinen gewünschten Benutzernamen ein.",
+            "username": "Geben Sie Ihren bevorzugten Benutzernamen ein.",
             "email": "E-MAIL",
             "password": "PASSWORT",
             "confirm_password": "PASSWORT BESTÄTIGEN",
             "terms_and_conditions_1": "Ich akzeptiere die",
             "terms_and_conditions_2": "Allgemeinen Geschäftsbedingungen",
             "pledge_1": "Ich stimme zu und akzeptiere das",
-            "pledge_2": "Kimani Versprechen",
-            "invite": "Gib deinen Einladungscode ein.",
-            "current_password": "Gib dein aktuelles Passwort ein.",
-            "new_password": "Gib ein neues Passwort ein.",
-            "first_name": "Gib deinen Vornamen ein.",
-            "last_name": "Gib deinen Nachnamen ein.",
-            "phone_number": "Gib deine Telefonnummer ein.",
-            "country": "Gib dein Land ein.",
-            "city": "Gib deine Stadt ein.",
-            "occupation": "Gib deinen Beruf ein.",
-            "tell_us_more_about_you": "Erzähle uns mehr über dich..",
-            "likes_attending_to": "Gib ein, was du gerne besuchst",
-            "favorite_destinations": "Gib deine Lieblingsreiseziele ein",
-            "languages_spoken": "Gib die Sprachen ein, die du sprichst",
-            "passions_and_hobbies": "Gib deine Leidenschaften und Hobbys ein",
-            "linkedin": "Gib die URL deines LinkedIn-Kontos ein",
-            "x_account": "Gib die URL deines X-Kontos ein",
-            "instagram": "Gib die URL deines Instagram-Kontos ein",
-            "facebook": "Gib die URL deines Facebook-Kontos ein"
+            "pledge_2": "Kimani-Versprechen",
+            "invite": "Geben Sie Ihren Einladungscode ein.",
+            "current_password": "Geben Sie Ihr aktuelles Passwort ein.",
+            "new_password": "Geben Sie ein neues Passwort ein.",
+            "first_name": "Geben Sie Ihren Vornamen ein.",
+            "last_name": "Geben Sie Ihren Nachnamen ein.",
+            "phone_number": "Geben Sie Ihre Telefonnummer ein.",
+            "country": "Geben Sie Ihr Land ein.",
+            "city": "Geben Sie Ihre Stadt ein.",
+            "occupation": "Geben Sie Ihren Beruf ein.",
+            "tell_us_more_about_you": "Erzählen Sie uns mehr über sich...",
+            "likes_attending_to": "Geben Sie ein, woran Sie gerne teilnehmen",
+            "favorite_destinations": "Geben Sie Ihre Lieblingsziele ein",
+            "languages_spoken": "Geben Sie die Sprachen ein, die Sie sprechen",
+            "passions_and_hobbies": "Geben Sie Ihre Leidenschaften & Hobbys ein",
+            "linkedin": "Geben Sie die URL Ihres LinkedIn-Kontos ein",
+            "x_account": "Geben Sie die URL Ihres X-Kontos ein",
+            "instagram": "Geben Sie die URL Ihres Instagram-Kontos ein",
+            "facebook": "Geben Sie die URL Ihres Facebook-Kontos ein"
         },
         "forgot": "Passwort vergessen?",
         "reset": "Zurücksetzen",
-        "login_problems": "Probleme beim Login? E-Mail: support@kimanilife.com",
+        "login_problems": "Probleme beim Anmelden? E-Mail: support@kimanilife.com",
         "set_password": "Neues Passwort festlegen",
-        "remembered": "Zurück zum Login",
-        "new": "Noch kein Konto?",
-        "existing": "Du hast bereits ein Konto?",
+        "remembered": "Zurück zur Anmeldung",
+        "new": "Sie haben noch kein Konto?",
+        "existing": "Sie haben bereits ein Konto?",
         "create": "Neues Konto erstellen",
         "pre_approved": "Nur vorab genehmigte E-Mails können ein Konto erstellen.",
         "missing_verification": "Keine E-Mail erhalten?",
-        "resend": "Verifizierung erneut senden",
+        "resend": "Bestätigung erneut senden",
         "cancel": "Anfrage abbrechen",
-        "check_mail": "Überprüfe deine E-Mails!",
-        "reset_sent": "Wir haben dir einen Link zum Zurücksetzen des Passworts an deine E-Mail-Adresse gesendet.",
-        "email_delay": "Es kann ein paar Minuten dauern",
-        "check_spam": "Siehst du die E-Mail nicht? Überprüfe deinen Spam-Ordner.",
-        "open_mail_provider": "Öffne {{provider}}",
+        "check_mail": "Überprüfen Sie Ihre E-Mails!",
+        "reset_sent": "Wir haben Ihnen einen Link zum Zurücksetzen des Passworts an Ihre E-Mail gesendet.",
+        "email_delay": "Es kann einige Minuten dauern",
+        "check_spam": "Sehen Sie die E-Mail nicht? Überprüfen Sie Ihren Spam-Ordner.",
+        "open_mail_provider": "{{provider}} öffnen",
         "successful_registration": "Erfolgreich registriert!",
         "error": {
             "create": "Registrierung fehlgeschlagen!",
-            "login": "Login fehlgeschlagen!",
+            "login": "Anmeldung fehlgeschlagen!",
             "reset": "Zurücksetzen fehlgeschlagen!",
             "resend": "Erneutes Senden fehlgeschlagen!",
-            "verify": "Verifizierung fehlgeschlagen!"
+            "verify": "Überprüfung fehlgeschlagen!"
         },
         "subtitle2": "KONTO ERSTELLEN",
-        "subtitle": "Kimani Mitglieder-Login",
+        "subtitle": "Kimani-Mitglieder-Anmeldung",
         "reset_subtitle": "PASSWORT ZURÜCKSETZEN",
         "reset_send": "Link zum Zurücksetzen senden",
         "unofficial_instance": "Drittanbieter-Instanz.",
         "totp": "Authenticator-App",
         "recovery": "Wiederherstellungscode",
-        "verifying_account": "Dein Konto wird überprüft…",
-        "verified_account": "Dein Konto wurde verifiziert!",
-        "verified_continue": "Weiter zum Login",
+        "verifying_account": "Ihr Konto wird überprüft…",
+        "verified_account": "Ihr Konto wurde überprüft!",
+        "verified_continue": "Weiter zur Anmeldung",
         "new_password": "Neues Passwort",
         "log_out_other": "Von allen anderen Sitzungen abmelden"
     },
     "app": {
         "status": {
             "online": "Online",
-            "idle": "Inaktiv",
+            "idle": "Abwesend",
             "busy": "Bitte nicht stören",
             "invisible": "Unsichtbar",
             "offline": "Offline",
-            "reconnect": "Wieder verbinden",
+            "reconnect": "Erneut verbinden",
             "focus": "Fokus"
         },
         "navigation": {
@@ -129,14 +135,14 @@
             "channel": {
                 "message_where": "Nachricht an {{channel_name}}",
                 "message_who": "Nachricht an {{person}}",
-                "message_saved": "In deinen Notizen speichern",
+                "message_saved": "In Ihren Notizen speichern",
                 "uploading_file": "Lädt hoch…",
                 "failed_upload": "Hochladen fehlgeschlagen!",
-                "attached_file": "Angehängte Datei {{filename}}",
+                "attached_file": "{{filename}} angehängt",
                 "typing": {
-                    "single": "{{user}} tippt…",
-                    "multiple": "{{userlist}} und {{user}} tippen…",
-                    "several": "Mehrere Personen tippen…"
+                    "single": "{{user}} schreibt…",
+                    "multiple": "{{userlist}} und {{user}} schreiben…",
+                    "several": "Mehrere Leute schreiben…"
                 },
                 "system": {
                     "user_joined": "{{user}} ist beigetreten",
@@ -148,38 +154,38 @@
                     "channel_renamed": "{{user}} hat den Kanal in {{name}} umbenannt",
                     "channel_description_changed": "{{user}} hat die Kanalbeschreibung geändert",
                     "channel_icon_changed": "{{user}} hat das Kanalsymbol geändert",
-                    "channel_ownership_changed": "{{from}} hat {{to}} die Gruppeninhaberschaft übertragen",
+                    "channel_ownership_changed": "{{from}} hat die Gruppeninhaberschaft an {{to}} übergeben",
                     "registered_at": "Registriert am {{time}}"
                 },
                 "start": {
-                    "group": "Dies ist der Beginn deiner Unterhaltung.",
-                    "saved": "Hier beginnen deine Notizen."
+                    "group": "Dies ist der Beginn Ihrer Unterhaltung.",
+                    "saved": "Hier beginnen Ihre Notizen."
                 },
                 "voice": {
-                    "connected": "Sprachverbindung hergestellt",
+                    "connected": "Stimme verbunden",
                     "leave": "Verlassen",
-                    "mute": "Stummschalten",
+                    "mute": "Stumm",
                     "unmute": "Stummschaltung aufheben"
                 },
                 "misc": {
-                    "viewing_old": "Ältere Nachrichten anzeigen",
-                    "jump_present": "Zum Jetzt springen",
+                    "viewing_old": "Ältere Nachrichten werden angezeigt",
+                    "jump_present": "Zur Gegenwart springen",
                     "jump_beginning": "Zum Anfang springen",
                     "spoiler_attachment": "Spoiler",
                     "failed_load": "Nachricht konnte nicht geladen werden.",
-                    "no_sending": "Du hast keine Berechtigung, Nachrichten in diesem Kanal zu senden.",
+                    "no_sending": "Sie haben keine Berechtigung, Nachrichten in diesem Kanal zu senden.",
                     "blocked_messages": "{{count}} blockierte Nachrichten",
                     "blocked_user": "Blockierter Benutzer",
-                    "sent_file": "Eine Datei gesendet",
-                    "sent_multiple_files": "Mehrere Dateien gesendet",
+                    "sent_file": "Hat einen Anhang gesendet",
+                    "sent_multiple_files": "Hat mehrere Anhänge gesendet",
                     "new_messages": "Neue Nachrichten seit {{time_ago}}",
                     "load_file": "Datei laden",
-                    "timed_out": "Du hast eine Auszeit von {{time}}.",
-                    "not_loaded": "Nachricht nicht geladen, zum Springen klicken"
+                    "timed_out": "Sie sind für {{time}} im Timeout.",
+                    "not_loaded": "Nachricht nicht geladen, klicken Sie zum Springen"
                 },
                 "nsfw": {
                     "channel": {
-                        "marked": "Dieser Kanal ist als NSFW markiert.",
+                        "marked": "Dieser Kanal ist als NSFW gekennzeichnet.",
                         "confirm": "Kanal betreten"
                     },
                     "confirm": "Ich bestätige, dass ich mindestens 18 Jahre alt bin."
@@ -204,7 +210,7 @@
                 },
                 "errors": {
                     "title": "Hoppla, hier ist nichts!",
-                    "nochannels": "Dieser Server hat keine Kanäle, oder du hast keinen Zugriff darauf.",
+                    "nochannels": "Dieser Server hat keine Kanäle, oder Sie haben keinen Zugriff auf welche.",
                     "nochannel": "Kein Kanal"
                 },
                 "reply": {
@@ -212,7 +218,7 @@
                     "toggle": "Autoren-Ping umschalten"
                 },
                 "bridge": "Brücke",
-                "user_timed_out": "Du hast eine Auszeit von {{time}}.",
+                "user_timed_out": "Benutzer ist für {{time}} im Timeout.",
                 "bridged": "Nachricht wurde auf einer anderen Plattform gesendet",
                 "team": "Offizielle Kommunikation",
                 "new_to_revolt": "Neu bei Kimani Life",
@@ -225,20 +231,20 @@
                 }
             },
             "groups": {
-                "create": "Eine Gruppe erstellen",
+                "create": "Gruppe erstellen",
                 "name": "Gruppenname",
                 "description": "Gruppenbeschreibung",
-                "owner": "Gruppeninhaber"
+                "owner": "Gruppenbesitzer"
             },
             "servers": {
-                "create": "Einen Server erstellen",
+                "create": "Server erstellen",
                 "name": "Servername",
                 "description": "Serverbeschreibung",
                 "channel_name": "Kanalname",
                 "channel_type": "Kanaltyp",
                 "channel_description": "Kanalbeschreibung",
                 "custom_banner": "Benutzerdefiniertes Banner",
-                "owner": "Serverinhaber",
+                "owner": "Serverbesitzer",
                 "text_channel": "Textkanal",
                 "voice_channel": "Sprachkanal",
                 "category_name": "Kategoriename"
@@ -255,37 +261,37 @@
                 "remove": "Entfernen",
                 "upload": "Hochladen",
                 "max_filesize": "(max. {{filesize}})",
-                "edit": "Bearbeiten {{name}}"
+                "edit": "{{name}} bearbeiten"
             },
             "pages": {
                 "account": {
                     "title": "Mein Konto",
                     "change_field": "Ändern",
-                    "unique_id": "Dies ist eine eindeutige Benutzerkennung für dein Konto.",
+                    "unique_id": "Dies ist eine eindeutige Benutzerkennung für Ihr Konto.",
                     "2fa": {
                         "title": "Zwei-Faktor-Authentifizierung",
-                        "description": "Füge eine zusätzliche Sicherheitsebene hinzu, indem du 2FA für dein Konto aktivierst.",
+                        "description": "Fügen Sie eine zusätzliche Sicherheitsebene hinzu, indem Sie 2FA für Ihr Konto aktivieren.",
                         "add_auth": "Authenticator hinzufügen",
                         "remove_auth": "Authenticator entfernen",
-                        "two_factor_off": "Du hast die Zwei-Faktor-Authentifizierung nicht aktiviert!",
+                        "two_factor_off": "Sie haben die Zwei-Faktor-Authentifizierung nicht aktiviert!",
                         "view_recovery": "Wiederherstellungscodes anzeigen",
-                        "view_recovery_long": "Anzeigen und Herunterladen deiner 2FA-Wiederherstellungscodes.",
+                        "view_recovery_long": "Sehen und laden Sie Ihre 2FA-Wiederherstellungscodes herunter.",
                         "generate_recovery": "Backup-Codes generieren",
-                        "generate_recovery_long": "Bereite dich auf die Nutzung von 2FA vor, indem du eine Backup-Methode einrichtest.",
+                        "generate_recovery_long": "Bereiten Sie sich auf die Verwendung von 2FA vor, indem Sie eine Backup-Methode einrichten.",
                         "two_factor_on": "Die Zwei-Faktor-Authentifizierung ist derzeit aktiviert."
                     },
                     "manage": {
                         "title": "Kontoverwaltung",
-                        "description": "Deaktiviere oder lösche dein Konto jederzeit. Diese Aktion meldet dich ab und löscht dein Konto vollständig, einschließlich deines Chat-Verlaufs und deiner Freunde.",
+                        "description": "Deaktivieren oder löschen Sie Ihr Konto jederzeit. Diese Aktion wird Sie abmelden und Ihr Konto vollständig löschen, einschließlich Ihres Chatverlaufs und Ihrer Freunde.",
                         "disable": "Konto deaktivieren",
                         "delete": "Konto löschen"
                     }
                 },
                 "profile": {
                     "title": "Profil",
-                    "info": "Informationen",
-                    "fetching": "Dein Profil wird abgerufen…",
-                    "placeholder": "Schreib etwas über dich…",
+                    "info": "Information",
+                    "fetching": "Profil wird abgerufen…",
+                    "placeholder": "Schreiben Sie etwas über sich…",
                     "profile_picture": "Profilbild",
                     "custom_background": "Benutzerdefinierter Hintergrund",
                     "edit_background": "Hintergrund bearbeiten",
@@ -300,26 +306,34 @@
                 },
                 "invite": {
                     "title": "Einladen",
-                    "description": "Freunde zu Kimani Life einladen"
+                    "description": "Freunde zu Kimani Life einladen",
+                    "type": "Art der Einladung",
+                    "left": "Verbleibende Einladungen",
+                    "method": {
+                        "title": "Einladungsmethode",
+                        "campaign": "Link",
+                        "email": "E-Mail",
+                        "event": "Veranstaltung"
+                    }
                 },
                 "audio": {
                     "title": "Spracheinstellungen",
                     "input_device": "Mikrofon",
                     "output_device": "Lautsprecher / Kopfhörer",
-                    "tip_retry": "Du hast die Berechtigung zum Zugriff auf dein Mikrofon nicht erteilt, bitte {{retryBtn}}.",
+                    "tip_retry": "Sie haben keine Berechtigung zum Zugriff auf Ihr Mikrofon erteilt, bitte {{retryBtn}}.",
                     "device_label_NA": "N/A",
                     "button_retry": "Erneut versuchen",
-                    "tip_grant_permission": "Du musst die Berechtigung zum Zugriff auf die Audioeinstellungen erteilen.",
+                    "tip_grant_permission": "Sie müssen die Berechtigung zum Zugriff auf die Audioeinstellungen erteilen.",
                     "button_grant": "Berechtigung erteilen"
                 },
                 "appearance": {
                     "title": "Erscheinungsbild",
-                    "theme": "Theme",
+                    "theme": "Thema",
                     "display": {
                         "default": "Standard",
                         "compact": "Kompakt",
-                        "default_description": "Schön, elegant und modern.",
-                        "compact_description": "Das gute alte IRC."
+                        "default_description": "Schön, schlank und modern.",
+                        "compact_description": "Gutes altes IRC."
                     },
                     "color": {
                         "light": "hell",
@@ -329,42 +343,42 @@
                     "emoji_pack": "Emoji-Paket",
                     "message_display": "Nachrichtenanzeige",
                     "advanced": "Erweiterte Optionen",
-                    "overrides": "Theme-Überschreibungen",
+                    "overrides": "Themenüberschreibungen",
                     "reset_overrides": "Überschreibungen zurücksetzen",
-                    "import": "Ein Theme importieren",
-                    "import_theme": "Theme aus Zeichenfolge importieren",
-                    "theme_data": "Theme-Daten",
+                    "import": "Ein Thema importieren",
+                    "import_theme": "Thema aus Zeichenfolge importieren",
+                    "theme_data": "Themendaten",
                     "custom_css": "Benutzerdefiniertes CSS",
                     "sync": "Synchronisierungsoptionen",
                     "font": "Schriftart",
                     "mono_font": "Monospace-Schriftart-Auswahl",
                     "ligatures": "Schriftligaturen",
-                    "ligatures_desc": "Bei unterstützten Schriftarten verbinden Ligaturen Zeichen miteinander – zum Beispiel wird -> zu einem Pfeil.",
+                    "ligatures_desc": "Bei unterstützten Schriftarten kombinieren Ligaturen Zeichen – zum Beispiel wird -> zu einem Pfeil.",
                     "theme_options": {
-                        "title": "Theme-Optionen",
-                        "follow_desc": "Wenn aktiviert, kannst du dein Theme nicht ändern oder ein benutzerdefiniertes verwenden.",
-                        "seasonal": "Saisonales Theme",
-                        "follow": "System-Theme folgen",
+                        "title": "Themenoptionen",
+                        "follow_desc": "Wenn diese Option aktiviert ist, können Sie Ihr Thema nicht ändern oder ein benutzerdefiniertes verwenden.",
+                        "seasonal": "Saisonales Thema",
+                        "follow": "Systemthema folgen",
                         "transparency": "Transparenzeffekte",
                         "transparency_desc": "Aktiviert Transparenzeffekte (wie Milchglas) in der gesamten App.",
-                        "seasonal_desc": "Zeigt Effekte auf der Startseite während der Feiertage an."
+                        "seasonal_desc": "Zeigt während der Feiertage Effekte auf der Startseite an."
                     },
                     "discover": {
-                        "title": "Themes entdecken",
-                        "description": "Themes der Community durchsuchen"
+                        "title": "Themen entdecken",
+                        "description": "Durchsuchen Sie von der Community erstellte Themen"
                     },
                     "appearance_options": {
-                        "title": "Anzeigeoptionen",
-                        "show_send": "Immer den „Nachricht senden“-Button anzeigen",
-                        "show_send_desc": "Wenn deaktiviert, wird der „Nachricht senden“-Button nur auf Mobilgeräten angezeigt.",
-                        "show_account_age": "Immer das Alter des Kontos neben Beitrittsnachrichten anzeigen",
-                        "show_account_age_desc": "Wenn deaktiviert, wird das Alter des Kontos nur für neue Benutzer angezeigt."
+                        "title": "Erscheinungsbild-Optionen",
+                        "show_send": "Senden-Schaltfläche immer anzeigen",
+                        "show_send_desc": "Wenn deaktiviert, wird die Senden-Schaltfläche nur auf Mobilgeräten angezeigt.",
+                        "show_account_age": "Kontoalter immer neben Beitrittsnachrichten anzeigen",
+                        "show_account_age_desc": "Wenn deaktiviert, wird das Kontoalter nur für neue Benutzer angezeigt."
                     },
                     "colours": {
                         "title": "Farben"
                     },
                     "emoji": {
-                        "title": "Emojis"
+                        "title": "Emoji"
                     },
                     "fonts": {
                         "title": "Schriftarten"
@@ -380,29 +394,29 @@
                     "enable_push": "Push-Benachrichtigungen aktivieren",
                     "sounds": "Töne",
                     "descriptions": {
-                        "enable_desktop": "Dies gibt dir Benachrichtigungen, während deine App geöffnet ist.",
-                        "enable_push": "Aktivieren, um Benachrichtigungen zu erhalten, wenn du offline bist."
+                        "enable_desktop": "Dies gibt Ihnen Benachrichtigungen, während Ihre App geöffnet ist.",
+                        "enable_push": "Aktivieren, um Benachrichtigungen zu erhalten, wenn Sie offline sind."
                     },
                     "sound": {
-                        "message": "Nachricht empfangen",
+                        "message": "Nachricht erhalten",
                         "outbound": "Nachricht gesendet",
-                        "call_join": "Benutzer ist dem Anruf beigetreten",
-                        "call_leave": "Benutzer hat den Anruf verlassen"
+                        "call_join": "Benutzer ist Anruf beigetreten",
+                        "call_leave": "Benutzer hat Anruf verlassen"
                     }
                 },
                 "language": {
                     "title": "Sprache",
-                    "select": "Wähle deine Sprache",
+                    "select": "Wählen Sie Ihre Sprache",
                     "const": "Konstruierte Sprachen",
                     "other": "Andere Sprachoptionen"
                 },
                 "sync": {
-                    "title": "Synchronisieren",
-                    "categories": "Kategorien synchronisieren",
+                    "title": "Synchronisierung",
+                    "categories": "Synchronisierungskategorien",
                     "descriptions": {
                         "appearance": "Dies synchronisiert Optionen wie Emoji-Pakete und Nachrichtendichte.",
-                        "theme": "Dies synchronisiert dein gewähltes Theme, Farben und benutzerdefiniertes CSS.",
-                        "locale": "Dies synchronisiert deine aktuell gewählte Sprache."
+                        "theme": "Dies synchronisiert Ihr gewähltes Thema, Farben und jegliches benutzerdefinierte CSS.",
+                        "locale": "Dies synchronisiert Ihre aktuell gewählte Sprache."
                     },
                     "options": "Synchronisierungsoptionen"
                 },
@@ -412,7 +426,7 @@
                 "experiments": {
                     "title": "Experimente",
                     "features": "Verfügbare Funktionen",
-                    "not_available": "Derzeit sind keine Experimente verfügbar."
+                    "not_available": "Zurzeit sind keine Experimente verfügbar."
                 },
                 "donate": {
                     "title": "Spenden"
@@ -420,50 +434,50 @@
                 "source_code": "Quellcode",
                 "bots": {
                     "title": "Meine Bots",
-                    "create_bot": "Einen Bot erstellen",
+                    "create_bot": "Bot erstellen",
                     "copy_invite": "Einladungslink kopieren",
                     "add": "Bot hinzufügen",
                     "token": "Token",
                     "public_bot_tip": "Bot ist öffentlich. Jeder kann ihn einladen.",
-                    "private_bot_tip": "Bot ist privat. Nur du kannst ihn einladen.",
+                    "private_bot_tip": "Bot ist privat. Nur Sie können ihn einladen.",
                     "public_bot": "Öffentlicher Bot",
                     "public_bot_desc": "Ob andere Benutzer diesen Bot einladen dürfen.",
                     "interactions_url": "Interaktions-URL",
                     "reserved": "Hinweis: Dieses Feld ist für die Zukunft reserviert.",
-                    "unique_id": "Dies ist eine eindeutige Kennung für deinen Bot. Dies ist nicht der Bot-Token.",
+                    "unique_id": "Dies ist eine eindeutige Kennung für Ihren Bot. Dies ist nicht der Token des Bots.",
                     "profile": "Bot-Profil"
                 },
                 "feedback": {
                     "title": "Feedback",
-                    "suggest": "Funktionsvorschlag einreichen",
-                    "suggest_desc": "Schlage neue Kimani Life-Funktionen in GitHub-Diskussionen vor.",
-                    "issue": "Ein neues Problem erstellen",
-                    "issue_desc": "Um uns die Suche und Bewertung von Problemen zu erleichtern, kannst du ein Problem auf GitHub erstellen.",
+                    "suggest": "Funktion vorschlagen",
+                    "suggest_desc": "Schlagen Sie neue Funktionen für Kimani Life auf GitHub-Diskussionen vor.",
+                    "issue": "Neues Problem erstellen",
+                    "issue_desc": "Um uns zu helfen, Probleme leichter zu finden und zu bewerten, können Sie ein Problem auf GitHub erstellen.",
                     "bug": "Bug-Tracker",
-                    "bug_desc": "Hier kannst du aktuell aktive Fehlerberichte einsehen.",
-                    "description": "Feedback einreichen"
+                    "bug_desc": "Sehen Sie sich hier aktuell aktive Fehlerberichte an.",
+                    "description": "Feedback senden"
                 },
                 "logOut": "Abmelden",
                 "theme_shop": {
-                    "title": "Theme-Shop",
+                    "title": "Themen-Shop",
                     "category": {
-                        "highest": "Am besten bewertet",
+                        "highest": "Höchstbewertet",
                         "viewall": "Alle anzeigen",
                         "manage": "Gespeicherte verwalten",
                         "new": "Neu diese Woche",
-                        "default": "Standard-Themes",
+                        "default": "Standardthemen",
                         "saved": "Gespeichert"
                     },
-                    "active": "Aktuell aktiv",
-                    "description": "Durchsuche Hunderte von Themes, die von der Community erstellt und kuratiert wurden.",
-                    "search": "Themes suchen…",
-                    "use": "Theme verwenden",
+                    "active": "Derzeit aktiv",
+                    "description": "Durchsuchen Sie Hunderte von Themen, die von der Community erstellt und kuratiert wurden.",
+                    "search": "Themen suchen…",
+                    "use": "Thema verwenden",
                     "by": "von"
                 },
                 "plugins": {
                     "title": "Plugins",
                     "delete_plugin": "Löschen",
-                    "wip": "Warnung: Diese Funktion befindet sich noch in Entwicklung.",
+                    "wip": "Warnung: Diese Funktion befindet sich noch in der Entwicklung.",
                     "no_plugins": "Derzeit sind keine Plugins installiert."
                 }
             },
@@ -484,7 +498,7 @@
                 "overview": {
                     "title": "Übersicht",
                     "name": "Servername",
-                    "description": "Kanalbeschreibung",
+                    "description": "Serverbeschreibung",
                     "system_messages": "Systemnachrichtenkanäle"
                 },
                 "members": {
@@ -493,16 +507,16 @@
                 "invites": {
                     "title": "Einladungen",
                     "code": "Einladungscode",
-                    "invitor": "Einladender",
+                    "invitor": "Einlader",
                     "channel": "Kanal",
                     "revoke": "Widerrufen"
                 },
                 "bans": {
-                    "title": "Bans",
+                    "title": "Banns",
                     "user": "Benutzer",
-                    "reason": "Grund für den Ban",
+                    "reason": "Banngrund",
                     "revoke": "Widerrufen",
-                    "no_reason": "Kein Grund für den Ban."
+                    "no_reason": "Kein Banngrund."
                 },
                 "roles": {
                     "title": "Rollen"
@@ -523,23 +537,23 @@
             },
             "tips": {
                 "account": {
-                    "a": "Möchtest du dein öffentliches Profil anpassen?",
-                    "b": "Gehe zu deinen Profileinstellungen."
+                    "a": "Möchten Sie Ihr öffentliches Profil anpassen?",
+                    "b": "Gehen Sie zu Ihren Profileinstellungen."
                 },
                 "languages": {
-                    "a": "Fehlt eine Sprache, die du möchtest?",
-                    "b": "Hilf mit, weitere Übersetzungen beizusteuern."
+                    "a": "Fehlt eine Sprache, die Sie möchten?",
+                    "b": "Helfen Sie mit, mehr Übersetzungen beizutragen."
                 },
                 "sessions": {
-                    "a": "Wenn du eine unbekannte Sitzung in der Liste siehst,",
-                    "b": "sichere dein Konto, indem du dein Passwort änderst und 2FA verwendest."
+                    "a": "Wenn Sie eine unbekannte Sitzung in der Liste sehen,",
+                    "b": "sichern Sie Ihr Konto, indem Sie Ihr Passwort ändern und 2FA verwenden."
                 }
             },
             "permissions": {
                 "default_role": "Standard",
-                "server": "Server-Berechtigungen",
-                "channel": "Kanal-Berechtigungen",
-                "create_role": "Eine neue Rolle erstellen",
+                "server": "Serverberechtigungen",
+                "channel": "Kanalberechtigungen",
+                "create_role": "Neue Rolle erstellen",
                 "role_name": "Rollenname",
                 "delete_role": "Rolle löschen",
                 "hoist_role": "Rolle hervorheben",
@@ -552,11 +566,11 @@
             }
         },
         "special": {
-            "copy_username": "Klicken, um den Benutzernamen zu kopieren",
+            "copy_username": "Klicken, um Benutzernamen zu kopieren",
             "copy": "Klicken, um zu kopieren",
             "friends": {
                 "pending": "Ausstehende Anfragen",
-                "sent": "Ausgehend",
+                "sent": "Gesendet",
                 "blocked": "Blockiert",
                 "incoming": "Eingehende Freundschaftsanfrage.",
                 "outgoing": "Ausgehende Freundschaftsanfrage.",
@@ -569,54 +583,54 @@
             },
             "status": {
                 "offline": "Offline.",
-                "disconnected": "Verbindung getrennt.",
-                "connecting": "Verbindet…",
-                "reconnecting": "Verbindet erneut…"
+                "disconnected": "Getrennt.",
+                "connecting": "Verbinde…",
+                "reconnecting": "Verbinde erneut…"
             },
             "modals": {
                 "error": "Ein Fehler ist aufgetreten!",
                 "clipboard": {
                     "unavailable": "Zwischenablage nicht verfügbar!",
-                    "https": "Du befindest dich derzeit nicht in einem HTTPS-Kontext.",
-                    "copy": "Manuelle Kopie:"
+                    "https": "Sie befinden sich derzeit nicht in einem HTTPS-Kontext.",
+                    "copy": "Manuelles Kopieren:"
                 },
-                "signed_out": "Du wurdest abgemeldet!",
+                "signed_out": "Sie wurden abgemeldet!",
                 "token_reveal": "Token von {{name}}",
                 "onboarding": {
                     "welcome": "",
-                    "pick": "Wähle einen Benutzernamen, unter dem du gefunden werden möchtest. Dieser kann später in den Einstellungen geändert werden."
+                    "pick": "Wählen Sie einen Benutzernamen, unter dem Sie gefunden werden möchten. Dieser kann später in den Einstellungen geändert werden."
                 },
                 "prompt": {
                     "confirm_leave": "{{name}} verlassen?",
-                    "confirm_leave_long": "Du kannst nicht wieder beitreten, es sei denn, du wirst erneut eingeladen.",
-                    "confirm_close_dm": "Gespräch mit {{name}} schließen?",
-                    "confirm_close_dm_long": "Du kannst es später wieder öffnen, aber es verschwindet auf beiden Seiten.",
+                    "confirm_leave_long": "Sie können nicht wieder beitreten, es sei denn, Sie werden erneut eingeladen.",
+                    "confirm_close_dm": "Unterhaltung mit {{name}} schließen?",
+                    "confirm_close_dm_long": "Sie können sie später wieder öffnen, aber sie wird auf beiden Seiten verschwinden.",
                     "confirm_delete": "{{name}} löschen?",
                     "confirm_delete_long": "Einmal gelöscht, gibt es kein Zurück mehr.",
-                    "confirm_delete_message_long": "Bist du sicher, dass du das löschen möchtest?",
+                    "confirm_delete_message_long": "Sind Sie sicher, dass Sie dies löschen möchten?",
                     "create_invite_generate": "Einladung wird generiert…",
-                    "create_invite_created": "Hier ist dein neuer Einladungscode:",
-                    "confirm_kick": "Bist du sicher, dass du {{name}} kicken möchtest?",
-                    "confirm_ban": "Du bist dabei, {{name}} zu bannen",
-                    "confirm_ban_reason": "Grund für den Bann",
+                    "create_invite_created": "Hier ist Ihr neuer Einladungscode:",
+                    "confirm_kick": "Sind Sie sicher, dass Sie {{name}} kicken möchten?",
+                    "confirm_ban": "Sie sind dabei, {{name}} zu bannen",
+                    "confirm_ban_reason": "Banngrund",
                     "unfriend_user": "Freundschaft mit {{name}} beenden?",
-                    "unfriend_user_long": "Du kannst möglicherweise nicht mehr mit ihnen sprechen, bis du sie wieder hinzufügst.",
+                    "unfriend_user_long": "Sie können möglicherweise nicht mehr mit ihnen sprechen, bis Sie sie wieder hinzufügen.",
                     "block_user": "{{name}} blockieren?",
-                    "block_user_long": "Bist du sicher, dass du {{name}} blockieren möchtest? Sie/Er wird auch aus deiner Freundesliste entfernt.",
-                    "silent_leave": "Leise verlassen",
+                    "block_user_long": "Sind Sie sicher, dass Sie {{name}} blockieren möchten? Sie werden auch aus Ihrer Freundesliste entfernt.",
+                    "silent_leave": "Still verlassen",
                     "members_not_notified": "Andere Mitglieder werden nicht benachrichtigt"
                 },
                 "account": {
                     "change": {
-                        "username": "Deinen Benutzernamen ändern",
-                        "email": "Deine E-Mail-Adresse ändern",
-                        "password": "Dein Passwort ändern"
+                        "username": "Ihren Benutzernamen ändern",
+                        "email": "Ihre E-Mail ändern",
+                        "password": "Ihr Passwort ändern"
                     },
                     "failed": "Änderung fehlgeschlagen!"
                 },
                 "external_links": {
                     "title": "Externe Links können gefährlich sein!",
-                    "short": "Bist du sicher, dass du zu gehen möchtest:",
+                    "short": "Sind Sie sicher, dass Sie zu gehen möchten:",
                     "trust_domain": "Dieser Domain vertrauen"
                 },
                 "actions": {
@@ -633,7 +647,7 @@
                     "remove": "Entfernen",
                     "delete": "Löschen",
                     "create": "Erstellen",
-                    "reveal": "Anzeigen",
+                    "reveal": "Aufdecken",
                     "update": "Aktualisieren",
                     "cancel": "Abbrechen",
                     "preview": "Vorschau",
@@ -647,31 +661,31 @@
                     "dont_block": "Nicht blockieren"
                 },
                 "sessions": {
-                    "short": "Du kannst diese Aktion nicht rückgängig machen.",
+                    "short": "Sie können diese Aktion nicht rückgängig machen.",
                     "accept": "Alle Sitzungen entfernen",
-                    "title": "Bist du sicher, dass du deine Sitzungen löschen möchtest?"
+                    "title": "Sind Sie sicher, dass Sie Ihre Sitzungen löschen möchten?"
                 },
                 "changelogs": {
-                    "description": "Lies über Updates von Kimani Life.",
+                    "description": "Lesen Sie über die Updates von Kimani Life.",
                     "older": "Ältere Updates anzeigen",
-                    "title": "Änderungsprotokoll"
+                    "title": "Änderungsprotokolle"
                 },
                 "confirm": "Aktion bestätigen",
                 "mfa": {
-                    "recovery_codes": "Deine Wiederherstellungscodes",
-                    "save_codes": "Bitte speichere diese an einem sicheren Ort.",
-                    "confirm": "Bitte bestätige mit einer ausgewählten Methode.",
-                    "select_method": "Bitte wähle eine Methode zur Authentifizierung deiner Anfrage.",
+                    "recovery_codes": "Ihre Wiederherstellungscodes",
+                    "save_codes": "Bitte speichern Sie diese an einem sicheren Ort.",
+                    "confirm": "Bitte bestätigen Sie mit einer ausgewählten Methode.",
+                    "select_method": "Bitte wählen Sie eine Methode zur Authentifizierung Ihrer Anfrage.",
                     "enable_totp": "Authenticator-App aktivieren",
-                    "prompt_totp": "Bitte scanne oder verwende den untenstehenden Token in deiner Authentifizierungs-App.",
+                    "prompt_totp": "Bitte scannen oder verwenden Sie den unten stehenden Token in Ihrer Authentifizierungs-App.",
                     "enter_code": "Code eingeben"
                 },
                 "out_of_date": {
-                    "title": "Dein Client ist veraltet!",
+                    "title": "Ihr Client ist veraltet!",
                     "description": "Er muss aktualisiert werden, um mit den neuesten Änderungen zu funktionieren.",
-                    "version": "Dein Client ist auf Version {{client}}, während der Server Version {{server}} benötigt.",
-                    "ignore": "Aktualisierung ignorieren",
-                    "attempting": "Versucht zu aktualisieren…"
+                    "version": "Ihr Client ist auf Version {{client}}, während der Server Version {{server}} erfordert.",
+                    "ignore": "Updates ignorieren",
+                    "attempting": "Versuche zu aktualisieren…"
                 },
                 "report": {
                     "no_reason": "Kein Grund angegeben / anderer Grund",
@@ -684,18 +698,18 @@
                         "SpamAbuse": "Dies ist Spam oder Plattformmissbrauch",
                         "PromotesHarm": "Inhalt fördert Schaden für andere oder sich selbst",
                         "Malware": "Dies ist Malware",
-                        "Harassment": "Dies ist Belästigung oder Missbrauch, der auf einen anderen Benutzer abzielt"
+                        "Harassment": "Dies ist Belästigung oder Missbrauch gegen einen anderen Benutzer"
                     },
                     "user_reason": {
-                        "SpamAbuse": "Benutzer sendet Spam oder missbraucht die Plattform",
-                        "InappropriateProfile": "Das Profil des Benutzers ist für ein allgemeines Publikum unangemessen",
+                        "SpamAbuse": "Benutzer sendet Spam oder missbraucht die Plattform anderweitig",
+                        "InappropriateProfile": "Das Profil des Benutzers ist für ein allgemeines Publikum ungeeignet",
                         "Impersonation": "Dieser Benutzer gibt sich als jemand anderes aus",
                         "BanEvasion": "Dieser Benutzer umgeht einen Bann",
-                        "Underage": "Dieser Benutzer ist nicht alt genug, um ein Konto zu haben"
+                        "Underage": "Dieser Benutzer ist nicht alt genug für ein Konto"
                     },
                     "reported": "Gemeldet",
-                    "thank_you": "Vielen Dank, dass du hilfst, Kimani Life sicher zu halten. Wir werden deinen Bericht so schnell wie möglich überprüfen.",
-                    "block_user": "Möchtest du diesen Benutzer blockieren?"
+                    "thank_you": "Danke, dass Sie helfen, Kimani Life sicher zu halten. Wir werden Ihre Meldung so schnell wie möglich überprüfen.",
+                    "block_user": "Möchten Sie diesen Benutzer blockieren?"
                 }
             },
             "popovers": {
@@ -704,45 +718,45 @@
                     "mutual_friends": "Gemeinsame Freunde",
                     "mutual_groups": "Gemeinsame Gruppen",
                     "mutual_servers": "Gemeinsame Server",
-                    "empty": "Hier ist es etwas leer…",
+                    "empty": "Es ist ein bisschen leer hier…",
                     "no_users": "Keine gemeinsamen Freunde",
                     "no_groups": "Keine gemeinsamen Gruppen",
                     "no_servers": "Keine gemeinsamen Server",
                     "sub": {
                         "badges": "Abzeichen",
-                        "information": "Informationen",
+                        "information": "Information",
                         "connections": "Verbindungen"
                     },
                     "badges": {
                         "translator": "Übersetzer",
                         "supporter": "Unterstützer",
-                        "responsible_disclosure": "Verantwortungsvoll offenbarte Sicherheitsprobleme",
-                        "early_adopter": "Early Adopter",
+                        "responsible_disclosure": "Sicherheitsproblem(e) verantwortungsvoll offengelegt",
+                        "early_adopter": "Früher Anwender",
                         "moderation": "Plattform-Moderation",
                         "founder": "Gründer"
                     }
                 },
                 "user_picker": {
-                    "select": "Wähle Freunde zum Hinzufügen aus."
+                    "select": "Wählen Sie Freunde zum Hinzufügen aus."
                 },
                 "create_bot": {
-                    "title": "Einen neuen Bot erstellen",
-                    "failed": "Bot-Erstellung fehlgeschlagen!"
+                    "title": "Neuen Bot erstellen",
+                    "failed": "Bot konnte nicht erstellt werden!"
                 },
                 "server_identity": {
                     "nickname": "Spitzname",
                     "title": "Identität auf {{server}} ändern",
-                    "avatar": "Benutzerbild"
+                    "avatar": "Benutzerfoto"
                 }
             },
-            "requires_online": "Du musst online sein, um dies anzuzeigen.",
+            "requires_online": "Sie müssen online sein, um dies anzuzeigen.",
             "invite": {
                 "invited_by": "Eingeladen von {{user}}",
                 "login": "Bei Kimani Life anmelden",
                 "accept": "Einladung annehmen",
                 "user_count": "{{member_count}} Benutzer",
                 "invalid": "Ungültige Einladung!",
-                "invalid_desc": "Die Einladung existiert möglicherweise nicht oder du hast keine Berechtigung zum Beitritt."
+                "invalid_desc": "Die Einladung existiert möglicherweise nicht oder Sie haben keine Berechtigung zum Beitreten."
             },
             "server-badges": {
                 "official": "Offizieller Server",
@@ -759,7 +773,7 @@
             "copy_mid": "Nachrichten-ID kopieren",
             "copy_message_link": "Nachrichtenlink kopieren",
             "mention": "Erwähnen",
-            "message_user": "Nachricht",
+            "message_user": "Nachricht senden",
             "view_profile": "Profil anzeigen",
             "mark_as_read": "Als gelesen markieren",
             "retry_message": "Senden wiederholen",
@@ -780,7 +794,7 @@
             "copy_link": "Link kopieren",
             "open_link": "Link öffnen",
             "block_user": "Benutzer blockieren",
-            "unblock_user": "Benutzer entblocken",
+            "unblock_user": "Benutzer entsperren",
             "add_friend": "Freund hinzufügen",
             "remove_friend": "Freund entfernen",
             "cancel_friend": "Anfrage abbrechen",
@@ -807,25 +821,25 @@
             "report_server": "Server melden"
         },
         "permissions": {
-            "required": "Erforderliche Berechtigungen"
+            "required": "Berechtigungen erforderlich"
         },
         "home": {
             "join-testers": "Dem Tester-Server beitreten",
             "goto-testers": "Zum Tester-Server gehen",
-            "donate": "Kimani Life spenden",
+            "donate": "An Kimani Life spenden",
             "feedback": "Feedback zu Kimani Life geben",
             "settings": "Einstellungen öffnen",
-            "settings-tooltip": "Du kannst auch mit der rechten Maustaste auf das Benutzersymbol oben links klicken, oder mit der linken Maustaste, wenn du bereits auf der Startseite bist.",
+            "settings-tooltip": "Sie können auch mit der rechten Maustaste auf das Benutzersymbol oben links klicken oder mit der linken Maustaste, wenn Sie bereits auf der Startseite sind.",
             "social": "Server & Bots finden",
             "directs": "Direktnachrichten",
-            "join-testers_desc": "Du kannst uns hier direkt Probleme melden und Verbesserungen besprechen.",
-            "goto-testers_desc": "Du kannst uns hier direkt Probleme melden und Verbesserungen besprechen.",
-            "donate_desc": "Unterstütze das Projekt durch eine Spende – danke!",
-            "feedback_desc": "Lass uns wissen, wie wir unsere App verbessern können, indem du uns Feedback gibst.",
+            "join-testers_desc": "Sie können hier direkt Probleme melden und Verbesserungen mit uns besprechen.",
+            "goto-testers_desc": "Sie können hier direkt Probleme melden und Verbesserungen mit uns besprechen.",
+            "donate_desc": "Unterstützen Sie das Projekt durch eine Spende - danke!",
+            "feedback_desc": "Lassen Sie uns wissen, wie wir unsere App verbessern können, indem Sie uns Feedback geben.",
             "discover": "Kimani Life entdecken",
-            "discover_desc": "Finde eine Community basierend auf deinen Hobbys oder Interessen.",
-            "group": "Eine Gruppe erstellen",
-            "group_desc": "Lade alle deine Freunde, ein paar coole Bots ein und feiere eine große Party."
+            "discover_desc": "Finden Sie eine Community basierend auf Ihren Hobbys oder Interessen.",
+            "group": "Gruppe erstellen",
+            "group_desc": "Laden Sie alle Ihre Freunde ein, ein paar coole Bots, und veranstalten Sie eine große Party."
         },
         "home2": {
             "amb-join": "Als Botschafter beitreten",
@@ -842,7 +856,7 @@
         },
         "dropFiles": {
             "many": "{{count}} Dateien ablegen",
-            "one": "Eine Datei ablegen"
+            "one": "Datei ablegen"
         }
     },
     "dayjs": {
@@ -852,42 +866,42 @@
         "lastWeek": "[Letzten] dddd [um] {{time}}",
         "nextWeek": "dddd [um] {{time}}",
         "defaults": {
-            "date_separator": "/",
+            "date_separator": ".",
             "date_format": "simplified",
-            "twelvehour": "yes"
+            "twelvehour": "no"
         }
     },
     "notifications": {
-        "sent_request": "@{{person}} hat dir eine Freundschaftsanfrage gesendet.",
-        "now_friends": "Du bist jetzt mit @{{person}} befreundet!"
+        "sent_request": "@{{person}} hat Ihnen eine Freundschaftsanfrage gesendet.",
+        "now_friends": "Sie sind jetzt mit @{{person}} befreundet!"
     },
     "error": {
         "NetworkError": "Netzwerkfehler.",
         "Unauthorized": "Nicht autorisiert.",
-        "Unlabelled": "Es ist etwas passiert.",
-        "FailedValidation": "Felder konnten nicht validiert werden.",
+        "Unlabelled": "Etwas ist passiert.",
+        "FailedValidation": "Validierung der Felder fehlgeschlagen.",
         "DatabaseError": "Datenbankfehler.",
         "InternalError": "Interner Fehler.",
-        "MissingPermission": "Berechtigung fehlt.",
+        "MissingPermission": "Fehlende Berechtigung.",
         "UnknownError": "Siehe Konsole.",
         "OperationFailed": "Operation fehlgeschlagen.",
         "RenderFail": "Template-Rendering fehlgeschlagen.",
-        "MissingHeaders": "Header fehlen.",
+        "MissingHeaders": "Fehlende Header.",
         "InvalidSession": "Ungültige Sitzung.",
-        "UnverifiedAccount": "Unverifiziertes Konto.",
+        "UnverifiedAccount": "Unbestätigtes Konto.",
         "UnknownUser": "Unbekannter Benutzer.",
         "EmailInUse": "E-Mail wird bereits verwendet.",
         "EmailFailed": "E-Mail konnte nicht gesendet werden.",
-        "InvalidCredentials": "E-Mail oder Passwort sind falsch.",
+        "InvalidCredentials": "E-Mail oder Passwort ist falsch.",
         "InvalidToken": "Ungültiger Token",
-        "MissingInvite": "Einladungscode in der Anfrage fehlt.",
+        "MissingInvite": "Fehlender Einladungscode in der Anfrage.",
         "InvalidInvite": "Ungültiger Code",
         "AlreadyOnboarded": "Onboarding bereits abgeschlossen.",
         "UsernameTaken": "Dieser Benutzername ist bereits vergeben.",
         "AlreadyFriends": "Bereits mit diesem Benutzer befreundet.",
-        "AlreadySentRequest": "Anfrage an diesen Benutzer bereits gesendet.",
-        "Blocked": "Du hast diesen Benutzer blockiert.",
-        "BlockedOther": "Dieser Benutzer hat dich blockiert.",
+        "AlreadySentRequest": "Bereits eine Anfrage an diesen Benutzer gesendet.",
+        "Blocked": "Sie haben diesen Benutzer blockiert.",
+        "BlockedOther": "Dieser Benutzer hat Sie blockiert.",
         "NoEffect": "Diese Anfrage hatte keine Auswirkung.",
         "RequiredField": "Erforderlich",
         "TooShort": "Zu kurz",
@@ -895,15 +909,15 @@
         "InvalidEmail": "Ungültige E-Mail-Adresse",
         "Unavailable": "Nicht verfügbar.",
         "FileTooLarge": "Datei ist zu groß.",
-        "FailedToReceive": "Server konnte deine Datei nicht empfangen.",
-        "MissingData": "Anfrage fehlen Daten.",
-        "ProbeError": "Fehler beim Abrufen von Dateimetadaten.",
-        "IoError": "Server ist auf einen E/A-Fehler gestoßen.",
-        "UnsupportedBrowser": "Browser fehlt Unterstützung für diese Funktion.",
-        "DeniedNotification": "Du hast den Benachrichtigungszugriff verweigert, überprüfe die Seiteneinstellungen.",
+        "FailedToReceive": "Server konnte Ihre Datei nicht empfangen.",
+        "MissingData": "Anfrage enthält fehlende Daten.",
+        "ProbeError": "Fehler beim Abrufen der Dateimetadaten.",
+        "IoError": "Server hat einen E/A-Fehler festgestellt.",
+        "UnsupportedBrowser": "Browser unterstützt diese Funktion nicht.",
+        "DeniedNotification": "Sie haben den Benachrichtigungszugriff verweigert, überprüfen Sie die Seiteneinstellungen.",
         "CompromisedPassword": "Dieses Passwort ist kompromittiert.",
-        "ReachedMaximumBots": "Du hast die maximale Anzahl an Bots erreicht.",
-        "AudioPermissionBlock": "Kein Zugriff auf dein Mikrofon, bitte überprüfe die Konfiguration deines Browsers.",
+        "ReachedMaximumBots": "Sie haben die maximale Anzahl an Bots erreicht.",
+        "AudioPermissionBlock": "Kein Zugriff auf Ihr Mikrofon, bitte überprüfen Sie die Konfiguration Ihres Browsers.",
         "DiscriminatorChangeRatelimited": "Zu viele Tag-Änderungen."
     },
     "shortcuts": {
@@ -912,135 +926,135 @@
     "permissions": {
         "ManageChannels": {
             "t": "Kanäle verwalten",
-            "d": "Erlaubt Mitgliedern, Kanäle zu erstellen, zu bearbeiten und zu löschen."
+            "d": "Ermöglicht Mitgliedern, Kanäle zu erstellen, zu bearbeiten und zu löschen."
         },
         "ManageServer": {
             "t": "Server verwalten",
-            "d": "Erlaubt Mitgliedern, den Namen, die Beschreibung, das Symbol und andere zugehörige Informationen dieses Servers zu ändern."
+            "d": "Ermöglicht Mitgliedern, den Namen, die Beschreibung, das Symbol und andere zugehörige Informationen dieses Servers zu ändern."
         },
         "KickMembers": {
             "t": "Mitglieder kicken",
-            "d": "Erlaubt Mitgliedern, Mitglieder von diesem Server zu entfernen. Gekickte Mitglieder können mit einer Einladung wieder beitreten."
+            "d": "Ermöglicht Mitgliedern, Mitglieder von diesem Server zu entfernen. Gekickte Mitglieder können mit einer Einladung wieder beitreten."
         },
         "BanMembers": {
             "t": "Mitglieder bannen",
-            "d": "Erlaubt Mitgliedern, Mitglieder dauerhaft von diesem Server zu entfernen."
+            "d": "Ermöglicht Mitgliedern, Mitglieder dauerhaft von diesem Server zu entfernen."
         },
         "ChangeNickname": {
             "t": "Spitznamen ändern",
-            "d": "Erlaubt Mitgliedern, ihren Spitznamen auf diesem Server zu ändern."
+            "d": "Ermöglicht Mitgliedern, ihren Spitznamen auf diesem Server zu ändern."
         },
         "ManageNicknames": {
             "t": "Spitznamen verwalten",
-            "d": "Erlaubt Mitgliedern, die Spitznamen anderer Mitglieder zu ändern."
+            "d": "Ermöglicht Mitgliedern, die Spitznamen anderer Mitglieder zu ändern."
         },
         "ChangeAvatar": {
             "t": "Avatar ändern",
-            "d": "Erlaubt Mitgliedern, ihren Server-Avatar auf diesem Server zu ändern."
+            "d": "Ermöglicht Mitgliedern, ihren Server-Avatar auf diesem Server zu ändern."
         },
         "RemoveAvatars": {
             "t": "Avatare entfernen",
-            "d": "Erlaubt Mitgliedern, die Server-Avatare anderer Mitglieder auf diesem Server zu entfernen."
+            "d": "Ermöglicht Mitgliedern, die Server-Avatare anderer Mitglieder auf diesem Server zu entfernen."
         },
         "SendMessage": {
             "t": "Nachrichten senden",
-            "d": "Erlaubt Mitgliedern, Nachrichten in Textkanälen zu senden."
+            "d": "Ermöglicht Mitgliedern, Nachrichten in Textkanälen zu senden."
         },
         "ManageMessages": {
             "t": "Nachrichten verwalten",
-            "d": "Erlaubt Mitgliedern, Nachrichten zu löschen, die von anderen Mitgliedern gesendet wurden."
+            "d": "Ermöglicht Mitgliedern, von anderen Mitgliedern gesendete Nachrichten zu löschen."
         },
         "ManageChannel": {
-            "t": "Kanäle verwalten",
-            "d": "Erlaubt Mitgliedern, einen Kanal zu bearbeiten oder zu löschen."
+            "t": "Kanal verwalten",
+            "d": "Ermöglicht Mitgliedern, einen Kanal zu bearbeiten oder zu löschen."
         },
         "VoiceCall": {
             "t": "Sprachanruf",
-            "d": "Erlaubt Mitgliedern, Sprachkanälen beizutreten."
+            "d": "Ermöglicht Mitgliedern, Sprachkanälen beizutreten."
         },
         "InviteOthers": {
             "t": "Andere einladen",
-            "d": "Erlaubt Mitgliedern, andere Benutzer zu einem Kanal einzuladen."
+            "d": "Ermöglicht Mitgliedern, andere Benutzer in einen Kanal einzuladen."
         },
         "EmbedLinks": {
             "t": "Links einbetten",
-            "d": "Erlaubt Mitgliedern, eingebettete Inhalte von Links anzuzeigen, die sie in Textkanälen posten."
+            "d": "Ermöglicht Mitgliedern, eingebettete Inhalte von Links, die sie in Textkanälen posten, anzuzeigen."
         },
         "UploadFiles": {
             "t": "Dateien hochladen",
-            "d": "Erlaubt Mitgliedern, Dateien in Textkanälen hochzuladen."
+            "d": "Ermöglicht Mitgliedern, Dateien in Textkanälen hochzuladen."
         },
         "Masquerade": {
             "t": "Maskerade",
-            "d": "Erlaubt Mitgliedern, ihren Namen und Avatar pro Nachricht zu ändern."
+            "d": "Ermöglicht Mitgliedern, ihren Namen und Avatar pro Nachricht zu ändern."
         },
         "ManageRole": {
             "t": "Rollen verwalten",
-            "d": "Erlaubt Mitgliedern, Rollen mit einem niedrigeren Rang als ihrem eigenen zu erstellen, zu bearbeiten und zu löschen. Erlaubt ihnen auch, Rollenberechtigungen auf Kanälen zu ändern."
+            "d": "Ermöglicht Mitgliedern, Rollen mit einem niedrigeren Rang als ihrem eigenen zu erstellen, zu bearbeiten und zu löschen. Ermöglicht ihnen auch, Rollenberechtigungen auf Kanälen zu ändern."
         },
         "ViewChannel": {
             "t": "Kanal anzeigen",
-            "d": "Erlaubt Mitgliedern, alle Kanäle anzuzeigen, für die sie diese Berechtigung haben."
+            "d": "Ermöglicht Mitgliedern, jeden Kanal anzuzeigen, für den sie diese Berechtigung haben."
         },
         "ManagePermissions": {
             "t": "Berechtigungen verwalten",
-            "d": "Erlaubt Mitgliedern, Berechtigungen für Kanäle und Rollen mit einem niedrigeren Rang zu ändern."
+            "d": "Ermöglicht Mitgliedern, Berechtigungen für Kanäle und Rollen mit einem niedrigeren Rang zu ändern."
         },
         "ReadMessageHistory": {
             "t": "Nachrichtenverlauf lesen",
-            "d": "Erlaubt Mitgliedern, den Nachrichtenverlauf dieses Kanals zu lesen."
+            "d": "Ermöglicht Mitgliedern, den Nachrichtenverlauf dieses Kanals zu lesen."
         },
         "Connect": {
             "t": "Verbinden",
-            "d": "Erlaubt Mitgliedern, sich mit einem Sprachkanal zu verbinden."
+            "d": "Ermöglicht Mitgliedern, sich mit einem Sprachkanal zu verbinden."
         },
         "ManageWebhooks": {
             "t": "Webhooks verwalten",
-            "d": "Erlaubt Mitgliedern, Webhooks in einem Kanal zu steuern."
+            "d": "Ermöglicht Mitgliedern, Webhooks in einem Kanal zu steuern."
         },
         "SendEmbeds": {
             "t": "Einbettungen senden",
-            "d": "Erlaubt Mitgliedern, eingebettete Inhalte zu senden, sei es von Links oder benutzerdefinierten Texteinbettungen."
+            "d": "Ermöglicht Mitgliedern, eingebettete Inhalte zu senden, sei es von Links oder benutzerdefinierten Texteinbettungen."
         },
         "DeafenMembers": {
-            "d": "Erlaubt Mitgliedern, andere in einem Sprachkanal stummzuschalten.",
+            "d": "Ermöglicht Mitgliedern, andere in einem Sprachkanal stumm zu schalten.",
             "t": "Mitglieder stummschalten"
         },
         "MoveMembers": {
             "t": "Mitglieder verschieben",
-            "d": "Erlaubt Mitgliedern, andere zwischen Sprachkanälen zu verschieben."
+            "d": "Ermöglicht Mitgliedern, andere zwischen Sprachkanälen zu verschieben."
         },
         "Video": {
-            "d": "Erlaubt Mitgliedern, Video in einem Sprachkanal zu streamen.",
+            "d": "Ermöglicht Mitgliedern, Videos in einem Sprachkanal zu streamen.",
             "t": "Video"
         },
         "MuteMembers": {
             "t": "Mitglieder stummschalten",
-            "d": "Erlaubt Mitgliedern, andere in einem Sprachkanal stummzuschalten."
+            "d": "Ermöglicht Mitgliedern, andere in einem Sprachkanal stumm zu schalten."
         },
         "TimeoutMembers": {
-            "t": "Mitglieder auf Zeit setzen",
-            "d": "Erlaubt Mitgliedern, Benutzer vorübergehend daran zu hindern, mit dem Server zu interagieren."
+            "t": "Mitglieder im Timeout",
+            "d": "Ermöglicht Mitgliedern, Benutzer vorübergehend daran zu hindern, mit dem Server zu interagieren."
         },
         "AssignRoles": {
             "t": "Rollen zuweisen",
-            "d": "Erlaubt Mitgliedern, Rollen unter ihrem eigenen Rang an andere Mitglieder zuzuweisen."
+            "d": "Ermöglicht Mitgliedern, anderen Mitgliedern Rollen unter ihrem eigenen Rang zuzuweisen."
         },
         "Speak": {
             "t": "Sprechen",
-            "d": "Erlaubt Mitgliedern, in einem Sprachkanal zu sprechen."
+            "d": "Ermöglicht Mitgliedern, in einem Sprachkanal zu sprechen."
         },
         "ManageCustomisation": {
             "t": "Anpassung verwalten",
-            "d": "Erlaubt Mitgliedern, Emojis zu erstellen, zu bearbeiten und zu löschen."
+            "d": "Ermöglicht Mitgliedern, Emojis zu erstellen, zu bearbeiten und zu löschen."
         },
         "React": {
             "t": "Reaktionen verwenden",
-            "d": "Erlaubt Mitgliedern, auf Nachrichten zu reagieren."
+            "d": "Ermöglicht Mitgliedern, auf Nachrichten zu reagieren."
         }
     },
     "actions": {
-        "submit": "Senden"
+        "submit": "Absenden"
     },
     "keys": {
         "Escape": {
@@ -1056,7 +1070,7 @@
             "short": "Entf"
         },
         "Backspace": {
-            "short": "Rückt."
+            "short": "Rücktaste"
         },
         "PageUp": {
             "full": "Bild auf",
@@ -1067,12 +1081,12 @@
             "short": "Bild↓"
         },
         "PrintScreen": {
-            "full": "Drucken",
+            "full": "Druck",
             "short": "Druck"
         },
         "ScrollLock": {
-            "full": "Rollen-Taste",
-            "short": "Rolle"
+            "full": "Rollen",
+            "short": "Rollen"
         },
         "CapsLock": {
             "full": "Feststelltaste"
@@ -1081,19 +1095,19 @@
     "destinations": {
         "post_trip": {
             "title": "Eine Reise posten",
-            "departure": "Abflug",
+            "departure": "Abfahrt",
             "arrival": "Ankunft",
             "business": "Geschäftlich",
             "leisure": "Freizeit",
             "description": {
                 "label": "Beschreibung",
-                "placeholder": "Erzähle uns von deiner Reise..."
+                "placeholder": "Erzählen Sie uns von Ihrer Reise..."
             },
             "done": "Fertig"
         },
         "filters": {
             "search": {
-                "placeholder": "Dein Reiseziel suchen..."
+                "placeholder": "Suchen Sie Ihr Ziel..."
             }
         },
         "sections": {
@@ -1102,13 +1116,13 @@
         },
         "actions": {
             "post_trip": "Eine Reise posten",
-            "see_all": "Alle anzeigen"
+            "see_all": "Alle ansehen"
         }
     },
     "all_trips": {
         "back": "Zurück",
         "title": "Wer ist in {{location}}?",
-        "empty_state": "Keine Reisenden gefunden. Sei der Erste, der eine Reise hinzufügt!",
+        "empty_state": "Keine Reisenden gefunden. Seien Sie der Erste, der eine Reise hinzufügt!",
         "dates": "{{start}} - {{end}}"
     },
     "trip_details": {
@@ -1121,8 +1135,8 @@
         "no_description": "Keine Beschreibung angegeben",
         "comments": {
             "title": "Kommentare",
-            "empty": "Noch keine Kommentare. Sei der Erste, der kommentiert!",
-            "input_placeholder": "Einen Kommentar zu dieser Reise hinzufügen..."
+            "empty": "Noch keine Kommentare. Seien Sie der Erste, der kommentiert!",
+            "input_placeholder": "Fügen Sie einen Kommentar zu dieser Reise hinzu..."
         },
         "actions": {
             "send_message": "Nachricht senden",
